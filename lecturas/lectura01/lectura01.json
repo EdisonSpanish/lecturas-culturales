@@ -170,7 +170,7 @@
   "audio": {
     "mp3": null,
     "estado": "pendiente",
-    "nota": "Aún no se ha grabado. Pendiente decidir si lo graba Edison o se usa un TTS con licencia comercial (voz de español de América, no de España). Sin música de fondo.",
+    "nota": "Aún no se grabó. Pendiente decidir si lo graba Edison o se usa un TTS con licencia comercial (voz de español de América, no de España). Sin música de fondo.",
     "guion": {
       "velocidad": "Unas 110 palabras por minuto, clara y natural, sin teatralidad. Voz de español de América, no de España.",
       "pausas": "Pausa corta al final de cada oración; pausa más larga (unos dos segundos) entre párrafos. Tres segundos de silencio al empezar y al cerrar.",

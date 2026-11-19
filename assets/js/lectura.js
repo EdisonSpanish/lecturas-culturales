@@ -292,7 +292,9 @@
       // Voz de América (criterios_lengua.md): es-US, es-MX, es-419 y otras es-* de América; nunca es-ES.
       var america = vs.filter(function (v) { var l = String(v.lang || '').replace('_', '-').toLowerCase(); return l.indexOf('es') === 0 && l !== 'es-es' && l !== 'es'; });
       function de2(pref) { return america.filter(function (v) { return String(v.lang).replace('_', '-').toLowerCase().indexOf(pref) === 0; })[0]; }
-      return de2('es-us') || de2('es-mx') || de2('es-419') || america[0] || null;
+      // último recurso: cualquier voz en español, incluida es-ES (con nota)
+      var cualquiera = vs.filter(function (v) { return String(v.lang || '').toLowerCase().indexOf('es') === 0; });
+      return de2('es-us') || de2('es-mx') || de2('es-419') || america[0] || cualquiera[0] || null;
     },
     cargar: function () {
       if (!Voz.soporte) return Promise.resolve(null);
@@ -334,9 +336,13 @@
   }
   function avisoVoz(caja, botones) {
     Voz.cargar().then(function (v) {
-      if (v) return;
-      var nota = caja.querySelector('.aviso-voz');
-      if (!nota) caja.insertBefore(el('p', { class: 'fb nota aviso-voz', text: 'Tu navegador no tiene una voz de español de América. Puedes leer la frase con «Ver la frase» (prueba en Chrome, Edge o Safari para escucharla).' }), caja.querySelector('.consigna').nextSibling);
+      if (caja.querySelector('.aviso-voz')) return;
+      var donde = caja.querySelector('.consigna').nextSibling;
+      if (v) {
+        if (/^es[-_]es$/i.test(String(v.lang || ''))) caja.insertBefore(el('p', { class: 'fb nota aviso-voz voz-espana', text: 'Tu dispositivo solo tiene una voz de España; la pronunciación puede variar un poco.' }), donde);
+        return;
+      }
+      caja.insertBefore(el('p', { class: 'fb nota aviso-voz sin-voz', text: 'Tu navegador no tiene una voz en español. Puedes leer la frase con «Ver la frase» (prueba en Chrome, Edge o Safari para escucharla).' }), donde);
       botones.forEach(function (b) { b.ver.hidden = false; });
     });
   }
