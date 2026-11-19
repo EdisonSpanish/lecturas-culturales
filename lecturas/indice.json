@@ -1,0 +1,6 @@
+{
+  "serie": "Lecturas culturales",
+  "lecturas": [
+    { "carpeta": "lectura01", "titulo": "Después de comer, se habla", "nivel": "A2", "etiqueta": "Costumbres en la mesa", "miniatura": "portada.webp" }
+  ]
+}

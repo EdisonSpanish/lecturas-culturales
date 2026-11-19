@@ -1,0 +1,198 @@
+{
+  "id": "a2-despues-de-comer-se-habla",
+  "titulo": "Después de comer, se habla",
+  "nivel": "A2",
+  "etiqueta": "Costumbres en la mesa",
+  "entradilla": "Llegar a las doce y media a una comida en Madrid… y descubrir la mejor parte.",
+  "variedad": "es-419",
+  "uso": "lectura_web_autonoma",
+  "pcic": {
+    "secciones": [
+      "Saberes y comportamientos socioculturales 1.3 (fase de aproximación): ritmos cotidianos y horarios de las comidas",
+      "Saberes y comportamientos socioculturales 1.4.2 (fase de aproximación): fórmulas en la mesa («¡Que aproveche!»)",
+      "Saberes y comportamientos socioculturales 1.4.1 (fase de profundización, concepto accesible): sobremesa"
+    ],
+    "habilidades_interculturales": [
+      "12. 1.1.2 Percepción de diferencias culturales",
+      "12. 2.1.2 Comparación"
+    ],
+    "generos_discursivos": "Macrofunción narrativa (inventario A1–A2, 3.4): anécdota personal breve"
+  },
+  "texto_parrafos": [
+    "El sábado, mi amiga Carmen me ha invitado a comer en su casa, en Madrid. En Estados Unidos, normalmente como a las doce y ceno a las seis y media. Por eso he llegado a las doce y media, con un poco de hambre. Carmen se ha reído y me ha dicho: «¡Qué temprano! Aquí comemos a las tres». He bebido agua y hemos hablado un rato. A las tres, por fin, nos hemos sentado a la mesa con su familia.",
+    "Antes de empezar, Carmen ha dicho: «¡Que aproveche!». La comida ha sido larga y muy rica: primero una ensalada, después pollo con arroz, y al final una tarta. Nadie se ha levantado enseguida. Después de comer, todos se han quedado en la mesa. Hemos hablado, hemos reído y hemos tomado café. En España, a esto le llaman sobremesa. A mí me ha gustado mucho. En Madrid, la cena es tarde, a las nueve o a las diez.",
+    "El mes que viene voy a viajar a Guayaquil, a casa de mi primo. Allí el almuerzo es más temprano, a la una, más o menos. La cena también es antes, a las siete o a las ocho. Pero hay algo igual: la familia se sienta junta y, después de comer, se habla. Esta vez no voy a llegar a las doce. Y no me voy a levantar enseguida. Voy a quedarme a la mesa, porque esa es la mejor parte."
+  ],
+  "traduccion_parrafos": [
+    "On Saturday, my friend Carmen invited me over for lunch at her house, in Madrid. In the United States, I usually eat lunch at twelve and have dinner at half past six. That is why I arrived at half past twelve, a little hungry. Carmen laughed and said to me: “So early! Here we eat at three.” I had some water and we talked for a while. At three, at last, we sat down at the table with her family.",
+    "Before we started, Carmen said: “Enjoy your meal!” The meal was long and delicious: first a salad, then chicken with rice, and at the end a cake. Nobody got up right away. After eating, everyone stayed at the table. We talked, we laughed and we had coffee. In Spain, they call this sobremesa. I liked it a lot. In Madrid, dinner is late, at nine or ten.",
+    "Next month I am going to travel to Guayaquil, to my cousin’s house. There, lunch is earlier, at about one. Dinner is earlier too, at seven or eight. But one thing is the same: the family sits together and, after eating, people talk. This time I am not going to arrive at twelve. And I am not going to get up right away. I am going to stay at the table, because that is the best part."
+  ],
+  "glosario": [
+    {
+      "palabra": "invitar",
+      "traduccion_en": "to invite",
+      "formas": [
+        "invitado"
+      ]
+    },
+    {
+      "palabra": "temprano",
+      "traduccion_en": "early"
+    },
+    {
+      "palabra": "hambre",
+      "traduccion_en": "hunger (tener hambre: to be hungry)"
+    },
+    {
+      "palabra": "¡Que aproveche!",
+      "traduccion_en": "Enjoy your meal!"
+    },
+    {
+      "palabra": "comida",
+      "traduccion_en": "lunch; the midday meal (in Spain)"
+    },
+    {
+      "palabra": "almuerzo",
+      "traduccion_en": "lunch (in Latin America)"
+    },
+    {
+      "palabra": "ensalada",
+      "traduccion_en": "salad"
+    },
+    {
+      "palabra": "tarta",
+      "traduccion_en": "cake"
+    },
+    {
+      "palabra": "levantarse",
+      "traduccion_en": "to get up",
+      "formas": [
+        "levantado",
+        "levantar"
+      ]
+    },
+    {
+      "palabra": "enseguida",
+      "traduccion_en": "right away"
+    },
+    {
+      "palabra": "sobremesa",
+      "traduccion_en": "time spent talking at the table after a meal"
+    },
+    {
+      "palabra": "cena",
+      "traduccion_en": "dinner"
+    },
+    {
+      "palabra": "primo / prima",
+      "traduccion_en": "cousin",
+      "formas": [
+        "primo"
+      ]
+    },
+    {
+      "palabra": "quedarse",
+      "traduccion_en": "to stay",
+      "formas": [
+        "quedado",
+        "quedarme"
+      ]
+    },
+    {
+      "palabra": "mesa",
+      "traduccion_en": "table"
+    }
+  ],
+  "imagenes": [
+    {
+      "archivo": "portada.png",
+      "tipo": "portada",
+      "alt": "Tres personas conversan con café alrededor de una mesa, en un piso de Madrid, a media tarde, después de comer.",
+      "webp": "portada.webp",
+      "ancho": 1152,
+      "alto": 768
+    },
+    {
+      "archivo": "escena.png",
+      "tipo": "escena",
+      "alt": "Carmen sonríe a su invitado, que acaba de llegar y sostiene un vaso de agua; la mesa está casi vacía porque aún es temprano para comer.",
+      "webp": "escena.webp",
+      "ancho": 1152,
+      "alto": 768,
+      "pie": "A las doce y media, la mesa de Carmen todavía está casi vacía.",
+      "despues_parrafo": 1
+    }
+  ],
+  "grafico": {
+    "archivo": "grafico.png",
+    "titulo": "Horarios habituales de la comida y de la cena",
+    "nota": "Horarios orientativos, según el texto. Una barra larga indica un intervalo (por ejemplo, «a las nueve o a las diez»).",
+    "datos": [
+      {
+        "lugar": "Madrid",
+        "comida": "3:00 p. m.",
+        "cena": "9–10 p. m."
+      },
+      {
+        "lugar": "Guayaquil",
+        "comida": "≈ 1:00 p. m.",
+        "cena": "7–8 p. m."
+      },
+      {
+        "lugar": "Estados Unidos (muchos lugares)",
+        "comida": "12:00 p. m.",
+        "cena": "6:30 p. m."
+      }
+    ],
+    "webp": "grafico.webp",
+    "ancho": 1660,
+    "alto": 946,
+    "alt": "Línea de tiempo con la hora habitual de la comida y de la cena. Madrid: comida a las 3:00 p. m. y cena entre las 9 y las 10 p. m. Guayaquil: almuerzo alrededor de la 1:00 p. m. y cena entre las 7 y las 8 p. m. Estados Unidos (muchos lugares): comida a las 12:00 p. m. y cena a las 6:30 p. m.",
+    "columnas": {
+      "lugar": "Lugar",
+      "comida": "Comida / almuerzo",
+      "cena": "Cena"
+    }
+  },
+  "audio": {
+    "mp3": null,
+    "estado": "pendiente",
+    "nota": "Aún no se ha grabado. Pendiente decidir si lo graba Edison o se usa un TTS con licencia comercial (voz de español de América, no de España). Sin música de fondo.",
+    "guion": {
+      "velocidad": "Unas 110 palabras por minuto, clara y natural, sin teatralidad.",
+      "pausas": "Pausa corta al final de cada oración; pausa más larga (unos dos segundos) entre párrafos. Tres segundos de silencio al empezar y al cerrar.",
+      "duracion_aproximada": "unos 2 minutos",
+      "texto": [
+        {
+          "tipo": "titulo",
+          "dice": "Después de comer, se habla.",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 1,
+          "dice": "El sábado, mi amiga Carmen me ha invitado a comer en su casa, en Madrid. En Estados Unidos, normalmente como a las doce y ceno a las seis y media. Por eso he llegado a las doce y media, con un poco de hambre. Carmen se ha reído y me ha dicho: «¡Qué temprano! Aquí comemos a las tres». He bebido agua y hemos hablado un rato. A las tres, por fin, nos hemos sentado a la mesa con su familia.",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 2,
+          "dice": "Antes de empezar, Carmen ha dicho: «¡Que aproveche!». La comida ha sido larga y muy rica: primero una ensalada, después pollo con arroz, y al final una tarta. Nadie se ha levantado enseguida. Después de comer, todos se han quedado en la mesa. Hemos hablado, hemos reído y hemos tomado café. En España, a esto le llaman sobremesa. A mí me ha gustado mucho. En Madrid, la cena es tarde, a las nueve o a las diez.",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 3,
+          "dice": "El mes que viene voy a viajar a Guayaquil, a casa de mi primo. Allí el almuerzo es más temprano, a la una, más o menos. La cena también es antes, a las siete o a las ocho. Pero hay algo igual: la familia se sienta junta y, después de comer, se habla. Esta vez no voy a llegar a las doce. Y no me voy a levantar enseguida. Voy a quedarme a la mesa, porque esa es la mejor parte.",
+          "pausa_despues": "cierre"
+        }
+      ]
+    },
+    "descarga": true
+  },
+  "ejercicios_archivo": "ejercicios.json",
+  "sugerencia_ejercicios": "Comparar los tres horarios; unir «¡Que aproveche!» y sobremesa con su momento; una pregunta: ¿Qué haces tú después de comer?",
+  "estilo_visual": "Papel y ocre (ver estilo_visual.md). Encuadre de las ilustraciones: 3:2.",
+  "contenido": "original"
+}
