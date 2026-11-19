@@ -1,0 +1,160 @@
+{
+  "id": "a2-un-dia-de-fallas-en-valencia",
+  "titulo": "Un día de Fallas en Valencia",
+  "nivel": "A2",
+  "etiqueta": "Fiestas populares",
+  "entradilla": "Construyen una figura enorme… y el 19 de marzo la entregan al fuego.",
+  "variedad": "es-419",
+  "uso": "lectura_web_autonoma",
+  "pcic": {
+    "secciones": [
+      "Referentes culturales 1.4.2 (fase de aproximación): fiestas populares; las Fallas de Valencia",
+      "Saberes y comportamientos socioculturales 3.5 (fase de aproximación, esquema aplicado a España): calendarios festivos; San José y la cremà"
+    ],
+    "habilidades_interculturales": [
+      "12. 1.1.2 Percepción de diferencias culturales",
+      "12. 2.2.1 Interpretación de comportamientos culturales"
+    ],
+    "generos_discursivos": "Macrofunción narrativa (inventario A1–A2, 3.4): anécdota de viaje; relato de una fiesta"
+  },
+  "texto_parrafos": [
+    "En marzo fui a Valencia, en España, con mi amiga Lucía. En una plaza vi una figura enorme, de varios metros, con colores vivos. Lucía me explicó: «Es una falla. Los artistas la construyen durante meses. Y el día 19 de marzo, la queman».",
+    "Me sorprendió. ¿Construir algo tan grande para después quemarlo? Sí. Las Fallas son una fiesta de Valencia, en honor a San José. Duran varios días, del 15 al 19 de marzo. Por la tarde hay mucho ruido: es la mascletà, una serie fuerte de petardos en la plaza. Por la noche del 19 llega la cremà: el fuego consume las figuras. Las Fallas están en la lista de la UNESCO desde 2016.",
+    "Hay una excepción, y esa fue la parte que más me gustó. Cada año, la gente elige un ninot —una figura— y lo salva del fuego. Ese ninot entra en un museo. Esa noche vi las llamas en la plaza. El calor llegó a la cara. Pensé en el trabajo de los artistas y también en el comienzo de la primavera. Yo no conocí esa fiesta antes. Ahora sí: en Valencia, a veces, lo bonito también se entrega al fuego."
+  ],
+  "traduccion_parrafos": [
+    "In March I went to Valencia, in Spain, with my friend Lucía. In a square I saw an enormous figure, several meters tall, in bright colors. Lucía explained: “It is a falla. Artists spend months building it. And on March 19, they burn it.”",
+    "I was surprised. Build something so big, and then burn it? Yes. The Fallas are a festival in Valencia, in honor of Saint Joseph. They last several days, from March 15 to 19. In the afternoon there is a lot of noise: it is the mascletà, a powerful round of firecrackers in the square. On the night of the 19th comes the cremà: fire consumes the figures. The Fallas have been on the UNESCO list since 2016.",
+    "There is one exception, and that was the part I liked most. Each year, people choose a ninot —a figure— and save it from the fire. That ninot goes into a museum. That night I saw the flames in the square. The heat reached my face. I thought of the artists’ work and also of the start of spring. I did not know this festival before. Now I do: in Valencia, sometimes, beautiful things are also given over to the fire."
+  ],
+  "glosario": [
+    {
+      "palabra": "falla",
+      "traduccion_en": "Falla monument (Valencia festival figure)",
+      "formas": [
+        "Fallas"
+      ]
+    },
+    {
+      "palabra": "figura",
+      "traduccion_en": "figure; statue",
+      "formas": [
+        "figuras"
+      ]
+    },
+    {
+      "palabra": "quemar",
+      "traduccion_en": "to burn",
+      "formas": [
+        "queman",
+        "quemarlo"
+      ]
+    },
+    {
+      "palabra": "fiesta",
+      "traduccion_en": "festival; celebration"
+    },
+    {
+      "palabra": "honor",
+      "traduccion_en": "honor (en honor a: in honor of)"
+    },
+    {
+      "palabra": "mascletà",
+      "traduccion_en": "daytime firework display of loud firecrackers in Valencia"
+    },
+    {
+      "palabra": "petardos",
+      "traduccion_en": "firecrackers"
+    },
+    {
+      "palabra": "cremà",
+      "traduccion_en": "the night when the Falla monuments are burned"
+    },
+    {
+      "palabra": "UNESCO",
+      "traduccion_en": "UNESCO"
+    },
+    {
+      "palabra": "ninot",
+      "traduccion_en": "a figure from a Falla; one is saved from the fire each year"
+    },
+    {
+      "palabra": "museo",
+      "traduccion_en": "museum"
+    },
+    {
+      "palabra": "llamas",
+      "traduccion_en": "flames"
+    },
+    {
+      "palabra": "primavera",
+      "traduccion_en": "spring"
+    },
+    {
+      "palabra": "sorprender",
+      "traduccion_en": "to surprise",
+      "formas": [
+        "sorprendió"
+      ]
+    }
+  ],
+  "imagenes": [
+    {
+      "archivo": "portada.png",
+      "tipo": "portada",
+      "alt": "Una mujer de pelo corto y un niño miran una falla enorme, de cartón y madera, con forma de personaje, en una plaza de Valencia.",
+      "webp": "portada.webp",
+      "ancho": 1152,
+      "alto": 768
+    },
+    {
+      "archivo": "escena.png",
+      "tipo": "escena",
+      "alt": "De noche, tres personas observan a distancia cómo el fuego consume una falla con forma de personaje, todavía reconocible entre las llamas.",
+      "webp": "escena.webp",
+      "ancho": 1152,
+      "alto": 768,
+      "pie": "En la noche del 19 de marzo, el fuego consume las figuras. Un ninot se salva.",
+      "despues_parrafo": 3
+    }
+  ],
+  "grafico": null,
+  "audio": {
+    "estado": "voz_del_navegador",
+    "nota": "El sitio lee el texto con la voz del dispositivo de cada alumno (decisión de Edison, 19-11-2026). Se prefiere una voz de español de América, no de España.",
+    "guion": {
+      "velocidad": "Unas 110 palabras por minuto, clara y natural, sin teatralidad. Voz de español de América, no de España.",
+      "pausas": "Pausa corta al final de cada oración; pausa más larga (unos dos segundos) entre párrafos. Tres segundos de silencio al empezar y al cerrar.",
+      "duracion_aproximada": "unos 2 minutos",
+      "texto": [
+        {
+          "tipo": "titulo",
+          "dice": "Un día de Fallas en Valencia.",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 1,
+          "dice": "En marzo fui a Valencia, en España, con mi amiga Lucía. En una plaza vi una figura enorme, de varios metros, con colores vivos. Lucía me explicó: «Es una falla. Los artistas la construyen durante meses. Y el día 19 de marzo, la queman».",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 2,
+          "dice": "Me sorprendió. ¿Construir algo tan grande para después quemarlo? Sí. Las Fallas son una fiesta de Valencia, en honor a San José. Duran varios días, del 15 al 19 de marzo. Por la tarde hay mucho ruido: es la mascletà, una serie fuerte de petardos en la plaza. Por la noche del 19 llega la cremà: el fuego consume las figuras. Las Fallas están en la lista de la UNESCO desde 2016.",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 3,
+          "dice": "Hay una excepción, y esa fue la parte que más me gustó. Cada año, la gente elige un ninot —una figura— y lo salva del fuego. Ese ninot entra en un museo. Esa noche vi las llamas en la plaza. El calor llegó a la cara. Pensé en el trabajo de los artistas y también en el comienzo de la primavera. Yo no conocí esa fiesta antes. Ahora sí: en Valencia, a veces, lo bonito también se entrega al fuego.",
+          "pausa_despues": "cierre"
+        }
+      ]
+    }
+  },
+  "sugerencia_ejercicios": "Escuchar el audio; ordenar los días de las Fallas y la cremà; una pregunta: ¿En tu país hay una fiesta en la que se quema o se entrega algo?",
+  "estilo_visual": "Papel y ocre (ver estilo_visual.md). Encuadre de las ilustraciones: 3:2.",
+  "contenido": "original",
+  "ejercicios_archivo": "ejercicios.json"
+}

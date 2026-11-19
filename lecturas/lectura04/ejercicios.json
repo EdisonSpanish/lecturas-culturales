@@ -1,0 +1,516 @@
+{
+  "version": 3,
+  "lectura": "a2-un-dia-de-fallas-en-valencia",
+  "mas_practica_titulo": "Más práctica",
+  "ejercicios": [
+    {
+      "id": "comprension",
+      "tipo": "opcion_multiple",
+      "titulo": "¿Qué pasó en Valencia?",
+      "consigna": "Elige la respuesta correcta según el texto.",
+      "items": [
+        {
+          "pregunta": "¿Qué es una falla?",
+          "opciones": [
+            "Un museo de Valencia.",
+            "Una comida típica.",
+            "Una figura enorme que se quema."
+          ],
+          "correcta": 2,
+          "explicacion": "«En una plaza vi una figura enorme, de varios metros, con colores vivos.» Y Lucía explica: «Y el día 19 de marzo, la queman»"
+        },
+        {
+          "pregunta": "¿Cuánto tiempo trabajan los artistas en una falla?",
+          "opciones": [
+            "Un día.",
+            "Durante meses.",
+            "Una semana."
+          ],
+          "correcta": 1,
+          "explicacion": "«Los artistas la construyen durante meses.»"
+        },
+        {
+          "pregunta": "¿Qué es la mascletà?",
+          "opciones": [
+            "Una figura pequeña.",
+            "El fuego de la noche.",
+            "Una serie fuerte de petardos."
+          ],
+          "correcta": 2,
+          "explicacion": "«es la mascletà, una serie fuerte de petardos en la plaza.»"
+        },
+        {
+          "pregunta": "¿Qué pasa con el ninot que elige la gente?",
+          "opciones": [
+            "Se salva del fuego y entra en un museo.",
+            "Se quema primero.",
+            "Se vende en la plaza."
+          ],
+          "correcta": 0,
+          "explicacion": "«Cada año, la gente elige un ninot —una figura— y lo salva del fuego. Ese ninot entra en un museo.»"
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ]
+    },
+    {
+      "id": "escuchar",
+      "tipo": "escuchar_elegir",
+      "titulo": "¿Cuándo pasa?",
+      "consigna": "Escucha la frase y elige la respuesta.",
+      "items": [
+        {
+          "decir": "Duran varios días, del 15 al 19 de marzo.",
+          "pregunta": "¿Cuándo son las Fallas?",
+          "opciones": [
+            "Del 1 al 5 de mayo.",
+            "En diciembre.",
+            "Del 15 al 19 de marzo."
+          ],
+          "correcta": 2,
+          "explicacion": "Las Fallas son en marzo, del 15 al 19."
+        },
+        {
+          "decir": "Por la tarde hay mucho ruido.",
+          "pregunta": "¿Cuándo hay mucho ruido?",
+          "opciones": [
+            "Por la mañana.",
+            "Por la tarde.",
+            "Por la noche."
+          ],
+          "correcta": 1,
+          "explicacion": "Por la tarde es la mascletà, con muchos petardos."
+        },
+        {
+          "decir": "Por la noche del 19 llega la cremà: el fuego consume las figuras.",
+          "pregunta": "¿Qué pasa la noche del 19?",
+          "opciones": [
+            "Hay una mascletà.",
+            "Construyen las figuras.",
+            "El fuego consume las figuras."
+          ],
+          "correcta": 2,
+          "explicacion": "La cremà es la última noche: queman las fallas."
+        },
+        {
+          "decir": "Las Fallas están en la lista de la UNESCO desde 2016.",
+          "pregunta": "¿Desde qué año están en la lista de la UNESCO?",
+          "opciones": [
+            "Desde 2006.",
+            "Desde 2016.",
+            "Desde 2019."
+          ],
+          "correcta": 1,
+          "explicacion": "Están en la lista de la UNESCO desde 2016."
+        }
+      ],
+      "habilidades": [
+        "Escuchar"
+      ]
+    },
+    {
+      "id": "noche-crema",
+      "tipo": "arrastrar",
+      "titulo": "La noche de la cremà",
+      "consigna": "Arrastra cada palabra a su lugar en la imagen. También puedes tocar una palabra y después el círculo.",
+      "imagen": "escena.webp",
+      "respaldo": "escena.png",
+      "ancho": 1152,
+      "alto": 768,
+      "alt": "De noche, en una plaza de Valencia, el fuego consume una falla enorme con forma de personaje; tres personas miran a distancia.",
+      "zonas": [
+        {
+          "palabra": "falla",
+          "x": 55,
+          "y": 12,
+          "explicacion": "«Es una falla.» Es la figura enorme del centro."
+        },
+        {
+          "palabra": "llamas",
+          "x": 35,
+          "y": 29,
+          "explicacion": "«Esa noche vi las llamas en la plaza.»"
+        },
+        {
+          "palabra": "figuras",
+          "x": 45,
+          "y": 82,
+          "explicacion": "«el fuego consume las figuras.» Abajo hay figuras más pequeñas."
+        },
+        {
+          "palabra": "noche",
+          "x": 27,
+          "y": 12,
+          "explicacion": "«Por la noche del 19 llega la cremà»"
+        }
+      ],
+      "distractores": [
+        {
+          "palabra": "petardos",
+          "explicacion": "Los petardos son de la mascletà, por la tarde. En la imagen es de noche: es la cremà."
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ]
+    },
+    {
+      "id": "que-dices",
+      "tipo": "situaciones",
+      "titulo": "¿Qué dices? ¿Qué haces?",
+      "consigna": "Estás en Valencia en marzo. Elige la mejor reacción.",
+      "items": [
+        {
+          "icono": "🔥",
+          "situacion": "Es la noche del 19. Hay mucho fuego en la plaza.",
+          "opciones": [
+            "Miro las llamas a distancia.",
+            "Me acerco para tocar la figura.",
+            "Me voy a dormir temprano."
+          ],
+          "correcta": 0,
+          "explicacion": "El fuego es muy grande: «El calor llegó a la cara.» Es mejor mirar a distancia."
+        },
+        {
+          "icono": "🧨",
+          "situacion": "Por la tarde oyes un ruido muy fuerte en la plaza. Le preguntas a Lucía:",
+          "opciones": [
+            "«¿Es la cremà?»",
+            "«¿Es la mascletà?»",
+            "«¿Es el museo?»"
+          ],
+          "correcta": 1,
+          "explicacion": "«Por la tarde hay mucho ruido: es la mascletà, una serie fuerte de petardos en la plaza.»"
+        },
+        {
+          "icono": "😮",
+          "situacion": "Lucía dice que el 19 queman la falla. Te sorprende. ¿Qué dices?",
+          "opciones": [
+            "«¡Buen provecho!»",
+            "«Qué aburrido.»",
+            "«¿Construir algo tan grande para después quemarlo?»"
+          ],
+          "correcta": 2,
+          "explicacion": "Es la reacción del narrador: «Me sorprendió.» Lucía le explica la costumbre."
+        },
+        {
+          "icono": "🏛️",
+          "situacion": "Quieres ver un ninot salvado del fuego. ¿Adónde vas?",
+          "opciones": [
+            "A la plaza, el día 19.",
+            "A un museo.",
+            "A una tienda."
+          ],
+          "correcta": 1,
+          "explicacion": "«Ese ninot entra en un museo.»"
+        }
+      ],
+      "habilidades": [
+        "Cultura"
+      ]
+    },
+    {
+      "id": "escuchar-escena",
+      "tipo": "escuchar_imagen",
+      "titulo": "¿De día o de noche?",
+      "consigna": "Escucha y toca la imagen correcta.",
+      "opciones": [
+        {
+          "imagen": "portada.webp",
+          "respaldo": "portada.png",
+          "texto": "De día: la falla en la plaza",
+          "alt": "Una mujer y un niño miran una falla enorme en una plaza de Valencia."
+        },
+        {
+          "imagen": "escena.webp",
+          "respaldo": "escena.png",
+          "texto": "De noche: la cremà",
+          "alt": "De noche, el fuego consume la falla."
+        }
+      ],
+      "items": [
+        {
+          "decir": "En una plaza vi una figura enorme, de varios metros, con colores vivos.",
+          "correcta": 0,
+          "explicacion": "La figura está entera y se ven sus colores: es de día."
+        },
+        {
+          "decir": "Esa noche vi las llamas en la plaza.",
+          "correcta": 1,
+          "explicacion": "De noche llega la cremà: hay llamas."
+        },
+        {
+          "decir": "Los artistas la construyen durante meses.",
+          "correcta": 0,
+          "explicacion": "La falla está entera: es el trabajo de meses de los artistas."
+        },
+        {
+          "decir": "El calor llegó a la cara.",
+          "correcta": 1,
+          "explicacion": "El calor del fuego llega a la cara: es la cremà."
+        }
+      ],
+      "habilidades": [
+        "Escuchar"
+      ]
+    },
+    {
+      "id": "resumen",
+      "tipo": "completar",
+      "titulo": "El resumen con palabras del texto",
+      "consigna": "Escribe la palabra que falta. Puedes usar las palabras de la caja.",
+      "banco": [
+        "artistas",
+        "José",
+        "petardos",
+        "fuego",
+        "museo",
+        "primavera"
+      ],
+      "items": [
+        {
+          "antes": "Los",
+          "respuesta": [
+            "artistas"
+          ],
+          "despues": "construyen la falla durante meses.",
+          "explicacion": "«Los artistas la construyen durante meses.»"
+        },
+        {
+          "antes": "Las Fallas son una fiesta en honor a San",
+          "respuesta": [
+            "José"
+          ],
+          "despues": ".",
+          "explicacion": "«Las Fallas son una fiesta de Valencia, en honor a San José.»"
+        },
+        {
+          "antes": "La mascletà es una serie fuerte de",
+          "respuesta": [
+            "petardos"
+          ],
+          "despues": ".",
+          "explicacion": "«es la mascletà, una serie fuerte de petardos en la plaza.»"
+        },
+        {
+          "antes": "En la cremà, el",
+          "respuesta": [
+            "fuego"
+          ],
+          "despues": "consume las figuras.",
+          "explicacion": "«el fuego consume las figuras.»"
+        },
+        {
+          "antes": "Un ninot se salva y entra en un",
+          "respuesta": [
+            "museo"
+          ],
+          "despues": ".",
+          "explicacion": "«Ese ninot entra en un museo.»"
+        },
+        {
+          "antes": "Esa noche, el narrador pensó en el comienzo de la",
+          "respuesta": [
+            "primavera"
+          ],
+          "despues": ".",
+          "explicacion": "«Pensé en el trabajo de los artistas y también en el comienzo de la primavera.»"
+        }
+      ],
+      "habilidades": [
+        "Escribir"
+      ]
+    },
+    {
+      "id": "y-en-tu-pais",
+      "tipo": "reflexion",
+      "titulo": "¿Y en tu país?",
+      "pregunta": "¿En tu país hay una fiesta con fuego, ruido o figuras grandes? ¿Qué hace la gente?",
+      "ayuda": [
+        "En mi país hay una fiesta…",
+        "Es en (mes)…",
+        "La gente…",
+        "Me sorprende / Me gusta…"
+      ],
+      "minimo_caracteres": 30,
+      "modelo": "En Estados Unidos, el 4 de julio hay fuegos artificiales. La gente va al parque, come con la familia y por la noche mira el cielo. No quemamos figuras, pero también hay mucho ruido. Me gustó la idea del ninot: salvar una figura del fuego.",
+      "guia": "No hay una respuesta correcta. Compara tu fiesta con las Fallas: ¿cuándo es?, ¿qué se ve?, ¿qué se oye? Si quieres, comparte tu respuesta con tu profesor.",
+      "habilidades": [
+        "Escribir",
+        "Cultura"
+      ]
+    },
+    {
+      "id": "orden",
+      "tipo": "ordenar",
+      "titulo": "Las Fallas, paso a paso",
+      "consigna": "Ordena lo que pasa. Usa las flechas ↑ ↓.",
+      "pasos": [
+        "Los artistas construyen la falla durante meses.",
+        "El 15 de marzo empieza la fiesta.",
+        "Por la tarde hay mascletà en la plaza.",
+        "La noche del 19, el fuego consume las figuras.",
+        "El ninot salvado entra en un museo."
+      ],
+      "explicacion": "Primero el trabajo de meses; la fiesta va del 15 al 19 de marzo; la mascletà es por la tarde y la cremà, la noche del 19. El ninot salvado no se quema: va al museo.",
+      "pista": "Pista: busca las fechas (del 15 al 19 de marzo) y las palabras «por la tarde» y «por la noche».",
+      "habilidades": [
+        "Leer"
+      ],
+      "seccion": "mas_practica"
+    },
+    {
+      "id": "palabras-fiesta",
+      "tipo": "relacionar",
+      "titulo": "Palabras de la fiesta",
+      "consigna": "Une cada palabra valenciana con su explicación.",
+      "pares": [
+        {
+          "izquierda": "falla",
+          "derecha": "Una figura enorme que se quema",
+          "explicacion": "«Los artistas la construyen durante meses. Y el día 19 de marzo, la queman»"
+        },
+        {
+          "izquierda": "mascletà",
+          "derecha": "Una serie fuerte de petardos, por la tarde",
+          "explicacion": "«Por la tarde hay mucho ruido: es la mascletà»"
+        },
+        {
+          "izquierda": "cremà",
+          "derecha": "La noche del 19: el fuego consume las figuras",
+          "explicacion": "«Por la noche del 19 llega la cremà: el fuego consume las figuras.»"
+        },
+        {
+          "izquierda": "ninot",
+          "derecha": "Una figura que se salva del fuego",
+          "explicacion": "«Cada año, la gente elige un ninot —una figura— y lo salva del fuego.»"
+        }
+      ],
+      "habilidades": [
+        "Cultura"
+      ],
+      "seccion": "mas_practica"
+    },
+    {
+      "id": "dictado",
+      "tipo": "dictado",
+      "titulo": "Mini dictado",
+      "consigna": "Escucha y escribe lo que oyes.",
+      "items": [
+        {
+          "decir": "Fallas",
+          "antes": "Las",
+          "despues": "son una fiesta de Valencia.",
+          "respuesta": [
+            "Fallas"
+          ],
+          "explicacion": "Las Fallas: con mayúscula, porque es el nombre de la fiesta."
+        },
+        {
+          "decir": "petardos",
+          "antes": "Es una serie fuerte de",
+          "despues": ".",
+          "respuesta": [
+            "petardos"
+          ],
+          "explicacion": "La mascletà: muchos petardos en la plaza."
+        },
+        {
+          "decir": "llamas",
+          "antes": "Esa noche vi las",
+          "despues": "en la plaza.",
+          "respuesta": [
+            "llamas"
+          ],
+          "explicacion": "Las llamas de la cremà."
+        },
+        {
+          "decir": "museo",
+          "antes": "Ese ninot entra en un",
+          "despues": ".",
+          "respuesta": [
+            "museo"
+          ],
+          "explicacion": "El ninot salvado va a un museo."
+        },
+        {
+          "decir": "primavera",
+          "antes": "Es el comienzo de la",
+          "despues": ".",
+          "respuesta": [
+            "primavera"
+          ],
+          "explicacion": "Las Fallas son en marzo, al comienzo de la primavera."
+        }
+      ],
+      "habilidades": [
+        "Escuchar",
+        "Escribir"
+      ],
+      "seccion": "mas_practica"
+    },
+    {
+      "id": "dilo-tu",
+      "tipo": "hablar",
+      "titulo": "Dilo tú",
+      "consigna": "Escucha el modelo, toca 🎤 y dilo en voz alta.",
+      "requiere": "reconocimiento_voz",
+      "idioma": "es-US",
+      "items": [
+        {
+          "contexto": "Explicas qué es una falla:",
+          "frase": "Es una figura enorme."
+        },
+        {
+          "contexto": "Hablas de la noche del 19:",
+          "frase": "El fuego consume las figuras."
+        },
+        {
+          "contexto": "Dices tu reacción:",
+          "frase": "Me sorprendió."
+        },
+        {
+          "contexto": "Hablas del ninot:",
+          "frase": "El ninot entra en un museo."
+        }
+      ],
+      "habilidades": [
+        "Hablar"
+      ],
+      "seccion": "mas_practica"
+    },
+    {
+      "id": "verdadero-falso",
+      "tipo": "verdadero_falso",
+      "titulo": "¿Verdadero o falso?",
+      "consigna": "Decide y mira la frase del texto que lo demuestra.",
+      "items": [
+        {
+          "afirmacion": "Las Fallas son una fiesta de Valencia.",
+          "correcta": true,
+          "justificacion": "«Las Fallas son una fiesta de Valencia, en honor a San José.»"
+        },
+        {
+          "afirmacion": "La cremà es por la tarde.",
+          "correcta": false,
+          "justificacion": "«Por la noche del 19 llega la cremà»"
+        },
+        {
+          "afirmacion": "Todas las figuras se queman.",
+          "correcta": false,
+          "justificacion": "«Hay una excepción»: la gente elige un ninot y lo salva del fuego."
+        },
+        {
+          "afirmacion": "Las Fallas están en la lista de la UNESCO.",
+          "correcta": true,
+          "justificacion": "«Las Fallas están en la lista de la UNESCO desde 2016.»"
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ],
+      "seccion": "mas_practica"
+    }
+  ]
+}

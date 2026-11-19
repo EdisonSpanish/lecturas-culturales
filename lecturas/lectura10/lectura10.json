@@ -1,0 +1,181 @@
+{
+  "id": "b2-la-siesta-mas-leyenda-que-costumbre",
+  "titulo": "La siesta, más leyenda que costumbre",
+  "nivel": "B2",
+  "etiqueta": "Un tópico",
+  "entradilla": "Un colega en Boston lo tenía claro: en España, todo el mundo duerme la siesta. Madrid lo desmintió.",
+  "variedad": "es-419",
+  "uso": "lectura_web_autonoma",
+  "pcic": {
+    "secciones": [
+      "Saberes y comportamientos socioculturales 1.3 (fase de profundización): ritmos cotidianos; la siesta y los horarios en España"
+    ],
+    "habilidades_interculturales": [
+      "12. 1.2.1 Identificación de estereotipos y tópicos",
+      "12. 2.1.2 Comparación",
+      "12. 2.3.1 Relativización de la propia perspectiva"
+    ],
+    "generos_discursivos": "Macrofunción argumentativa y narrativa (inventario B2): relato personal que relativiza un tópico con un dato"
+  },
+  "texto_parrafos": [
+    "Cuando dije en mi oficina de Boston que iba a pasar un mes en Madrid, un colega sonrió: «Vas a dormir la siesta todos los días, ¿no? En España todo el mundo lo hace».",
+    "Llegué con esa postal en la cabeza: persianas cerradas, calles vacías y una nación entera dormida después del almuerzo. La realidad me corrigió rápido. El primer jueves salí a las cuatro de la tarde, seguro de encontrar un silencio total. En el centro vi oficinas abiertas, gente en el metro y turistas con mochila. Algunas tiendas pequeñas sí cierran un rato al mediodía, sobre todo en ciudades más chicas o en verano, cuando el calor aprieta. Pero «todo el mundo duerme» no es un dato. Es un estereotipo cómodo.",
+    "Una encuesta de 2024 en España, con dos mil personas adultas, indica que, más o menos, una de cada cuatro duerme la siesta de forma habitual. El resto la toma solo a veces, o no la toma casi nunca. Es decir: la siesta existe, pero no define a un país entero. Lo que sí es cierto —y esto se siente en el cuerpo— es el horario. El almuerzo puede ser a las dos o a las tres. La cena, a las nueve o más tarde. El día se estira, y un descanso breve de quince o veinte minutos, cuando hay suerte y un sofá, resulta más fácil que una hora rendido en la cama.",
+    "En mi edificio, mi vecina Elena, que trabaja en un hospital, se rió cuando le conté el comentario de Boston: «Ojalá. Yo almuerzo en veinte minutos y vuelvo». Un día almorzamos de pie, frente al hospital, con prisa: hubo conversación, no una cama. Me dijo que, para ella, «siesta» a veces es solo cerrar los ojos diez minutos en un sofá, si el turno lo permite. Su hermano, que vive en un pueblo de Andalucía, a veces sí se acuesta un rato en agosto, cuando el calor no deja trabajar a mediodía. Las dos cosas caben en el mismo país, y ninguna de las dos es una ley.",
+    "Ahora, cuando alguien habla de «la siesta española» como si fuera una ley, yo cuento esta historia. Relativizar un tópico no es negar el calor ni el horario. Es mirar a las personas de cerca. Algunas duermen. Muchas, no. Y casi todas cenan tarde. Ahora me alegra, de verdad, que el mito sea siempre más simple que la vida."
+  ],
+  "traduccion_parrafos": [
+    "When I said in my office in Boston that I was going to spend a month in Madrid, a colleague smiled: “You’re going to take a siesta every day, right? In Spain everybody does.”",
+    "I arrived with that postcard in my head: closed shutters, empty streets and a whole nation asleep after lunch. Reality corrected me quickly. On the first Thursday I went out at four in the afternoon, sure I would find total silence. In the center I saw offices open, people on the metro and tourists with backpacks. Some small shops do close for a while at midday, especially in smaller towns or in summer, when the heat is strong. But “everybody sleeps” is not a fact. It is a comfortable stereotype.",
+    "A 2024 survey in Spain, with two thousand adults, indicates that about one in four people habitually takes a siesta. The rest take one only sometimes, or almost never. In other words: the siesta exists, but it does not define a whole country. What is true —and you feel this in your body— is the schedule. Lunch may be at two or three. Dinner, at nine or later. The day stretches out, and a short rest of fifteen or twenty minutes, when you are lucky and have a sofa, is easier than an hour collapsed in bed.",
+    "In my building, my neighbor Elena, who works at a hospital, laughed when I told her the comment from Boston: “I wish. I have lunch in twenty minutes and go back.” One day we had lunch standing up, in front of the hospital, in a hurry: there was conversation, not a bed. She told me that, for her, a “siesta” is sometimes just closing her eyes for ten minutes on a sofa, if her shift allows it. Her brother, who lives in a village in Andalusia, does sometimes lie down for a while in August, when the heat makes it hard to work at midday. Both things fit in the same country, and neither one is a law.",
+    "Now, when someone talks about “the Spanish siesta” as if it were a law, I tell this story. Questioning a cliché is not denying the heat or the timetable. It is looking at people up close. Some sleep. Many do not. And almost everyone has dinner late. Now I am truly glad that the myth is always simpler than life."
+  ],
+  "glosario": [
+    {
+      "palabra": "siesta",
+      "traduccion_en": "nap; afternoon rest"
+    },
+    {
+      "palabra": "estereotipo",
+      "traduccion_en": "stereotype"
+    },
+    {
+      "palabra": "encuesta",
+      "traduccion_en": "survey"
+    },
+    {
+      "palabra": "habitual",
+      "traduccion_en": "habitual; regular"
+    },
+    {
+      "palabra": "persianas",
+      "traduccion_en": "shutters; blinds"
+    },
+    {
+      "palabra": "mediodía",
+      "traduccion_en": "midday"
+    },
+    {
+      "palabra": "tópico",
+      "traduccion_en": "cliché; received idea"
+    },
+    {
+      "palabra": "relativizar",
+      "traduccion_en": "to put into perspective; to relativize"
+    },
+    {
+      "palabra": "postal",
+      "traduccion_en": "postcard (here: a ready-made mental image)"
+    },
+    {
+      "palabra": "aprieta",
+      "traduccion_en": "is intense; bears down (el calor aprieta)"
+    },
+    {
+      "palabra": "rendido",
+      "traduccion_en": "worn out; stretched out (rendido en la cama)"
+    },
+    {
+      "palabra": "mito",
+      "traduccion_en": "myth"
+    },
+    {
+      "palabra": "turno",
+      "traduccion_en": "work shift"
+    }
+  ],
+  "imagenes": [
+    {
+      "archivo": "portada.png",
+      "tipo": "portada",
+      "alt": "Una calle a media tarde: un café abierto con dos personas mayores, un ciclista y una mujer que camina; algunas persianas están bajadas, pero la ciudad no duerme.",
+      "webp": "portada.webp",
+      "ancho": 1152,
+      "alto": 768
+    },
+    {
+      "archivo": "escena.png",
+      "tipo": "escena",
+      "alt": "Elena, con el pelo corto y canoso, almuerza de pie en la acera frente a un hospital y conversa con un colega; la calle sigue despierta.",
+      "webp": "escena.webp",
+      "ancho": 1152,
+      "alto": 768,
+      "pie": "Elena almuerza de pie, con prisa, frente al hospital: hubo conversación, no una cama.",
+      "despues_parrafo": 4
+    }
+  ],
+  "grafico": {
+    "archivo": "grafico.png",
+    "titulo": "La siesta habitual en España",
+    "nota": "Porcentajes redondeados, según el texto. Encuesta de 2024 en España, muestra de 2.000 personas adultas (estudio «Radiografía del sueño», 40dB). «Habitual» agrupa a quienes dicen dormir la siesta todos los días o de forma habitual (cerca del 25 %).",
+    "datos": [
+      {
+        "grupo": "Siesta habitual",
+        "porcentaje": "≈ 25 %"
+      },
+      {
+        "grupo": "No habitual (solo a veces o casi nunca)",
+        "porcentaje": "≈ 75 %"
+      }
+    ],
+    "webp": "grafico.webp",
+    "ancho": 1660,
+    "alto": 946,
+    "alt": "Gráfico de barras horizontales: en España, alrededor del 25 % de las personas adultas duerme la siesta de forma habitual, y alrededor del 75 % no la toma de forma habitual.",
+    "columnas": {
+      "grupo": "Grupo",
+      "porcentaje": "Porcentaje"
+    }
+  },
+  "audio": {
+    "estado": "voz_del_navegador",
+    "nota": "El sitio lee el texto con la voz del dispositivo de cada alumno (decisión de Edison, 19-11-2026). Se prefiere una voz de español de América, no de España.",
+    "guion": {
+      "velocidad": "Unas 110 palabras por minuto, clara y natural, sin teatralidad. Voz de español de América, no de España.",
+      "pausas": "Pausa corta al final de cada oración; pausa más larga (unos dos segundos) entre párrafos. Tres segundos de silencio al empezar y al cerrar.",
+      "duracion_aproximada": "unos 4 minutos",
+      "texto": [
+        {
+          "tipo": "titulo",
+          "dice": "La siesta, más leyenda que costumbre.",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 1,
+          "dice": "Cuando dije en mi oficina de Boston que iba a pasar un mes en Madrid, un colega sonrió: «Vas a dormir la siesta todos los días, ¿no? En España todo el mundo lo hace».",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 2,
+          "dice": "Llegué con esa postal en la cabeza: persianas cerradas, calles vacías y una nación entera dormida después del almuerzo. La realidad me corrigió rápido. El primer jueves salí a las cuatro de la tarde, seguro de encontrar un silencio total. En el centro vi oficinas abiertas, gente en el metro y turistas con mochila. Algunas tiendas pequeñas sí cierran un rato al mediodía, sobre todo en ciudades más chicas o en verano, cuando el calor aprieta. Pero «todo el mundo duerme» no es un dato. Es un estereotipo cómodo.",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 3,
+          "dice": "Una encuesta de 2024 en España, con dos mil personas adultas, indica que, más o menos, una de cada cuatro duerme la siesta de forma habitual. El resto la toma solo a veces, o no la toma casi nunca. Es decir: la siesta existe, pero no define a un país entero. Lo que sí es cierto —y esto se siente en el cuerpo— es el horario. El almuerzo puede ser a las dos o a las tres. La cena, a las nueve o más tarde. El día se estira, y un descanso breve de quince o veinte minutos, cuando hay suerte y un sofá, resulta más fácil que una hora rendido en la cama.",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 4,
+          "dice": "En mi edificio, mi vecina Elena, que trabaja en un hospital, se rió cuando le conté el comentario de Boston: «Ojalá. Yo almuerzo en veinte minutos y vuelvo». Un día almorzamos de pie, frente al hospital, con prisa: hubo conversación, no una cama. Me dijo que, para ella, «siesta» a veces es solo cerrar los ojos diez minutos en un sofá, si el turno lo permite. Su hermano, que vive en un pueblo de Andalucía, a veces sí se acuesta un rato en agosto, cuando el calor no deja trabajar a mediodía. Las dos cosas caben en el mismo país, y ninguna de las dos es una ley.",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 5,
+          "dice": "Ahora, cuando alguien habla de «la siesta española» como si fuera una ley, yo cuento esta historia. Relativizar un tópico no es negar el calor ni el horario. Es mirar a las personas de cerca. Algunas duermen. Muchas, no. Y casi todas cenan tarde. Ahora me alegra, de verdad, que el mito sea siempre más simple que la vida.",
+          "pausa_despues": "cierre"
+        }
+      ]
+    }
+  },
+  "sugerencia_ejercicios": "Escuchar el audio; interpretar el gráfico de la siesta habitual; una pregunta: ¿Qué tópico existe sobre tu país, y qué parte es cierta?",
+  "estilo_visual": "Papel y ocre (ver estilo_visual.md). Encuadre de las ilustraciones: 3:2.",
+  "contenido": "original",
+  "ejercicios_archivo": "ejercicios.json"
+}

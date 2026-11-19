@@ -67,18 +67,54 @@
     main.appendChild(el('div', { class: 'bloque' }, [el('h1', { text: 'Ups' }), el('p', { text: msg }), el('p', {}, [el('a', { href: './', text: 'Ver todas las lecturas' })])]));
   }
 
+  // Catálogo: lecturas/indice.json agrupado por nivel (portada, título, nivel, país). Enlaces: ?l=<carpeta>
   function catalogo() {
+    // (dentro de la función: el arranque hace «return catalogo()» antes de llegar a las variables de más abajo)
+    var NIVELES = { A1: 'Acceso', A2: 'Plataforma', B1: 'Umbral', B2: 'Avanzado', C1: 'Dominio', C2: 'Maestría' };
     getJSON('lecturas/indice.json').then(function (I) {
-      document.title = I.serie || 'Lecturas culturales';
+      var serie = I.serie || 'Lecturas culturales';
+      document.title = serie;
       main.innerHTML = '';
-      var ul = el('ul', { class: 'catalogo' });
-      I.lecturas.forEach(function (x) {
-        ul.appendChild(el('li', {}, [el('a', { href: '?l=' + encodeURIComponent(x.carpeta) }, [
-          x.miniatura ? el('img', { src: 'lecturas/' + x.carpeta + '/' + x.miniatura, alt: '', loading: 'lazy', width: 1152, height: 768 }) : null,
-          el('div', { class: 'info' }, [el('span', { class: 'nivel', text: x.nivel }), ' ', x.etiqueta ? el('span', { class: 'tema', text: x.etiqueta }) : null, el('strong', { text: x.titulo })])
-        ])]));
+      var grupos = {}, orden = [];
+      (I.lecturas || []).forEach(function (x) {
+        var n = x.nivel || 'Otros';
+        if (!grupos[n]) { grupos[n] = []; orden.push(n); }
+        grupos[n].push(x);
       });
-      main.appendChild(el('section', { class: 'bloque' }, [el('h1', { text: I.serie || 'Lecturas culturales' }), el('p', { class: 'entradilla', text: 'Historias cortas sobre costumbres del mundo hispano. Elige una lectura.' }), ul]));
+      var claves = Object.keys(NIVELES);
+      orden.sort(function (a, b) { var i = claves.indexOf(a), j = claves.indexOf(b); return (i < 0 ? 99 : i) - (j < 0 ? 99 : j); });
+      var cab = el('section', { class: 'bloque catalogo-cab' }, [
+        el('h1', { text: serie }),
+        el('p', { class: 'entradilla', text: 'Historias cortas sobre costumbres del mundo hispano. Elige tu nivel y una lectura.' }),
+        el('nav', { class: 'niveles-nav', 'aria-label': 'Niveles' }, [el('ul', {}, orden.map(function (n) {
+          return el('li', {}, [el('a', { href: '#nivel-' + n, class: 'nivel-salto' }, [el('b', { text: n }), ' ' + (NIVELES[n] || '') + ' · ' + grupos[n].length])]);
+        }))])
+      ]);
+      main.appendChild(cab);
+      orden.forEach(function (n) {
+        var ul = el('ul', { class: 'catalogo' });
+        grupos[n].forEach(function (x) {
+          var dir = 'lecturas/' + x.carpeta + '/';
+          var pic = null;
+          if (x.miniatura) {
+            var webp = /\.webp$/i.test(x.miniatura);
+            pic = el('picture', {}, [
+              webp && x.respaldo ? el('source', { srcset: dir + x.miniatura, type: 'image/webp' }) : null,
+              el('img', { src: dir + (webp && x.respaldo ? x.respaldo : x.miniatura), alt: '', loading: 'lazy', decoding: 'async', width: 1152, height: 768 })
+            ]);
+          }
+          ul.appendChild(el('li', { 'data-carpeta': x.carpeta }, [el('a', { href: '?l=' + encodeURIComponent(x.carpeta) }, [
+            pic,
+            el('div', { class: 'info' }, [
+              el('p', { class: 'meta' }, [el('span', { class: 'nivel', text: x.nivel }), x.pais ? el('span', { class: 'pais', text: x.pais }) : null]),
+              el('strong', { text: x.titulo }),
+              x.etiqueta ? el('span', { class: 'tema', text: x.etiqueta }) : null
+            ])
+          ])]));
+        });
+        main.appendChild(el('section', { class: 'bloque nivel-grupo', id: 'nivel-' + n, 'aria-labelledby': 'hn-' + n }, [
+          el('h2', { id: 'hn-' + n }, [el('span', { class: 'nivel-insignia', text: n }), ' ' + (NIVELES[n] || n)]), ul]));
+      });
     }).catch(function () { error('No se pudo cargar la lista de lecturas.'); });
   }
 
@@ -100,16 +136,35 @@
 
     main.appendChild(bloqueAudio(L));
     main.appendChild(bloqueTexto(L, imgs));
-    if (L.grafico) main.appendChild(bloqueGrafico(L.grafico));
+    if (hayGrafico(L.grafico)) main.appendChild(bloqueGrafico(L.grafico));
     if (L.glosario && L.glosario.length) main.appendChild(bloqueGlosario(L.glosario));
     if (E && E.ejercicios && E.ejercicios.length) main.appendChild(bloqueEjercicios(L, E.ejercicios, E.mas_practica_titulo));
   }
 
+  // Corta en frases solo fuera de las comillas «…» y antes de mayúscula (o ¿ ¡ «).
+  function frases(t) {
+    var out = [], ini = 0, dentro = 0;
+    for (var i = 0; i < t.length; i++) {
+      var c = t[i];
+      if (c === '«') dentro++;
+      else if (c === '»') dentro = Math.max(0, dentro - 1);
+      if (dentro === 0 && /[.!?…»]/.test(c) && t[i + 1] === ' ' && /[A-ZÁÉÍÓÚÑ¿¡«]/.test(t[i + 2] || '') && (c !== '»' || /[.!?…]/.test(t[i - 1]))) {
+        out.push(t.slice(ini, i + 1).trim()); ini = i + 2;
+      }
+    }
+    if (ini < t.length) out.push(t.slice(ini).trim());
+    return out.filter(Boolean);
+  }
   function bloqueAudio(L) {
     var caja = el('div', { class: 'audio' });
     var sec = el('section', { class: 'bloque', 'aria-labelledby': 'h-audio' }, [el('h2', { id: 'h-audio' }, [el('span', { class: 'ico', 'aria-hidden': 'true', text: '🎧' }), 'Escucha la lectura']), caja]);
     // Solo voz del navegador (sin MP3): se lee párrafo por párrafo.
-    var partes = [L.titulo].concat(L.texto_parrafos || []).filter(Boolean).map(function (p) { return String(p).replace(/\s+/g, ' ').trim(); });
+    // Frase por frase (Chrome corta los enunciados largos); pausa más larga entre párrafos.
+    var partes = [];
+    [L.titulo].concat(L.texto_parrafos || []).filter(Boolean).forEach(function (p) {
+      var fr = frases(String(p).replace(/\s+/g, ' ').trim());
+      fr.map(function (f) { return f.trim(); }).filter(Boolean).forEach(function (f, k, a) { partes.push({ t: f, pausa: k === a.length - 1 ? 700 : 150 }); });
+    });
     var bPlay = el('button', { type: 'button', class: 'btn', text: '▶ Escuchar la lectura' });
     var bLento = el('button', { type: 'button', class: 'btn sec', text: '🐢 Más despacio' });
     var bPausa = el('button', { type: 'button', class: 'btn sec', hidden: true, text: '⏸ Pausa' });
@@ -126,9 +181,10 @@
       function sig() {
         if (mio !== turno) return;
         if (i >= partes.length) { reiniciar(); return; }
-        var u = new SpeechSynthesisUtterance(partes[i++]);
+        var parte = partes[i++];
+        var u = new SpeechSynthesisUtterance(parte.t);
         u.voice = Voz.voz; u.lang = Voz.voz.lang; u.rate = rate;
-        u.onend = function () { setTimeout(sig, 600); };
+        u.onend = function () { setTimeout(sig, parte.pausa); };
         u.onerror = function () { if (mio === turno) reiniciar(); };
         window.speechSynthesis.speak(u);
       }
@@ -223,8 +279,12 @@
     return el('figure', { class: 'fig' }, [imagen(base, im), im.pie ? el('figcaption', { text: im.pie }) : null]);
   }
 
+  // el bloque del gráfico solo aparece si hay imagen o datos (null, {}, "" → no se muestra)
+  function hayGrafico(G) { return !!(G && typeof G === 'object' && (G.archivo || (Array.isArray(G.datos) && G.datos.length))); }
   function bloqueGrafico(G) {
-    var sec = el('section', { class: 'bloque', 'aria-labelledby': 'h-graf' }, [el('h2', { id: 'h-graf' }, [el('span', { class: 'ico', 'aria-hidden': 'true', text: '🕒' }), G.titulo || 'Gráfico'])]);
+    // ícono del título: genérico 📊; se cambia con "grafico.icono" en el JSON ("" = sin ícono)
+    var ico = (typeof G.icono === 'string') ? G.icono : '📊';
+    var sec = el('section', { class: 'bloque', 'aria-labelledby': 'h-graf' }, [el('h2', { id: 'h-graf' }, [ico ? el('span', { class: 'ico', 'aria-hidden': 'true', text: ico }) : null, G.titulo || 'Gráfico'])]);
     if (G.archivo) sec.appendChild(el('figure', { class: 'fig' }, [imagen(base, { archivo: G.archivo, webp: G.webp, alt: G.alt || G.titulo, ancho: G.ancho, alto: G.alto }), G.nota ? el('figcaption', { text: G.nota }) : null]));
     if (G.datos && G.datos.length) {
       var cols = Object.keys(G.datos[0]);
@@ -375,7 +435,7 @@
     });
   }
 
-  /* --- estructura: principal + «Más práctica», puntos y progreso --- */
+  /* --- estructura: principal + «Más práctica» y progreso --- */
   var ETIQ = { Leer: '📖', Escuchar: '🎧', Escribir: '✏️', Hablar: '🎤', Cultura: '🌎' };
   function bloqueEjercicios(L, todos, extraTitulo) {
     var visibles = todos.filter(function (e) { return TIPOS[e.tipo] && !(e.requiere === 'reconocimiento_voz' && !Reconocer); });
@@ -384,7 +444,6 @@
     var hechos = {}, mejores = {};
     var barra = el('i');
     var txtProg = el('span', { class: 'txt-prog', text: '0 de ' + lista.length });
-    var estrellas = el('span', { class: 'estrellas', 'aria-live': 'polite', text: '⭐ 0' });
     var bSon = el('button', { type: 'button', class: 'son', 'aria-pressed': String(sonidoActivo()), 'aria-label': 'Sonidos', text: sonidoActivo() ? '🔊' : '🔇' });
     bSon.addEventListener('click', function () {
       var on = !sonidoActivo();
@@ -392,19 +451,17 @@
       bSon.setAttribute('aria-pressed', String(on)); bSon.textContent = on ? '🔊' : '🔇';
     });
     var sec = el('section', { class: 'bloque', 'aria-labelledby': 'h-ej', id: 'ejercicios' }, [
-      el('h2', { id: 'h-ej' }, [el('span', { class: 'ico', 'aria-hidden': 'true', text: '🎲' }), 'Practica y gana estrellas']),
-      el('div', { class: 'progreso' }, [el('div', { class: 'barra-prog', 'aria-hidden': 'true' }, [barra]), txtProg, estrellas, bSon])
+      el('h2', { id: 'h-ej' }, [el('span', { class: 'ico', 'aria-hidden': 'true', text: '✏️' }), 'Ahora, practica']),
+      el('div', { class: 'progreso' }, [el('div', { class: 'barra-prog', 'aria-hidden': 'true' }, [barra]), txtProg, bSon])
     ]);
     function puntos(id, n) {
       if (!(n <= (mejores[id] || 0))) mejores[id] = n;
-      var t = Object.keys(mejores).reduce(function (a, k) { return a + mejores[k]; }, 0);
-      if (estrellas.textContent !== '⭐ ' + t) { estrellas.textContent = '⭐ ' + t; animar(estrellas, 'pop'); }
     }
     function hecho(id, esExtra) {
       if (esExtra) return;
       hechos[id] = true; var n = Object.keys(hechos).length;
       barra.style.width = (100 * n / lista.length) + '%';
-      txtProg.textContent = n + ' de ' + lista.length + (n === lista.length ? ' · ¡Terminaste! 🎉' : '');
+      txtProg.textContent = n + ' de ' + lista.length + (n === lista.length ? ' · completado' : '');
     }
     function pintar(ej, num, esExtra) {
       var id = ej.id || ('e' + num);
@@ -435,8 +492,8 @@
   function limpiar(caja) { caja.querySelectorAll('.fb:not(.aviso-voz)').forEach(function (n) { n.remove(); }); caja.querySelectorAll('.ok,.mal').forEach(function (n) { n.classList.remove('ok', 'mal'); }); }
   function nota(bien, total) {
     var r = bien + ' de ' + total;
-    if (bien === total) return r + ' ✨ ¡Perfecto!';
-    if (bien >= total - 1) return r + ' · ¡Casi! Mira las explicaciones.';
+    if (bien === total) return r + ' · Todo correcto.';
+    if (bien >= total - 1) return r + ' · Casi todo. Mira las explicaciones.';
     return r + ' · Vuelve al texto y prueba otra vez.';
   }
   function acciones(caja, comprobar) {
@@ -594,7 +651,47 @@
     hablar: function (caja, ej, L, api) {
       if (!Reconocer) { caja.hidden = true; return; }
       var logrados = {};
+      var idioma = (ej.idioma && !/^es-es$/i.test(ej.idioma)) ? ej.idioma : 'es-US';
+      function logrado(i) { logrados[i] = true; var n = Object.keys(logrados).length; api.puntos(n); if (n === ej.items.length) api.listo(); }
+      // Respuesta libre: cualquier respuesta razonable (unas palabras) vale; después se muestra un modelo.
+      function libre(it, i) {
+        var min = it.minimo_palabras || 3;
+        var mic = el('button', { type: 'button', class: 'btn mic', text: '🎤 Responder' });
+        var estado = el('p', { class: 'estado-mic', 'aria-live': 'polite' });
+        var bvm = botonesVoz(it.modelo);
+        var caja2 = el('div', { class: 'modelo-libre', hidden: true }, [el('p', { class: 'nota-modelo' }, ['Una respuesta posible: ', el('strong', { text: it.modelo })]), el('div', { class: 'fila-voz' }, [bvm.fila.children[0], bvm.fila.children[1]])]);
+        var d = el('div', { class: 'item hablar libre', 'data-i': i }, [el('p', { class: 'preg' }, [el('span', { class: 'etq-libre', text: 'Responde con tus palabras. ' }), it.pregunta]), el('div', { class: 'fila-voz' }, [mic]), estado, caja2]);
+        mic.addEventListener('click', function () {
+          var r;
+          try { r = new Reconocer(); } catch (e) { estado.textContent = 'El micrófono no está disponible en este navegador.'; return; }
+          r.lang = idioma; r.interimResults = false; r.maxAlternatives = 3;
+          mic.disabled = true; estado.textContent = 'Te escucho…';
+          r.onresult = function (e) {
+            var alts = [], res0 = e.results[0];
+            for (var k = 0; k < res0.length; k++) alts.push(String(res0[k].transcript || '').trim());
+            var mejor = alts.sort(function (x, y) { return norm(y).split(' ').length - norm(x).split(' ').length; })[0] || '';
+            var n = norm(mejor) ? norm(mejor).split(' ').length : 0;
+            limpiar(d);
+            if (n >= min) {
+              d.classList.add('ok');
+              caja2.before(fb('ok', 'Gracias. Oí: «' + mejor + '». No hay una sola respuesta correcta; compara con este modelo.'));
+              caja2.hidden = false; sonido(true); logrado(i);
+            } else {
+              d.classList.add('mal');
+              caja2.before(fb('mal', (n ? 'Oí: «' + mejor + '». ' : 'No te oí bien. ') + 'Intenta decir una oración completa, de ' + min + ' palabras o más.'));
+              sonido(false);
+            }
+          };
+          r.onerror = function (e) {
+            estado.textContent = e.error === 'not-allowed' || e.error === 'service-not-allowed' ? 'Necesito permiso para usar el micrófono.' : e.error === 'no-speech' ? 'No te oí. Prueba otra vez.' : 'No se pudo usar el micrófono.';
+          };
+          r.onend = function () { mic.disabled = false; if (estado.textContent === 'Te escucho…') estado.textContent = ''; };
+          try { r.start(); } catch (e) { mic.disabled = false; estado.textContent = 'No se pudo usar el micrófono.'; }
+        });
+        return d;
+      }
       ej.items.forEach(function (it, i) {
+        if (it.libre) { caja.appendChild(libre(it, i)); return; }
         var bv = botonesVoz(it.frase);
         var mic = el('button', { type: 'button', class: 'btn mic', text: '🎤 Dilo' });
         var estado = el('p', { class: 'estado-mic', 'aria-live': 'polite' });
@@ -602,7 +699,7 @@
         mic.addEventListener('click', function () {
           var r;
           try { r = new Reconocer(); } catch (e) { estado.textContent = 'El micrófono no está disponible en este navegador.'; return; }
-          r.lang = (ej.idioma && !/^es-es$/i.test(ej.idioma)) ? ej.idioma : 'es-US'; r.interimResults = false; r.maxAlternatives = 3;
+          r.lang = idioma; r.interimResults = false; r.maxAlternatives = 3;
           mic.disabled = true; estado.textContent = 'Te escucho…';
           r.onresult = function (e) {
             var alts = [], res0 = e.results[0];
@@ -614,9 +711,7 @@
             var exacto = ok && sinTildes(norm(mejor.a)) === sinTildes(norm(it.frase));
             d.appendChild(fb(ok ? 'ok' : 'mal', ok ? (exacto ? '¡Muy bien! Oí: «' + mejor.a + '».' : '¡Bien! Se dice: «' + it.frase.replace(/[.]$/, '') + '».') : 'Casi. Oí: «' + (mejor ? mejor.a : '…') + '». Escucha el modelo y prueba otra vez.'));
             animar(d, ok ? 'pop' : 'shake'); sonido(ok);
-            if (ok) logrados[i] = true;
-            var n = Object.keys(logrados).length;
-            api.puntos(n); if (n === ej.items.length) api.listo();
+            if (ok) logrado(i);
           };
           r.onerror = function (e) {
             estado.textContent = e.error === 'not-allowed' || e.error === 'service-not-allowed' ? 'Necesito permiso para usar el micrófono.' : e.error === 'no-speech' ? 'No te oí. Prueba otra vez.' : 'No se pudo usar el micrófono.';

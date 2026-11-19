@@ -1,0 +1,556 @@
+{
+  "version": 3,
+  "lectura": "b2-la-siesta-mas-leyenda-que-costumbre",
+  "mas_practica_titulo": "Más práctica",
+  "ejercicios": [
+    {
+      "id": "comprension",
+      "tipo": "opcion_multiple",
+      "titulo": "Tópico y realidad",
+      "consigna": "Elige la respuesta. Casi todas las preguntas piden interpretar el texto, no solo encontrar un dato.",
+      "items": [
+        {
+          "pregunta": "¿Qué idea tenía el colega de Boston?",
+          "opciones": [
+            "Que en España nadie duerme la siesta.",
+            "Que en Boston también se duerme la siesta.",
+            "Que en España todo el mundo duerme la siesta."
+          ],
+          "correcta": 2,
+          "explicacion": "«Vas a dormir la siesta todos los días, ¿no? En España todo el mundo lo hace»"
+        },
+        {
+          "pregunta": "¿Qué quiere decir «Llegué con esa postal en la cabeza»?",
+          "opciones": [
+            "Que tenía una imagen simplificada e idealizada de España.",
+            "Que compró una postal en el aeropuerto.",
+            "Que recordaba una foto de un viaje anterior."
+          ],
+          "correcta": 0,
+          "explicacion": "La «postal» es una imagen fija: «persianas cerradas, calles vacías y una nación entera dormida después del almuerzo.»"
+        },
+        {
+          "pregunta": "Según la encuesta, ¿qué parte de los adultos duerme la siesta de forma habitual?",
+          "opciones": [
+            "Casi todos.",
+            "Nadie.",
+            "Una de cada cuatro, más o menos."
+          ],
+          "correcta": 2,
+          "explicacion": "«más o menos, una de cada cuatro duerme la siesta de forma habitual.»"
+        },
+        {
+          "pregunta": "Para el narrador, ¿qué diferencia sí es real?",
+          "opciones": [
+            "Que la ciudad se paraliza a las cuatro.",
+            "El horario: se almuerza y se cena tarde.",
+            "Que todos duermen una hora en la cama."
+          ],
+          "correcta": 1,
+          "explicacion": "«Lo que sí es cierto —y esto se siente en el cuerpo— es el horario.»"
+        },
+        {
+          "pregunta": "En el texto, ¿qué significa «relativizar un tópico»?",
+          "opciones": [
+            "Mirar a las personas de cerca, sin negar el calor ni el horario.",
+            "Demostrar que el tópico es totalmente falso.",
+            "Repetir el tópico con humor."
+          ],
+          "correcta": 0,
+          "explicacion": "«Relativizar un tópico no es negar el calor ni el horario. Es mirar a las personas de cerca.»"
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ]
+    },
+    {
+      "id": "escuchar",
+      "tipo": "escuchar_elegir",
+      "titulo": "Lo que esperaba y lo que encontró",
+      "consigna": "Escucha cada fragmento y elige la respuesta. Presta atención a los matices («algunas», «sobre todo», «a veces»).",
+      "items": [
+        {
+          "decir": "El primer jueves salí a las cuatro de la tarde, seguro de encontrar un silencio total.",
+          "pregunta": "¿Qué esperaba encontrar?",
+          "opciones": [
+            "Un silencio total.",
+            "Mucho tráfico.",
+            "Una fiesta."
+          ],
+          "correcta": 0,
+          "explicacion": "Esperaba la «postal» del tópico."
+        },
+        {
+          "decir": "En el centro vi oficinas abiertas, gente en el metro y turistas con mochila.",
+          "pregunta": "¿Qué encontró en realidad?",
+          "opciones": [
+            "Calles vacías.",
+            "Todo cerrado.",
+            "Oficinas abiertas y gente en el metro."
+          ],
+          "correcta": 2,
+          "explicacion": "La realidad desmiente la postal."
+        },
+        {
+          "decir": "Algunas tiendas pequeñas sí cierran un rato al mediodía, sobre todo en ciudades más chicas o en verano, cuando el calor aprieta.",
+          "pregunta": "¿Dónde es más común cerrar al mediodía?",
+          "opciones": [
+            "En ciudades más chicas o en verano.",
+            "En el centro de Madrid, todo el año.",
+            "En los hospitales."
+          ],
+          "correcta": 0,
+          "explicacion": "El matiz importa: «algunas», «sobre todo»."
+        },
+        {
+          "decir": "Yo almuerzo en veinte minutos y vuelvo.",
+          "pregunta": "¿Qué hace Elena al mediodía?",
+          "opciones": [
+            "Duerme una hora.",
+            "Almuerza rápido y vuelve al trabajo.",
+            "Va a su casa."
+          ],
+          "correcta": 1,
+          "explicacion": "Elena trabaja en un hospital: no tiene tiempo para dormir."
+        },
+        {
+          "decir": "Su hermano, que vive en un pueblo de Andalucía, a veces sí se acuesta un rato en agosto.",
+          "pregunta": "¿Quién duerme la siesta a veces?",
+          "opciones": [
+            "Elena, todos los días.",
+            "El colega de Boston.",
+            "El hermano de Elena, en agosto."
+          ],
+          "correcta": 2,
+          "explicacion": "En un pueblo, en agosto, cuando el calor no deja trabajar."
+        }
+      ],
+      "habilidades": [
+        "Escuchar"
+      ]
+    },
+    {
+      "id": "calle",
+      "tipo": "arrastrar",
+      "titulo": "Una calle que no duerme",
+      "consigna": "La ilustración desmiente la «postal». Arrastra cada palabra a su lugar. También puedes tocar una palabra y después el círculo.",
+      "imagen": "portada.webp",
+      "respaldo": "portada.png",
+      "ancho": 1152,
+      "alto": 768,
+      "alt": "Una calle de Madrid a media tarde: un café abierto con dos personas mayores, un ciclista y una mujer con mochila; algunas persianas están bajadas.",
+      "zonas": [
+        {
+          "palabra": "persianas",
+          "x": 91,
+          "y": 33,
+          "explicacion": "«persianas cerradas, calles vacías»: algunas persianas sí están bajadas, pero la calle sigue viva."
+        },
+        {
+          "palabra": "café",
+          "x": 79,
+          "y": 78,
+          "explicacion": "A media tarde, el café sigue abierto y hay gente conversando: la ciudad no duerme."
+        },
+        {
+          "palabra": "mochila",
+          "x": 21,
+          "y": 59,
+          "explicacion": "«En el centro vi oficinas abiertas, gente en el metro y turistas con mochila.»"
+        },
+        {
+          "palabra": "calle",
+          "x": 40,
+          "y": 90,
+          "explicacion": "La postal imaginaba «calles vacías»; aquí hay gente caminando y en bicicleta."
+        }
+      ],
+      "distractores": [
+        {
+          "palabra": "cama",
+          "explicacion": "En la imagen no hay ninguna cama: la ciudad no duerme. «Algunas duermen. Muchas, no.»"
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ]
+    },
+    {
+      "id": "que-dices",
+      "tipo": "situaciones",
+      "titulo": "¿Qué dices? ¿Qué haces?",
+      "consigna": "Pasas un mes en Madrid. Elige la reacción que mejor se ajusta a lo que cuenta el texto, sin caer en el tópico ni en el extremo contrario.",
+      "items": [
+        {
+          "icono": "🕓",
+          "situacion": "Necesitas hacer un trámite a las cuatro de la tarde en el centro.",
+          "opciones": [
+            "No salgo: a esa hora todo el mundo duerme.",
+            "Voy: en el centro hay oficinas abiertas.",
+            "Lo dejo para la noche."
+          ],
+          "correcta": 1,
+          "explicacion": "«En el centro vi oficinas abiertas, gente en el metro y turistas con mochila.»"
+        },
+        {
+          "icono": "🍽️",
+          "situacion": "Unos vecinos te invitan a cenar un martes. ¿A qué hora piensas llegar?",
+          "opciones": [
+            "A las seis.",
+            "A las cuatro.",
+            "A las nueve, más o menos."
+          ],
+          "correcta": 2,
+          "explicacion": "«La cena, a las nueve o más tarde.»"
+        },
+        {
+          "icono": "💬",
+          "situacion": "Tu colega de Boston te escribe: «¿Ya te acostumbraste a dormir la siesta todos los días?».",
+          "opciones": [
+            "«Sí, aquí todo el mundo duerme después del almuerzo.»",
+            "«Algunos la duermen, muchos no; lo que sí cambia es el horario.»",
+            "«No, en España la siesta no existe.»"
+          ],
+          "correcta": 1,
+          "explicacion": "Ni el tópico ni su contrario: «Algunas duermen. Muchas, no. Y casi todas cenan tarde.»"
+        },
+        {
+          "icono": "🏥",
+          "situacion": "Elena te dice que, para ella, la siesta es cerrar los ojos diez minutos. ¿Qué entiendes?",
+          "opciones": [
+            "Que la palabra cambia de sentido según la persona y su trabajo.",
+            "Que Elena no sabe qué es una siesta.",
+            "Que en los hospitales se duerme una hora."
+          ],
+          "correcta": 0,
+          "explicacion": "«para ella, “siesta” a veces es solo cerrar los ojos diez minutos en un sofá, si el turno lo permite.»"
+        }
+      ],
+      "habilidades": [
+        "Cultura"
+      ]
+    },
+    {
+      "id": "escuchar-escena",
+      "tipo": "escuchar_imagen",
+      "titulo": "¿Qué imagen corresponde?",
+      "consigna": "Escucha el fragmento y toca la imagen que mejor le corresponde.",
+      "opciones": [
+        {
+          "imagen": "portada.webp",
+          "respaldo": "portada.png",
+          "texto": "La calle a media tarde",
+          "alt": "Una calle de Madrid a media tarde, con gente, un café abierto y algunas persianas bajadas."
+        },
+        {
+          "imagen": "escena.webp",
+          "respaldo": "escena.png",
+          "texto": "Elena frente al hospital",
+          "alt": "Elena almuerza de pie frente a un hospital y conversa."
+        }
+      ],
+      "items": [
+        {
+          "decir": "Algunas tiendas pequeñas sí cierran un rato al mediodía.",
+          "correcta": 0,
+          "explicacion": "En la calle, algunas persianas están bajadas, pero hay vida."
+        },
+        {
+          "decir": "En mi edificio, mi vecina Elena, que trabaja en un hospital, se rió cuando le conté el comentario de Boston.",
+          "correcta": 1,
+          "explicacion": "Elena trabaja en un hospital."
+        },
+        {
+          "decir": "La realidad me corrigió rápido.",
+          "correcta": 0,
+          "explicacion": "La calle no está vacía: la postal no era real."
+        },
+        {
+          "decir": "Un día almorzamos de pie, frente al hospital, con prisa: hubo conversación, no una cama.",
+          "correcta": 1,
+          "explicacion": "Un almuerzo rápido, con conversación: así es el mediodía de Elena."
+        }
+      ],
+      "habilidades": [
+        "Escuchar"
+      ]
+    },
+    {
+      "id": "dilo-tu",
+      "tipo": "hablar",
+      "titulo": "Dilo tú",
+      "consigna": "Escucha el modelo, toca 🎤 y dilo en voz alta, como en una conversación real. No hace falta decirlo palabra por palabra.",
+      "requiere": "reconocimiento_voz",
+      "idioma": "es-US",
+      "items": [
+        {
+          "contexto": "Corriges el tópico con amabilidad:",
+          "frase": "No todo el mundo duerme la siesta."
+        },
+        {
+          "contexto": "Das el dato de la encuesta:",
+          "frase": "Más o menos una de cada cuatro personas."
+        },
+        {
+          "contexto": "Reconoces lo que sí es cierto:",
+          "frase": "Lo que sí cambia es el horario."
+        },
+        {
+          "libre": true,
+          "pregunta": "¿La siesta es una costumbre de toda España? Contesta en una o dos oraciones.",
+          "modelo": "No, no todo el mundo duerme la siesta: más o menos una de cada cuatro personas. Lo que sí cambia es el horario.",
+          "minimo_palabras": 3
+        }
+      ],
+      "habilidades": [
+        "Hablar"
+      ]
+    },
+    {
+      "id": "respuesta-colega",
+      "tipo": "reflexion",
+      "titulo": "Respóndele al colega",
+      "consigna": "Escribe un mensaje breve (unas cinco o seis oraciones).",
+      "pregunta": "Tu colega de Boston te escribe: «Vas a dormir la siesta todos los días, ¿no?». Respóndele con un mensaje: corrige el tópico con datos del texto, pero sin negar lo que sí es cierto.",
+      "ayuda": [
+        "La verdad es que…",
+        "Según una encuesta de 2024, …",
+        "Lo que sí es cierto es que…",
+        "Es un tópico, aunque…",
+        "Así que…"
+      ],
+      "minimo_caracteres": 150,
+      "modelo": "¡Hola, Mark! La verdad es que no. Aquí no todo el mundo duerme la siesta: según una encuesta de 2024, más o menos una de cada cuatro personas adultas la duerme de forma habitual. A las cuatro de la tarde, el centro de Madrid está lleno de gente y de oficinas abiertas. Lo que sí es cierto es el horario: se almuerza a las dos o a las tres y se cena a las nueve o más tarde, así que un descanso breve, de quince minutos, a veces viene bien. Es un tópico con una parte de verdad, pero la vida es menos simple que la postal.",
+      "guia": "Una buena respuesta corrige el estereotipo con un dato y reconoce lo que sí es cierto (el horario, el calor en algunos lugares). Fíjate en los conectores: la verdad es que, lo que sí, así que, pero.",
+      "habilidades": [
+        "Escribir"
+      ]
+    },
+    {
+      "id": "y-en-tu-pais",
+      "tipo": "reflexion",
+      "titulo": "¿Y en tu país?",
+      "pregunta": "¿Qué tópico existe sobre tu país o tu ciudad? ¿Qué parte es cierta y qué parte es solo una «postal»? Relativízalo como el narrador, con un ejemplo concreto.",
+      "ayuda": [
+        "Mucha gente piensa que…",
+        "Es cierto que…, pero…",
+        "En mi experiencia, …",
+        "Relativizar no es negar: …",
+        "Al final, …"
+      ],
+      "minimo_caracteres": 150,
+      "modelo": "Mucha gente piensa que en Estados Unidos todos comemos comida rápida todos los días. Es cierto que hay muchos restaurantes de ese tipo y que a veces almorzamos con prisa, en veinte minutos, como Elena. Pero en mi familia cocinamos casi todas las noches, y en mi ciudad hay mercados de agricultores llenos de gente los sábados. Relativizar este tópico no es negar que existe la comida rápida: es mirar a las personas de cerca. Algunas comen así a diario. Muchas, no.",
+      "guia": "No hay una respuesta correcta. Una buena respuesta separa el dato del estereotipo y da un ejemplo personal. Si quieres, comparte tu respuesta con tu profesor.",
+      "habilidades": [
+        "Escribir",
+        "Cultura"
+      ]
+    },
+    {
+      "id": "grafico",
+      "tipo": "opcion_multiple",
+      "titulo": "Leer el gráfico",
+      "consigna": "Mira el gráfico «La siesta habitual en España» y el párrafo de la encuesta.",
+      "items": [
+        {
+          "pregunta": "Según el gráfico, ¿qué porcentaje duerme la siesta de forma habitual?",
+          "opciones": [
+            "≈ 50 %",
+            "≈ 75 %",
+            "≈ 25 %"
+          ],
+          "correcta": 2,
+          "explicacion": "«una de cada cuatro duerme la siesta de forma habitual.»"
+        },
+        {
+          "pregunta": "¿Qué conclusión es correcta?",
+          "opciones": [
+            "La siesta existe, pero no define a un país entero.",
+            "La mayoría de los españoles duerme la siesta.",
+            "Nadie duerme la siesta en España."
+          ],
+          "correcta": 0,
+          "explicacion": "«Es decir: la siesta existe, pero no define a un país entero.»"
+        },
+        {
+          "pregunta": "El 75 % del gráfico, ¿significa que esas personas nunca duermen la siesta?",
+          "opciones": [
+            "Sí: nunca la duermen.",
+            "No: incluye a quienes la duermen solo a veces."
+          ],
+          "correcta": 1,
+          "explicacion": "«El resto la toma solo a veces, o no la toma casi nunca.»"
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ],
+      "seccion": "mas_practica"
+    },
+    {
+      "id": "vocabulario",
+      "tipo": "completar",
+      "titulo": "Palabras para hablar de tópicos",
+      "consigna": "Completa con la palabra del texto. Puedes usar la caja.",
+      "banco": [
+        "estereotipo",
+        "encuesta",
+        "habitual",
+        "rendido",
+        "Relativizar",
+        "historia"
+      ],
+      "items": [
+        {
+          "antes": "«Todo el mundo duerme» no es un dato: es un",
+          "respuesta": [
+            "estereotipo"
+          ],
+          "despues": "cómodo.",
+          "explicacion": "«Es un estereotipo cómodo.»"
+        },
+        {
+          "antes": "Una",
+          "respuesta": [
+            "encuesta"
+          ],
+          "despues": "de 2024 preguntó a dos mil personas adultas.",
+          "explicacion": "«Una encuesta de 2024 en España, con dos mil personas adultas»"
+        },
+        {
+          "antes": "Una de cada cuatro duerme la siesta de forma",
+          "respuesta": [
+            "habitual"
+          ],
+          "despues": ".",
+          "explicacion": "«duerme la siesta de forma habitual.»"
+        },
+        {
+          "antes": "Un descanso breve es más fácil que una hora",
+          "respuesta": [
+            "rendido"
+          ],
+          "despues": "en la cama.",
+          "explicacion": "«resulta más fácil que una hora rendido en la cama.»"
+        },
+        {
+          "antes": "",
+          "respuesta": [
+            "Relativizar",
+            "relativizar"
+          ],
+          "despues": "un tópico no es negar el calor ni el horario.",
+          "explicacion": "«Relativizar un tópico no es negar el calor ni el horario.»"
+        },
+        {
+          "antes": "Cuando alguien habla de «la siesta española» como si fuera una ley, el narrador cuenta esta",
+          "respuesta": [
+            "historia"
+          ],
+          "despues": ".",
+          "explicacion": "«yo cuento esta historia.»"
+        }
+      ],
+      "habilidades": [
+        "Escribir"
+      ],
+      "seccion": "mas_practica"
+    },
+    {
+      "id": "verdadero-falso",
+      "tipo": "verdadero_falso",
+      "titulo": "¿Verdadero o falso?",
+      "consigna": "Decide y mira la frase del texto que lo demuestra. Varias afirmaciones exigen interpretar.",
+      "items": [
+        {
+          "afirmacion": "El narrador cambió de idea durante su estancia.",
+          "correcta": true,
+          "justificacion": "«La realidad me corrigió rápido.»"
+        },
+        {
+          "afirmacion": "Según el texto, la siesta no existe en España.",
+          "correcta": false,
+          "justificacion": "«la siesta existe, pero no define a un país entero.»"
+        },
+        {
+          "afirmacion": "Elena duerme una hora después del almuerzo.",
+          "correcta": false,
+          "justificacion": "«Yo almuerzo en veinte minutos y vuelvo»"
+        },
+        {
+          "afirmacion": "El hermano de Elena vive en Madrid.",
+          "correcta": false,
+          "justificacion": "«Su hermano, que vive en un pueblo de Andalucía»"
+        },
+        {
+          "afirmacion": "Para el narrador, cenar tarde es más general que dormir la siesta.",
+          "correcta": true,
+          "justificacion": "«Algunas duermen. Muchas, no. Y casi todas cenan tarde.»"
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ],
+      "seccion": "mas_practica"
+    },
+    {
+      "id": "dictado",
+      "tipo": "dictado",
+      "titulo": "Mini dictado",
+      "consigna": "Escucha y escribe lo que oyes.",
+      "items": [
+        {
+          "decir": "estereotipo",
+          "antes": "Es un",
+          "despues": "cómodo.",
+          "respuesta": [
+            "estereotipo"
+          ],
+          "explicacion": "Un estereotipo: una idea fija y simplificada sobre un grupo."
+        },
+        {
+          "decir": "persianas",
+          "antes": "Llegué con esa postal:",
+          "despues": "cerradas y calles vacías.",
+          "respuesta": [
+            "persianas"
+          ],
+          "explicacion": "Las persianas: cubren las ventanas del sol."
+        },
+        {
+          "decir": "encuesta",
+          "antes": "Una",
+          "despues": "de 2024 indica otra cosa.",
+          "respuesta": [
+            "encuesta"
+          ],
+          "explicacion": "La encuesta da un dato, no un tópico."
+        },
+        {
+          "decir": "de forma habitual",
+          "antes": "Una de cada cuatro duerme la siesta",
+          "despues": ".",
+          "respuesta": [
+            "de forma habitual"
+          ],
+          "explicacion": "De forma habitual: normalmente, casi siempre."
+        },
+        {
+          "decir": "relativizar un tópico",
+          "antes": "No es negar: es",
+          "despues": ".",
+          "respuesta": [
+            "relativizar un tópico"
+          ],
+          "explicacion": "Relativizar: mirar algo con matices."
+        }
+      ],
+      "habilidades": [
+        "Escuchar",
+        "Escribir"
+      ],
+      "seccion": "mas_practica"
+    }
+  ]
+}

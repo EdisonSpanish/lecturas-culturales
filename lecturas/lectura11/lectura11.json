@@ -1,0 +1,179 @@
+{
+  "id": "b2-el-condor-y-el-quetzal",
+  "titulo": "El cóndor y el quetzal",
+  "nivel": "B2",
+  "etiqueta": "Animales y símbolos",
+  "entradilla": "Un pájaro en el escudo no es eterno: el nombre queda; el animal, a veces, no.",
+  "variedad": "es-419",
+  "uso": "lectura_web_autonoma",
+  "pcic": {
+    "secciones": [
+      "Referentes culturales 1.1.3 (fase de profundización): símbolos nacionales y fauna emblemática; el cóndor andino y el quetzal"
+    ],
+    "habilidades_interculturales": [
+      "12. 1.1.2 Percepción de diferencias culturales",
+      "12. 2.1.2 Comparación",
+      "12. 3.2 Implicación: cuidar un símbolo también en la vida real"
+    ],
+    "generos_discursivos": "Macrofunción argumentativa y narrativa (inventario B2): relato de viaje con comparación y reflexión"
+  },
+  "texto_parrafos": [
+    "No vi un cóndor el primer día en los Andes. Vi, primero, su imagen: en una plaza de Quito, en un escudo, con las alas abiertas sobre un paisaje que yo todavía no entendía. «Es más que un pájaro», me dijo un guía. El cóndor andino —un animal de hasta unos 3,2 metros de envergadura, más o menos el doble de la estatura de una persona— aparece en los símbolos de varios países: Ecuador, Colombia, Bolivia y Chile. Vuela alto, aprovecha el viento y, de lejos, parece una sombra lenta sobre las montañas.",
+    "Días después, en un mirador, sí lo vi. No fue un momento de película. Fue un instante breve: un cuerpo negro, el cuello blanco, las alas inmensas. Un silencio raro se hizo en el grupo. Pensé en lo fácil que es convertir un animal en un adorno y lo difícil que es dejarlo vivir. Hoy el cóndor andino está en una situación vulnerable; no es un dibujo eterno en una bandera. El guía, en voz baja, dijo que cada avistamiento es también una pregunta: ¿va a haber cóndores para los que vienen detrás de nosotros?",
+    "Más tarde, en una conversación con Irene, que es de Guatemala, la historia cambió de color. «Nosotros tenemos el quetzal», dijo. El quetzal es un ave de bosque, de un verde intenso, con una cola larguísima en el macho. Es el ave nacional de Guatemala, y la moneda del país también se llama quetzal. En la cultura maya, sus plumas eran un tesoro. Irene abrió la cartera y me mostró una moneda: el pájaro cabía, diminuto, en la palma. Me explicó que el nombre de la moneda viene de esa ave, tan presente en la idea de Guatemala como el cóndor en los Andes. Sonrió: «Un país puede caber en un pájaro, para bien y para mal. El nombre queda. El animal, a veces, no».",
+    "Me gustó esa frase, y también la comparación. El cóndor es de cumbres abiertas; el quetzal, de sombra húmeda y árboles. Uno parece fuerza y distancia. El otro, un lujo silencioso. Los dos son más que fauna: son una manera de decir «nosotros». Por eso esta lectura no es una ficha de biología. Es una pregunta que me traje de vuelta: cuando un animal entra en una bandera, ¿lo cuidamos más o lo damos por seguro? Conviene que lo protejamos de verdad, no solo en el escudo."
+  ],
+  "traduccion_parrafos": [
+    "I did not see a condor on my first day in the Andes. I saw, first, its image: in a square in Quito, on a coat of arms, with its wings open over a landscape I did not yet understand. “It is more than a bird,” a guide told me. The Andean condor —an animal with a wingspan of up to about 3.2 meters, more or less twice the height of a person— appears in the symbols of several countries: Ecuador, Colombia, Bolivia and Chile. It flies high, uses the wind, and from far away it looks like a slow shadow over the mountains.",
+    "Days later, at a lookout, I did see one. It was not a movie moment. It was a brief instant: a black body, a white collar, immense wings. A strange silence fell over the group. I thought how easy it is to turn an animal into a decoration and how hard it is to let it live. Today the Andean condor is in a vulnerable situation; it is not an eternal drawing on a flag. The guide, in a low voice, said that every sighting is also a question: will there be condors for those who come after us?",
+    "Later, in a conversation with Irene, who is from Guatemala, the story changed color. “We have the quetzal,” she said. The quetzal is a forest bird, an intense green, with a very long tail on the male. It is the national bird of Guatemala, and the country’s currency is also called the quetzal. In Maya culture, its feathers were a treasure. Irene opened her wallet and showed me a coin: the bird fitted, tiny, in her palm. She explained that the name of the currency comes from that bird, as present in the idea of Guatemala as the condor is in the Andes. She smiled: “A country can fit inside a bird, for better and for worse. The name remains. The animal, sometimes, does not.”",
+    "I liked that sentence, and the comparison too. The condor belongs to open peaks; the quetzal, to damp shade and trees. One feels like strength and distance. The other, a quiet luxury. Both are more than fauna: they are a way of saying “us.” That is why this reading is not a biology fact sheet. It is a question I brought back with me: when an animal enters a flag, do we take better care of it, or do we take it for granted? It is right that we truly protect it, not only on the coat of arms."
+  ],
+  "glosario": [
+    {
+      "palabra": "cóndor",
+      "traduccion_en": "Andean condor",
+      "formas": [
+        "cóndores"
+      ]
+    },
+    {
+      "palabra": "envergadura",
+      "traduccion_en": "wingspan"
+    },
+    {
+      "palabra": "escudo",
+      "traduccion_en": "coat of arms"
+    },
+    {
+      "palabra": "vulnerable",
+      "traduccion_en": "vulnerable (conservation status)"
+    },
+    {
+      "palabra": "avistamiento",
+      "traduccion_en": "sighting"
+    },
+    {
+      "palabra": "quetzal",
+      "traduccion_en": "resplendent quetzal (bird); also the currency of Guatemala"
+    },
+    {
+      "palabra": "moneda",
+      "traduccion_en": "currency; coin"
+    },
+    {
+      "palabra": "plumas",
+      "traduccion_en": "feathers"
+    },
+    {
+      "palabra": "cultura maya",
+      "traduccion_en": "Maya culture"
+    },
+    {
+      "palabra": "proteger",
+      "traduccion_en": "to protect",
+      "formas": [
+        "protejamos"
+      ]
+    },
+    {
+      "palabra": "bandera",
+      "traduccion_en": "flag"
+    },
+    {
+      "palabra": "cumbres",
+      "traduccion_en": "peaks; mountain summits"
+    },
+    {
+      "palabra": "fauna",
+      "traduccion_en": "wildlife; fauna"
+    }
+  ],
+  "imagenes": [
+    {
+      "archivo": "portada.png",
+      "tipo": "portada",
+      "alt": "Un cóndor andino de alas inmensas, con collar blanco, vuela sobre una cordillera; abajo, una figura humana muy pequeña en un mirador.",
+      "webp": "portada.webp",
+      "ancho": 1152,
+      "alto": 768
+    },
+    {
+      "archivo": "escena.png",
+      "tipo": "escena",
+      "alt": "Irene, con una blusa de franjas ocre y musgo, muestra en la palma una moneda con la forma de un pájaro, sin letras; frente a ella, un hombre de lentes escucha; en la ventana se adivina un quetzal.",
+      "webp": "escena.webp",
+      "ancho": 1152,
+      "alto": 768,
+      "pie": "Irene abre la palma: el quetzal de la moneda cabe, diminuto, en la mano.",
+      "despues_parrafo": 3
+    }
+  ],
+  "grafico": {
+    "archivo": "grafico.png",
+    "titulo": "Envergadura del cóndor andino y estatura de una persona",
+    "nota": "Medidas aproximadas, según el texto. Envergadura del cóndor andino: unos 3,2 m. Estatura de una persona adulta: unos 1,7 m (referencia para comparar, no el dato de una persona concreta).",
+    "datos": [
+      {
+        "referencia": "Cóndor andino (envergadura)",
+        "medida": "≈ 3,2 m"
+      },
+      {
+        "referencia": "Persona adulta (estatura)",
+        "medida": "≈ 1,7 m"
+      }
+    ],
+    "webp": "grafico.webp",
+    "ancho": 1660,
+    "alto": 946,
+    "alt": "Gráfico de barras horizontales que compara la envergadura del cóndor andino, unos 3,2 metros, con la estatura de una persona adulta, unos 1,7 metros.",
+    "columnas": {
+      "referencia": "Referencia",
+      "medida": "Medida"
+    }
+  },
+  "audio": {
+    "estado": "voz_del_navegador",
+    "nota": "El sitio lee el texto con la voz del dispositivo de cada alumno (decisión de Edison, 19-11-2026). Se prefiere una voz de español de América, no de España.",
+    "guion": {
+      "velocidad": "Unas 110 palabras por minuto, clara y natural, sin teatralidad. Voz de español de América, no de España.",
+      "pausas": "Pausa corta al final de cada oración; pausa más larga (unos dos segundos) entre párrafos. Tres segundos de silencio al empezar y al cerrar.",
+      "duracion_aproximada": "unos 4 minutos",
+      "texto": [
+        {
+          "tipo": "titulo",
+          "dice": "El cóndor y el quetzal.",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 1,
+          "dice": "No vi un cóndor el primer día en los Andes. Vi, primero, su imagen: en una plaza de Quito, en un escudo, con las alas abiertas sobre un paisaje que yo todavía no entendía. «Es más que un pájaro», me dijo un guía. El cóndor andino —un animal de hasta unos 3,2 metros de envergadura, más o menos el doble de la estatura de una persona— aparece en los símbolos de varios países: Ecuador, Colombia, Bolivia y Chile. Vuela alto, aprovecha el viento y, de lejos, parece una sombra lenta sobre las montañas.",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 2,
+          "dice": "Días después, en un mirador, sí lo vi. No fue un momento de película. Fue un instante breve: un cuerpo negro, el cuello blanco, las alas inmensas. Un silencio raro se hizo en el grupo. Pensé en lo fácil que es convertir un animal en un adorno y lo difícil que es dejarlo vivir. Hoy el cóndor andino está en una situación vulnerable; no es un dibujo eterno en una bandera. El guía, en voz baja, dijo que cada avistamiento es también una pregunta: ¿va a haber cóndores para los que vienen detrás de nosotros?",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 3,
+          "dice": "Más tarde, en una conversación con Irene, que es de Guatemala, la historia cambió de color. «Nosotros tenemos el quetzal», dijo. El quetzal es un ave de bosque, de un verde intenso, con una cola larguísima en el macho. Es el ave nacional de Guatemala, y la moneda del país también se llama quetzal. En la cultura maya, sus plumas eran un tesoro. Irene abrió la cartera y me mostró una moneda: el pájaro cabía, diminuto, en la palma. Me explicó que el nombre de la moneda viene de esa ave, tan presente en la idea de Guatemala como el cóndor en los Andes. Sonrió: «Un país puede caber en un pájaro, para bien y para mal. El nombre queda. El animal, a veces, no».",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 4,
+          "dice": "Me gustó esa frase, y también la comparación. El cóndor es de cumbres abiertas; el quetzal, de sombra húmeda y árboles. Uno parece fuerza y distancia. El otro, un lujo silencioso. Los dos son más que fauna: son una manera de decir «nosotros». Por eso esta lectura no es una ficha de biología. Es una pregunta que me traje de vuelta: cuando un animal entra en una bandera, ¿lo cuidamos más o lo damos por seguro? Conviene que lo protejamos de verdad, no solo en el escudo.",
+          "pausa_despues": "cierre"
+        }
+      ]
+    }
+  },
+  "sugerencia_ejercicios": "Escuchar el audio; comparar cóndor y quetzal (hábitat, símbolo, tamaño) con ayuda del gráfico; una pregunta: ¿Qué animal representa a tu país, y se lo protege de verdad?",
+  "estilo_visual": "Papel y ocre (ver estilo_visual.md). Encuadre de las ilustraciones: 3:2.",
+  "contenido": "original",
+  "ejercicios_archivo": "ejercicios.json"
+}

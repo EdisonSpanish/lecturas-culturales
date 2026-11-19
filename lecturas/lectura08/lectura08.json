@@ -1,0 +1,164 @@
+{
+  "id": "b1-el-sol-vuelve-a-otavalo",
+  "titulo": "El sol vuelve a Otavalo",
+  "nivel": "B1",
+  "etiqueta": "La fiesta del Sol",
+  "entradilla": "En junio, en la plaza de Otavalo, el Inti Raymi no es una foto: es una memoria que sigue viva.",
+  "variedad": "es-419",
+  "uso": "lectura_web_autonoma",
+  "pcic": {
+    "secciones": [
+      "Referentes culturales 1.1.1 / 1.4.1 (fase de profundización): pueblos originarios y fiestas del ciclo; el Inti Raymi en Otavalo (Imbabura, Ecuador)",
+      "Saberes y comportamientos socioculturales 3.5 (esquema aplicado al mundo andino): calendarios festivos; el solsticio de junio"
+    ],
+    "habilidades_interculturales": [
+      "12. 1.1.1 Percepción de la propia cultura",
+      "12. 2.2.1 Interpretación de comportamientos culturales",
+      "12. 3.1 Actitud de respeto ante la diversidad cultural"
+    ],
+    "generos_discursivos": "Macrofunción narrativa (inventario B1, 3.4): relato de viaje con explicación cultural"
+  },
+  "texto_parrafos": [
+    "En junio viajé a Otavalo, en la sierra de Ecuador. Un amigo kichwa, Luis, me esperaba en la plaza. «Llegas en una buena semana —dijo—. Es el Inti Raymi, la fiesta del Sol.»",
+    "Yo sabía un poco del Inti Raymi de Cuzco, en Perú, pero esta fiesta es de aquí: de las comunidades de Imbabura. Se celebra alrededor del 21 de junio, cuando el solsticio marca un cambio de ciclo, y en los días siguientes hay música, danza y encuentros. El 24, en Otavalo, muchas comunidades hacen la toma de la plaza: entran al centro del pueblo bailando, con fuerza y alegría, y ocupan un espacio que es suyo.",
+    "Por la mañana, Luis me llevó cerca de una cascada. Algunas personas se bañan en el agua fría para empezar el ciclo más limpias. Yo no entré, pero observé el respeto con el que se preparaban. Después, en la plaza, sonaron flautas y tambores. Las mujeres llevaban blusas bordadas y cuentas brillantes; los hombres, ponchos y sombreros. Nadie bailaba para una foto. Bailaban juntos, en círculo, una y otra vez, y el suelo de la plaza vibraba un poco bajo los pies.",
+    "Luis me explicó que esta fiesta agradece a la tierra y al sol por la cosecha. No es un espectáculo de turismo, aunque hay visitantes. Es una memoria que sigue viva. Esa noche, cansado y contento, pensé en el calendario que uso en Estados Unidos. También nosotros miramos el sol, pero casi nunca lo celebramos así, en la plaza, con toda una comunidad. El mes que viene voy a recordar esa fila de danzantes cuando alguien hable de tradiciones andinas como si fueran solo del pasado. En Otavalo, el sol vuelve cada junio. Y la gente sale a recibirlo."
+  ],
+  "traduccion_parrafos": [
+    "In June I traveled to Otavalo, in the highlands of Ecuador. A Kichwa friend, Luis, was waiting for me in the square. “You arrive in a good week,” he said. “It is Inti Raymi, the Festival of the Sun.”",
+    "I knew a little about the Inti Raymi of Cusco, in Peru, but this festival belongs here: to the communities of Imbabura. It is celebrated around June 21, when the solstice marks a change of cycle, and on the days that follow there is music, dance and gatherings. On the 24th, in Otavalo, many communities perform the taking of the plaza: they enter the center of town dancing, with strength and joy, and occupy a space that is theirs.",
+    "In the morning, Luis took me near a waterfall. Some people bathe in the cold water to begin the cycle cleaner. I did not go in, but I watched the respect with which they prepared. Later, in the square, flutes and drums sounded. The women wore embroidered blouses and bright beads; the men, ponchos and hats. No one was dancing for a photo. They danced together, in a circle, again and again, and the ground of the square trembled a little under our feet.",
+    "Luis explained that this festival thanks the earth and the sun for the harvest. It is not a tourist show, although there are visitors. It is a memory that is still alive. That night, tired and glad, I thought of the calendar I use in the United States. We also look at the sun, but we almost never celebrate it like this, in the square, with a whole community. Next month I am going to remember that line of dancers when someone talks about Andean traditions as if they belonged only to the past. In Otavalo, the sun returns every June. And the people go out to welcome it."
+  ],
+  "glosario": [
+    {
+      "palabra": "Inti Raymi",
+      "traduccion_en": "Sun festival (Andean celebration around the June solstice)"
+    },
+    {
+      "palabra": "solsticio",
+      "traduccion_en": "solstice"
+    },
+    {
+      "palabra": "kichwa",
+      "traduccion_en": "Kichwa (Indigenous people and language of the Ecuadorian Andes)"
+    },
+    {
+      "palabra": "toma de la plaza",
+      "traduccion_en": "the ritual taking of the town square, often on June 24 in Otavalo"
+    },
+    {
+      "palabra": "cascada",
+      "traduccion_en": "waterfall"
+    },
+    {
+      "palabra": "blusa",
+      "traduccion_en": "blouse",
+      "formas": [
+        "blusas"
+      ]
+    },
+    {
+      "palabra": "bordado",
+      "traduccion_en": "embroidery; embroidered",
+      "formas": [
+        "bordadas"
+      ]
+    },
+    {
+      "palabra": "poncho",
+      "traduccion_en": "poncho",
+      "formas": [
+        "ponchos"
+      ]
+    },
+    {
+      "palabra": "cosecha",
+      "traduccion_en": "harvest"
+    },
+    {
+      "palabra": "comunidad",
+      "traduccion_en": "community",
+      "formas": [
+        "comunidades"
+      ]
+    },
+    {
+      "palabra": "danza",
+      "traduccion_en": "dance"
+    },
+    {
+      "palabra": "sierra",
+      "traduccion_en": "highlands; mountain region"
+    },
+    {
+      "palabra": "ciclo",
+      "traduccion_en": "cycle"
+    }
+  ],
+  "imagenes": [
+    {
+      "archivo": "portada.png",
+      "tipo": "portada",
+      "alt": "En una plaza de Otavalo, danzantes kichwa bailan en círculo: hombres con trenza larga, sombrero, poncho y pantalón blanco; mujeres con blusa bordada, anaco oscuro, fachalina y collares dorados.",
+      "webp": "portada.webp",
+      "ancho": 1152,
+      "alto": 768
+    },
+    {
+      "archivo": "escena.png",
+      "tipo": "escena",
+      "alt": "Al amanecer, junto a una cascada, un visitante observa con respeto un baño ritual: un hombre de trenza entra al agua y dos mujeres preparan hierbas.",
+      "webp": "escena.webp",
+      "ancho": 1152,
+      "alto": 768,
+      "pie": "Cerca de una cascada, algunas personas se bañan en el agua fría para empezar el ciclo más limpias.",
+      "despues_parrafo": 3
+    }
+  ],
+  "grafico": null,
+  "audio": {
+    "estado": "voz_del_navegador",
+    "nota": "El sitio lee el texto con la voz del dispositivo de cada alumno (decisión de Edison, 19-11-2026). Se prefiere una voz de español de América, no de España.",
+    "guion": {
+      "velocidad": "Unas 110 palabras por minuto, clara y natural, sin teatralidad. Voz de español de América, no de España.",
+      "pausas": "Pausa corta al final de cada oración; pausa más larga (unos dos segundos) entre párrafos. Tres segundos de silencio al empezar y al cerrar.",
+      "duracion_aproximada": "unos 3 minutos",
+      "texto": [
+        {
+          "tipo": "titulo",
+          "dice": "El sol vuelve a Otavalo.",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 1,
+          "dice": "En junio viajé a Otavalo, en la sierra de Ecuador. Un amigo kichwa, Luis, me esperaba en la plaza. «Llegas en una buena semana —dijo—. Es el Inti Raymi, la fiesta del Sol.»",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 2,
+          "dice": "Yo sabía un poco del Inti Raymi de Cuzco, en Perú, pero esta fiesta es de aquí: de las comunidades de Imbabura. Se celebra alrededor del 21 de junio, cuando el solsticio marca un cambio de ciclo, y en los días siguientes hay música, danza y encuentros. El 24, en Otavalo, muchas comunidades hacen la toma de la plaza: entran al centro del pueblo bailando, con fuerza y alegría, y ocupan un espacio que es suyo.",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 3,
+          "dice": "Por la mañana, Luis me llevó cerca de una cascada. Algunas personas se bañan en el agua fría para empezar el ciclo más limpias. Yo no entré, pero observé el respeto con el que se preparaban. Después, en la plaza, sonaron flautas y tambores. Las mujeres llevaban blusas bordadas y cuentas brillantes; los hombres, ponchos y sombreros. Nadie bailaba para una foto. Bailaban juntos, en círculo, una y otra vez, y el suelo de la plaza vibraba un poco bajo los pies.",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 4,
+          "dice": "Luis me explicó que esta fiesta agradece a la tierra y al sol por la cosecha. No es un espectáculo de turismo, aunque hay visitantes. Es una memoria que sigue viva. Esa noche, cansado y contento, pensé en el calendario que uso en Estados Unidos. También nosotros miramos el sol, pero casi nunca lo celebramos así, en la plaza, con toda una comunidad. El mes que viene voy a recordar esa fila de danzantes cuando alguien hable de tradiciones andinas como si fueran solo del pasado. En Otavalo, el sol vuelve cada junio. Y la gente sale a recibirlo.",
+          "pausa_despues": "cierre"
+        }
+      ]
+    }
+  },
+  "sugerencia_ejercicios": "Escuchar el audio; relacionar el 21 y el 24 de junio con el solsticio y la toma de la plaza; una pregunta: ¿Qué fiesta de tu país agradece un ciclo de la naturaleza?",
+  "estilo_visual": "Papel y ocre (ver estilo_visual.md). Encuadre de las ilustraciones: 3:2.",
+  "contenido": "original",
+  "ejercicios_archivo": "ejercicios.json"
+}

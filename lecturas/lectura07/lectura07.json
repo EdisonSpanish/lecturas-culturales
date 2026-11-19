@@ -1,0 +1,169 @@
+{
+  "id": "b1-que-llevo-a-tu-casa",
+  "titulo": "¿Qué llevo a tu casa?",
+  "nivel": "B1",
+  "etiqueta": "Visitas e invitaciones",
+  "entradilla": "Teresa invita en Bogotá, y aparece la pregunta de siempre: ¿llego con las manos vacías?",
+  "variedad": "es-419",
+  "uso": "lectura_web_autonoma",
+  "pcic": {
+    "secciones": [
+      "Saberes y comportamientos socioculturales 1.4.2 (fase de profundización, esquema aplicado a Colombia y al mundo hispano): visitas e invitaciones; el detalle que se lleva a casa"
+    ],
+    "habilidades_interculturales": [
+      "12. 1.1.2 Percepción de diferencias culturales",
+      "12. 2.1.2 Comparación",
+      "12. 2.2.2 Adaptación de la conducta a contextos distintos"
+    ],
+    "generos_discursivos": "Macrofunción narrativa (inventario B1, 3.4): relato personal con contraste y reflexión"
+  },
+  "texto_parrafos": [
+    "El viernes, Teresa me invitó a su casa, en Bogotá. Cuando terminó la llamada, me quedé con una pregunta en la cabeza: ¿qué llevo?",
+    "En Estados Unidos, a veces llego con las manos vacías, o llevo una botella de vino si la cena es formal. Pero Teresa es colombiana, y no quería equivocarme en la puerta. Por la tarde entré a una tienda y miré flores, chocolates y un pastel. La vendedora sonrió: «Depende de la familia. Lo importante es no llegar vacío, y tampoco hacer una escena». Yo casi compré un ramo enorme. Al final no lo hice: un gesto grande puede resultar incómodo.",
+    "Cuando era más joven, yo pensaba que existía una regla única para todos los países. No es así. En muchas casas de América Latina y de España, un invitado llega con algo pequeño: un postre, pan, vino o flores. En otras, la anfitriona dice «no debías traer nada» y, aun así, agradece el gesto. Un primo mío, en Madrid, suele llevar vino. Una amiga en Lima prefiere frutas o un postre. El detalle cambia; la idea es la misma: no llegar con las manos vacías, si puedes.",
+    "Esa noche llevé un pastel de naranja y un café bueno. Teresa abrió los ojos y después se rió: «¡Qué lindo! Siempre digo que no hace falta, pero me encanta». Nos sentamos, hablamos mucho y el pastel duró poco. Al día siguiente le escribí para agradecer la noche. Ahora, cuando me invitan, no busco la regla de oro. Pregunto con naturalidad, o llevo algo simple y fácil de compartir. El regalo no es una prueba ni un precio de entrada. Es una manera de decir: gracias por abrirme la puerta."
+  ],
+  "traduccion_parrafos": [
+    "On Friday, Teresa invited me to her house, in Bogotá. When the call ended, I was left with a question in my head: what should I bring?",
+    "In the United States, I sometimes arrive empty-handed, or I bring a bottle of wine if dinner is formal. But Teresa is Colombian, and I did not want to get it wrong at the door. In the afternoon I went into a shop and looked at flowers, chocolates and a cake. The seller smiled: “It depends on the family. The important thing is not to arrive empty-handed, and not to make a scene either.” I almost bought a huge bouquet. In the end I did not: a big gesture can feel uncomfortable.",
+    "When I was younger, I thought there was a single rule for every country. There isn’t. In many homes in Latin America and in Spain, a guest arrives with something small: a dessert, bread, wine or flowers. In others, the host says “you shouldn’t have brought anything” and still thanks you for the gesture. A cousin of mine, in Madrid, usually brings wine. A friend in Lima prefers fruit or a dessert. The detail changes; the idea is the same: do not arrive empty-handed, if you can.",
+    "That night I brought an orange cake and some good coffee. Teresa opened her eyes and then laughed: “How lovely! I always say it isn’t necessary, but I love it.” We sat down, talked a lot and the cake did not last long. The next day I wrote to thank her for the evening. Now, when I am invited, I do not look for a golden rule. I ask naturally, or I bring something simple and easy to share. The gift is not a test or a ticket in. It is a way of saying: thank you for opening the door to me."
+  ],
+  "glosario": [
+    {
+      "palabra": "invitar",
+      "traduccion_en": "to invite",
+      "formas": [
+        "invitó",
+        "invitan"
+      ]
+    },
+    {
+      "palabra": "manos vacías",
+      "traduccion_en": "empty-handed"
+    },
+    {
+      "palabra": "formal",
+      "traduccion_en": "formal"
+    },
+    {
+      "palabra": "equivocarse",
+      "traduccion_en": "to make a mistake; to get it wrong",
+      "formas": [
+        "equivocarme"
+      ]
+    },
+    {
+      "palabra": "ramo",
+      "traduccion_en": "bouquet"
+    },
+    {
+      "palabra": "incómodo",
+      "traduccion_en": "uncomfortable; awkward"
+    },
+    {
+      "palabra": "anfitrión / anfitriona",
+      "traduccion_en": "host; hostess",
+      "formas": [
+        "anfitriona"
+      ]
+    },
+    {
+      "palabra": "postre",
+      "traduccion_en": "dessert"
+    },
+    {
+      "palabra": "gesto",
+      "traduccion_en": "gesture"
+    },
+    {
+      "palabra": "agradecer",
+      "traduccion_en": "to thank; to be grateful for",
+      "formas": [
+        "agradece",
+        "agradecer"
+      ]
+    },
+    {
+      "palabra": "pastel",
+      "traduccion_en": "cake"
+    },
+    {
+      "palabra": "vino",
+      "traduccion_en": "wine"
+    },
+    {
+      "palabra": "regla",
+      "traduccion_en": "rule"
+    },
+    {
+      "palabra": "compartir",
+      "traduccion_en": "to share"
+    }
+  ],
+  "imagenes": [
+    {
+      "archivo": "portada.png",
+      "tipo": "portada",
+      "alt": "Un invitado llega a una puerta de madera, sin letrero, con un pastel y una bolsa; Teresa, con lentes y cárdigan ocre, sonríe al abrir.",
+      "webp": "portada.webp",
+      "ancho": 1152,
+      "alto": 768
+    },
+    {
+      "archivo": "escena.png",
+      "tipo": "escena",
+      "alt": "En una tienda, un hombre elige chocolate y flores mientras una vendedora mayor le aconseja; no hay etiquetas ni letreros.",
+      "webp": "escena.webp",
+      "ancho": 1152,
+      "alto": 768,
+      "pie": "En la tienda, el problema no es gastar mucho: es no llegar vacío y no hacer una escena.",
+      "despues_parrafo": 2
+    }
+  ],
+  "grafico": null,
+  "audio": {
+    "estado": "voz_del_navegador",
+    "nota": "El sitio lee el texto con la voz del dispositivo de cada alumno (decisión de Edison, 19-11-2026). Se prefiere una voz de español de América, no de España.",
+    "guion": {
+      "velocidad": "Unas 110 palabras por minuto, clara y natural, sin teatralidad. Voz de español de América, no de España.",
+      "pausas": "Pausa corta al final de cada oración; pausa más larga (unos dos segundos) entre párrafos. Tres segundos de silencio al empezar y al cerrar.",
+      "duracion_aproximada": "unos 3 minutos",
+      "texto": [
+        {
+          "tipo": "titulo",
+          "dice": "¿Qué llevo a tu casa?.",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 1,
+          "dice": "El viernes, Teresa me invitó a su casa, en Bogotá. Cuando terminó la llamada, me quedé con una pregunta en la cabeza: ¿qué llevo?",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 2,
+          "dice": "En Estados Unidos, a veces llego con las manos vacías, o llevo una botella de vino si la cena es formal. Pero Teresa es colombiana, y no quería equivocarme en la puerta. Por la tarde entré a una tienda y miré flores, chocolates y un pastel. La vendedora sonrió: «Depende de la familia. Lo importante es no llegar vacío, y tampoco hacer una escena». Yo casi compré un ramo enorme. Al final no lo hice: un gesto grande puede resultar incómodo.",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 3,
+          "dice": "Cuando era más joven, yo pensaba que existía una regla única para todos los países. No es así. En muchas casas de América Latina y de España, un invitado llega con algo pequeño: un postre, pan, vino o flores. En otras, la anfitriona dice «no debías traer nada» y, aun así, agradece el gesto. Un primo mío, en Madrid, suele llevar vino. Una amiga en Lima prefiere frutas o un postre. El detalle cambia; la idea es la misma: no llegar con las manos vacías, si puedes.",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 4,
+          "dice": "Esa noche llevé un pastel de naranja y un café bueno. Teresa abrió los ojos y después se rió: «¡Qué lindo! Siempre digo que no hace falta, pero me encanta». Nos sentamos, hablamos mucho y el pastel duró poco. Al día siguiente le escribí para agradecer la noche. Ahora, cuando me invitan, no busco la regla de oro. Pregunto con naturalidad, o llevo algo simple y fácil de compartir. El regalo no es una prueba ni un precio de entrada. Es una manera de decir: gracias por abrirme la puerta.",
+          "pausa_despues": "cierre"
+        }
+      ]
+    }
+  },
+  "sugerencia_ejercicios": "Escuchar el audio; decidir qué llevaría el lector a casa de Teresa y por qué; una pregunta: ¿En tu país se llega con las manos vacías?",
+  "estilo_visual": "Papel y ocre (ver estilo_visual.md). Encuadre de las ilustraciones: 3:2.",
+  "contenido": "original",
+  "ejercicios_archivo": "ejercicios.json"
+}

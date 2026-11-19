@@ -153,6 +153,20 @@ textarea{font:inherit;width:100%;min-height:8rem;padding:.7rem;border-radius:10p
 .catalogo img{aspect-ratio:3/2;object-fit:cover;width:100%}
 .catalogo .info{padding:.8rem 1rem}
 .catalogo strong{display:block;font-family:var(--titulo);font-size:1.15rem;color:var(--pizarra);margin-top:.35rem}
+.catalogo picture,.catalogo img{display:block}
+.catalogo a:hover,.catalogo a:focus-visible{box-shadow:0 6px 22px rgba(47,66,84,.18);transform:translateY(-2px)}
+.catalogo a{transition:transform .15s,box-shadow .15s;height:100%}
+.catalogo .meta{display:flex;flex-wrap:wrap;gap:.4rem;margin:0;font-size:.85rem}
+.catalogo .meta .nivel{background:var(--pizarra);color:var(--papel-claro);font-weight:700;border-radius:999px;padding:.05rem .55rem}
+.catalogo .meta .pais{background:var(--rosa);color:var(--pizarra);border-radius:999px;padding:.05rem .6rem}
+.catalogo .tema{display:block;font-size:.9rem;color:var(--suave);margin-top:.2rem}
+.catalogo li{height:100%}
+.niveles-nav ul{list-style:none;padding:0;margin:1rem 0 0;display:flex;flex-wrap:wrap;gap:.5rem}
+.niveles-nav a{display:inline-block;padding:.45rem .9rem;border-radius:999px;background:var(--papel-claro);color:var(--pizarra);text-decoration:none;box-shadow:inset 0 0 0 2px rgba(47,66,84,.2);min-height:44px;line-height:1.7}
+.niveles-nav a:hover{box-shadow:inset 0 0 0 2px var(--pizarra)}
+.nivel-grupo{scroll-margin-top:1rem}
+.nivel-grupo h2{display:flex;align-items:center;gap:.5rem}
+.nivel-insignia{background:var(--terracota-osc);color:var(--papel-claro);border-radius:999px;padding:.1rem .7rem;font-size:1.05rem}
 
 @media (min-width:48rem){
   body{font-size:1.1rem}
@@ -167,7 +181,7 @@ textarea{font:inherit;width:100%;min-height:8rem;padding:.7rem;border-radius:10p
 .mas-practica .ejercicio{box-shadow:none;border:1px solid rgba(47,66,84,.12)}
 td{white-space:nowrap}
 
-/* --- v3: juego, habilidades, voz, arrastrar --- */
+/* --- v3: práctica, habilidades, voz, arrastrar --- */
 .habilidades{display:flex;flex-wrap:wrap;gap:.35rem;margin:0 0 .4rem}
 .hab{font-size:.8rem;font-weight:700;letter-spacing:.03em;border-radius:999px;padding:.1rem .6rem;background:var(--rosa);color:var(--pizarra)}
 .hab[data-h="Leer"]{background:var(--musgo);color:var(--papel-claro)}
@@ -175,7 +189,6 @@ td{white-space:nowrap}
 .hab[data-h="Escribir"]{background:var(--terracota-osc);color:var(--papel-claro)}
 .hab[data-h="Hablar"]{background:var(--ocre);color:var(--pizarra)}
 .hab[data-h="Cultura"]{background:var(--rosa);color:var(--pizarra)}
-.estrellas{font-weight:700;color:var(--pizarra);white-space:nowrap}
 .son{font:inherit;background:none;border:0;cursor:pointer;font-size:1.1rem;min-width:40px;min-height:40px;border-radius:50%}
 .chip.es-correcta span{border-color:var(--musgo);background:rgba(62,86,72,.15)}
 .chip.es-mal span{border-color:var(--terracota);background:rgba(196,90,56,.14);text-decoration:line-through;text-decoration-color:rgba(154,68,40,.6)}
@@ -219,3 +232,6 @@ td{white-space:nowrap}
   .zona.ok .etq{display:none}
   .zona.ok::after{content:"✓"}
 }
+.hablar.libre .etq-libre{font-weight:700;color:var(--terracota-osc)}
+.modelo-libre{margin-top:.6rem;padding:.6rem .8rem;border-left:4px solid var(--pizarra);background:var(--papel-claro);border-radius:6px}
+.modelo-libre .nota-modelo{margin:0 0 .4rem}

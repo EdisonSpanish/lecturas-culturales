@@ -1,6 +1,113 @@
 {
   "serie": "Lecturas culturales",
   "lecturas": [
-    { "carpeta": "lectura01", "titulo": "Después de comer, se habla", "nivel": "A2", "etiqueta": "Costumbres en la mesa", "miniatura": "portada.webp" }
+    {
+      "carpeta": "lectura01",
+      "titulo": "Después de comer, se habla",
+      "nivel": "A2",
+      "etiqueta": "Costumbres en la mesa",
+      "miniatura": "portada.webp",
+      "pais": "España",
+      "respaldo": "portada.png"
+    },
+    {
+      "carpeta": "lectura02",
+      "titulo": "Dos apellidos, una persona",
+      "nivel": "A1",
+      "etiqueta": "Los dos apellidos",
+      "miniatura": "portada.webp",
+      "pais": "Varios países",
+      "respaldo": "portada.png"
+    },
+    {
+      "carpeta": "lectura03",
+      "titulo": "Quito, una capital en las nubes",
+      "nivel": "A1",
+      "etiqueta": "Una capital",
+      "miniatura": "portada.webp",
+      "pais": "Ecuador",
+      "respaldo": "portada.png"
+    },
+    {
+      "carpeta": "lectura04",
+      "titulo": "Un día de Fallas en Valencia",
+      "nivel": "A2",
+      "etiqueta": "Fiestas populares",
+      "miniatura": "portada.webp",
+      "pais": "España",
+      "respaldo": "portada.png"
+    },
+    {
+      "carpeta": "lectura05",
+      "titulo": "Flores y pan para los abuelos",
+      "nivel": "A2",
+      "etiqueta": "El Día de Muertos",
+      "miniatura": "portada.webp",
+      "pais": "México",
+      "respaldo": "portada.png"
+    },
+    {
+      "carpeta": "lectura06",
+      "titulo": "Una vuelta por el Malecón",
+      "nivel": "A2",
+      "etiqueta": "Un lugar de la ciudad",
+      "miniatura": "portada.webp",
+      "pais": "Cuba",
+      "respaldo": "portada.png"
+    },
+    {
+      "carpeta": "lectura07",
+      "titulo": "¿Qué llevo a tu casa?",
+      "nivel": "B1",
+      "etiqueta": "Visitas e invitaciones",
+      "miniatura": "portada.webp",
+      "pais": "Colombia",
+      "respaldo": "portada.png"
+    },
+    {
+      "carpeta": "lectura08",
+      "titulo": "El sol vuelve a Otavalo",
+      "nivel": "B1",
+      "etiqueta": "La fiesta del Sol",
+      "miniatura": "portada.webp",
+      "pais": "Ecuador",
+      "respaldo": "portada.png"
+    },
+    {
+      "carpeta": "lectura09",
+      "titulo": "El mate se comparte",
+      "nivel": "B1",
+      "etiqueta": "El mate",
+      "miniatura": "portada.webp",
+      "pais": "Uruguay y Argentina",
+      "respaldo": "portada.png"
+    },
+    {
+      "carpeta": "lectura10",
+      "titulo": "La siesta, más leyenda que costumbre",
+      "nivel": "B2",
+      "etiqueta": "Un tópico",
+      "miniatura": "portada.webp",
+      "pais": "España",
+      "respaldo": "portada.png"
+    },
+    {
+      "carpeta": "lectura11",
+      "titulo": "El cóndor y el quetzal",
+      "nivel": "B2",
+      "etiqueta": "Animales y símbolos",
+      "miniatura": "portada.webp",
+      "pais": "Ecuador, Andes y Guatemala",
+      "respaldo": "portada.png"
+    },
+    {
+      "carpeta": "lectura12",
+      "titulo": "Hoy se mueve la casa",
+      "nivel": "B2",
+      "etiqueta": "La minga",
+      "miniatura": "portada.webp",
+      "pais": "Chile",
+      "respaldo": "portada.png"
+    }
   ]
 }

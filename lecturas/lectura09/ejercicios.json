@@ -1,0 +1,516 @@
+{
+  "version": 3,
+  "lectura": "b1-el-mate-se-comparte",
+  "mas_practica_titulo": "Más práctica",
+  "ejercicios": [
+    {
+      "id": "comprension",
+      "tipo": "opcion_multiple",
+      "titulo": "Las reglas del mate",
+      "consigna": "Elige la respuesta. Algunas preguntas piden interpretar.",
+      "items": [
+        {
+          "pregunta": "¿Quién toma el mate primero?",
+          "opciones": [
+            "La visita.",
+            "Nadie: se espera.",
+            "Sofía, que lo prepara."
+          ],
+          "correcta": 2,
+          "explicacion": "«puso yerba, agregó agua no muy caliente y probó ella primero.»"
+        },
+        {
+          "pregunta": "En esta ronda, ¿qué significa decir «gracias»?",
+          "opciones": [
+            "Que te gustó mucho.",
+            "Que ya no quieres más.",
+            "Que quieres otro."
+          ],
+          "correcta": 1,
+          "explicacion": "«aquí, “gracias” significa “ya no quiero más”»"
+        },
+        {
+          "pregunta": "¿Quién sirve el mate?",
+          "opciones": [
+            "Una sola persona, el cebador o la cebadora.",
+            "Cada persona se sirve.",
+            "El invitado."
+          ],
+          "correcta": 0,
+          "explicacion": "«Una sola persona, el cebador o la cebadora, sirve a todos.»"
+        },
+        {
+          "pregunta": "¿Qué quiere decir el narrador con «el tiempo se alarga»?",
+          "opciones": [
+            "Que el agua tarda en calentarse.",
+            "Que nadie tiene prisa: la conversación dura.",
+            "Que el mate es difícil de preparar."
+          ],
+          "correcta": 1,
+          "explicacion": "«Nadie tiene prisa por terminar su taza y irse.»"
+        },
+        {
+          "pregunta": "¿Cuál es el «chiste secreto» de la palabra «gracias»?",
+          "opciones": [
+            "No cierra la visita: solo cierra la ronda.",
+            "Es de mala educación decirla.",
+            "Hay que decirla dos veces."
+          ],
+          "correcta": 0,
+          "explicacion": "«no cierra la visita. Solo cierra la ronda.»"
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ]
+    },
+    {
+      "id": "escuchar",
+      "tipo": "escuchar_elegir",
+      "titulo": "En la ronda",
+      "consigna": "Escucha la frase y elige la respuesta.",
+      "items": [
+        {
+          "decir": "Después me pasó el mate, con la bombilla, un tubito de metal.",
+          "pregunta": "¿Qué es la bombilla?",
+          "opciones": [
+            "Una calabaza.",
+            "Un termo.",
+            "Un tubito de metal."
+          ],
+          "correcta": 2,
+          "explicacion": "La bombilla es el tubito de metal para tomar el mate."
+        },
+        {
+          "decir": "No muevas la bombilla.",
+          "pregunta": "¿Qué no debe hacer?",
+          "opciones": [
+            "Tomar el mate entero.",
+            "Mover la bombilla.",
+            "Devolver el mate."
+          ],
+          "correcta": 1,
+          "explicacion": "Es una de las reglas de Sofía."
+        },
+        {
+          "decir": "El mate estaba un poco amargo, y también rico.",
+          "pregunta": "¿Cómo estaba el mate?",
+          "opciones": [
+            "Muy dulce.",
+            "Frío.",
+            "Un poco amargo, y rico."
+          ],
+          "correcta": 2,
+          "explicacion": "Amargo, pero rico."
+        },
+        {
+          "decir": "En Uruguay es común ver a alguien caminar con un termo bajo el brazo.",
+          "pregunta": "¿Qué lleva la gente bajo el brazo?",
+          "opciones": [
+            "Un libro.",
+            "Un termo.",
+            "Una taza."
+          ],
+          "correcta": 1,
+          "explicacion": "Con el termo, el mate se puede cebar en cualquier banco."
+        },
+        {
+          "decir": "Cuando por fin dije «gracias», Sofía asintió y dejó de servirme.",
+          "pregunta": "¿Qué hizo Sofía?",
+          "opciones": [
+            "Le sirvió otro.",
+            "Se fue.",
+            "Dejó de servirle."
+          ],
+          "correcta": 2,
+          "explicacion": "«Gracias» quiere decir que ya no quiere más."
+        }
+      ],
+      "habilidades": [
+        "Escuchar"
+      ]
+    },
+    {
+      "id": "balcon",
+      "tipo": "arrastrar",
+      "titulo": "En el balcón",
+      "consigna": "Arrastra cada palabra a su lugar en la imagen. También puedes tocar una palabra y después el círculo.",
+      "imagen": "portada.webp",
+      "respaldo": "portada.png",
+      "ancho": 1152,
+      "alto": 768,
+      "alt": "En un balcón de Montevideo, Sofía sostiene un mate con bombilla; junto a ellas, un termo; detrás, la baranda y la ciudad.",
+      "zonas": [
+        {
+          "palabra": "bombilla",
+          "x": 40,
+          "y": 56,
+          "explicacion": "«con la bombilla, un tubito de metal.»"
+        },
+        {
+          "palabra": "calabaza",
+          "x": 43,
+          "y": 70,
+          "explicacion": "«Sofía preparó una calabaza pequeña»"
+        },
+        {
+          "palabra": "termo",
+          "x": 59,
+          "y": 76,
+          "explicacion": "«caminar con un termo bajo el brazo»: con el termo se sirve el agua."
+        },
+        {
+          "palabra": "balcón",
+          "x": 66,
+          "y": 49,
+          "explicacion": "«La primera vez que tomé mate fue en un balcón de Montevideo.»"
+        }
+      ],
+      "distractores": [
+        {
+          "palabra": "taza",
+          "explicacion": "No hay tazas: «No es una taza para cada uno.»"
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ]
+    },
+    {
+      "id": "que-dices",
+      "tipo": "situaciones",
+      "titulo": "¿Qué dices? ¿Qué haces?",
+      "consigna": "Estás en una ronda de mate en Montevideo. Elige la mejor reacción y lee por qué.",
+      "items": [
+        {
+          "icono": "🧉",
+          "situacion": "Sofía te pasa el mate por primera vez.",
+          "opciones": [
+            "Tomo un poco y se lo paso a la persona de al lado.",
+            "Lo tomo entero y se lo devuelvo.",
+            "Muevo la bombilla para mezclar."
+          ],
+          "correcta": 1,
+          "explicacion": "«Bébelo entero y devuélvemelo» El mate vuelve siempre al cebador."
+        },
+        {
+          "icono": "🙏",
+          "situacion": "Te gusta el mate y quieres otro.",
+          "opciones": [
+            "Lo devuelvo sin decir «gracias».",
+            "Digo «gracias» y lo devuelvo."
+          ],
+          "correcta": 0,
+          "explicacion": "Si dices «gracias», el cebador entiende que terminaste: «aquí, “gracias” significa “ya no quiero más”»"
+        },
+        {
+          "icono": "✋",
+          "situacion": "Ya no quieres más mate, pero quieres seguir conversando.",
+          "opciones": [
+            "Digo «gracias» y me voy enseguida.",
+            "Digo «gracias» y me quedo un rato más.",
+            "Sigo tomando aunque no quiera."
+          ],
+          "correcta": 1,
+          "explicacion": "«Me quedé un rato más, sin mate» «Gracias» cierra la ronda, no la visita."
+        },
+        {
+          "icono": "😬",
+          "situacion": "El mate está un poco amargo.",
+          "opciones": [
+            "Lo tomo igual y lo devuelvo.",
+            "Muevo la bombilla para que esté más rico.",
+            "Lo dejo en la mesa."
+          ],
+          "correcta": 0,
+          "explicacion": "«El mate estaba un poco amargo, y también rico.» Y la regla: «No muevas la bombilla.»"
+        }
+      ],
+      "habilidades": [
+        "Cultura"
+      ]
+    },
+    {
+      "id": "escuchar-escena",
+      "tipo": "escuchar_imagen",
+      "titulo": "¿En el balcón o en la calle?",
+      "consigna": "Escucha y toca la imagen correcta.",
+      "opciones": [
+        {
+          "imagen": "portada.webp",
+          "respaldo": "portada.png",
+          "texto": "En el balcón con Sofía",
+          "alt": "Sofía prepara el mate en un balcón de Montevideo; la visitante la mira."
+        },
+        {
+          "imagen": "escena.webp",
+          "respaldo": "escena.png",
+          "texto": "En la calle, con el termo",
+          "alt": "Tres personas caminan por la calle con su termo y su mate."
+        }
+      ],
+      "items": [
+        {
+          "decir": "Sofía preparó una calabaza pequeña, puso yerba.",
+          "correcta": 0,
+          "explicacion": "Sofía prepara el mate en el balcón."
+        },
+        {
+          "decir": "Al día siguiente, en la calle, vi a tres personas con su termo.",
+          "correcta": 1,
+          "explicacion": "Tres personas, en la calle, con el termo."
+        },
+        {
+          "decir": "La primera vez que tomé mate fue en un balcón de Montevideo.",
+          "correcta": 0,
+          "explicacion": "El balcón de Sofía."
+        },
+        {
+          "decir": "Como si la ronda pudiera seguir en movimiento.",
+          "correcta": 1,
+          "explicacion": "Caminan con el mate: la ronda sigue en la calle."
+        }
+      ],
+      "habilidades": [
+        "Escuchar"
+      ]
+    },
+    {
+      "id": "resumen",
+      "tipo": "completar",
+      "titulo": "El resumen con palabras del texto",
+      "consigna": "Completa el resumen. Puedes usar las palabras de la caja.",
+      "banco": [
+        "yerba",
+        "bombilla",
+        "cebador",
+        "ronda",
+        "termo",
+        "gracias"
+      ],
+      "items": [
+        {
+          "antes": "Sofía puso",
+          "respuesta": [
+            "yerba"
+          ],
+          "despues": "en la calabaza y agregó agua no muy caliente.",
+          "explicacion": "«puso yerba, agregó agua no muy caliente»"
+        },
+        {
+          "antes": "El mate se toma con una",
+          "respuesta": [
+            "bombilla"
+          ],
+          "despues": ", un tubito de metal.",
+          "explicacion": "«con la bombilla, un tubito de metal.»"
+        },
+        {
+          "antes": "Una sola persona, el",
+          "respuesta": [
+            "cebador"
+          ],
+          "despues": "o la cebadora, sirve a todos.",
+          "explicacion": "«Una sola persona, el cebador o la cebadora, sirve a todos.»"
+        },
+        {
+          "antes": "El mate va de mano en mano: es la misma",
+          "respuesta": [
+            "ronda"
+          ],
+          "despues": ", una y otra vez.",
+          "explicacion": "«Es la misma ronda, una y otra vez, mientras dura la conversación.»"
+        },
+        {
+          "antes": "En Uruguay, mucha gente camina con un",
+          "respuesta": [
+            "termo"
+          ],
+          "despues": "bajo el brazo.",
+          "explicacion": "«En Uruguay es común ver a alguien caminar con un termo bajo el brazo»"
+        },
+        {
+          "antes": "Si dices «",
+          "respuesta": [
+            "gracias"
+          ],
+          "despues": "», el cebador entiende que ya no quieres más.",
+          "explicacion": "«aquí, “gracias” significa “ya no quiero más”»"
+        }
+      ],
+      "habilidades": [
+        "Escribir"
+      ]
+    },
+    {
+      "id": "dilo-tu",
+      "tipo": "hablar",
+      "titulo": "Dilo tú",
+      "consigna": "Escucha el modelo, toca 🎤 y dilo en voz alta, como en una conversación real. No hace falta decirlo palabra por palabra.",
+      "requiere": "reconocimiento_voz",
+      "idioma": "es-US",
+      "items": [
+        {
+          "contexto": "Te pasan el mate. Preguntas:",
+          "frase": "¿Lo tomo entero?"
+        },
+        {
+          "contexto": "Explicas una regla:",
+          "frase": "No se mueve la bombilla."
+        },
+        {
+          "contexto": "Ya no quieres más. Dices:",
+          "frase": "Gracias, ya no quiero más."
+        },
+        {
+          "contexto": "Explicas la idea del texto:",
+          "frase": "El mate se comparte."
+        }
+      ],
+      "habilidades": [
+        "Hablar"
+      ]
+    },
+    {
+      "id": "y-en-tu-pais",
+      "tipo": "reflexion",
+      "titulo": "¿Y en tu país?",
+      "pregunta": "¿Qué bebida o comida se comparte en tu país? ¿Tiene reglas, aunque nadie las escriba? Compárala con el mate.",
+      "ayuda": [
+        "En mi país se comparte…",
+        "Hay una regla que nadie escribe: …",
+        "A diferencia del mate, …",
+        "Para mí, compartir…"
+      ],
+      "minimo_caracteres": 80,
+      "modelo": "En Estados Unidos no hay una bebida que se comparta así, de mano en mano. Cada persona toma su café, muchas veces caminando y con prisa. Pero en una fiesta, a veces se comparte una pizza grande, y hay reglas que nadie escribe: no tomas la última porción sin preguntar. A diferencia del mate, no hay una persona que sirva a todos. Me gusta la idea de una ronda que alarga la conversación.",
+      "guia": "No hay una respuesta correcta. Piensa en las reglas implícitas: quién sirve, qué se dice, cuándo termina. Si quieres, comparte tu respuesta con tu profesor.",
+      "habilidades": [
+        "Escribir",
+        "Cultura"
+      ]
+    },
+    {
+      "id": "reglas",
+      "tipo": "relacionar",
+      "titulo": "Cada regla, su sentido",
+      "consigna": "Une cada parte de la ronda con su regla.",
+      "pares": [
+        {
+          "izquierda": "La bombilla",
+          "derecha": "No se mueve",
+          "explicacion": "«No muevas la bombilla.»"
+        },
+        {
+          "izquierda": "Decir «gracias»",
+          "derecha": "Significa que ya no quieres más",
+          "explicacion": "«aquí, “gracias” significa “ya no quiero más”»"
+        },
+        {
+          "izquierda": "El cebador o la cebadora",
+          "derecha": "Sirve a todos",
+          "explicacion": "«Una sola persona, el cebador o la cebadora, sirve a todos.»"
+        },
+        {
+          "izquierda": "El mate que te pasan",
+          "derecha": "Se toma entero y se devuelve",
+          "explicacion": "«Bébelo entero y devuélvemelo»"
+        }
+      ],
+      "habilidades": [
+        "Cultura"
+      ],
+      "seccion": "mas_practica"
+    },
+    {
+      "id": "verdadero-falso",
+      "tipo": "verdadero_falso",
+      "titulo": "¿Verdadero o falso?",
+      "consigna": "Decide y mira la frase del texto que lo demuestra. Ojo: a veces hay que interpretar.",
+      "items": [
+        {
+          "afirmacion": "Cada persona tiene su propia taza de mate.",
+          "correcta": false,
+          "justificacion": "«No es una taza para cada uno.»"
+        },
+        {
+          "afirmacion": "El agua del mate está muy caliente.",
+          "correcta": false,
+          "justificacion": "«agregó agua no muy caliente»"
+        },
+        {
+          "afirmacion": "En Argentina y en Uruguay se toma mate también en la oficina o en un parque.",
+          "correcta": true,
+          "justificacion": "«Es una manera de estar juntos, en casa, en la oficina o en un parque.»"
+        },
+        {
+          "afirmacion": "Cuando el narrador dijo «gracias», se fue enseguida.",
+          "correcta": false,
+          "justificacion": "«Me quedé un rato más, sin mate»"
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ],
+      "seccion": "mas_practica"
+    },
+    {
+      "id": "dictado",
+      "tipo": "dictado",
+      "titulo": "Mini dictado",
+      "consigna": "Escucha y escribe lo que oyes.",
+      "items": [
+        {
+          "decir": "bombilla",
+          "antes": "No muevas la",
+          "despues": ".",
+          "respuesta": [
+            "bombilla"
+          ],
+          "explicacion": "La bombilla: el tubito de metal."
+        },
+        {
+          "decir": "yerba",
+          "antes": "Puso",
+          "despues": "y agregó agua.",
+          "respuesta": [
+            "yerba"
+          ],
+          "explicacion": "La yerba mate va dentro de la calabaza."
+        },
+        {
+          "decir": "termo",
+          "antes": "Camina con un",
+          "despues": "bajo el brazo.",
+          "respuesta": [
+            "termo"
+          ],
+          "explicacion": "En el termo va el agua caliente."
+        },
+        {
+          "decir": "amargo",
+          "antes": "Estaba un poco",
+          "despues": ", y también rico.",
+          "respuesta": [
+            "amargo"
+          ],
+          "explicacion": "El mate es un poco amargo."
+        },
+        {
+          "decir": "ronda",
+          "antes": "Solo cierra la",
+          "despues": ".",
+          "respuesta": [
+            "ronda"
+          ],
+          "explicacion": "«Gracias» cierra la ronda, no la visita."
+        }
+      ],
+      "habilidades": [
+        "Escuchar",
+        "Escribir"
+      ],
+      "seccion": "mas_practica"
+    }
+  ]
+}

@@ -1,0 +1,510 @@
+{
+  "version": 3,
+  "lectura": "a2-una-vuelta-por-el-malecon",
+  "mas_practica_titulo": "Más práctica",
+  "ejercicios": [
+    {
+      "id": "comprension",
+      "tipo": "opcion_multiple",
+      "titulo": "¿Cómo es el Malecón?",
+      "consigna": "Elige la respuesta correcta según el texto.",
+      "items": [
+        {
+          "pregunta": "¿Qué es el Malecón?",
+          "opciones": [
+            "Un museo.",
+            "Un muro largo junto al mar.",
+            "Un mercado."
+          ],
+          "correcta": 1,
+          "explicacion": "«Es un muro largo junto al mar, de cerca de ocho kilómetros.»"
+        },
+        {
+          "pregunta": "¿Cuándo empezó la construcción?",
+          "opciones": [
+            "En 1901.",
+            "En 2001.",
+            "En 1991."
+          ],
+          "correcta": 0,
+          "explicacion": "«La construcción empezó en 1901.»"
+        },
+        {
+          "pregunta": "Según el señor, ¿cuándo va la gente al Malecón?",
+          "opciones": [
+            "Cuando quiere comprar.",
+            "Cuando quiere pensar.",
+            "Cuando quiere trabajar."
+          ],
+          "correcta": 1,
+          "explicacion": "«Aquí la gente viene cuando quiere pensar, o cuando no quiere estar en casa»"
+        },
+        {
+          "pregunta": "¿Cómo es el ritmo del Malecón?",
+          "opciones": [
+            "Rápido y silencioso.",
+            "Igual que en su país.",
+            "Lento, abierto y lleno de voces."
+          ],
+          "correcta": 2,
+          "explicacion": "«este tiene un ritmo distinto: lento, abierto y lleno de voces.»"
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ]
+    },
+    {
+      "id": "escuchar",
+      "tipo": "escuchar_elegir",
+      "titulo": "¿Qué ve? ¿Qué oye?",
+      "consigna": "Escucha la frase y elige la respuesta.",
+      "items": [
+        {
+          "decir": "Vi a un hombre con una caña de pescar, a dos amigas en el borde y a un niño que corrió detrás de una ola.",
+          "pregunta": "¿Qué hace el hombre?",
+          "opciones": [
+            "Pesca.",
+            "Corre.",
+            "Toca música."
+          ],
+          "correcta": 0,
+          "explicacion": "El hombre tiene una caña de pescar."
+        },
+        {
+          "decir": "El sol bajó y las fachadas se pusieron de color ocre.",
+          "pregunta": "¿De qué color se pusieron las fachadas?",
+          "opciones": [
+            "Azul.",
+            "Blanco.",
+            "Ocre."
+          ],
+          "correcta": 2,
+          "explicacion": "Al atardecer, las fachadas se ven de color ocre."
+        },
+        {
+          "decir": "Un músico tocó una canción breve, y después volvió el sonido del mar.",
+          "pregunta": "¿Qué se oye después de la canción?",
+          "opciones": [
+            "El sonido del mar.",
+            "Un carro.",
+            "Un silencio total."
+          ],
+          "correcta": 0,
+          "explicacion": "Después de la canción, vuelve el sonido del mar."
+        },
+        {
+          "decir": "Esta noche voy a volver un rato.",
+          "pregunta": "¿Qué va a hacer esta noche?",
+          "opciones": [
+            "Ir a un museo.",
+            "Salir de La Habana.",
+            "Volver al Malecón."
+          ],
+          "correcta": 2,
+          "explicacion": "Le gusta el Malecón: va a volver esta noche."
+        }
+      ],
+      "habilidades": [
+        "Escuchar"
+      ]
+    },
+    {
+      "id": "malecon",
+      "tipo": "arrastrar",
+      "titulo": "Al atardecer, en el Malecón",
+      "consigna": "Arrastra cada palabra a su lugar en la imagen. También puedes tocar una palabra y después el círculo.",
+      "imagen": "escena.webp",
+      "respaldo": "escena.png",
+      "ancho": 1152,
+      "alto": 768,
+      "alt": "Al atardecer, en el Malecón: un músico con guitarra, una mujer mayor que camina, un niño que corre junto al muro, las olas y las fachadas.",
+      "zonas": [
+        {
+          "palabra": "músico",
+          "x": 10,
+          "y": 51,
+          "explicacion": "«Un músico tocó una canción breve»"
+        },
+        {
+          "palabra": "ola",
+          "x": 73,
+          "y": 48,
+          "explicacion": "«un niño que corrió detrás de una ola.»"
+        },
+        {
+          "palabra": "muro",
+          "x": 61,
+          "y": 78,
+          "explicacion": "«El agua golpeó el muro»"
+        },
+        {
+          "palabra": "fachadas",
+          "x": 8,
+          "y": 10,
+          "explicacion": "«las fachadas se pusieron de color ocre.»"
+        }
+      ],
+      "distractores": [
+        {
+          "palabra": "caña de pescar",
+          "explicacion": "El hombre de la caña de pescar está en la otra imagen, en la portada. Aquí no hay ninguna caña."
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ]
+    },
+    {
+      "id": "que-dices",
+      "tipo": "situaciones",
+      "titulo": "¿Qué dices? ¿Qué haces?",
+      "consigna": "Estás en el Malecón por la tarde. Elige la mejor reacción.",
+      "items": [
+        {
+          "icono": "🌊",
+          "situacion": "Una ola golpea el muro y el agua te moja un poco la cara.",
+          "opciones": [
+            "Me voy enojado a casa.",
+            "Llamo a la policía.",
+            "Me río y sigo caminando."
+          ],
+          "correcta": 2,
+          "explicacion": "Es parte del paseo: «El agua golpeó el muro y un poco de sal llegó a la cara.»"
+        },
+        {
+          "icono": "🧓",
+          "situacion": "Un señor a tu lado dice: «Aquí la gente viene cuando quiere pensar».",
+          "opciones": [
+            "Me siento también y miro el mar.",
+            "Le digo: «No me interesa».",
+            "Me voy a un museo."
+          ],
+          "correcta": 0,
+          "explicacion": "Es lo que hace el narrador: «Me senté también, con los pies hacia el mar.»"
+        },
+        {
+          "icono": "🎸",
+          "situacion": "Un músico toca una canción breve.",
+          "opciones": [
+            "Hablo por teléfono muy fuerte.",
+            "Le pido otra canción, otra y otra.",
+            "Escucho y, al final, aplaudo."
+          ],
+          "correcta": 2,
+          "explicacion": "El Malecón está «lleno de voces», pero también se escucha: «después volvió el sonido del mar.»"
+        },
+        {
+          "icono": "🗺️",
+          "situacion": "Un amigo pregunta: «¿Qué hago en La Habana si no quiero ir a un museo?»",
+          "opciones": [
+            "«Quédate en el hotel.»",
+            "«Ve al Malecón: un muro, una conversación y el agua.»"
+          ],
+          "correcta": 1,
+          "explicacion": "«No necesito un museo para entender La Habana. A veces basta un muro, una conversación y el agua.»"
+        }
+      ],
+      "habilidades": [
+        "Cultura"
+      ]
+    },
+    {
+      "id": "escuchar-escena",
+      "tipo": "escuchar_imagen",
+      "titulo": "¿Qué imagen es?",
+      "consigna": "Escucha y toca la imagen correcta.",
+      "opciones": [
+        {
+          "imagen": "portada.webp",
+          "respaldo": "portada.png",
+          "texto": "Una conversación en el muro",
+          "alt": "Un hombre mayor con una caña de pescar, un muchacho y una mujer conversan sentados en el muro."
+        },
+        {
+          "imagen": "escena.webp",
+          "respaldo": "escena.png",
+          "texto": "Un paseo al atardecer",
+          "alt": "Al atardecer, una mujer camina por el Malecón; un músico toca y un niño corre."
+        }
+      ],
+      "items": [
+        {
+          "decir": "Vi a un hombre con una caña de pescar.",
+          "correcta": 0,
+          "explicacion": "El hombre con la caña de pescar está sentado en el muro."
+        },
+        {
+          "decir": "Un músico tocó una canción breve.",
+          "correcta": 1,
+          "explicacion": "El músico toca la guitarra en el paseo."
+        },
+        {
+          "decir": "Me senté también, con los pies hacia el mar.",
+          "correcta": 0,
+          "explicacion": "Las personas están sentadas en el muro, junto al mar."
+        },
+        {
+          "decir": "El sol bajó y las fachadas se pusieron de color ocre.",
+          "correcta": 1,
+          "explicacion": "Es el atardecer: el cielo y las fachadas son de color ocre."
+        }
+      ],
+      "habilidades": [
+        "Escuchar"
+      ]
+    },
+    {
+      "id": "resumen",
+      "tipo": "completar",
+      "titulo": "El resumen con palabras del texto",
+      "consigna": "Escribe la palabra que falta. Puedes usar las palabras de la caja.",
+      "banco": [
+        "muro",
+        "kilómetros",
+        "caña",
+        "pensar",
+        "ritmo",
+        "conversación"
+      ],
+      "items": [
+        {
+          "antes": "El Malecón es un",
+          "respuesta": [
+            "muro"
+          ],
+          "despues": "largo junto al mar.",
+          "explicacion": "«Es un muro largo junto al mar»"
+        },
+        {
+          "antes": "Mide cerca de ocho",
+          "respuesta": [
+            "kilómetros"
+          ],
+          "despues": ".",
+          "explicacion": "«de cerca de ocho kilómetros.»"
+        },
+        {
+          "antes": "Un hombre pesca con una",
+          "respuesta": [
+            "caña"
+          ],
+          "despues": "de pescar.",
+          "explicacion": "«Vi a un hombre con una caña de pescar»"
+        },
+        {
+          "antes": "Según el señor, la gente viene cuando quiere",
+          "respuesta": [
+            "pensar"
+          ],
+          "despues": ".",
+          "explicacion": "«Aquí la gente viene cuando quiere pensar»"
+        },
+        {
+          "antes": "El paseo tiene un",
+          "respuesta": [
+            "ritmo"
+          ],
+          "despues": "distinto: lento y abierto.",
+          "explicacion": "«este tiene un ritmo distinto: lento, abierto y lleno de voces.»"
+        },
+        {
+          "antes": "Para entender La Habana, a veces basta un muro, una",
+          "respuesta": [
+            "conversación"
+          ],
+          "despues": "y el agua.",
+          "explicacion": "«A veces basta un muro, una conversación y el agua.»"
+        }
+      ],
+      "habilidades": [
+        "Escribir"
+      ]
+    },
+    {
+      "id": "y-en-tu-pais",
+      "tipo": "reflexion",
+      "titulo": "¿Y en tu país?",
+      "pregunta": "¿Hay en tu ciudad un lugar para pensar o para hablar, como el Malecón? ¿Cómo es? ¿Qué hace la gente allí?",
+      "ayuda": [
+        "En mi ciudad hay…",
+        "Es un lugar…",
+        "La gente va para…",
+        "Yo voy cuando…"
+      ],
+      "minimo_caracteres": 30,
+      "modelo": "En mi ciudad hay un parque junto a un río. Es un lugar tranquilo y verde. La gente camina, corre o habla con amigos. Yo voy los domingos, cuando quiero pensar. No es el mar, pero también tiene un ritmo lento.",
+      "guia": "No hay una respuesta correcta. Describe el lugar: qué se ve, qué se oye y qué hace la gente. Si quieres, comparte tu respuesta con tu profesor.",
+      "habilidades": [
+        "Escribir",
+        "Cultura"
+      ]
+    },
+    {
+      "id": "ver-oir",
+      "tipo": "clasificar",
+      "titulo": "¿Se ve o se oye?",
+      "consigna": "Busca en el texto: ¿el narrador lo ve o lo oye?",
+      "categorias": [
+        "Se ve",
+        "Se oye"
+      ],
+      "items": [
+        {
+          "texto": "Un hombre con una caña de pescar",
+          "categoria": "Se ve",
+          "explicacion": "«Vi a un hombre con una caña de pescar»"
+        },
+        {
+          "texto": "Las fachadas de color ocre",
+          "categoria": "Se ve",
+          "explicacion": "«las fachadas se pusieron de color ocre.»"
+        },
+        {
+          "texto": "Una canción breve",
+          "categoria": "Se oye",
+          "explicacion": "«Un músico tocó una canción breve»"
+        },
+        {
+          "texto": "El sonido del mar",
+          "categoria": "Se oye",
+          "explicacion": "«y después volvió el sonido del mar.»"
+        },
+        {
+          "texto": "Dos amigas en el borde",
+          "categoria": "Se ve",
+          "explicacion": "«a dos amigas en el borde»"
+        },
+        {
+          "texto": "Las voces de la gente",
+          "categoria": "Se oye",
+          "explicacion": "El paseo es «lento, abierto y lleno de voces.»"
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ],
+      "seccion": "mas_practica"
+    },
+    {
+      "id": "dictado",
+      "tipo": "dictado",
+      "titulo": "Mini dictado",
+      "consigna": "Escucha y escribe lo que oyes.",
+      "items": [
+        {
+          "decir": "muro",
+          "antes": "Es un",
+          "despues": "largo junto al mar.",
+          "respuesta": [
+            "muro"
+          ],
+          "explicacion": "El Malecón es un muro junto al mar."
+        },
+        {
+          "decir": "horizonte",
+          "antes": "Es un lugar para mirar el",
+          "despues": ".",
+          "respuesta": [
+            "horizonte"
+          ],
+          "explicacion": "Desde el Malecón se mira el horizonte."
+        },
+        {
+          "decir": "ola",
+          "antes": "Un niño corrió detrás de una",
+          "despues": ".",
+          "respuesta": [
+            "ola"
+          ],
+          "explicacion": "El niño juega con el agua."
+        },
+        {
+          "decir": "músico",
+          "antes": "Un",
+          "despues": "tocó una canción breve.",
+          "respuesta": [
+            "músico"
+          ],
+          "explicacion": "El músico toca en el paseo."
+        },
+        {
+          "decir": "fachadas",
+          "antes": "Las",
+          "despues": "se pusieron de color ocre.",
+          "respuesta": [
+            "fachadas"
+          ],
+          "explicacion": "Las fachadas de los edificios, al atardecer."
+        }
+      ],
+      "habilidades": [
+        "Escuchar",
+        "Escribir"
+      ],
+      "seccion": "mas_practica"
+    },
+    {
+      "id": "dilo-tu",
+      "tipo": "hablar",
+      "titulo": "Dilo tú",
+      "consigna": "Escucha el modelo, toca 🎤 y dilo en voz alta.",
+      "requiere": "reconocimiento_voz",
+      "idioma": "es-US",
+      "items": [
+        {
+          "contexto": "Describes el Malecón:",
+          "frase": "Es un muro largo junto al mar."
+        },
+        {
+          "contexto": "Cuentas tu paseo:",
+          "frase": "Caminé despacio."
+        },
+        {
+          "contexto": "Hablas del ritmo:",
+          "frase": "Es lento, abierto y lleno de voces."
+        },
+        {
+          "contexto": "Dices tu plan:",
+          "frase": "Esta noche voy a volver."
+        }
+      ],
+      "habilidades": [
+        "Hablar"
+      ],
+      "seccion": "mas_practica"
+    },
+    {
+      "id": "verdadero-falso",
+      "tipo": "verdadero_falso",
+      "titulo": "¿Verdadero o falso?",
+      "consigna": "Decide y mira la frase del texto que lo demuestra.",
+      "items": [
+        {
+          "afirmacion": "El Malecón mide cerca de ocho kilómetros.",
+          "correcta": true,
+          "justificacion": "«Es un muro largo junto al mar, de cerca de ocho kilómetros.»"
+        },
+        {
+          "afirmacion": "El narrador habló mucho con el señor.",
+          "correcta": false,
+          "justificacion": "«Yo no dije nada.»"
+        },
+        {
+          "afirmacion": "En el país del narrador no hay paseos junto al agua.",
+          "correcta": false,
+          "justificacion": "«En mi país hay paseos junto al agua, pero este tiene un ritmo distinto»"
+        },
+        {
+          "afirmacion": "Para el narrador, hace falta un museo para entender La Habana.",
+          "correcta": false,
+          "justificacion": "«No necesito un museo para entender La Habana.»"
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ],
+      "seccion": "mas_practica"
+    }
+  ]
+}

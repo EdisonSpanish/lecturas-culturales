@@ -1,0 +1,150 @@
+{
+  "id": "a2-flores-y-pan-para-los-abuelos",
+  "titulo": "Flores y pan para los abuelos",
+  "nivel": "A2",
+  "etiqueta": "El Día de Muertos",
+  "entradilla": "El 2 de noviembre, la mesa de Valeria no es de miedo: es una visita.",
+  "variedad": "es-419",
+  "uso": "lectura_web_autonoma",
+  "pcic": {
+    "secciones": [
+      "Referentes culturales 1.4.1 (fase de aproximación): fiestas y rituales del mundo hispano; el Día de Muertos en México",
+      "Saberes y comportamientos socioculturales 3.4–3.5 (esquema aplicado a México): memoria de los muertos; la ofrenda"
+    ],
+    "habilidades_interculturales": [
+      "12. 1.1.2 Percepción de diferencias culturales",
+      "12. 2.1.2 Comparación",
+      "12. 2.2.1 Interpretación de comportamientos culturales"
+    ],
+    "generos_discursivos": "Macrofunción narrativa (inventario A1–A2, 3.4): anécdota personal; comparación cultural breve"
+  },
+  "texto_parrafos": [
+    "El 2 de noviembre fui a casa de mi amiga Valeria, en México. En la sala vi una mesa especial: flores naranjas, velas, un vaso de agua, pan dulce y una foto de sus abuelos. Valeria dijo: «Es la ofrenda. Hoy es el Día de Muertos».",
+    "En Estados Unidos hay Halloween, pero esta fiesta es distinta. No es una noche de miedo. Es una visita. En México, el 1 de noviembre las familias recuerdan a los niños, y el 2, a los adultos. Ponen la comida favorita de la persona, flores de cempasúchil y pan de muerto. El color y el aroma, dicen, ayudan a encontrar el camino a casa.",
+    "Por la tarde fuimos al cementerio. Vimos a muchas familias. Conversaron, pusieron flores y compartieron pan. Valeria habló con sus abuelos en voz baja y después sonrió. «No vienen a asustarnos —dijo—. Vienen a la mesa, como antes.» A mí me gustó esa idea. El mes que viene no voy a estar en México, pero voy a mirar una foto de mi familia y voy a recordar: a veces, querer a una persona es dejarle un lugar en la mesa."
+  ],
+  "traduccion_parrafos": [
+    "On November 2 I went to my friend Valeria’s house, in Mexico. In the living room I saw a special table: orange flowers, candles, a glass of water, sweet bread and a photo of her grandparents. Valeria said: “It is the ofrenda, the offering. Today is the Day of the Dead.”",
+    "In the United States there is Halloween, but this festival is different. It is not a night of fear. It is a visit. In Mexico, on November 1 families remember the children, and on November 2, the adults. They put out the person’s favorite food, cempasúchil marigold flowers and pan de muerto, a sweet bread. The color and the aroma, they say, help the way home be found.",
+    "In the afternoon we went to the cemetery. We saw many families. They talked, placed flowers and shared bread. Valeria spoke to her grandparents in a low voice and then smiled. “They do not come to scare us,” she said. “They come to the table, like before.” I liked that idea. Next month I will not be in Mexico, but I am going to look at a photo of my family and remember: sometimes, loving a person means leaving them a place at the table."
+  ],
+  "glosario": [
+    {
+      "palabra": "ofrenda",
+      "traduccion_en": "offering; home altar for the Day of the Dead"
+    },
+    {
+      "palabra": "Día de Muertos",
+      "traduccion_en": "Day of the Dead (Mexico)"
+    },
+    {
+      "palabra": "velas",
+      "traduccion_en": "candles"
+    },
+    {
+      "palabra": "abuelos",
+      "traduccion_en": "grandparents"
+    },
+    {
+      "palabra": "Halloween",
+      "traduccion_en": "Halloween"
+    },
+    {
+      "palabra": "cementerio",
+      "traduccion_en": "cemetery"
+    },
+    {
+      "palabra": "cempasúchil",
+      "traduccion_en": "Mexican marigold (flower used on the ofrenda)"
+    },
+    {
+      "palabra": "pan de muerto",
+      "traduccion_en": "sweet bread baked for the Day of the Dead"
+    },
+    {
+      "palabra": "aroma",
+      "traduccion_en": "aroma; scent"
+    },
+    {
+      "palabra": "compartir",
+      "traduccion_en": "to share",
+      "formas": [
+        "compartieron"
+      ]
+    },
+    {
+      "palabra": "recordar",
+      "traduccion_en": "to remember",
+      "formas": [
+        "recuerdan",
+        "recordar"
+      ]
+    },
+    {
+      "palabra": "asustar",
+      "traduccion_en": "to frighten",
+      "formas": [
+        "asustarnos"
+      ]
+    }
+  ],
+  "imagenes": [
+    {
+      "archivo": "portada.png",
+      "tipo": "portada",
+      "alt": "Valeria, de pelo suelto y blusa bordada, contempla una ofrenda con flores de cempasúchil, velas, un vaso de agua, pan de muerto y una fotografía.",
+      "webp": "portada.webp",
+      "ancho": 1152,
+      "alto": 768
+    },
+    {
+      "archivo": "escena.png",
+      "tipo": "escena",
+      "alt": "En un cementerio, Valeria, de pelo suelto, y un hombre mayor colocan flores de cempasúchil y pan de muerto junto a una tumba, en un ambiente sereno.",
+      "webp": "escena.webp",
+      "ancho": 1152,
+      "alto": 768,
+      "pie": "Por la tarde, en el cementerio, las familias conversan, ponen flores y comparten pan.",
+      "despues_parrafo": 3
+    }
+  ],
+  "grafico": null,
+  "audio": {
+    "estado": "voz_del_navegador",
+    "nota": "El sitio lee el texto con la voz del dispositivo de cada alumno (decisión de Edison, 19-11-2026). Se prefiere una voz de español de América, no de España.",
+    "guion": {
+      "velocidad": "Unas 110 palabras por minuto, clara y natural, sin teatralidad. Voz de español de América, no de España.",
+      "pausas": "Pausa corta al final de cada oración; pausa más larga (unos dos segundos) entre párrafos. Tres segundos de silencio al empezar y al cerrar.",
+      "duracion_aproximada": "unos 2 minutos",
+      "texto": [
+        {
+          "tipo": "titulo",
+          "dice": "Flores y pan para los abuelos.",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 1,
+          "dice": "El 2 de noviembre fui a casa de mi amiga Valeria, en México. En la sala vi una mesa especial: flores naranjas, velas, un vaso de agua, pan dulce y una foto de sus abuelos. Valeria dijo: «Es la ofrenda. Hoy es el Día de Muertos».",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 2,
+          "dice": "En Estados Unidos hay Halloween, pero esta fiesta es distinta. No es una noche de miedo. Es una visita. En México, el 1 de noviembre las familias recuerdan a los niños, y el 2, a los adultos. Ponen la comida favorita de la persona, flores de cempasúchil y pan de muerto. El color y el aroma, dicen, ayudan a encontrar el camino a casa.",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 3,
+          "dice": "Por la tarde fuimos al cementerio. Vimos a muchas familias. Conversaron, pusieron flores y compartieron pan. Valeria habló con sus abuelos en voz baja y después sonrió. «No vienen a asustarnos —dijo—. Vienen a la mesa, como antes.» A mí me gustó esa idea. El mes que viene no voy a estar en México, pero voy a mirar una foto de mi familia y voy a recordar: a veces, querer a una persona es dejarle un lugar en la mesa.",
+          "pausa_despues": "cierre"
+        }
+      ]
+    }
+  },
+  "sugerencia_ejercicios": "Escuchar el audio; unir ofrenda, cempasúchil y pan de muerto con su función; una pregunta: ¿Cómo recuerdan a sus muertos en tu familia?",
+  "estilo_visual": "Papel y ocre (ver estilo_visual.md). Encuadre de las ilustraciones: 3:2.",
+  "contenido": "original",
+  "ejercicios_archivo": "ejercicios.json"
+}

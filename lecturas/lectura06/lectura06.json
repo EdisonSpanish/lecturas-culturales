@@ -1,0 +1,141 @@
+{
+  "id": "a2-una-vuelta-por-el-malecon",
+  "titulo": "Una vuelta por el Malecón",
+  "nivel": "A2",
+  "etiqueta": "Un lugar de la ciudad",
+  "entradilla": "Ocho kilómetros de muro, sal en la cara y una conversación junto al mar.",
+  "variedad": "es-419",
+  "uso": "lectura_web_autonoma",
+  "pcic": {
+    "secciones": [
+      "Referentes culturales 1.4.2 (fase de aproximación): lugares emblemáticos de la ciudad; el Malecón de La Habana"
+    ],
+    "habilidades_interculturales": [
+      "12. 1.1.2 Percepción de diferencias culturales",
+      "12. 2.1.2 Comparación"
+    ],
+    "generos_discursivos": "Macrofunción narrativa (inventario A1–A2, 3.4): anécdota de viaje; descripción de un lugar cotidiano"
+  },
+  "texto_parrafos": [
+    "Por la tarde salí a caminar por el Malecón de La Habana. Es un muro largo junto al mar, de cerca de ocho kilómetros. La construcción empezó en 1901. Hoy es un lugar para hablar, sentarse y mirar el horizonte.",
+    "Caminé despacio. El agua golpeó el muro y un poco de sal llegó a la cara. Vi a un hombre con una caña de pescar, a dos amigas en el borde y a un niño que corrió detrás de una ola. El sol bajó y las fachadas se pusieron de color ocre.",
+    "Un señor a mi lado dijo: «Aquí la gente viene cuando quiere pensar, o cuando no quiere estar en casa». Yo no dije nada. Me senté también, con los pies hacia el mar. En mi país hay paseos junto al agua, pero este tiene un ritmo distinto: lento, abierto y lleno de voces. Un músico tocó una canción breve, y después volvió el sonido del mar. Esta noche voy a volver un rato. No necesito un museo para entender La Habana. A veces basta un muro, una conversación y el agua."
+  ],
+  "traduccion_parrafos": [
+    "In the afternoon I went out to walk along the Malecón in Havana. It is a long wall by the sea, about eight kilometers long. Construction began in 1901. Today it is a place to talk, sit and look at the horizon.",
+    "I walked slowly. The water hit the wall and a little salt reached my face. I saw a man with a fishing rod, two friends on the edge and a boy who ran after a wave. The sun went down and the facades turned ochre.",
+    "A man beside me said: “People come here when they want to think, or when they do not want to be at home.” I said nothing. I sat down too, with my feet toward the sea. In my country there are walks by the water, but this one has a different rhythm: slow, open and full of voices. A musician played a short song, and then the sound of the sea returned. Tonight I am going to come back for a while. I do not need a museum to understand Havana. Sometimes a wall, a conversation and the water are enough."
+  ],
+  "glosario": [
+    {
+      "palabra": "Malecón",
+      "traduccion_en": "seawall promenade (in Havana)"
+    },
+    {
+      "palabra": "muro",
+      "traduccion_en": "wall"
+    },
+    {
+      "palabra": "kilómetros",
+      "traduccion_en": "kilometers"
+    },
+    {
+      "palabra": "horizonte",
+      "traduccion_en": "horizon"
+    },
+    {
+      "palabra": "caña de pescar",
+      "traduccion_en": "fishing rod"
+    },
+    {
+      "palabra": "fachadas",
+      "traduccion_en": "building façades"
+    },
+    {
+      "palabra": "ocre",
+      "traduccion_en": "ochre (color)"
+    },
+    {
+      "palabra": "ritmo",
+      "traduccion_en": "rhythm; pace"
+    },
+    {
+      "palabra": "músico",
+      "traduccion_en": "musician"
+    },
+    {
+      "palabra": "ola",
+      "traduccion_en": "wave"
+    },
+    {
+      "palabra": "sal",
+      "traduccion_en": "salt"
+    },
+    {
+      "palabra": "paseo",
+      "traduccion_en": "promenade; walk",
+      "formas": [
+        "paseos"
+      ]
+    }
+  ],
+  "imagenes": [
+    {
+      "archivo": "portada.png",
+      "tipo": "portada",
+      "alt": "Un hombre mayor pesca en el Malecón de La Habana, junto a un muchacho y una mujer de pelo muy corto; al fondo, el mar y fachadas ocre.",
+      "webp": "portada.webp",
+      "ancho": 1152,
+      "alto": 768
+    },
+    {
+      "archivo": "escena.png",
+      "tipo": "escena",
+      "alt": "Una mujer mayor recorre el Malecón al atardecer; cerca, un músico toca la guitarra y un niño corre junto al agua.",
+      "webp": "escena.webp",
+      "ancho": 1152,
+      "alto": 768,
+      "pie": "Al atardecer, el Malecón se llena de voces, de un poco de sal y del sonido del mar.",
+      "despues_parrafo": 3
+    }
+  ],
+  "grafico": null,
+  "audio": {
+    "estado": "voz_del_navegador",
+    "nota": "El sitio lee el texto con la voz del dispositivo de cada alumno (decisión de Edison, 19-11-2026). Se prefiere una voz de español de América, no de España.",
+    "guion": {
+      "velocidad": "Unas 110 palabras por minuto, clara y natural, sin teatralidad. Voz de español de América, no de España.",
+      "pausas": "Pausa corta al final de cada oración; pausa más larga (unos dos segundos) entre párrafos. Tres segundos de silencio al empezar y al cerrar.",
+      "duracion_aproximada": "unos 2 minutos",
+      "texto": [
+        {
+          "tipo": "titulo",
+          "dice": "Una vuelta por el Malecón.",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 1,
+          "dice": "Por la tarde salí a caminar por el Malecón de La Habana. Es un muro largo junto al mar, de cerca de ocho kilómetros. La construcción empezó en 1901. Hoy es un lugar para hablar, sentarse y mirar el horizonte.",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 2,
+          "dice": "Caminé despacio. El agua golpeó el muro y un poco de sal llegó a la cara. Vi a un hombre con una caña de pescar, a dos amigas en el borde y a un niño que corrió detrás de una ola. El sol bajó y las fachadas se pusieron de color ocre.",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 3,
+          "dice": "Un señor a mi lado dijo: «Aquí la gente viene cuando quiere pensar, o cuando no quiere estar en casa». Yo no dije nada. Me senté también, con los pies hacia el mar. En mi país hay paseos junto al agua, pero este tiene un ritmo distinto: lento, abierto y lleno de voces. Un músico tocó una canción breve, y después volvió el sonido del mar. Esta noche voy a volver un rato. No necesito un museo para entender La Habana. A veces basta un muro, una conversación y el agua.",
+          "pausa_despues": "cierre"
+        }
+      ]
+    }
+  },
+  "sugerencia_ejercicios": "Escuchar el audio; localizar en el texto qué se ve y qué se oye en el Malecón; una pregunta: ¿Cuál es el lugar de tu ciudad para pensar o hablar?",
+  "estilo_visual": "Papel y ocre (ver estilo_visual.md). Encuadre de las ilustraciones: 3:2.",
+  "contenido": "original",
+  "ejercicios_archivo": "ejercicios.json"
+}

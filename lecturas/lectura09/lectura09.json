@@ -1,0 +1,158 @@
+{
+  "id": "b1-el-mate-se-comparte",
+  "titulo": "El mate se comparte",
+  "nivel": "B1",
+  "etiqueta": "El mate",
+  "entradilla": "En un balcón de Montevideo, «gracias» no cierra la visita: solo cierra la ronda.",
+  "variedad": "es-419",
+  "uso": "lectura_web_autonoma",
+  "pcic": {
+    "secciones": [
+      "Saberes y comportamientos socioculturales 1.4 (fase de profundización, esquema aplicado al Río de la Plata): hábitos de convivialidad; el mate como ronda compartida",
+      "Referentes culturales 1.5 / identidad (concepto accesible): el mate como signo cotidiano en Uruguay y Argentina"
+    ],
+    "habilidades_interculturales": [
+      "12. 1.1.2 Percepción de diferencias culturales",
+      "12. 2.2.1 Interpretación de comportamientos culturales",
+      "12. 2.2.2 Adaptación de la conducta a contextos distintos"
+    ],
+    "generos_discursivos": "Macrofunción narrativa (inventario B1, 3.4): anécdota personal con explicación de un rito cotidiano"
+  },
+  "texto_parrafos": [
+    "La primera vez que tomé mate fue en un balcón de Montevideo. Sofía preparó una calabaza pequeña, puso yerba, agregó agua no muy caliente y probó ella primero. Después me pasó el mate, con la bombilla, un tubito de metal.",
+    "—Bébelo entero y devuélvemelo —dijo—. No muevas la bombilla. Y no digas «gracias» todavía. Me reí, porque en mi país «gracias» es lo primero que sale de la boca. El mate estaba un poco amargo, y también rico. Sofía explicó la regla: aquí, «gracias» significa «ya no quiero más». Mientras tanto, el mate va de mano en mano. Una sola persona, el cebador o la cebadora, sirve a todos. No es una taza para cada uno. Es la misma ronda, una y otra vez, mientras dura la conversación.",
+    "En Argentina y en Uruguay el mate no es solo una bebida. Es una manera de estar juntos, en casa, en la oficina o en un parque. En Uruguay es común ver a alguien caminar con un termo bajo el brazo, listo para cebar un mate en cualquier banco. Yo antes pensaba que cada persona toma su café y ya. Aquí el tiempo se alarga, el agua se comparte, y el silencio también es parte del rito. Nadie tiene prisa por terminar su taza y irse.",
+    "Esa tarde hablamos de trabajo, de familias y de nada importante. Al día siguiente, en la calle, vi a tres personas con su termo, como si la ronda pudiera seguir en movimiento. Cuando por fin dije «gracias», Sofía asintió y dejó de servirme. Me quedé un rato más, sin mate, y entendí el chiste secreto de esa palabra: no cierra la visita. Solo cierra la ronda."
+  ],
+  "traduccion_parrafos": [
+    "The first time I drank mate was on a balcony in Montevideo. Sofía prepared a small gourd, put in yerba mate, added water that was not too hot and tried it herself first. Then she passed me the mate, with the bombilla, a little metal straw.",
+    "“Drink it all and give it back to me,” she said. “Don’t move the bombilla. And don’t say ‘thank you’ yet.” I laughed, because in my country “thank you” is the first thing that comes out of your mouth. The mate was a little bitter, and also good. Sofía explained the rule: here, “gracias” means “I don’t want any more.” Meanwhile, the mate goes from hand to hand. A single person, the cebador or cebadora, serves everyone. It is not a cup for each person. It is the same round, again and again, for as long as the conversation lasts.",
+    "In Argentina and Uruguay, mate is not just a drink. It is a way of being together, at home, at the office or in a park. In Uruguay it is common to see someone walking with a thermos under their arm, ready to pour mate on any bench. I used to think that each person has their coffee and that is it. Here time stretches out, the water is shared, and silence is also part of the ritual. No one is in a hurry to finish a cup and leave.",
+    "That afternoon we talked about work, about families and about nothing important. The next day, in the street, I saw three people with their thermoses, as if the round could keep going on the move. When I finally said “gracias,” Sofía nodded and stopped serving me. I stayed a while longer, without mate, and understood the secret joke of that word: it does not end the visit. It only ends the round."
+  ],
+  "glosario": [
+    {
+      "palabra": "mate",
+      "traduccion_en": "mate (shared infusion drunk from a gourd)"
+    },
+    {
+      "palabra": "calabaza",
+      "traduccion_en": "gourd (the mate cup)"
+    },
+    {
+      "palabra": "yerba",
+      "traduccion_en": "yerba mate (the dried herb)"
+    },
+    {
+      "palabra": "bombilla",
+      "traduccion_en": "metal straw used to drink mate"
+    },
+    {
+      "palabra": "cebador / cebadora",
+      "traduccion_en": "the person who prepares and pours the mate for the group",
+      "formas": [
+        "cebador",
+        "cebadora"
+      ]
+    },
+    {
+      "palabra": "cebar",
+      "traduccion_en": "to pour water into the mate",
+      "formas": [
+        "cebar"
+      ]
+    },
+    {
+      "palabra": "termo",
+      "traduccion_en": "thermos"
+    },
+    {
+      "palabra": "ronda",
+      "traduccion_en": "round (the shared passing of the mate)"
+    },
+    {
+      "palabra": "amargo",
+      "traduccion_en": "bitter"
+    },
+    {
+      "palabra": "gracias",
+      "traduccion_en": "thank you (in a mate round: “I do not want any more”)"
+    },
+    {
+      "palabra": "devolver",
+      "traduccion_en": "to give back; to return",
+      "formas": [
+        "devuélvemelo"
+      ]
+    },
+    {
+      "palabra": "rito",
+      "traduccion_en": "ritual"
+    }
+  ],
+  "imagenes": [
+    {
+      "archivo": "portada.png",
+      "tipo": "portada",
+      "alt": "En un balcón de Montevideo, Sofía, de pelo corto, prepara un mate; frente a ella, una visitante joven con lentes observa; hay un termo sin etiquetas.",
+      "webp": "portada.webp",
+      "ancho": 1152,
+      "alto": 768
+    },
+    {
+      "archivo": "escena.png",
+      "tipo": "escena",
+      "alt": "Tres personas distintas caminan por una acera con su termo y su mate: un hombre mayor, una joven con gorra y una mujer de pelo corto canoso.",
+      "webp": "escena.webp",
+      "ancho": 1152,
+      "alto": 768,
+      "pie": "En Uruguay es común ver a alguien caminar con un termo bajo el brazo, listo para cebar un mate.",
+      "despues_parrafo": 4
+    }
+  ],
+  "grafico": null,
+  "audio": {
+    "estado": "voz_del_navegador",
+    "nota": "El sitio lee el texto con la voz del dispositivo de cada alumno (decisión de Edison, 19-11-2026). Se prefiere una voz de español de América, no de España.",
+    "guion": {
+      "velocidad": "Unas 110 palabras por minuto, clara y natural, sin teatralidad. Voz de español de América, no de España.",
+      "pausas": "Pausa corta al final de cada oración; pausa más larga (unos dos segundos) entre párrafos. Tres segundos de silencio al empezar y al cerrar.",
+      "duracion_aproximada": "unos 3 minutos",
+      "texto": [
+        {
+          "tipo": "titulo",
+          "dice": "El mate se comparte.",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 1,
+          "dice": "La primera vez que tomé mate fue en un balcón de Montevideo. Sofía preparó una calabaza pequeña, puso yerba, agregó agua no muy caliente y probó ella primero. Después me pasó el mate, con la bombilla, un tubito de metal.",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 2,
+          "dice": "—Bébelo entero y devuélvemelo —dijo—. No muevas la bombilla. Y no digas «gracias» todavía. Me reí, porque en mi país «gracias» es lo primero que sale de la boca. El mate estaba un poco amargo, y también rico. Sofía explicó la regla: aquí, «gracias» significa «ya no quiero más». Mientras tanto, el mate va de mano en mano. Una sola persona, el cebador o la cebadora, sirve a todos. No es una taza para cada uno. Es la misma ronda, una y otra vez, mientras dura la conversación.",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 3,
+          "dice": "En Argentina y en Uruguay el mate no es solo una bebida. Es una manera de estar juntos, en casa, en la oficina o en un parque. En Uruguay es común ver a alguien caminar con un termo bajo el brazo, listo para cebar un mate en cualquier banco. Yo antes pensaba que cada persona toma su café y ya. Aquí el tiempo se alarga, el agua se comparte, y el silencio también es parte del rito. Nadie tiene prisa por terminar su taza y irse.",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 4,
+          "dice": "Esa tarde hablamos de trabajo, de familias y de nada importante. Al día siguiente, en la calle, vi a tres personas con su termo, como si la ronda pudiera seguir en movimiento. Cuando por fin dije «gracias», Sofía asintió y dejó de servirme. Me quedé un rato más, sin mate, y entendí el chiste secreto de esa palabra: no cierra la visita. Solo cierra la ronda.",
+          "pausa_despues": "cierre"
+        }
+      ]
+    }
+  },
+  "sugerencia_ejercicios": "Escuchar el audio; unir las reglas del mate (bombilla, «gracias», el cebador) con su significado; una pregunta: ¿Qué bebida se comparte en tu país, y con qué reglas?",
+  "estilo_visual": "Papel y ocre (ver estilo_visual.md). Encuadre de las ilustraciones: 3:2.",
+  "contenido": "original",
+  "ejercicios_archivo": "ejercicios.json"
+}

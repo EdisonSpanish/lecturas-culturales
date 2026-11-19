@@ -1,0 +1,566 @@
+{
+  "version": 3,
+  "lectura": "b2-hoy-se-mueve-la-casa",
+  "mas_practica_titulo": "Más práctica",
+  "ejercicios": [
+    {
+      "id": "comprension",
+      "tipo": "opcion_multiple",
+      "titulo": "Una casa que avanza",
+      "consigna": "Elige la respuesta. Casi todas las preguntas piden interpretar el texto, no solo encontrar un dato.",
+      "items": [
+        {
+          "pregunta": "¿Por qué la narradora sonrió «insegura» al principio?",
+          "opciones": [
+            "Porque no quería ver iglesias.",
+            "Porque no entendía el español de Sandro.",
+            "Porque imaginó una mudanza con cajas, no una casa entera."
+          ],
+          "correcta": 2,
+          "explicacion": "«Yo sonreí, insegura, porque imaginé una mudanza con cajas.»"
+        },
+        {
+          "pregunta": "Según el texto, ¿qué idea sostiene una minga?",
+          "opciones": [
+            "Un pago justo por cada hora de trabajo.",
+            "La reciprocidad: hoy ayudas tú, otro día te ayudan a ti.",
+            "Una obligación que impone el gobierno."
+          ],
+          "correcta": 1,
+          "explicacion": "«un trabajo que se hace entre todos, sin paga, con la idea clara de que otro día te toca a ti.»"
+        },
+        {
+          "pregunta": "¿Por qué una familia decide mover su casa?",
+          "opciones": [
+            "Para mostrarla a los turistas.",
+            "Porque es una fiesta de cada semana.",
+            "Para tener un terreno más seguro, más cerca de un camino o más lejos de la marea."
+          ],
+          "correcta": 2,
+          "explicacion": "«Se hace cuando una familia necesita un terreno más seguro, más cerca de un camino o más lejos de la marea.»"
+        },
+        {
+          "pregunta": "¿Qué quiere decir «la minga no termina en el último metro. Termina alrededor del curanto»?",
+          "opciones": [
+            "Que sentarse alrededor del curanto también es parte del trabajo comunitario.",
+            "Que la casa se usa como comedor.",
+            "Que nadie come hasta el día siguiente."
+          ],
+          "correcta": 0,
+          "explicacion": "«Cuando la casa llegó, por fin, a su nuevo lugar, nadie se fue de inmediato.»"
+        },
+        {
+          "pregunta": "¿Qué advierte la narradora en el último párrafo?",
+          "opciones": [
+            "Que la tiradura de casa es peligrosa.",
+            "Que no conviene ver la minga solo como una curiosidad bonita.",
+            "Que la minga ya no tiene sentido hoy."
+          ],
+          "correcta": 1,
+          "explicacion": "«Conviene que no nos quedemos solo en esa foto.»"
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ]
+    },
+    {
+      "id": "escuchar",
+      "tipo": "escuchar_elegir",
+      "titulo": "Escenas de la minga",
+      "consigna": "Escucha cada fragmento y elige la respuesta. Fíjate en los detalles y en los matices.",
+      "items": [
+        {
+          "decir": "Llegué a Chiloé en una barcaza, con la llovizna típica del sur de Chile.",
+          "pregunta": "¿Cómo llegó la narradora a Chiloé?",
+          "opciones": [
+            "En avión.",
+            "En una barcaza.",
+            "En autobús."
+          ],
+          "correcta": 1,
+          "explicacion": "Chiloé es un archipiélago: se llega por mar."
+        },
+        {
+          "decir": "Hay mingas para cosechar, para levantar un techo o para abrir un camino.",
+          "pregunta": "¿Qué idea transmite el fragmento?",
+          "opciones": [
+            "Que hay mingas para muchos trabajos, no solo para mover casas.",
+            "Que la minga solo sirve para cosechar.",
+            "Que los caminos los abre el gobierno."
+          ],
+          "correcta": 0,
+          "explicacion": "La tiradura de casa es solo un tipo de minga."
+        },
+        {
+          "decir": "El avance fue irregular: a veces un metro, a veces una pausa larga.",
+          "pregunta": "¿Cómo avanzó la casa?",
+          "opciones": [
+            "Rápido y sin parar.",
+            "De forma irregular, con pausas.",
+            "No se movió."
+          ],
+          "correcta": 1,
+          "explicacion": "Irregular: no siempre igual."
+        },
+        {
+          "decir": "Hoy son menos frecuentes, pero el principio no cambió: una familia sola no mueve una casa.",
+          "pregunta": "¿Qué se mantiene igual hoy?",
+          "opciones": [
+            "El número de tiraduras.",
+            "El precio de los bueyes.",
+            "El principio de la ayuda entre vecinos."
+          ],
+          "correcta": 2,
+          "explicacion": "Hay menos tiraduras, pero la idea sigue viva."
+        },
+        {
+          "decir": "En un archipiélago, una persona sola no basta.",
+          "pregunta": "¿Por qué la ayuda mutua es tan importante en Chiloé, según la narradora?",
+          "opciones": [
+            "Porque en un archipiélago una persona sola no basta.",
+            "Porque llueve mucho.",
+            "Porque las casas son de madera."
+          ],
+          "correcta": 0,
+          "explicacion": "El lugar explica la costumbre: islas, distancias, trabajo duro."
+        }
+      ],
+      "habilidades": [
+        "Escuchar"
+      ]
+    },
+    {
+      "id": "tiradura",
+      "tipo": "arrastrar",
+      "titulo": "La tiradura de casa",
+      "consigna": "Arrastra cada palabra a su lugar en la ilustración. También puedes tocar una palabra y después el círculo.",
+      "imagen": "portada.webp",
+      "respaldo": "portada.png",
+      "ancho": 1152,
+      "alto": 768,
+      "alt": "Una casa de madera, colocada sobre troncos, avanza por un camino de tierra tirada por bueyes; Sandro lleva la cuerda y doña Teresa camina a su lado; una visitante observa desde el borde del camino.",
+      "zonas": [
+        {
+          "palabra": "bueyes",
+          "x": 49,
+          "y": 60,
+          "explicacion": "«avanza, lenta, tirada por una yunta de bueyes.»"
+        },
+        {
+          "palabra": "cuerda",
+          "x": 61,
+          "y": 55,
+          "explicacion": "«Sandro iba a su lado, con la cuerda.»"
+        },
+        {
+          "palabra": "troncos",
+          "x": 63,
+          "y": 71,
+          "explicacion": "«una vivienda de madera se coloca sobre vigas o troncos»"
+        },
+        {
+          "palabra": "puerta",
+          "x": 67,
+          "y": 42,
+          "explicacion": "«Doña Teresa, la dueña, caminaba junto a la puerta»"
+        },
+        {
+          "palabra": "camino de tierra",
+          "x": 30,
+          "y": 88,
+          "explicacion": "«deslizarse unos metros por un camino de tierra.»"
+        }
+      ],
+      "distractores": [
+        {
+          "palabra": "barcaza",
+          "explicacion": "La barcaza no está en la imagen: es el barco en que llegó la narradora. «Llegué a Chiloé en una barcaza»"
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ]
+    },
+    {
+      "id": "que-dices",
+      "tipo": "situaciones",
+      "titulo": "¿Qué dices? ¿Qué haces?",
+      "consigna": "Estás de visita en Chiloé durante una minga. Elige la reacción más adecuada y lee por qué.",
+      "items": [
+        {
+          "icono": "🏠",
+          "situacion": "Sandro te dice: «Hoy se mueve una casa». No entiendes bien.",
+          "opciones": [
+            "«¡Qué raro! Eso es imposible.»",
+            "«Prefiero recorrer iglesias.»",
+            "«¿Cómo? ¿La casa entera? ¿Puedo ayudar en algo?»"
+          ],
+          "correcta": 2,
+          "explicacion": "La narradora también dudó, pero se quedó a mirar y a entender: «Hoy no vamos a recorrer iglesias. Hoy se mueve una casa»."
+        },
+        {
+          "icono": "💵",
+          "situacion": "Al final del día quieres agradecer el trabajo de los vecinos. ¿Qué haces?",
+          "opciones": [
+            "Doy las gracias y me ofrezco para ayudar otro día.",
+            "Le ofrezco dinero a cada vecino.",
+            "Me voy sin despedirme."
+          ],
+          "correcta": 0,
+          "explicacion": "La minga es «sin paga»: se devuelve con trabajo. «No. Otro día te toca a ti»."
+        },
+        {
+          "icono": "🍲",
+          "situacion": "La casa ya llegó. Doña Teresa te ofrece un plato de curanto.",
+          "opciones": [
+            "Digo que tengo prisa y me voy.",
+            "Lo acepto, me siento con todos y converso.",
+            "Saco fotos y no como."
+          ],
+          "correcta": 1,
+          "explicacion": "«Ahí entendí que la minga no termina en el último metro. Termina alrededor del curanto.»"
+        },
+        {
+          "icono": "📸",
+          "situacion": "Un amigo ve tus fotos y comenta: «¡Qué pintoresco! Parece una fiesta para turistas».",
+          "opciones": [
+            "«Es más que una foto bonita: es trabajo duro y ayuda entre vecinos.»",
+            "«Sí, lo hacen cada semana para los turistas.»",
+            "«No, es solo un juego.»"
+          ],
+          "correcta": 0,
+          "explicacion": "«No es un espectáculo de cada semana, ni una postal permanente; ocurre cuando hace falta, y hace falta gente.»"
+        }
+      ],
+      "habilidades": [
+        "Cultura"
+      ]
+    },
+    {
+      "id": "escuchar-escena",
+      "tipo": "escuchar_imagen",
+      "titulo": "¿Qué imagen corresponde?",
+      "consigna": "Escucha el fragmento y toca la imagen que mejor le corresponde.",
+      "opciones": [
+        {
+          "imagen": "portada.webp",
+          "respaldo": "portada.png",
+          "texto": "La casa en camino",
+          "alt": "Una casa de madera, sobre troncos, avanza tirada por bueyes por un camino de tierra."
+        },
+        {
+          "imagen": "escena.webp",
+          "respaldo": "escena.png",
+          "texto": "El curanto",
+          "alt": "Doña Teresa ofrece un plato junto al curanto; la casa ya está en su nuevo lugar."
+        }
+      ],
+      "items": [
+        {
+          "decir": "Yo vi una casa de madera, del color de la miel mojada, deslizarse unos metros por un camino de tierra.",
+          "correcta": 0,
+          "explicacion": "La casa avanza por el camino."
+        },
+        {
+          "decir": "Doña Teresa y su familia habían preparado un curanto: carnes, papas y mariscos cocidos con piedras calientes, bajo hojas, en un hoyo en la tierra.",
+          "correcta": 1,
+          "explicacion": "El curanto, con piedras y hojas, en la tierra."
+        },
+        {
+          "decir": "Otros vecinos colocaban troncos, gritaban avisos, apartaban una rama; más adelante, donde yo ya no los veía bien, también se tiraba de la casa.",
+          "correcta": 0,
+          "explicacion": "Los troncos bajo la casa: así avanza."
+        },
+        {
+          "decir": "Nos sentamos con el olor a humo y a mar, con las botas todavía mojadas.",
+          "correcta": 1,
+          "explicacion": "Todos sentados, con botas, junto al humo del curanto."
+        }
+      ],
+      "habilidades": [
+        "Escuchar"
+      ]
+    },
+    {
+      "id": "dilo-tu",
+      "tipo": "hablar",
+      "titulo": "Dilo tú",
+      "consigna": "Escucha el modelo, toca 🎤 y dilo en voz alta, como en una conversación real. No hace falta decirlo palabra por palabra.",
+      "requiere": "reconocimiento_voz",
+      "idioma": "es-US",
+      "items": [
+        {
+          "contexto": "Explicas qué es una minga:",
+          "frase": "Es un trabajo entre todos, sin paga."
+        },
+        {
+          "contexto": "Repites lo que dijo Sandro:",
+          "frase": "Otro día te toca a ti."
+        },
+        {
+          "contexto": "Cuentas cómo termina la minga:",
+          "frase": "La minga termina alrededor del curanto."
+        },
+        {
+          "libre": true,
+          "pregunta": "¿Por qué nadie cobra en una minga? Contesta en una o dos oraciones.",
+          "modelo": "Porque es una ayuda recíproca: hoy ayudas tú y otro día te toca a ti. Una familia sola no mueve una casa.",
+          "minimo_palabras": 3
+        }
+      ],
+      "habilidades": [
+        "Hablar"
+      ]
+    },
+    {
+      "id": "texto-minga",
+      "tipo": "reflexion",
+      "titulo": "Más que una postal",
+      "consigna": "Escribe un párrafo argumentativo (unas cinco o seis oraciones).",
+      "pregunta": "La narradora dice: «Conviene que no nos quedemos solo en esa foto». Explica con tus palabras qué hay detrás de la imagen bonita de la casa que camina. Usa ejemplos del texto.",
+      "ayuda": [
+        "A primera vista, …",
+        "Sin embargo, …",
+        "Lo que no se ve en la foto es…",
+        "Por eso conviene que…",
+        "En el texto, …"
+      ],
+      "minimo_caracteres": 150,
+      "modelo": "A primera vista, la tiradura de casa parece una curiosidad bonita: una casa de madera que camina, los bueyes, la lluvia. Sin embargo, detrás de esa imagen hay trabajo duro: un día largo, espaldas cansadas y vecinos que colocan troncos y gritan avisos. Lo que no se ve en la foto es la reciprocidad: nadie cobra, porque otro día le toca a otro. Además, la minga termina alrededor del curanto compartido. Por eso conviene que miremos esta costumbre con respeto, como una manera de vivir juntos, no como una postal.",
+      "guia": "Una buena respuesta contrasta la imagen pintoresca con lo que la sostiene (trabajo, reciprocidad, comunidad) y lo apoya con ejemplos del texto. Fíjate en los conectores: a primera vista, sin embargo, además, por eso.",
+      "habilidades": [
+        "Escribir"
+      ]
+    },
+    {
+      "id": "y-en-tu-pais",
+      "tipo": "reflexion",
+      "titulo": "¿Y en tu país?",
+      "pregunta": "En tu país o en tu comunidad, ¿hay alguna forma de trabajo entre vecinos sin paga, como la minga? Compárala con la tiradura de casa: ¿quién participa, cómo se agradece y qué sentido tiene hoy?",
+      "ayuda": [
+        "En mi comunidad, …",
+        "A diferencia de la minga, …",
+        "Igual que en Chiloé, …",
+        "Se agradece con…",
+        "Ojalá que…"
+      ],
+      "minimo_caracteres": 150,
+      "modelo": "En mi comunidad, en Estados Unidos, no movemos casas, pero hay algo parecido: cuando una familia se muda, los amigos ayudan a cargar las cajas un sábado. A diferencia de la minga, muchas veces se contrata un camión y la ayuda es solo de la familia. Igual que en Chiloé, nadie cobra: se agradece con pizza y bebidas, y con la promesa de ayudar la próxima vez. También hay voluntarios que construyen casas para otras familias. Ojalá que estas costumbres no se pierdan, porque una familia sola no lo puede todo.",
+      "guia": "No hay una respuesta correcta. Compara: quién participa, cómo se agradece y qué sentido tiene hoy. Si quieres, comparte tu respuesta con tu profesor.",
+      "habilidades": [
+        "Escribir",
+        "Cultura"
+      ]
+    },
+    {
+      "id": "comparar",
+      "tipo": "clasificar",
+      "titulo": "¿Minga o mudanza contratada?",
+      "consigna": "Clasifica cada rasgo según lo que cuenta la narradora.",
+      "categorias": [
+        "Minga en Chiloé",
+        "Mudanza en Estados Unidos"
+      ],
+      "items": [
+        {
+          "texto": "Se hace entre todos, sin paga.",
+          "categoria": "Minga en Chiloé",
+          "explicacion": "«un trabajo que se hace entre todos, sin paga»"
+        },
+        {
+          "texto": "Se contrata un camión.",
+          "categoria": "Mudanza en Estados Unidos",
+          "explicacion": "«se contrata un camión»"
+        },
+        {
+          "texto": "Se deja la casa y se busca otra.",
+          "categoria": "Mudanza en Estados Unidos",
+          "explicacion": "«o se deja la casa y se busca otra.»"
+        },
+        {
+          "texto": "La casa se va con la familia.",
+          "categoria": "Minga en Chiloé",
+          "explicacion": "«Aquí la casa se va con la familia, y los vecinos se van con la casa.»"
+        },
+        {
+          "texto": "Termina con una comida compartida.",
+          "categoria": "Minga en Chiloé",
+          "explicacion": "«Termina alrededor del curanto.»"
+        },
+        {
+          "texto": "Se devuelve con trabajo otro día.",
+          "categoria": "Minga en Chiloé",
+          "explicacion": "«Otro día te toca a ti»"
+        }
+      ],
+      "habilidades": [
+        "Cultura"
+      ],
+      "seccion": "mas_practica"
+    },
+    {
+      "id": "vocabulario",
+      "tipo": "completar",
+      "titulo": "Palabras del texto",
+      "consigna": "Completa con la palabra del texto. Puedes usar la caja.",
+      "banco": [
+        "llovizna",
+        "recíproca",
+        "yunta",
+        "marea",
+        "irregular",
+        "gratitud"
+      ],
+      "items": [
+        {
+          "antes": "Llegué a Chiloé con la",
+          "respuesta": [
+            "llovizna"
+          ],
+          "despues": "típica del sur de Chile.",
+          "explicacion": "«con la llovizna típica del sur de Chile.»"
+        },
+        {
+          "antes": "La palabra mink'a nombra una ayuda",
+          "respuesta": [
+            "recíproca"
+          ],
+          "despues": ": hoy por ti, mañana por mí.",
+          "explicacion": "«que nombra esa ayuda recíproca.»"
+        },
+        {
+          "antes": "La casa avanza tirada por una",
+          "respuesta": [
+            "yunta"
+          ],
+          "despues": "de bueyes.",
+          "explicacion": "«tirada por una yunta de bueyes.»"
+        },
+        {
+          "antes": "A veces la familia quiere vivir más lejos de la",
+          "respuesta": [
+            "marea"
+          ],
+          "despues": ".",
+          "explicacion": "«más lejos de la marea.»"
+        },
+        {
+          "antes": "El avance fue",
+          "respuesta": [
+            "irregular"
+          ],
+          "despues": ": a veces un metro, a veces una pausa larga.",
+          "explicacion": "«El avance fue irregular»"
+        },
+        {
+          "antes": "La minga deja una deuda de",
+          "respuesta": [
+            "gratitud"
+          ],
+          "despues": "que no se escribe en un contrato.",
+          "explicacion": "«una deuda de gratitud que no se escribe en un contrato.»"
+        }
+      ],
+      "habilidades": [
+        "Escribir"
+      ],
+      "seccion": "mas_practica"
+    },
+    {
+      "id": "verdadero-falso",
+      "tipo": "verdadero_falso",
+      "titulo": "¿Verdadero o falso?",
+      "consigna": "Decide y mira la frase del texto que lo demuestra. Varias afirmaciones exigen interpretar.",
+      "items": [
+        {
+          "afirmacion": "Sandro le propuso a la narradora recorrer iglesias.",
+          "correcta": false,
+          "justificacion": "«Hoy no vamos a recorrer iglesias. Hoy se mueve una casa»"
+        },
+        {
+          "afirmacion": "La palabra «minga» viene del quechua.",
+          "correcta": true,
+          "justificacion": "«La palabra tiene raíz en el quechua mink'a»"
+        },
+        {
+          "afirmacion": "La tiradura de casa es un espectáculo de cada semana.",
+          "correcta": false,
+          "justificacion": "«No es un espectáculo de cada semana, ni una postal permanente»"
+        },
+        {
+          "afirmacion": "Los vecinos cobraron por mover la casa.",
+          "correcta": false,
+          "justificacion": "«Pregunté si le pagaban a alguien. Sandro se rió, sin burla»"
+        },
+        {
+          "afirmacion": "Para la narradora, la minga todavía tiene sentido hoy.",
+          "correcta": true,
+          "justificacion": "«como una manera de vivir juntos que todavía tiene sentido.»"
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ],
+      "seccion": "mas_practica"
+    },
+    {
+      "id": "dictado",
+      "tipo": "dictado",
+      "titulo": "Mini dictado",
+      "consigna": "Escucha y escribe lo que oyes.",
+      "items": [
+        {
+          "decir": "minga",
+          "antes": "Es una",
+          "despues": ".",
+          "respuesta": [
+            "minga"
+          ],
+          "explicacion": "La minga: trabajo comunitario sin paga."
+        },
+        {
+          "decir": "llovizna",
+          "antes": "Llegué con la",
+          "despues": "típica del sur.",
+          "respuesta": [
+            "llovizna"
+          ],
+          "explicacion": "La llovizna: lluvia fina."
+        },
+        {
+          "decir": "troncos",
+          "antes": "Otros vecinos colocaban",
+          "despues": ".",
+          "respuesta": [
+            "troncos"
+          ],
+          "explicacion": "Los troncos: madera gruesa sobre la que avanza la casa."
+        },
+        {
+          "decir": "curanto",
+          "antes": "Habían preparado un",
+          "despues": ".",
+          "respuesta": [
+            "curanto"
+          ],
+          "explicacion": "El curanto: comida cocida con piedras calientes, en un hoyo en la tierra."
+        },
+        {
+          "decir": "archipiélago",
+          "antes": "En un",
+          "despues": ", una persona sola no basta.",
+          "respuesta": [
+            "archipiélago"
+          ],
+          "explicacion": "Un archipiélago: un grupo de islas."
+        }
+      ],
+      "habilidades": [
+        "Escuchar",
+        "Escribir"
+      ],
+      "seccion": "mas_practica"
+    }
+  ]
+}

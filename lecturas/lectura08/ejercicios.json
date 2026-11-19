@@ -1,0 +1,516 @@
+{
+  "version": 3,
+  "lectura": "b1-el-sol-vuelve-a-otavalo",
+  "mas_practica_titulo": "Más práctica",
+  "ejercicios": [
+    {
+      "id": "comprension",
+      "tipo": "opcion_multiple",
+      "titulo": "La fiesta del Sol",
+      "consigna": "Elige la respuesta. Algunas preguntas piden interpretar.",
+      "items": [
+        {
+          "pregunta": "¿Qué es el Inti Raymi?",
+          "opciones": [
+            "Una feria de turismo.",
+            "Una fiesta solo de Cuzco.",
+            "La fiesta del Sol."
+          ],
+          "correcta": 2,
+          "explicacion": "«Es el Inti Raymi, la fiesta del Sol.»"
+        },
+        {
+          "pregunta": "¿Por qué el narrador dice que esta fiesta «es de aquí»?",
+          "opciones": [
+            "Porque la organizan los turistas.",
+            "Porque es de las comunidades de Imbabura, no solo de Cuzco.",
+            "Porque solo se celebra en Quito."
+          ],
+          "correcta": 1,
+          "explicacion": "«Yo sabía un poco del Inti Raymi de Cuzco, en Perú, pero esta fiesta es de aquí: de las comunidades de Imbabura.»"
+        },
+        {
+          "pregunta": "¿Qué es la toma de la plaza?",
+          "opciones": [
+            "Las comunidades entran bailando y ocupan un espacio que es suyo.",
+            "La policía cierra la plaza.",
+            "Un mercado para visitantes."
+          ],
+          "correcta": 0,
+          "explicacion": "«entran al centro del pueblo bailando, con fuerza y alegría, y ocupan un espacio que es suyo.»"
+        },
+        {
+          "pregunta": "¿Qué podemos inferir de «Nadie bailaba para una foto»?",
+          "opciones": [
+            "Que estaba prohibido tomar fotos.",
+            "Que la danza es para la comunidad, no para los visitantes.",
+            "Que nadie sabía bailar."
+          ],
+          "correcta": 1,
+          "explicacion": "«No es un espectáculo de turismo, aunque hay visitantes.»"
+        },
+        {
+          "pregunta": "¿Qué idea critica el narrador al final?",
+          "opciones": [
+            "Que haya visitantes en la fiesta.",
+            "Que la fiesta dure varios días.",
+            "Que se hable de las tradiciones andinas como si fueran solo del pasado."
+          ],
+          "correcta": 2,
+          "explicacion": "«cuando alguien hable de tradiciones andinas como si fueran solo del pasado.»"
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ]
+    },
+    {
+      "id": "escuchar",
+      "tipo": "escuchar_elegir",
+      "titulo": "Fechas y gestos",
+      "consigna": "Escucha la frase y elige la respuesta.",
+      "items": [
+        {
+          "decir": "Se celebra alrededor del 21 de junio, cuando el solsticio marca un cambio de ciclo.",
+          "pregunta": "¿Qué marca el solsticio?",
+          "opciones": [
+            "El fin de la fiesta.",
+            "Un cambio de ciclo.",
+            "El día de la cosecha."
+          ],
+          "correcta": 1,
+          "explicacion": "El solsticio marca un cambio de ciclo."
+        },
+        {
+          "decir": "El 24, en Otavalo, muchas comunidades hacen la toma de la plaza.",
+          "pregunta": "¿Qué pasa el 24 de junio?",
+          "opciones": [
+            "La toma de la plaza.",
+            "El solsticio.",
+            "El baño en la cascada."
+          ],
+          "correcta": 0,
+          "explicacion": "El 24, las comunidades entran bailando a la plaza."
+        },
+        {
+          "decir": "Algunas personas se bañan en el agua fría para empezar el ciclo más limpias.",
+          "pregunta": "¿Para qué se bañan en la cascada?",
+          "opciones": [
+            "Porque hace calor.",
+            "Para una foto.",
+            "Para empezar el ciclo más limpias."
+          ],
+          "correcta": 2,
+          "explicacion": "El baño tiene un sentido ritual: empezar el ciclo más limpias."
+        },
+        {
+          "decir": "Después, en la plaza, sonaron flautas y tambores.",
+          "pregunta": "¿Qué instrumentos sonaron?",
+          "opciones": [
+            "Flautas y tambores.",
+            "Guitarras.",
+            "Trompetas."
+          ],
+          "correcta": 0,
+          "explicacion": "En la plaza suenan flautas y tambores."
+        },
+        {
+          "decir": "Luis me explicó que esta fiesta agradece a la tierra y al sol por la cosecha.",
+          "pregunta": "¿Qué agradece la fiesta?",
+          "opciones": [
+            "La lluvia.",
+            "La cosecha.",
+            "El turismo."
+          ],
+          "correcta": 1,
+          "explicacion": "Agradece a la tierra y al sol por la cosecha."
+        }
+      ],
+      "habilidades": [
+        "Escuchar"
+      ]
+    },
+    {
+      "id": "plaza",
+      "tipo": "arrastrar",
+      "titulo": "En la plaza de Otavalo",
+      "consigna": "Arrastra cada palabra a su lugar en la imagen. También puedes tocar una palabra y después el círculo.",
+      "imagen": "portada.webp",
+      "respaldo": "portada.png",
+      "ancho": 1152,
+      "alto": 768,
+      "alt": "Danzantes kichwa en la plaza de Otavalo: hombres con sombrero y poncho, uno toca la flauta; mujeres con blusa bordada y collares.",
+      "zonas": [
+        {
+          "palabra": "sombrero",
+          "x": 25,
+          "y": 25,
+          "explicacion": "«los hombres, ponchos y sombreros.»"
+        },
+        {
+          "palabra": "poncho",
+          "x": 26,
+          "y": 58,
+          "explicacion": "«Las mujeres llevaban blusas bordadas y cuentas brillantes; los hombres, ponchos y sombreros.»"
+        },
+        {
+          "palabra": "flauta",
+          "x": 44,
+          "y": 37,
+          "explicacion": "«Después, en la plaza, sonaron flautas y tambores.»"
+        },
+        {
+          "palabra": "blusa bordada",
+          "x": 57,
+          "y": 47,
+          "explicacion": "«Las mujeres llevaban blusas bordadas y cuentas brillantes»"
+        }
+      ],
+      "distractores": [
+        {
+          "palabra": "tambor",
+          "explicacion": "El texto dice que sonaron «flautas y tambores», pero en la imagen no se ve ningún tambor."
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ]
+    },
+    {
+      "id": "que-dices",
+      "tipo": "situaciones",
+      "titulo": "¿Qué dices? ¿Qué haces?",
+      "consigna": "Visitas Otavalo durante el Inti Raymi. Elige la reacción más respetuosa y lee por qué.",
+      "items": [
+        {
+          "icono": "💧",
+          "situacion": "Cerca de la cascada, algunas personas se preparan para bañarse.",
+          "opciones": [
+            "Observo con respeto, a distancia.",
+            "Entro al agua con ellas para la foto.",
+            "Hago comentarios en voz alta."
+          ],
+          "correcta": 0,
+          "explicacion": "Es un momento ritual: «Yo no entré, pero observé el respeto con el que se preparaban.»"
+        },
+        {
+          "icono": "📷",
+          "situacion": "En la plaza, un grupo baila en círculo y quieres una foto.",
+          "opciones": [
+            "Entro al círculo para la foto.",
+            "Pido que repitan el baile para mí.",
+            "Pregunto antes o tomo una foto discreta, sin interrumpir."
+          ],
+          "correcta": 2,
+          "explicacion": "«Nadie bailaba para una foto.» Y: «No es un espectáculo de turismo, aunque hay visitantes.»"
+        },
+        {
+          "icono": "🗣️",
+          "situacion": "Un turista dice: «Esto es un show para turistas». ¿Qué respondes?",
+          "opciones": [
+            "«No: es una memoria que sigue viva; agradece a la tierra y al sol.»",
+            "«Sí, es como un parque temático.»",
+            "«No sé, no me interesa.»"
+          ],
+          "correcta": 0,
+          "explicacion": "«Es una memoria que sigue viva.»"
+        },
+        {
+          "icono": "🕰️",
+          "situacion": "Alguien dice que las tradiciones andinas son «cosa del pasado».",
+          "opciones": [
+            "«Sí, ya nadie las celebra.»",
+            "«En Otavalo, el sol vuelve cada junio y la gente sale a recibirlo.»"
+          ],
+          "correcta": 1,
+          "explicacion": "«En Otavalo, el sol vuelve cada junio. Y la gente sale a recibirlo.»"
+        }
+      ],
+      "habilidades": [
+        "Cultura"
+      ]
+    },
+    {
+      "id": "escuchar-escena",
+      "tipo": "escuchar_imagen",
+      "titulo": "¿En la plaza o en la cascada?",
+      "consigna": "Escucha y toca la imagen correcta.",
+      "opciones": [
+        {
+          "imagen": "portada.webp",
+          "respaldo": "portada.png",
+          "texto": "La danza en la plaza",
+          "alt": "Danzantes kichwa bailan en círculo en la plaza de Otavalo."
+        },
+        {
+          "imagen": "escena.webp",
+          "respaldo": "escena.png",
+          "texto": "El baño en la cascada",
+          "alt": "Junto a una cascada, un visitante observa con respeto un baño ritual."
+        }
+      ],
+      "items": [
+        {
+          "decir": "Por la mañana, Luis me llevó cerca de una cascada.",
+          "correcta": 1,
+          "explicacion": "Por la mañana van a la cascada."
+        },
+        {
+          "decir": "Bailaban juntos, en círculo, una y otra vez.",
+          "correcta": 0,
+          "explicacion": "En la plaza bailan en círculo."
+        },
+        {
+          "decir": "Yo no entré, pero observé el respeto con el que se preparaban.",
+          "correcta": 1,
+          "explicacion": "El visitante observa a distancia, junto a la cascada."
+        },
+        {
+          "decir": "Las mujeres llevaban blusas bordadas y cuentas brillantes.",
+          "correcta": 0,
+          "explicacion": "En la plaza se ven las blusas bordadas y los collares."
+        }
+      ],
+      "habilidades": [
+        "Escuchar"
+      ]
+    },
+    {
+      "id": "resumen",
+      "tipo": "completar",
+      "titulo": "El resumen con palabras del texto",
+      "consigna": "Completa el resumen. Puedes usar las palabras de la caja.",
+      "banco": [
+        "solsticio",
+        "comunidades",
+        "cascada",
+        "círculo",
+        "cosecha",
+        "memoria"
+      ],
+      "items": [
+        {
+          "antes": "El Inti Raymi se celebra alrededor del 21 de junio, con el",
+          "respuesta": [
+            "solsticio"
+          ],
+          "despues": ".",
+          "explicacion": "«cuando el solsticio marca un cambio de ciclo»"
+        },
+        {
+          "antes": "El 24, muchas",
+          "respuesta": [
+            "comunidades"
+          ],
+          "despues": "hacen la toma de la plaza.",
+          "explicacion": "«El 24, en Otavalo, muchas comunidades hacen la toma de la plaza»"
+        },
+        {
+          "antes": "Algunas personas se bañan en una",
+          "respuesta": [
+            "cascada"
+          ],
+          "despues": "para empezar el ciclo.",
+          "explicacion": "«Por la mañana, Luis me llevó cerca de una cascada.»"
+        },
+        {
+          "antes": "Los danzantes bailan juntos, en",
+          "respuesta": [
+            "círculo"
+          ],
+          "despues": ".",
+          "explicacion": "«Bailaban juntos, en círculo, una y otra vez»"
+        },
+        {
+          "antes": "La fiesta agradece a la tierra y al sol por la",
+          "respuesta": [
+            "cosecha"
+          ],
+          "despues": ".",
+          "explicacion": "«esta fiesta agradece a la tierra y al sol por la cosecha.»"
+        },
+        {
+          "antes": "No es un espectáculo: es una",
+          "respuesta": [
+            "memoria"
+          ],
+          "despues": "que sigue viva.",
+          "explicacion": "«Es una memoria que sigue viva.»"
+        }
+      ],
+      "habilidades": [
+        "Escribir"
+      ]
+    },
+    {
+      "id": "dilo-tu",
+      "tipo": "hablar",
+      "titulo": "Dilo tú",
+      "consigna": "Escucha el modelo, toca 🎤 y dilo en voz alta, como en una conversación real. No hace falta decirlo palabra por palabra.",
+      "requiere": "reconocimiento_voz",
+      "idioma": "es-US",
+      "items": [
+        {
+          "contexto": "Llegas a Otavalo en junio. Preguntas:",
+          "frase": "¿Qué se celebra esta semana?"
+        },
+        {
+          "contexto": "Explicas la fiesta:",
+          "frase": "Es el Inti Raymi, la fiesta del Sol."
+        },
+        {
+          "contexto": "Explicas su sentido:",
+          "frase": "Agradece a la tierra y al sol por la cosecha."
+        },
+        {
+          "contexto": "Das tu opinión:",
+          "frase": "Es una memoria que sigue viva."
+        }
+      ],
+      "habilidades": [
+        "Hablar"
+      ]
+    },
+    {
+      "id": "y-en-tu-pais",
+      "tipo": "reflexion",
+      "titulo": "¿Y en tu país?",
+      "pregunta": "¿Hay en tu país una fiesta que agradece un ciclo de la naturaleza (la cosecha, el sol, una estación)? ¿Se celebra en comunidad o es más bien un espectáculo? Compárala con el Inti Raymi.",
+      "ayuda": [
+        "En mi país se celebra…",
+        "Es una fiesta para agradecer…",
+        "Se parece al Inti Raymi porque… / Es distinta porque…",
+        "Me hizo pensar en…"
+      ],
+      "minimo_caracteres": 80,
+      "modelo": "En Estados Unidos, Acción de Gracias tiene un origen relacionado con la cosecha, pero hoy casi nadie piensa en la tierra: es una cena en familia, con mucha comida y fútbol americano en la televisión. Se celebra en casa, no en la plaza. Me gusta la idea del Inti Raymi porque toda una comunidad sale junta a agradecer. Me hizo pensar que nosotros también miramos el calendario, pero casi nunca lo celebramos así.",
+      "guia": "No hay una respuesta correcta. Compara: quién celebra, dónde, qué se agradece y qué sentido tiene hoy. Si quieres, comparte tu respuesta con tu profesor.",
+      "habilidades": [
+        "Escribir",
+        "Cultura"
+      ]
+    },
+    {
+      "id": "fechas",
+      "tipo": "relacionar",
+      "titulo": "Cada momento de la fiesta",
+      "consigna": "Une cada momento con lo que pasa.",
+      "pares": [
+        {
+          "izquierda": "Alrededor del 21 de junio",
+          "derecha": "El solsticio marca un cambio de ciclo",
+          "explicacion": "«Se celebra alrededor del 21 de junio, cuando el solsticio marca un cambio de ciclo»"
+        },
+        {
+          "izquierda": "El 24 de junio",
+          "derecha": "La toma de la plaza en Otavalo",
+          "explicacion": "«El 24, en Otavalo, muchas comunidades hacen la toma de la plaza»"
+        },
+        {
+          "izquierda": "Por la mañana, en la cascada",
+          "derecha": "Algunas personas se bañan en el agua fría",
+          "explicacion": "«Algunas personas se bañan en el agua fría para empezar el ciclo más limpias.»"
+        },
+        {
+          "izquierda": "En la plaza",
+          "derecha": "Suenan flautas y tambores, y se baila en círculo",
+          "explicacion": "«Después, en la plaza, sonaron flautas y tambores.»"
+        }
+      ],
+      "habilidades": [
+        "Cultura"
+      ],
+      "seccion": "mas_practica"
+    },
+    {
+      "id": "verdadero-falso",
+      "tipo": "verdadero_falso",
+      "titulo": "¿Verdadero o falso?",
+      "consigna": "Decide y mira la frase del texto que lo demuestra. Ojo: a veces hay que interpretar.",
+      "items": [
+        {
+          "afirmacion": "El Inti Raymi de Otavalo es una copia del de Cuzco.",
+          "correcta": false,
+          "justificacion": "«esta fiesta es de aquí: de las comunidades de Imbabura.»"
+        },
+        {
+          "afirmacion": "El narrador se bañó en la cascada.",
+          "correcta": false,
+          "justificacion": "«Yo no entré, pero observé el respeto con el que se preparaban.»"
+        },
+        {
+          "afirmacion": "En la fiesta hay visitantes.",
+          "correcta": true,
+          "justificacion": "«No es un espectáculo de turismo, aunque hay visitantes.»"
+        },
+        {
+          "afirmacion": "Para el narrador, en Estados Unidos también se celebra el sol así, en la plaza.",
+          "correcta": false,
+          "justificacion": "«También nosotros miramos el sol, pero casi nunca lo celebramos así, en la plaza, con toda una comunidad.»"
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ],
+      "seccion": "mas_practica"
+    },
+    {
+      "id": "dictado",
+      "tipo": "dictado",
+      "titulo": "Mini dictado",
+      "consigna": "Escucha y escribe lo que oyes.",
+      "items": [
+        {
+          "decir": "solsticio",
+          "antes": "Alrededor del 21 de junio llega el",
+          "despues": ".",
+          "respuesta": [
+            "solsticio"
+          ],
+          "explicacion": "El solsticio de junio marca un cambio de ciclo."
+        },
+        {
+          "decir": "cascada",
+          "antes": "Luis me llevó cerca de una",
+          "despues": ".",
+          "respuesta": [
+            "cascada"
+          ],
+          "explicacion": "Junto a la cascada se hace el baño ritual."
+        },
+        {
+          "decir": "cosecha",
+          "antes": "Agradece a la tierra y al sol por la",
+          "despues": ".",
+          "respuesta": [
+            "cosecha"
+          ],
+          "explicacion": "La cosecha: lo que da la tierra."
+        },
+        {
+          "decir": "comunidad",
+          "antes": "Lo celebramos con toda una",
+          "despues": ".",
+          "respuesta": [
+            "comunidad"
+          ],
+          "explicacion": "La fiesta es de la comunidad."
+        },
+        {
+          "decir": "ponchos",
+          "antes": "Los hombres llevaban",
+          "despues": "y sombreros.",
+          "respuesta": [
+            "ponchos"
+          ],
+          "explicacion": "Los ponchos y los sombreros de los danzantes."
+        }
+      ],
+      "habilidades": [
+        "Escuchar",
+        "Escribir"
+      ],
+      "seccion": "mas_practica"
+    }
+  ]
+}

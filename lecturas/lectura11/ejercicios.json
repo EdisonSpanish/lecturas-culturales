@@ -1,0 +1,602 @@
+{
+  "version": 3,
+  "lectura": "b2-el-condor-y-el-quetzal",
+  "mas_practica_titulo": "Más práctica",
+  "ejercicios": [
+    {
+      "id": "comprension",
+      "tipo": "opcion_multiple",
+      "titulo": "Más que un pájaro",
+      "consigna": "Elige la respuesta. Casi todas las preguntas piden interpretar el texto.",
+      "items": [
+        {
+          "pregunta": "¿Dónde vio el narrador el cóndor por primera vez?",
+          "opciones": [
+            "En un mirador.",
+            "En un zoológico.",
+            "En un escudo, en una plaza de Quito."
+          ],
+          "correcta": 2,
+          "explicacion": "«Vi, primero, su imagen: en una plaza de Quito, en un escudo»"
+        },
+        {
+          "pregunta": "¿Por qué dice que el avistamiento «no fue un momento de película»?",
+          "opciones": [
+            "Porque fue breve y sencillo, sin espectáculo.",
+            "Porque no vio nada.",
+            "Porque lo vio en un video."
+          ],
+          "correcta": 0,
+          "explicacion": "«Fue un instante breve: un cuerpo negro, el cuello blanco, las alas inmensas.»"
+        },
+        {
+          "pregunta": "¿Qué pregunta deja, según el guía, cada avistamiento?",
+          "opciones": [
+            "Cuánto mide el cóndor.",
+            "Dónde se compran fotos del cóndor.",
+            "Si va a haber cóndores en el futuro."
+          ],
+          "correcta": 2,
+          "explicacion": "«¿va a haber cóndores para los que vienen detrás de nosotros?»"
+        },
+        {
+          "pregunta": "¿Qué quiere decir Irene con «El nombre queda. El animal, a veces, no»?",
+          "opciones": [
+            "Que un símbolo puede durar aunque el animal real desaparezca.",
+            "Que la moneda va a cambiar de nombre.",
+            "Que el quetzal vive muchos años."
+          ],
+          "correcta": 0,
+          "explicacion": "«Un país puede caber en un pájaro, para bien y para mal.»"
+        },
+        {
+          "pregunta": "¿Cuál es la idea central del texto?",
+          "opciones": [
+            "El cóndor es más bonito que el quetzal.",
+            "Es una ficha de biología sobre aves.",
+            "Convertir un animal en símbolo no basta: hay que protegerlo."
+          ],
+          "correcta": 2,
+          "explicacion": "«Conviene que lo protejamos de verdad, no solo en el escudo.»"
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ]
+    },
+    {
+      "id": "escuchar",
+      "tipo": "escuchar_elegir",
+      "titulo": "Dos aves, dos países",
+      "consigna": "Escucha cada fragmento y elige la respuesta.",
+      "items": [
+        {
+          "decir": "Vuela alto, aprovecha el viento y, de lejos, parece una sombra lenta sobre las montañas.",
+          "pregunta": "¿Cómo parece el cóndor de lejos?",
+          "opciones": [
+            "Un punto rápido.",
+            "Una sombra lenta.",
+            "Una nube blanca."
+          ],
+          "correcta": 1,
+          "explicacion": "Una imagen del vuelo del cóndor: alto, lento, sobre las montañas."
+        },
+        {
+          "decir": "Hoy el cóndor andino está en una situación vulnerable.",
+          "pregunta": "¿En qué situación está el cóndor hoy?",
+          "opciones": [
+            "Vulnerable.",
+            "Fuera de peligro.",
+            "Extinguido."
+          ],
+          "correcta": 0,
+          "explicacion": "Vulnerable: en riesgo, aunque todavía no en peligro crítico."
+        },
+        {
+          "decir": "El quetzal es un ave de bosque, de un verde intenso, con una cola larguísima en el macho.",
+          "pregunta": "¿Dónde vive el quetzal?",
+          "opciones": [
+            "En las cumbres.",
+            "En el bosque.",
+            "Junto al mar."
+          ],
+          "correcta": 1,
+          "explicacion": "El quetzal es un ave de bosque."
+        },
+        {
+          "decir": "Es el ave nacional de Guatemala, y la moneda del país también se llama quetzal.",
+          "pregunta": "¿Qué más se llama quetzal en Guatemala?",
+          "opciones": [
+            "La moneda.",
+            "La bandera.",
+            "Una montaña."
+          ],
+          "correcta": 0,
+          "explicacion": "La moneda de Guatemala es el quetzal."
+        },
+        {
+          "decir": "En la cultura maya, sus plumas eran un tesoro.",
+          "pregunta": "¿Qué era un tesoro en la cultura maya?",
+          "opciones": [
+            "Las monedas.",
+            "Las plumas del quetzal.",
+            "Los huevos del cóndor."
+          ],
+          "correcta": 1,
+          "explicacion": "Las plumas del quetzal eran un tesoro para los mayas."
+        }
+      ],
+      "habilidades": [
+        "Escuchar"
+      ]
+    },
+    {
+      "id": "condor",
+      "tipo": "arrastrar",
+      "titulo": "El cóndor en vuelo",
+      "consigna": "Arrastra cada palabra a su lugar en la ilustración. También puedes tocar una palabra y después el círculo.",
+      "imagen": "portada.webp",
+      "respaldo": "portada.png",
+      "ancho": 1152,
+      "alto": 768,
+      "alt": "Un cóndor andino de alas inmensas y collar blanco vuela sobre una cordillera; abajo, una persona muy pequeña en un mirador.",
+      "zonas": [
+        {
+          "palabra": "alas",
+          "x": 26,
+          "y": 21,
+          "explicacion": "«un cuerpo negro, el cuello blanco, las alas inmensas.»"
+        },
+        {
+          "palabra": "cuello blanco",
+          "x": 52,
+          "y": 34,
+          "explicacion": "«un cuerpo negro, el cuello blanco»"
+        },
+        {
+          "palabra": "mirador",
+          "x": 36,
+          "y": 83,
+          "explicacion": "«Días después, en un mirador, sí lo vi.»"
+        },
+        {
+          "palabra": "cumbres",
+          "x": 85,
+          "y": 74,
+          "explicacion": "«El cóndor es de cumbres abiertas»"
+        }
+      ],
+      "distractores": [
+        {
+          "palabra": "cola larguísima",
+          "explicacion": "La cola larguísima es del quetzal macho, no del cóndor: «con una cola larguísima en el macho.»"
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ]
+    },
+    {
+      "id": "que-dices",
+      "tipo": "situaciones",
+      "titulo": "¿Qué dices? ¿Qué haces?",
+      "consigna": "Viajas por los Andes y conversas con gente de Guatemala. Elige la reacción más adecuada y lee por qué.",
+      "items": [
+        {
+          "icono": "🦅",
+          "situacion": "En el mirador, por fin aparece un cóndor. El grupo se queda en silencio.",
+          "opciones": [
+            "Grito para que todos lo vean.",
+            "Le tiro comida para que baje.",
+            "Lo miro en silencio, sin gritar ni acercarme."
+          ],
+          "correcta": 2,
+          "explicacion": "«Un silencio raro se hizo en el grupo.» Es un momento breve y frágil."
+        },
+        {
+          "icono": "🪙",
+          "situacion": "Irene te muestra una moneda con un quetzal. ¿Qué comentario es más adecuado?",
+          "opciones": [
+            "«¡Qué moneda tan barata!»",
+            "«¿El nombre de la moneda viene del ave?»",
+            "«En mi país los pájaros no importan.»"
+          ],
+          "correcta": 1,
+          "explicacion": "«Me explicó que el nombre de la moneda viene de esa ave»"
+        },
+        {
+          "icono": "🏳️",
+          "situacion": "Alguien dice: «Si el cóndor está en el escudo, ya está protegido».",
+          "opciones": [
+            "«No necesariamente: un símbolo no lo protege por sí solo.»",
+            "«Claro, el escudo lo protege.»",
+            "«Da igual: es solo un pájaro.»"
+          ],
+          "correcta": 0,
+          "explicacion": "El texto lo dice claro: el cóndor «no es un dibujo eterno en una bandera.»"
+        },
+        {
+          "icono": "🤝",
+          "situacion": "Una amiga ecuatoriana y un amigo guatemalteco discuten qué ave es «mejor».",
+          "opciones": [
+            "«El cóndor es mejor porque es más grande.»",
+            "«Los dos son más que fauna: son una manera de decir “nosotros”.»",
+            "«El quetzal es mejor porque es verde.»"
+          ],
+          "correcta": 1,
+          "explicacion": "«Los dos son más que fauna: son una manera de decir “nosotros”.»"
+        }
+      ],
+      "habilidades": [
+        "Cultura"
+      ]
+    },
+    {
+      "id": "escuchar-escena",
+      "tipo": "escuchar_imagen",
+      "titulo": "¿Qué imagen corresponde?",
+      "consigna": "Escucha el fragmento y toca la imagen que mejor le corresponde.",
+      "opciones": [
+        {
+          "imagen": "portada.webp",
+          "respaldo": "portada.png",
+          "texto": "El cóndor sobre la cordillera",
+          "alt": "Un cóndor andino vuela sobre una cordillera; abajo, un mirador."
+        },
+        {
+          "imagen": "escena.webp",
+          "respaldo": "escena.png",
+          "texto": "Irene y la moneda",
+          "alt": "Irene muestra en la palma una moneda con un pájaro; en la ventana se ve un quetzal."
+        }
+      ],
+      "items": [
+        {
+          "decir": "Días después, en un mirador, sí lo vi.",
+          "correcta": 0,
+          "explicacion": "El mirador, abajo, y el cóndor en vuelo."
+        },
+        {
+          "decir": "Irene abrió la cartera y me mostró una moneda.",
+          "correcta": 1,
+          "explicacion": "Irene muestra la moneda en la palma."
+        },
+        {
+          "decir": "Fue un instante breve: un cuerpo negro, el cuello blanco, las alas inmensas.",
+          "correcta": 0,
+          "explicacion": "El cuerpo negro, el cuello blanco y las alas abiertas del cóndor."
+        },
+        {
+          "decir": "«Nosotros tenemos el quetzal», dijo.",
+          "correcta": 1,
+          "explicacion": "Irene es de Guatemala; el quetzal está también en la ventana."
+        }
+      ],
+      "habilidades": [
+        "Escuchar"
+      ]
+    },
+    {
+      "id": "dilo-tu",
+      "tipo": "hablar",
+      "titulo": "Dilo tú",
+      "consigna": "Escucha el modelo, toca 🎤 y dilo en voz alta, como en una conversación real. No hace falta decirlo palabra por palabra.",
+      "requiere": "reconocimiento_voz",
+      "idioma": "es-US",
+      "items": [
+        {
+          "contexto": "Describes el cóndor:",
+          "frase": "Vuela alto y aprovecha el viento."
+        },
+        {
+          "contexto": "Explicas su situación:",
+          "frase": "Hoy está en una situación vulnerable."
+        },
+        {
+          "contexto": "Hablas del quetzal:",
+          "frase": "Es el ave nacional de Guatemala."
+        },
+        {
+          "libre": true,
+          "pregunta": "¿Basta con poner un animal en el escudo para protegerlo? Contesta en una o dos oraciones.",
+          "modelo": "No, no basta. El cóndor está en una situación vulnerable, y hay que protegerlo de verdad, no solo en el escudo.",
+          "minimo_palabras": 3
+        }
+      ],
+      "habilidades": [
+        "Hablar"
+      ]
+    },
+    {
+      "id": "texto-simbolo",
+      "tipo": "reflexion",
+      "titulo": "Para bien y para mal",
+      "consigna": "Escribe un párrafo argumentativo (unas cinco o seis oraciones).",
+      "pregunta": "Irene dice: «Un país puede caber en un pájaro, para bien y para mal». Explica con tus palabras qué es lo bueno y qué es lo malo de convertir un animal en símbolo nacional. Usa ejemplos del texto.",
+      "ayuda": [
+        "Por un lado, …",
+        "Por otro lado, …",
+        "El problema es que…",
+        "Por eso conviene que…",
+        "En el texto, …"
+      ],
+      "minimo_caracteres": 150,
+      "modelo": "Por un lado, un animal en el escudo o en la moneda une a la gente: el cóndor representa la fuerza de los Andes y el quetzal, la historia maya de Guatemala. Es una manera de decir «nosotros». Por otro lado, el símbolo puede hacernos olvidar al animal real. El cóndor está en una situación vulnerable, pero en la bandera parece eterno. El problema es que damos por seguro lo que vemos todos los días. Por eso conviene que lo protejamos de verdad, no solo en el escudo.",
+      "guia": "Una buena respuesta presenta las dos caras (identidad y riesgo de olvido) y las apoya con ejemplos del texto. Fíjate en los conectores: por un lado, por otro lado, el problema es que, por eso.",
+      "habilidades": [
+        "Escribir"
+      ]
+    },
+    {
+      "id": "y-en-tu-pais",
+      "tipo": "reflexion",
+      "titulo": "¿Y en tu país?",
+      "pregunta": "¿Qué animal representa a tu país, a tu estado o a tu ciudad? ¿Dónde aparece? ¿Se lo protege de verdad, o solo en los símbolos?",
+      "ayuda": [
+        "El animal que representa a… es…",
+        "Aparece en…",
+        "Para mucha gente, significa…",
+        "Sin embargo, …",
+        "Conviene que…"
+      ],
+      "minimo_caracteres": 150,
+      "modelo": "El animal que representa a Estados Unidos es el águila calva. Aparece en el escudo, en el billete de un dólar y en muchos edificios del gobierno. Para mucha gente significa libertad y fuerza. En el siglo XX estuvo en peligro, pero gracias a leyes de protección hoy hay muchas más. Es un buen ejemplo de que un símbolo puede ayudar si se convierte en acciones reales. Sin embargo, otros animales menos famosos no tienen la misma suerte. Conviene que los protejamos aunque no estén en una bandera.",
+      "guia": "No hay una respuesta correcta. Una buena respuesta describe el símbolo, explica qué significa y opina con argumentos sobre su protección real. Si quieres, comparte tu respuesta con tu profesor.",
+      "habilidades": [
+        "Escribir",
+        "Cultura"
+      ]
+    },
+    {
+      "id": "comparar",
+      "tipo": "clasificar",
+      "titulo": "¿Cóndor o quetzal?",
+      "consigna": "Clasifica cada rasgo según el texto.",
+      "categorias": [
+        "Cóndor",
+        "Quetzal"
+      ],
+      "items": [
+        {
+          "texto": "Vive en cumbres abiertas.",
+          "categoria": "Cóndor",
+          "explicacion": "«El cóndor es de cumbres abiertas»"
+        },
+        {
+          "texto": "Vive en la sombra húmeda del bosque.",
+          "categoria": "Quetzal",
+          "explicacion": "«el quetzal, de sombra húmeda y árboles.»"
+        },
+        {
+          "texto": "Es de un verde intenso, con una cola larguísima.",
+          "categoria": "Quetzal",
+          "explicacion": "«de un verde intenso, con una cola larguísima en el macho.»"
+        },
+        {
+          "texto": "Tiene hasta unos 3,2 metros de envergadura.",
+          "categoria": "Cóndor",
+          "explicacion": "«un animal de hasta unos 3,2 metros de envergadura»"
+        },
+        {
+          "texto": "Da nombre a una moneda.",
+          "categoria": "Quetzal",
+          "explicacion": "«la moneda del país también se llama quetzal.»"
+        },
+        {
+          "texto": "Parece fuerza y distancia.",
+          "categoria": "Cóndor",
+          "explicacion": "«Uno parece fuerza y distancia.»"
+        },
+        {
+          "texto": "Parece un lujo silencioso.",
+          "categoria": "Quetzal",
+          "explicacion": "«El otro, un lujo silencioso.»"
+        }
+      ],
+      "habilidades": [
+        "Cultura"
+      ],
+      "seccion": "mas_practica"
+    },
+    {
+      "id": "grafico",
+      "tipo": "opcion_multiple",
+      "titulo": "Leer el gráfico",
+      "consigna": "Mira el gráfico de la envergadura del cóndor y la estatura de una persona.",
+      "items": [
+        {
+          "pregunta": "¿Cuánto mide, más o menos, la envergadura del cóndor?",
+          "opciones": [
+            "≈ 1,7 m",
+            "≈ 3,2 m",
+            "≈ 5 m"
+          ],
+          "correcta": 1,
+          "explicacion": "«un animal de hasta unos 3,2 metros de envergadura»"
+        },
+        {
+          "pregunta": "¿Qué compara el gráfico?",
+          "opciones": [
+            "Dos tipos de cóndor.",
+            "El cóndor y el quetzal.",
+            "Las alas abiertas del cóndor con la estatura de una persona."
+          ],
+          "correcta": 2,
+          "explicacion": "«más o menos el doble de la estatura de una persona»"
+        },
+        {
+          "pregunta": "¿Es exacto decir «el doble»?",
+          "opciones": [
+            "Es aproximado: 3,2 m es un poco menos que el doble de 1,7 m.",
+            "Sí, es exactamente el doble.",
+            "No, es el triple."
+          ],
+          "correcta": 0,
+          "explicacion": "Por eso el texto dice «más o menos el doble de la estatura de una persona»"
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ],
+      "seccion": "mas_practica"
+    },
+    {
+      "id": "vocabulario",
+      "tipo": "completar",
+      "titulo": "Palabras del texto",
+      "consigna": "Completa con la palabra del texto. Puedes usar la caja.",
+      "banco": [
+        "envergadura",
+        "vulnerable",
+        "avistamiento",
+        "escudo",
+        "plumas",
+        "fauna"
+      ],
+      "items": [
+        {
+          "antes": "La",
+          "respuesta": [
+            "envergadura"
+          ],
+          "despues": "del cóndor es la distancia entre las puntas de sus alas abiertas.",
+          "explicacion": "«un animal de hasta unos 3,2 metros de envergadura»"
+        },
+        {
+          "antes": "Hoy el cóndor andino está en una situación",
+          "respuesta": [
+            "vulnerable"
+          ],
+          "despues": ".",
+          "explicacion": "«Hoy el cóndor andino está en una situación vulnerable»"
+        },
+        {
+          "antes": "Cada",
+          "respuesta": [
+            "avistamiento"
+          ],
+          "despues": "es también una pregunta sobre el futuro.",
+          "explicacion": "«cada avistamiento es también una pregunta»"
+        },
+        {
+          "antes": "La primera imagen del cóndor que vio fue la de un",
+          "respuesta": [
+            "escudo"
+          ],
+          "despues": ", en una plaza de Quito.",
+          "explicacion": "«Vi, primero, su imagen: en una plaza de Quito, en un escudo»"
+        },
+        {
+          "antes": "En la cultura maya, las",
+          "respuesta": [
+            "plumas"
+          ],
+          "despues": "del quetzal eran un tesoro.",
+          "explicacion": "«En la cultura maya, sus plumas eran un tesoro.»"
+        },
+        {
+          "antes": "Los dos animales son más que",
+          "respuesta": [
+            "fauna"
+          ],
+          "despues": ": son una manera de decir «nosotros».",
+          "explicacion": "«Los dos son más que fauna»"
+        }
+      ],
+      "habilidades": [
+        "Escribir"
+      ],
+      "seccion": "mas_practica"
+    },
+    {
+      "id": "verdadero-falso",
+      "tipo": "verdadero_falso",
+      "titulo": "¿Verdadero o falso?",
+      "consigna": "Decide y mira la frase del texto que lo demuestra. Varias afirmaciones exigen interpretar.",
+      "items": [
+        {
+          "afirmacion": "El narrador vio un cóndor el primer día.",
+          "correcta": false,
+          "justificacion": "«No vi un cóndor el primer día en los Andes.»"
+        },
+        {
+          "afirmacion": "El avistamiento fue largo y espectacular.",
+          "correcta": false,
+          "justificacion": "«No fue un momento de película. Fue un instante breve»"
+        },
+        {
+          "afirmacion": "Irene es de Guatemala.",
+          "correcta": true,
+          "justificacion": "«en una conversación con Irene, que es de Guatemala»"
+        },
+        {
+          "afirmacion": "Para el narrador, basta con poner un animal en el escudo.",
+          "correcta": false,
+          "justificacion": "«Conviene que lo protejamos de verdad, no solo en el escudo.»"
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ],
+      "seccion": "mas_practica"
+    },
+    {
+      "id": "dictado",
+      "tipo": "dictado",
+      "titulo": "Mini dictado",
+      "consigna": "Escucha y escribe lo que oyes.",
+      "items": [
+        {
+          "decir": "envergadura",
+          "antes": "Tiene unos 3,2 metros de",
+          "despues": ".",
+          "respuesta": [
+            "envergadura"
+          ],
+          "explicacion": "La envergadura: de una punta del ala a la otra."
+        },
+        {
+          "decir": "vulnerable",
+          "antes": "Está en una situación",
+          "despues": ".",
+          "respuesta": [
+            "vulnerable"
+          ],
+          "explicacion": "Vulnerable: en riesgo."
+        },
+        {
+          "decir": "avistamiento",
+          "antes": "Cada",
+          "despues": "es también una pregunta.",
+          "respuesta": [
+            "avistamiento"
+          ],
+          "explicacion": "Un avistamiento: el momento en que se ve un animal."
+        },
+        {
+          "decir": "quetzal",
+          "antes": "La moneda también se llama",
+          "despues": ".",
+          "respuesta": [
+            "quetzal"
+          ],
+          "explicacion": "El quetzal: el ave y la moneda de Guatemala."
+        },
+        {
+          "decir": "cumbres abiertas",
+          "antes": "El cóndor es de",
+          "despues": ".",
+          "respuesta": [
+            "cumbres abiertas"
+          ],
+          "explicacion": "Las cumbres: las partes más altas de las montañas."
+        }
+      ],
+      "habilidades": [
+        "Escuchar",
+        "Escribir"
+      ],
+      "seccion": "mas_practica"
+    }
+  ]
+}

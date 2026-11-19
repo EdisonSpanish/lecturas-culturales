@@ -1,0 +1,505 @@
+{
+  "version": 3,
+  "lectura": "a1-quito-una-capital-en-las-nubes",
+  "mas_practica_titulo": "Más práctica",
+  "ejercicios": [
+    {
+      "id": "comprension",
+      "tipo": "opcion_multiple",
+      "titulo": "¿Cómo es Quito?",
+      "consigna": "Elige la respuesta.",
+      "items": [
+        {
+          "pregunta": "¿Dónde está Quito?",
+          "opciones": [
+            "Junto al mar.",
+            "En Estados Unidos.",
+            "En los Andes."
+          ],
+          "correcta": 2,
+          "explicacion": "«La ciudad está en los Andes, a unos 2850 metros de altura.»"
+        },
+        {
+          "pregunta": "¿Cómo es el aire en Quito?",
+          "opciones": [
+            "Muy caliente.",
+            "Fresco.",
+            "Cálido."
+          ],
+          "correcta": 1,
+          "explicacion": "«El aire es fresco.»"
+        },
+        {
+          "pregunta": "¿Por qué camina despacio?",
+          "opciones": [
+            "Porque llueve.",
+            "Porque tiene prisa.",
+            "Porque le cansa un poco subir."
+          ],
+          "correcta": 2,
+          "explicacion": "«Camino despacio porque, al principio, me cansa un poco subir.»"
+        },
+        {
+          "pregunta": "¿Por qué es «una capital en las nubes»?",
+          "opciones": [
+            "Porque es una ciudad muy alta.",
+            "Porque siempre llueve.",
+            "Porque tiene un aeropuerto."
+          ],
+          "correcta": 0,
+          "explicacion": "«Me gusta esta ciudad alta, entre montañas.»"
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ]
+    },
+    {
+      "id": "escuchar",
+      "tipo": "escuchar_elegir",
+      "titulo": "Quito y Guayaquil",
+      "consigna": "Escucha y elige.",
+      "items": [
+        {
+          "decir": "Mi primo vive en Guayaquil, junto al mar, a unos cuatro metros de altura.",
+          "pregunta": "¿Dónde vive el primo?",
+          "opciones": [
+            "En Quito.",
+            "En Guayaquil."
+          ],
+          "correcta": 1,
+          "explicacion": "El primo vive en Guayaquil, junto al mar."
+        },
+        {
+          "decir": "Allí el aire es cálido.",
+          "pregunta": "¿Cómo es el aire en Guayaquil?",
+          "opciones": [
+            "Cálido.",
+            "Fresco."
+          ],
+          "correcta": 0,
+          "explicacion": "En Guayaquil, junto al mar, el aire es cálido."
+        },
+        {
+          "decir": "Aquí uso una chaqueta.",
+          "pregunta": "¿Qué usa en Quito?",
+          "opciones": [
+            "Un sombrero.",
+            "Una chaqueta.",
+            "Una camiseta."
+          ],
+          "correcta": 1,
+          "explicacion": "En Quito el aire es fresco: usa una chaqueta."
+        },
+        {
+          "decir": "Desde una plaza veo techos rojos y, a lo lejos, el volcán Pichincha.",
+          "pregunta": "¿Qué ve a lo lejos?",
+          "opciones": [
+            "El mar.",
+            "Un río.",
+            "Un volcán."
+          ],
+          "correcta": 2,
+          "explicacion": "A lo lejos ve el volcán Pichincha."
+        }
+      ],
+      "habilidades": [
+        "Escuchar"
+      ]
+    },
+    {
+      "id": "ciudad",
+      "tipo": "arrastrar",
+      "titulo": "¿Qué ves en Quito?",
+      "consigna": "Arrastra cada palabra a su lugar. También puedes tocar la palabra y después el círculo.",
+      "imagen": "portada.webp",
+      "respaldo": "portada.png",
+      "ancho": 1152,
+      "alto": 768,
+      "alt": "Un viajero con chaqueta verde mira los techos rojos de Quito; al fondo, el volcán Pichincha y algunas nubes.",
+      "zonas": [
+        {
+          "palabra": "volcán",
+          "x": 66,
+          "y": 15,
+          "explicacion": "«a lo lejos, el volcán Pichincha»"
+        },
+        {
+          "palabra": "techos",
+          "x": 68,
+          "y": 80,
+          "explicacion": "«Desde una plaza veo techos rojos»"
+        },
+        {
+          "palabra": "chaqueta",
+          "x": 24,
+          "y": 62,
+          "explicacion": "«Aquí uso una chaqueta.»"
+        },
+        {
+          "palabra": "nubes",
+          "x": 86,
+          "y": 21,
+          "explicacion": "«voy a mirar las nubes cerca de los techos.»"
+        }
+      ],
+      "distractores": [
+        {
+          "palabra": "mar",
+          "explicacion": "El mar está en Guayaquil, no en Quito: «Mi primo vive en Guayaquil, junto al mar»"
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ]
+    },
+    {
+      "id": "que-dices",
+      "tipo": "situaciones",
+      "titulo": "¿Qué dices? ¿Qué haces?",
+      "consigna": "Estás en Quito. Elige la mejor opción.",
+      "items": [
+        {
+          "icono": "🧥",
+          "situacion": "Vas a salir por la tarde. ¿Qué llevas?",
+          "opciones": [
+            "Una chaqueta.",
+            "Solo una camiseta."
+          ],
+          "correcta": 0,
+          "explicacion": "«Quito está cerca de la línea ecuatorial, pero no hace un calor fuerte.»"
+        },
+        {
+          "icono": "🚶",
+          "situacion": "Subes una calle y te cansas un poco.",
+          "opciones": [
+            "Corro rápido.",
+            "Camino despacio."
+          ],
+          "correcta": 1,
+          "explicacion": "En Quito hay mucha altura: «Camino despacio porque, al principio, me cansa un poco subir.»"
+        },
+        {
+          "icono": "🌡️",
+          "situacion": "Tu amigo dice: «En Ecuador hace calor en todas partes».",
+          "opciones": [
+            "«En Quito no: la altura cambia el clima.»",
+            "«Sí, en Quito hace mucho calor.»"
+          ],
+          "correcta": 0,
+          "explicacion": "«La altura cambia el clima.»"
+        },
+        {
+          "icono": "🏖️",
+          "situacion": "Quieres un lugar cálido, junto al mar. ¿Adónde vas?",
+          "opciones": [
+            "A Quito.",
+            "A Guayaquil."
+          ],
+          "correcta": 1,
+          "explicacion": "«Mi primo vive en Guayaquil, junto al mar» y «Allí el aire es cálido.»"
+        }
+      ],
+      "habilidades": [
+        "Cultura"
+      ]
+    },
+    {
+      "id": "escuchar-escena",
+      "tipo": "escuchar_imagen",
+      "titulo": "¿Qué imagen es?",
+      "consigna": "Escucha y toca la imagen.",
+      "opciones": [
+        {
+          "imagen": "escena.webp",
+          "respaldo": "escena.png",
+          "texto": "Sube por una calle",
+          "alt": "El viajero sube despacio por una calle empedrada de Quito."
+        },
+        {
+          "imagen": "portada.webp",
+          "respaldo": "portada.png",
+          "texto": "Mira la ciudad",
+          "alt": "El viajero mira los techos rojos y el volcán Pichincha."
+        }
+      ],
+      "items": [
+        {
+          "decir": "Desde una plaza veo techos rojos y, a lo lejos, el volcán Pichincha.",
+          "correcta": 1,
+          "explicacion": "Mira la ciudad desde arriba: techos rojos y el volcán."
+        },
+        {
+          "decir": "Camino despacio porque, al principio, me cansa un poco subir.",
+          "correcta": 0,
+          "explicacion": "Sube por una calle, despacio."
+        },
+        {
+          "decir": "Esta tarde voy a caminar otra vez, sin prisa.",
+          "correcta": 0,
+          "explicacion": "Camina por la calle, sin prisa."
+        },
+        {
+          "decir": "La ciudad está en los Andes, a unos 2850 metros de altura.",
+          "correcta": 1,
+          "explicacion": "Desde arriba se ven la ciudad y las montañas de los Andes."
+        }
+      ],
+      "habilidades": [
+        "Escuchar"
+      ]
+    },
+    {
+      "id": "resumen",
+      "tipo": "completar",
+      "titulo": "Completa con palabras del texto",
+      "consigna": "Escribe la palabra. Puedes usar la caja.",
+      "banco": [
+        "Andes",
+        "fresco",
+        "despacio",
+        "cálido",
+        "chaqueta",
+        "nubes"
+      ],
+      "items": [
+        {
+          "antes": "Quito está en los",
+          "respuesta": [
+            "Andes"
+          ],
+          "despues": ".",
+          "explicacion": "«La ciudad está en los Andes»"
+        },
+        {
+          "antes": "En Quito, el aire es",
+          "respuesta": [
+            "fresco"
+          ],
+          "despues": ".",
+          "explicacion": "«El aire es fresco.»"
+        },
+        {
+          "antes": "En la calle, camina",
+          "respuesta": [
+            "despacio"
+          ],
+          "despues": ".",
+          "explicacion": "«Camino despacio»"
+        },
+        {
+          "antes": "En Guayaquil, el aire es",
+          "respuesta": [
+            "cálido"
+          ],
+          "despues": ".",
+          "explicacion": "«Allí el aire es cálido.»"
+        },
+        {
+          "antes": "En Quito usa una",
+          "respuesta": [
+            "chaqueta"
+          ],
+          "despues": ".",
+          "explicacion": "«Aquí uso una chaqueta.»"
+        },
+        {
+          "antes": "Quito es una capital en las",
+          "respuesta": [
+            "nubes"
+          ],
+          "despues": ".",
+          "explicacion": "«Quito es una capital en las nubes.»"
+        }
+      ],
+      "habilidades": [
+        "Escribir"
+      ]
+    },
+    {
+      "id": "y-en-tu-pais",
+      "tipo": "reflexion",
+      "titulo": "¿Y en tu país?",
+      "pregunta": "¿Cómo es el clima en tu ciudad? ¿Es una ciudad alta o está junto al mar?",
+      "ayuda": [
+        "Vivo en…",
+        "Mi ciudad está junto al mar / entre montañas.",
+        "El aire es fresco / cálido.",
+        "Uso una chaqueta / una camiseta."
+      ],
+      "minimo_caracteres": 20,
+      "modelo": "Vivo en Miami. Mi ciudad está junto al mar, a pocos metros de altura. El aire es cálido y uso una camiseta. Me gusta Quito, pero allí voy a usar una chaqueta.",
+      "guia": "No hay una respuesta correcta. Compara tu ciudad con Quito y con Guayaquil. Si quieres, comparte tu respuesta con tu profesor.",
+      "habilidades": [
+        "Escribir",
+        "Cultura"
+      ]
+    },
+    {
+      "id": "dos-ciudades",
+      "tipo": "clasificar",
+      "titulo": "¿Quito o Guayaquil?",
+      "consigna": "Mira el texto y el gráfico.",
+      "categorias": [
+        "Quito",
+        "Guayaquil"
+      ],
+      "items": [
+        {
+          "texto": "Está en los Andes.",
+          "categoria": "Quito",
+          "explicacion": "«La ciudad está en los Andes»"
+        },
+        {
+          "texto": "Está junto al mar.",
+          "categoria": "Guayaquil",
+          "explicacion": "«Mi primo vive en Guayaquil, junto al mar»"
+        },
+        {
+          "texto": "El aire es fresco.",
+          "categoria": "Quito",
+          "explicacion": "«El aire es fresco.»"
+        },
+        {
+          "texto": "El aire es cálido.",
+          "categoria": "Guayaquil",
+          "explicacion": "«Allí el aire es cálido.»"
+        },
+        {
+          "texto": "Está a unos 2850 metros de altura.",
+          "categoria": "Quito",
+          "explicacion": "«a unos 2850 metros de altura»"
+        },
+        {
+          "texto": "Está a unos cuatro metros de altura.",
+          "categoria": "Guayaquil",
+          "explicacion": "«a unos cuatro metros de altura»"
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ],
+      "seccion": "mas_practica"
+    },
+    {
+      "id": "dictado",
+      "tipo": "dictado",
+      "titulo": "Mini dictado",
+      "consigna": "Escucha y escribe lo que oyes.",
+      "items": [
+        {
+          "decir": "volcán",
+          "antes": "A lo lejos, veo el",
+          "despues": "Pichincha.",
+          "respuesta": [
+            "volcán"
+          ],
+          "explicacion": "El volcán Pichincha está cerca de Quito."
+        },
+        {
+          "decir": "fresco",
+          "antes": "El aire es",
+          "despues": ".",
+          "respuesta": [
+            "fresco"
+          ],
+          "explicacion": "En Quito, el aire es fresco."
+        },
+        {
+          "decir": "chaqueta",
+          "antes": "Aquí uso una",
+          "despues": ".",
+          "respuesta": [
+            "chaqueta"
+          ],
+          "explicacion": "En Quito usa una chaqueta."
+        },
+        {
+          "decir": "despacio",
+          "antes": "Camino",
+          "despues": ".",
+          "respuesta": [
+            "despacio"
+          ],
+          "explicacion": "Por la altura, camina despacio."
+        },
+        {
+          "decir": "nubes",
+          "antes": "Es una capital en las",
+          "despues": ".",
+          "respuesta": [
+            "nubes"
+          ],
+          "explicacion": "Quito es una capital en las nubes."
+        }
+      ],
+      "habilidades": [
+        "Escuchar",
+        "Escribir"
+      ],
+      "seccion": "mas_practica"
+    },
+    {
+      "id": "dilo-tu",
+      "tipo": "hablar",
+      "titulo": "Dilo tú",
+      "consigna": "Escucha el modelo, toca 🎤 y dilo en voz alta.",
+      "requiere": "reconocimiento_voz",
+      "idioma": "es-US",
+      "items": [
+        {
+          "contexto": "Llegas a Quito. Dices:",
+          "frase": "El aire es fresco."
+        },
+        {
+          "contexto": "Explicas el clima:",
+          "frase": "La altura cambia el clima."
+        },
+        {
+          "contexto": "Hablas de tu ropa:",
+          "frase": "Aquí uso una chaqueta."
+        },
+        {
+          "contexto": "Al final dices:",
+          "frase": "Quito es una capital en las nubes."
+        }
+      ],
+      "habilidades": [
+        "Hablar"
+      ],
+      "seccion": "mas_practica"
+    },
+    {
+      "id": "verdadero-falso",
+      "tipo": "verdadero_falso",
+      "titulo": "¿Verdadero o falso?",
+      "consigna": "Decide y mira la frase del texto que lo demuestra.",
+      "items": [
+        {
+          "afirmacion": "Quito es la capital de Ecuador.",
+          "correcta": true,
+          "justificacion": "«Hoy estoy en Quito, la capital de Ecuador.»"
+        },
+        {
+          "afirmacion": "En Quito hace un calor fuerte.",
+          "correcta": false,
+          "justificacion": "«Quito está cerca de la línea ecuatorial, pero no hace un calor fuerte.»"
+        },
+        {
+          "afirmacion": "Guayaquil está junto al mar.",
+          "correcta": true,
+          "justificacion": "«Mi primo vive en Guayaquil, junto al mar»"
+        },
+        {
+          "afirmacion": "Los techos de Quito son azules.",
+          "correcta": false,
+          "justificacion": "«Desde una plaza veo techos rojos»"
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ],
+      "seccion": "mas_practica"
+    }
+  ]
+}

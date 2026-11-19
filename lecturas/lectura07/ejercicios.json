@@ -1,0 +1,537 @@
+{
+  "version": 3,
+  "lectura": "b1-que-llevo-a-tu-casa",
+  "mas_practica_titulo": "Más práctica",
+  "ejercicios": [
+    {
+      "id": "comprension",
+      "tipo": "opcion_multiple",
+      "titulo": "Leer entre líneas",
+      "consigna": "Elige la respuesta. Algunas preguntas piden interpretar lo que el texto no dice directamente.",
+      "items": [
+        {
+          "pregunta": "¿Por qué el narrador no compró el ramo enorme?",
+          "opciones": [
+            "Porque no tenía dinero.",
+            "Porque a Teresa no le gustan las flores.",
+            "Porque un gesto grande puede resultar incómodo."
+          ],
+          "correcta": 2,
+          "explicacion": "«Al final no lo hice: un gesto grande puede resultar incómodo.»"
+        },
+        {
+          "pregunta": "¿Qué quiere decir la vendedora con «no hacer una escena»?",
+          "opciones": [
+            "Que no hay que llegar tarde.",
+            "Que el regalo no debe ser exagerado.",
+            "Que hay que llevar flores."
+          ],
+          "correcta": 1,
+          "explicacion": "«Lo importante es no llegar vacío, y tampoco hacer una escena.» Llevar algo, sí; exagerar, no."
+        },
+        {
+          "pregunta": "Teresa dice: «Siempre digo que no hace falta, pero me encanta». ¿Qué entendemos?",
+          "opciones": [
+            "No le gustó el pastel.",
+            "Prefiere que nadie lleve nada.",
+            "Es una fórmula de cortesía: agradece el gesto."
+          ],
+          "correcta": 2,
+          "explicacion": "Es lo que dice el texto de muchas anfitrionas: dicen que no hacía falta y, «aun así, agradece el gesto.»"
+        },
+        {
+          "pregunta": "¿Qué cambió en el narrador al final?",
+          "opciones": [
+            "Ahora siempre lleva vino.",
+            "Ya no busca una regla única: pregunta o lleva algo simple.",
+            "Ahora llega con las manos vacías."
+          ],
+          "correcta": 1,
+          "explicacion": "«Ahora, cuando me invitan, no busco la regla de oro. Pregunto con naturalidad, o llevo algo simple y fácil de compartir.»"
+        },
+        {
+          "pregunta": "Para el narrador, ¿qué significa el regalo?",
+          "opciones": [
+            "Una manera de agradecer la invitación.",
+            "El precio de entrada a la casa.",
+            "Una prueba de buena educación."
+          ],
+          "correcta": 0,
+          "explicacion": "«El regalo no es una prueba ni un precio de entrada. Es una manera de decir: gracias por abrirme la puerta.»"
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ]
+    },
+    {
+      "id": "escuchar",
+      "tipo": "escuchar_elegir",
+      "titulo": "¿Quién lleva qué?",
+      "consigna": "Escucha la frase y elige la respuesta. Atención a los detalles.",
+      "items": [
+        {
+          "decir": "En Estados Unidos, a veces llego con las manos vacías, o llevo una botella de vino si la cena es formal.",
+          "pregunta": "¿Cuándo lleva vino en Estados Unidos?",
+          "opciones": [
+            "Si la cena es formal.",
+            "Siempre.",
+            "Nunca."
+          ],
+          "correcta": 0,
+          "explicacion": "Solo si la cena es formal; otras veces llega con las manos vacías."
+        },
+        {
+          "decir": "Un primo mío, en Madrid, suele llevar vino.",
+          "pregunta": "¿Qué suele llevar el primo en Madrid?",
+          "opciones": [
+            "Frutas.",
+            "Vino.",
+            "Flores."
+          ],
+          "correcta": 1,
+          "explicacion": "«Suele llevar» quiere decir que lo hace normalmente."
+        },
+        {
+          "decir": "Una amiga en Lima prefiere frutas o un postre.",
+          "pregunta": "¿Qué prefiere la amiga de Lima?",
+          "opciones": [
+            "Vino.",
+            "Chocolates.",
+            "Frutas o un postre."
+          ],
+          "correcta": 2,
+          "explicacion": "En Lima, la amiga prefiere frutas o un postre."
+        },
+        {
+          "decir": "Esa noche llevé un pastel de naranja y un café bueno.",
+          "pregunta": "¿Qué llevó a casa de Teresa?",
+          "opciones": [
+            "Un ramo enorme.",
+            "Un pastel de naranja y un café.",
+            "Una botella de vino."
+          ],
+          "correcta": 1,
+          "explicacion": "Algo simple y fácil de compartir: un pastel y un café."
+        },
+        {
+          "decir": "Al día siguiente le escribí para agradecer la noche.",
+          "pregunta": "¿Qué hizo al día siguiente?",
+          "opciones": [
+            "La invitó a su casa.",
+            "Le llevó flores.",
+            "Le escribió para agradecer."
+          ],
+          "correcta": 2,
+          "explicacion": "Agradecer después de la visita también es parte del gesto."
+        }
+      ],
+      "habilidades": [
+        "Escuchar"
+      ]
+    },
+    {
+      "id": "tienda",
+      "tipo": "arrastrar",
+      "titulo": "En la tienda",
+      "consigna": "Arrastra cada palabra a su lugar en la imagen. También puedes tocar una palabra y después el círculo.",
+      "imagen": "escena.webp",
+      "respaldo": "escena.png",
+      "ancho": 1152,
+      "alto": 768,
+      "alt": "En una tienda, un hombre elige entre un ramo de flores y un chocolate; una vendedora mayor le aconseja. Detrás hay frutas y frascos.",
+      "zonas": [
+        {
+          "palabra": "flores",
+          "x": 45,
+          "y": 44,
+          "explicacion": "«Por la tarde entré a una tienda y miré flores, chocolates y un pastel.»"
+        },
+        {
+          "palabra": "chocolates",
+          "x": 44,
+          "y": 62,
+          "explicacion": "«miré flores, chocolates y un pastel.»"
+        },
+        {
+          "palabra": "vendedora",
+          "x": 74,
+          "y": 31,
+          "explicacion": "«La vendedora sonrió»"
+        },
+        {
+          "palabra": "frutas",
+          "x": 61,
+          "y": 27,
+          "explicacion": "«Una amiga en Lima prefiere frutas o un postre.»"
+        }
+      ],
+      "distractores": [
+        {
+          "palabra": "vino",
+          "explicacion": "En esta tienda no elige vino. El vino es lo que lleva su primo: «Un primo mío, en Madrid, suele llevar vino.»"
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ]
+    },
+    {
+      "id": "que-dices",
+      "tipo": "situaciones",
+      "titulo": "¿Qué dices? ¿Qué haces?",
+      "consigna": "Te invitan a una casa en Bogotá. Elige la reacción más adecuada y lee por qué.",
+      "items": [
+        {
+          "icono": "🎁",
+          "situacion": "Te invitan a cenar por primera vez y no sabes qué llevar.",
+          "opciones": [
+            "Llego con las manos vacías.",
+            "Llevo algo pequeño y fácil de compartir, como un postre.",
+            "Compro el ramo más grande de la tienda."
+          ],
+          "correcta": 1,
+          "explicacion": "«En muchas casas de América Latina y de España, un invitado llega con algo pequeño: un postre, pan, vino o flores.»"
+        },
+        {
+          "icono": "🙊",
+          "situacion": "Al abrir, la anfitriona dice: «¡Ay, no tenías que traer nada!». ¿Qué respondes?",
+          "opciones": [
+            "«Es solo un detalle. ¡Gracias por invitarme!»",
+            "«Ah, bueno, entonces me lo llevo.»",
+            "No digo nada y lo dejo en el suelo."
+          ],
+          "correcta": 0,
+          "explicacion": "Es una fórmula de cortesía: la anfitriona dice que no hacía falta y, «aun así, agradece el gesto.»"
+        },
+        {
+          "icono": "🍷",
+          "situacion": "No sabes si en esa casa toman vino.",
+          "opciones": [
+            "Llevo dos botellas, por si acaso.",
+            "Pregunto con naturalidad o llevo otra cosa simple.",
+            "No voy a la cena."
+          ],
+          "correcta": 1,
+          "explicacion": "«Pregunto con naturalidad, o llevo algo simple y fácil de compartir.»"
+        },
+        {
+          "icono": "✉️",
+          "situacion": "Es el día después de la cena.",
+          "opciones": [
+            "Le escribo para agradecer la noche.",
+            "No digo nada: ya llevé un regalo.",
+            "Le pregunto si le gustó mi regalo."
+          ],
+          "correcta": 0,
+          "explicacion": "«Al día siguiente le escribí para agradecer la noche.»"
+        }
+      ],
+      "habilidades": [
+        "Cultura"
+      ]
+    },
+    {
+      "id": "escuchar-escena",
+      "tipo": "escuchar_imagen",
+      "titulo": "¿En la tienda o en la puerta?",
+      "consigna": "Escucha y toca la imagen correcta.",
+      "opciones": [
+        {
+          "imagen": "escena.webp",
+          "respaldo": "escena.png",
+          "texto": "En la tienda",
+          "alt": "El narrador elige flores y chocolate; la vendedora le aconseja."
+        },
+        {
+          "imagen": "portada.webp",
+          "respaldo": "portada.png",
+          "texto": "En la puerta de Teresa",
+          "alt": "Teresa abre la puerta y sonríe; el invitado llega con un pastel y una bolsa."
+        }
+      ],
+      "items": [
+        {
+          "decir": "La vendedora sonrió.",
+          "correcta": 0,
+          "explicacion": "La vendedora le da un consejo en la tienda."
+        },
+        {
+          "decir": "Esa noche llevé un pastel de naranja y un café bueno.",
+          "correcta": 1,
+          "explicacion": "Llega a la puerta con el pastel."
+        },
+        {
+          "decir": "Por la tarde entré a una tienda y miré flores, chocolates y un pastel.",
+          "correcta": 0,
+          "explicacion": "En la tienda mira flores y chocolates."
+        },
+        {
+          "decir": "Teresa abrió los ojos y después se rió.",
+          "correcta": 1,
+          "explicacion": "Teresa abre la puerta y sonríe al ver el pastel."
+        }
+      ],
+      "habilidades": [
+        "Escuchar"
+      ]
+    },
+    {
+      "id": "resumen",
+      "tipo": "completar",
+      "titulo": "El resumen con palabras del texto",
+      "consigna": "Completa el resumen. Puedes usar las palabras de la caja.",
+      "banco": [
+        "vacías",
+        "escena",
+        "incómodo",
+        "postre",
+        "gesto",
+        "agradecer"
+      ],
+      "items": [
+        {
+          "antes": "El narrador no quería llegar con las manos",
+          "respuesta": [
+            "vacías"
+          ],
+          "despues": ".",
+          "explicacion": "«a veces llego con las manos vacías»: en Bogotá no quería equivocarse."
+        },
+        {
+          "antes": "La vendedora le aconsejó no hacer una",
+          "respuesta": [
+            "escena"
+          ],
+          "despues": ".",
+          "explicacion": "«Lo importante es no llegar vacío, y tampoco hacer una escena.»"
+        },
+        {
+          "antes": "Un ramo enorme puede resultar",
+          "respuesta": [
+            "incómodo"
+          ],
+          "despues": ".",
+          "explicacion": "«un gesto grande puede resultar incómodo.»"
+        },
+        {
+          "antes": "En muchas casas, el invitado lleva un",
+          "respuesta": [
+            "postre"
+          ],
+          "despues": ", pan, vino o flores.",
+          "explicacion": "«un invitado llega con algo pequeño: un postre, pan, vino o flores.»"
+        },
+        {
+          "antes": "Teresa dijo que no hacía falta, pero agradeció el",
+          "respuesta": [
+            "gesto"
+          ],
+          "despues": ".",
+          "explicacion": "«aun así, agradece el gesto.»"
+        },
+        {
+          "antes": "Al día siguiente, el narrador le escribió para",
+          "respuesta": [
+            "agradecer"
+          ],
+          "despues": "la noche.",
+          "explicacion": "«Al día siguiente le escribí para agradecer la noche.»"
+        }
+      ],
+      "habilidades": [
+        "Escribir"
+      ]
+    },
+    {
+      "id": "dilo-tu",
+      "tipo": "hablar",
+      "titulo": "Dilo tú",
+      "consigna": "Escucha el modelo, toca 🎤 y dilo en voz alta, como en una conversación real. No hace falta decirlo palabra por palabra.",
+      "requiere": "reconocimiento_voz",
+      "idioma": "es-US",
+      "items": [
+        {
+          "contexto": "Llegas a la casa con un regalo. Dices:",
+          "frase": "Es solo un detalle."
+        },
+        {
+          "contexto": "Agradeces la invitación:",
+          "frase": "Gracias por invitarme."
+        },
+        {
+          "contexto": "Antes de la visita, le preguntas a tu amiga:",
+          "frase": "¿Qué llevo a tu casa?"
+        },
+        {
+          "contexto": "Al despedirte, dices:",
+          "frase": "Gracias por la noche, la pasé muy bien."
+        }
+      ],
+      "habilidades": [
+        "Hablar"
+      ]
+    },
+    {
+      "id": "y-en-tu-pais",
+      "tipo": "reflexion",
+      "titulo": "¿Y en tu país?",
+      "pregunta": "En tu país, ¿qué se lleva cuando te invitan a una casa? ¿Alguna vez no supiste qué llevar? Cuenta qué hiciste y qué aprendiste.",
+      "ayuda": [
+        "En mi país, normalmente se lleva…",
+        "Depende de…",
+        "Una vez me invitaron a… y llevé…",
+        "Ahora pienso que…"
+      ],
+      "minimo_caracteres": 80,
+      "modelo": "En mi país depende mucho de la familia. Con amigos, normalmente llevo algo para beber o un postre; en una cena formal, una botella de vino. Una vez me invitaron a casa de una familia mexicana y llegué con las manos vacías, porque me dijeron que no llevara nada. La mamá preparó muchísima comida y yo me sentí un poco incómodo. Ahora, como el narrador, llevo algo simple y fácil de compartir.",
+      "guia": "No hay una respuesta correcta. Compara tu costumbre con la de Teresa y explica por qué se hace así. Si quieres, comparte tu respuesta con tu profesor.",
+      "habilidades": [
+        "Escribir",
+        "Cultura"
+      ]
+    },
+    {
+      "id": "quien-lleva",
+      "tipo": "relacionar",
+      "titulo": "Cada lugar, su detalle",
+      "consigna": "Une a cada persona con lo que suele llevar.",
+      "pares": [
+        {
+          "izquierda": "El narrador, en Estados Unidos",
+          "derecha": "A veces nada, o vino si la cena es formal",
+          "explicacion": "«a veces llego con las manos vacías, o llevo una botella de vino si la cena es formal.»"
+        },
+        {
+          "izquierda": "El primo, en Madrid",
+          "derecha": "Suele llevar vino",
+          "explicacion": "«Un primo mío, en Madrid, suele llevar vino.»"
+        },
+        {
+          "izquierda": "La amiga, en Lima",
+          "derecha": "Prefiere frutas o un postre",
+          "explicacion": "«Una amiga en Lima prefiere frutas o un postre.»"
+        },
+        {
+          "izquierda": "El narrador, en Bogotá",
+          "derecha": "Un pastel de naranja y un café bueno",
+          "explicacion": "«Esa noche llevé un pastel de naranja y un café bueno.»"
+        }
+      ],
+      "habilidades": [
+        "Cultura"
+      ],
+      "seccion": "mas_practica"
+    },
+    {
+      "id": "orden",
+      "tipo": "ordenar",
+      "titulo": "La invitación, paso a paso",
+      "consigna": "Ordena lo que pasa. Usa las flechas ↑ ↓.",
+      "pasos": [
+        "Teresa lo invita a su casa.",
+        "Entra a una tienda y mira flores, chocolates y un pastel.",
+        "Casi compra un ramo enorme, pero no lo hace.",
+        "Llega con un pastel de naranja y un café bueno.",
+        "Se sientan y hablan mucho.",
+        "Al día siguiente, le escribe para agradecer la noche."
+      ],
+      "explicacion": "Primero la invitación (el viernes); por la tarde, la tienda y la duda del ramo; esa noche, la visita; y al día siguiente, el mensaje.",
+      "pista": "Pista: busca «el viernes», «por la tarde», «esa noche» y «al día siguiente».",
+      "habilidades": [
+        "Leer"
+      ],
+      "seccion": "mas_practica"
+    },
+    {
+      "id": "verdadero-falso",
+      "tipo": "verdadero_falso",
+      "titulo": "¿Verdadero o falso?",
+      "consigna": "Decide y mira la frase del texto que lo demuestra. Ojo: a veces hay que interpretar.",
+      "items": [
+        {
+          "afirmacion": "Para la vendedora, lo importante es gastar mucho.",
+          "correcta": false,
+          "justificacion": "«Lo importante es no llegar vacío, y tampoco hacer una escena.»"
+        },
+        {
+          "afirmacion": "Antes, el narrador pensaba que había una regla única.",
+          "correcta": true,
+          "justificacion": "«Cuando era más joven, yo pensaba que existía una regla única para todos los países.»"
+        },
+        {
+          "afirmacion": "A Teresa no le gustó el regalo.",
+          "correcta": false,
+          "justificacion": "«Siempre digo que no hace falta, pero me encanta»"
+        },
+        {
+          "afirmacion": "El pastel duró mucho.",
+          "correcta": false,
+          "justificacion": "«Nos sentamos, hablamos mucho y el pastel duró poco.»"
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ],
+      "seccion": "mas_practica"
+    },
+    {
+      "id": "dictado",
+      "tipo": "dictado",
+      "titulo": "Mini dictado",
+      "consigna": "Escucha y escribe lo que oyes.",
+      "items": [
+        {
+          "decir": "manos vacías",
+          "antes": "No quería llegar con las",
+          "despues": ".",
+          "respuesta": [
+            "manos vacías"
+          ],
+          "explicacion": "Llegar con las manos vacías: llegar sin nada."
+        },
+        {
+          "decir": "ramo",
+          "antes": "Casi compré un",
+          "despues": "enorme.",
+          "respuesta": [
+            "ramo"
+          ],
+          "explicacion": "Un ramo de flores."
+        },
+        {
+          "decir": "anfitriona",
+          "antes": "La",
+          "despues": "agradece el gesto.",
+          "respuesta": [
+            "anfitriona"
+          ],
+          "explicacion": "La anfitriona es la persona que invita y recibe en su casa."
+        },
+        {
+          "decir": "agradecer",
+          "antes": "Le escribí para",
+          "despues": "la noche.",
+          "respuesta": [
+            "agradecer"
+          ],
+          "explicacion": "Agradecer: decir gracias."
+        },
+        {
+          "decir": "naturalidad",
+          "antes": "Pregunto con",
+          "despues": ".",
+          "respuesta": [
+            "naturalidad"
+          ],
+          "explicacion": "Con naturalidad: sin miedo, de forma simple."
+        }
+      ],
+      "habilidades": [
+        "Escuchar",
+        "Escribir"
+      ],
+      "seccion": "mas_practica"
+    }
+  ]
+}
