@@ -16,7 +16,7 @@ Español latino neutro (ver /workspace/lecturas/criterios_lengua.md). Voz del na
 1. `lecturas/<carpeta>/<carpeta>.json` (mismo formato que lectura01) + imágenes.
 2. `ejercicios.json` y `"ejercicios_archivo": "ejercicios.json"` en el JSON.
 3. Entrada en `lecturas/indice.json`.
-4. Audio: MP3 en la carpeta y `"audio": {"mp3": "archivo.mp3"}`. Sin archivo: «Audio próximamente».
+4. Audio: sin MP3; la lectura se escucha con la voz del navegador de cada alumno (es-US, es-MX…).
 
 ## Ejercicios (ejercicios.json, version 2)
 Campos comunes: `id`, `tipo`, `titulo`, `consigna`, `habilidades` (Leer · Escuchar · Escribir · Hablar · Cultura),

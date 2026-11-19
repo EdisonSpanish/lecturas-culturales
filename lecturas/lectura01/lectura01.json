@@ -168,9 +168,8 @@
     }
   },
   "audio": {
-    "mp3": "audio/despues-de-comer-se-habla.mp3",
-    "estado": "tts_provisional",
-    "nota": "Aún no se grabó. Pendiente decidir si lo graba Edison o se usa un TTS con licencia comercial (voz de español de América, no de España). Sin música de fondo.",
+    "estado": "voz_del_navegador",
+    "nota": "Sin MP3: el sitio lee el texto con la voz del dispositivo de cada alumno (decisión de Edison, 19-11-2026).",
     "guion": {
       "velocidad": "Unas 110 palabras por minuto, clara y natural, sin teatralidad. Voz de español de América, no de España.",
       "pausas": "Pausa corta al final de cada oración; pausa más larga (unos dos segundos) entre párrafos. Tres segundos de silencio al empezar y al cerrar.",
@@ -200,11 +199,7 @@
           "pausa_despues": "cierre"
         }
       ]
-    },
-    "descarga": true,
-    "voz": "es-EC-AndreaNeural (Microsoft, vía edge-tts), velocidad -10 %",
-    "duracion_segundos": 114,
-    "nota_tts": "MP3 provisional generado con TTS a partir de audio.guion (coincide con texto_parrafos). Mono, 64 kbps. Pausas: 3 s al empezar y al cerrar, 2 s entre título y párrafos."
+    }
   },
   "ejercicios_archivo": "ejercicios.json",
   "sugerencia_ejercicios": "Comparar los tres horarios; unir «¡Buen provecho!», «¡Que aproveche!» y sobremesa con su momento; una pregunta: ¿Qué haces tú después de comer?",

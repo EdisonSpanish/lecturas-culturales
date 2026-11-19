@@ -106,19 +106,47 @@
   }
 
   function bloqueAudio(L) {
-    var A = L.audio || {};
     var caja = el('div', { class: 'audio' });
     var sec = el('section', { class: 'bloque', 'aria-labelledby': 'h-audio' }, [el('h2', { id: 'h-audio' }, [el('span', { class: 'ico', 'aria-hidden': 'true', text: '🎧' }), 'Escucha la lectura']), caja]);
-    function pronto() {
-      caja.innerHTML = '';
-      caja.appendChild(el('p', { class: 'pronto' }, [el('strong', { text: 'Audio próximamente. ' }), 'Mientras tanto, puedes leer y usar la traducción.']));
+    // Solo voz del navegador (sin MP3): se lee párrafo por párrafo.
+    var partes = [L.titulo].concat(L.texto_parrafos || []).filter(Boolean).map(function (p) { return String(p).replace(/\s+/g, ' ').trim(); });
+    var bPlay = el('button', { type: 'button', class: 'btn', text: '▶ Escuchar la lectura' });
+    var bLento = el('button', { type: 'button', class: 'btn sec', text: '🐢 Más despacio' });
+    var bPausa = el('button', { type: 'button', class: 'btn sec', hidden: true, text: '⏸ Pausa' });
+    var bStop = el('button', { type: 'button', class: 'btn sec', hidden: true, text: '⏹ Detener' });
+    var estado = el('p', { class: 'pronto' });
+    [bPlay, bLento, bPausa, bStop, estado].forEach(function (n) { caja.appendChild(n); });
+    var turno = 0, pausado = false;
+    function reiniciar() { bPausa.hidden = true; bStop.hidden = true; bPausa.textContent = '⏸ Pausa'; pausado = false; }
+    function leer(rate) {
+      if (!Voz.soporte || !Voz.voz) { estado.textContent = 'Tu navegador no tiene una voz en español. Puedes leer el texto y usar la traducción.'; return; }
+      window.speechSynthesis.cancel();
+      var mio = ++turno, i = 0;
+      bPausa.hidden = false; bStop.hidden = false; pausado = false; bPausa.textContent = '⏸ Pausa';
+      function sig() {
+        if (mio !== turno) return;
+        if (i >= partes.length) { reiniciar(); return; }
+        var u = new SpeechSynthesisUtterance(partes[i++]);
+        u.voice = Voz.voz; u.lang = Voz.voz.lang; u.rate = rate;
+        u.onend = function () { setTimeout(sig, 600); };
+        u.onerror = function () { if (mio === turno) reiniciar(); };
+        window.speechSynthesis.speak(u);
+      }
+      sig();
     }
-    if (!A.mp3) { pronto(); return sec; }
-    var src = base + A.mp3;
-    var au = el('audio', { controls: true, preload: 'metadata', src: src });
-    au.addEventListener('error', pronto);
-    caja.appendChild(au);
-    if (A.descarga !== false) caja.appendChild(el('a', { class: 'btn', href: src, download: A.mp3.split('/').pop() }, ['⬇ Descargar MP3']));
+    bPlay.addEventListener('click', function () { leer(0.9); });
+    bLento.addEventListener('click', function () { leer(0.7); });
+    bPausa.addEventListener('click', function () {
+      if (!pausado) { window.speechSynthesis.pause(); pausado = true; bPausa.textContent = '▶ Seguir'; }
+      else { window.speechSynthesis.resume(); pausado = false; bPausa.textContent = '⏸ Pausa'; }
+    });
+    bStop.addEventListener('click', function () { turno++; window.speechSynthesis.cancel(); reiniciar(); });
+    window.addEventListener('pagehide', function () { try { window.speechSynthesis.cancel(); } catch (e) {} });
+    Voz.cargar().then(function (v) {
+      if (!Voz.soporte || !v) { bPlay.disabled = true; bLento.disabled = true; estado.textContent = 'Tu navegador no tiene una voz en español. Puedes leer el texto y usar la traducción.'; return; }
+      var l = String(v.lang || '').replace('_', '-').toLowerCase();
+      estado.textContent = (l === 'es-es' || l === 'es') ? 'Tu dispositivo solo tiene una voz de España; la pronunciación puede variar un poco.' : 'Voz de tu dispositivo.';
+    });
     return sec;
   }
 
