@@ -289,8 +289,10 @@
     voz: null, promesa: null,
     elegir: function () {
       var vs = window.speechSynthesis.getVoices() || [];
-      function de(pref) { return vs.filter(function (v) { return String(v.lang || '').replace('_', '-').toLowerCase().indexOf(pref) === 0; })[0]; }
-      return de('es-es') || de('es-mx') || de('es-us') || de('es') || null;
+      // Voz de América (criterios_lengua.md): es-US, es-MX, es-419 y otras es-* de América; nunca es-ES.
+      var america = vs.filter(function (v) { var l = String(v.lang || '').replace('_', '-').toLowerCase(); return l.indexOf('es') === 0 && l !== 'es-es' && l !== 'es'; });
+      function de2(pref) { return america.filter(function (v) { return String(v.lang).replace('_', '-').toLowerCase().indexOf(pref) === 0; })[0]; }
+      return de2('es-us') || de2('es-mx') || de2('es-419') || america[0] || null;
     },
     cargar: function () {
       if (!Voz.soporte) return Promise.resolve(null);
@@ -334,7 +336,7 @@
     Voz.cargar().then(function (v) {
       if (v) return;
       var nota = caja.querySelector('.aviso-voz');
-      if (!nota) caja.insertBefore(el('p', { class: 'fb nota aviso-voz', text: 'Tu navegador no tiene una voz en español. Puedes leer la frase con «Ver la frase» (prueba en Chrome, Edge o Safari para escucharla).' }), caja.querySelector('.consigna').nextSibling);
+      if (!nota) caja.insertBefore(el('p', { class: 'fb nota aviso-voz', text: 'Tu navegador no tiene una voz de español de América. Puedes leer la frase con «Ver la frase» (prueba en Chrome, Edge o Safari para escucharla).' }), caja.querySelector('.consigna').nextSibling);
       botones.forEach(function (b) { b.ver.hidden = false; });
     });
   }
@@ -368,7 +370,7 @@
       if (esExtra) return;
       hechos[id] = true; var n = Object.keys(hechos).length;
       barra.style.width = (100 * n / lista.length) + '%';
-      txtProg.textContent = n + ' de ' + lista.length + (n === lista.length ? ' · ¡Has terminado! 🎉' : '');
+      txtProg.textContent = n + ' de ' + lista.length + (n === lista.length ? ' · ¡Terminaste! 🎉' : '');
     }
     function pintar(ej, num, esExtra) {
       var id = ej.id || ('e' + num);
@@ -511,7 +513,7 @@
       instantaneo(caja, ej, api, function (it, i, responder) {
         var bv = botonesVoz(it.decir); bots.push(bv);
         var fs = el('fieldset', { class: 'item escucha' }, [el('legend', { text: (i + 1) + '. ' + it.pregunta }), bv.fila, bv.frase]);
-        fs.appendChild(eleccion(fs, it.opciones, it.correcta, '¡Bien! Has oído: «' + it.decir + '» ' + it.explicacion, 'La respuesta es ' + opcionTexto(it) + '. Has oído: «' + it.decir + '» ' + it.explicacion, responder));
+        fs.appendChild(eleccion(fs, it.opciones, it.correcta, '¡Bien! Oíste: «' + it.decir + '» ' + it.explicacion, 'La respuesta es ' + opcionTexto(it) + '. Oíste: «' + it.decir + '» ' + it.explicacion, responder));
         return fs;
       });
       avisoVoz(caja, bots);
@@ -566,7 +568,7 @@
         mic.addEventListener('click', function () {
           var r;
           try { r = new Reconocer(); } catch (e) { estado.textContent = 'El micrófono no está disponible en este navegador.'; return; }
-          r.lang = ej.idioma || 'es-ES'; r.interimResults = false; r.maxAlternatives = 3;
+          r.lang = (ej.idioma && !/^es-es$/i.test(ej.idioma)) ? ej.idioma : 'es-US'; r.interimResults = false; r.maxAlternatives = 3;
           mic.disabled = true; estado.textContent = 'Te escucho…';
           r.onresult = function (e) {
             var alts = [], res0 = e.results[0];
@@ -576,14 +578,14 @@
             var ok = mejor && mejor.s >= 0.75 && parecidoPalabras(mejor.a, it.frase) >= 0.8;
             d.classList.add(ok ? 'ok' : 'mal');
             var exacto = ok && sinTildes(norm(mejor.a)) === sinTildes(norm(it.frase));
-            d.appendChild(fb(ok ? 'ok' : 'mal', ok ? (exacto ? '¡Muy bien! He oído: «' + mejor.a + '».' : '¡Bien! Se dice: «' + it.frase.replace(/[.]$/, '') + '».') : 'Casi. He oído: «' + (mejor ? mejor.a : '…') + '». Escucha el modelo y prueba otra vez.'));
+            d.appendChild(fb(ok ? 'ok' : 'mal', ok ? (exacto ? '¡Muy bien! Oí: «' + mejor.a + '».' : '¡Bien! Se dice: «' + it.frase.replace(/[.]$/, '') + '».') : 'Casi. Oí: «' + (mejor ? mejor.a : '…') + '». Escucha el modelo y prueba otra vez.'));
             animar(d, ok ? 'pop' : 'shake'); sonido(ok);
             if (ok) logrados[i] = true;
             var n = Object.keys(logrados).length;
             api.puntos(n); if (n === ej.items.length) api.listo();
           };
           r.onerror = function (e) {
-            estado.textContent = e.error === 'not-allowed' || e.error === 'service-not-allowed' ? 'Necesito permiso para usar el micrófono.' : e.error === 'no-speech' ? 'No te he oído. Prueba otra vez.' : 'No se pudo usar el micrófono.';
+            estado.textContent = e.error === 'not-allowed' || e.error === 'service-not-allowed' ? 'Necesito permiso para usar el micrófono.' : e.error === 'no-speech' ? 'No te oí. Prueba otra vez.' : 'No se pudo usar el micrófono.';
           };
           r.onend = function () { mic.disabled = false; if (estado.textContent === 'Te escucho…') estado.textContent = ''; };
           try { r.start(); } catch (e) { mic.disabled = false; estado.textContent = 'No se pudo usar el micrófono.'; }
@@ -608,7 +610,7 @@
       function elegir(chip) {
         if (seleccion) seleccion.setAttribute('aria-pressed', 'false');
         seleccion = (seleccion === chip) ? null : chip;
-        if (seleccion) { seleccion.setAttribute('aria-pressed', 'true'); decir('Has elegido «' + chip.textContent + '». Ahora toca un lugar en la imagen.'); }
+        if (seleccion) { seleccion.setAttribute('aria-pressed', 'true'); decir('Elegiste «' + chip.textContent + '». Ahora toca un lugar en la imagen.'); }
         fig.classList.toggle('esperando', !!seleccion);
       }
       function colocar(chip, zonaBtn) {
@@ -832,7 +834,7 @@
     }
   };
 
-  // toque fiable en móvil (pointerup) sin perder el clic de ratón/teclado
+  // toque fiable en pantallas táctiles (pointerup) sin perder el clic de ratón/teclado
   function alTocar(n, fn) {
     var t = 0, ini = null;
     n.addEventListener('pointerdown', function (e) { ini = (e.pointerType !== 'mouse') ? { x: e.clientX, y: e.clientY } : null; });

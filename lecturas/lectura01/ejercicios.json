@@ -1,33 +1,33 @@
 {
-  "version": 2,
+  "version": 3,
   "lectura": "a2-despues-de-comer-se-habla",
   "mas_practica_titulo": "Más práctica",
   "ejercicios": [
     {
       "id": "comprension",
       "tipo": "opcion_multiple",
-      "titulo": "¿Qué ha pasado en casa de Carmen?",
+      "titulo": "¿Qué pasó en casa de Carmen?",
       "consigna": "Elige la respuesta correcta según el texto.",
       "items": [
         {
           "pregunta": "¿Por qué llega a las doce y media?",
           "opciones": [
-            "Porque en Estados Unidos come a las doce.",
-            "Porque Carmen le ha dicho «a las doce y media».",
+            "Porque en Estados Unidos almuerza a las doce.",
+            "Porque Carmen le dijo «a las doce y media».",
             "Porque tiene que trabajar por la tarde."
           ],
           "correcta": 0,
-          "explicacion": "En Estados Unidos come a las doce. Por eso, a las doce y media ya tiene un poco de hambre."
+          "explicacion": "En Estados Unidos almuerza a las doce. Por eso, a las doce y media ya tiene un poco de hambre."
         },
         {
-          "pregunta": "¿A qué hora comen en casa de Carmen?",
+          "pregunta": "¿A qué hora almuerzan en casa de Carmen?",
           "opciones": [
             "A la una.",
             "A las tres.",
             "A las seis y media."
           ],
           "correcta": 1,
-          "explicacion": "Carmen dice: «Aquí comemos a las tres». La una es la hora del almuerzo en Guayaquil."
+          "explicacion": "Carmen dice: «Aquí comemos a las tres». En España, al almuerzo le llaman la comida."
         },
         {
           "pregunta": "¿Cuándo dice Carmen «¡Que aproveche!»?",
@@ -37,12 +37,12 @@
             "Antes de empezar a comer."
           ],
           "correcta": 2,
-          "explicacion": "«Antes de empezar, Carmen ha dicho: ¡Que aproveche!». Es una fórmula para el principio de la comida."
+          "explicacion": "«Antes de empezar, Carmen dijo: ¡Que aproveche!». En América Latina decimos «¡Buen provecho!»: es la misma idea."
         },
         {
           "pregunta": "Según el texto, ¿cuál es «la mejor parte»?",
           "opciones": [
-            "La tarta.",
+            "El pastel.",
             "Quedarse a la mesa después de comer.",
             "Llegar temprano."
           ],
@@ -61,15 +61,15 @@
       "consigna": "Escucha la frase y elige la respuesta.",
       "items": [
         {
-          "decir": "Carmen se ha reído y me ha dicho: ¡Qué temprano! Aquí comemos a las tres.",
-          "pregunta": "¿A qué hora comen en Madrid?",
+          "decir": "Carmen se rió y me dijo: ¡Qué temprano! Aquí comemos a las tres.",
+          "pregunta": "¿A qué hora almuerzan en Madrid?",
           "opciones": [
             "A las doce.",
             "A la una.",
             "A las tres."
           ],
           "correcta": 2,
-          "explicacion": "En Madrid se come a las tres: por eso Carmen se ríe."
+          "explicacion": "En Madrid el almuerzo es a las tres: por eso Carmen se ríe."
         },
         {
           "decir": "En Madrid, la cena es tarde, a las nueve o a las diez.",
@@ -94,7 +94,7 @@
           "explicacion": "«Allí» es Guayaquil: el almuerzo es a la una, más o menos."
         },
         {
-          "decir": "En Estados Unidos, normalmente como a las doce y ceno a las seis y media.",
+          "decir": "En Estados Unidos, normalmente almuerzo a las doce y ceno a las seis y media.",
           "pregunta": "¿Dónde cena a las seis y media?",
           "opciones": [
             "En Madrid.",
@@ -102,7 +102,7 @@
             "En Estados Unidos."
           ],
           "correcta": 2,
-          "explicacion": "Es su horario en Estados Unidos: come a las doce y cena a las seis y media."
+          "explicacion": "Es su horario en Estados Unidos: almuerza a las doce y cena a las seis y media."
         }
       ],
       "habilidades": [
@@ -118,31 +118,31 @@
       "respaldo": "portada.png",
       "ancho": 1152,
       "alto": 768,
-      "alt": "La sobremesa en casa de Carmen: una jarra de agua, tazas de café, un plato con restos de tarta y la mesa de madera.",
+      "alt": "La sobremesa en casa de Carmen: una jarra de agua, tazas de café, un plato con restos de pastel y la mesa de madera.",
       "zonas": [
         {
           "palabra": "agua",
           "x": 17,
           "y": 86,
-          "explicacion": "«He bebido agua…» En la jarra hay agua."
+          "explicacion": "«Tomé agua…» En la jarra hay agua."
         },
         {
           "palabra": "café",
           "x": 34,
           "y": 78,
-          "explicacion": "«Hemos tomado café»: es el café de la sobremesa."
+          "explicacion": "«Tomamos café»: es el café de la sobremesa."
         },
         {
-          "palabra": "tarta",
+          "palabra": "pastel",
           "x": 51,
           "y": 84,
-          "explicacion": "«Y al final una tarta»: en el plato quedan migas de la tarta."
+          "explicacion": "«Y al final un pastel»: en el plato quedan migas del pastel."
         },
         {
           "palabra": "mesa",
           "x": 64,
           "y": 76,
-          "explicacion": "«Todos se han quedado en la mesa.»"
+          "explicacion": "«Todos se quedaron en la mesa.»"
         }
       ],
       "distractores": [
@@ -163,43 +163,43 @@
       "items": [
         {
           "icono": "🍽️",
-          "situacion": "Todos están en la mesa. La comida va a empezar.",
+          "situacion": "Todos están en la mesa. El almuerzo va a empezar.",
           "opciones": [
-            "«¡Que aproveche!»",
+            "«¡Buen provecho!»",
             "«¡Qué temprano!»",
             "«¡Hasta luego!»"
           ],
           "correcta": 0,
-          "explicacion": "Antes de empezar se dice «¡Que aproveche!», como Carmen."
+          "explicacion": "Antes de empezar se dice «¡Buen provecho!». En España, Carmen dice «¡Que aproveche!»: es la misma idea."
         },
         {
           "icono": "🕒",
-          "situacion": "Te invitan a comer en Madrid el sábado. ¿A qué hora llegas?",
+          "situacion": "Te invitan a almorzar en Madrid el sábado. ¿A qué hora llegas?",
           "opciones": [
             "A las doce y media.",
             "Un poco antes de las tres.",
             "A las seis y media."
           ],
           "correcta": 1,
-          "explicacion": "En Madrid se come tarde: «Aquí comemos a las tres»."
+          "explicacion": "En Madrid se almuerza tarde: «Aquí comemos a las tres»."
         },
         {
           "icono": "☕",
-          "situacion": "Ya han comido la tarta. Todos hablan y toman café.",
+          "situacion": "Ya comieron el pastel. Todos hablan y toman café.",
           "opciones": [
             "Me levanto enseguida y me voy.",
             "Me quedo en la mesa y hablo con la familia.",
             "Voy a la cocina a lavar los platos."
           ],
           "correcta": 1,
-          "explicacion": "Es la sobremesa: «Nadie se ha levantado enseguida»."
+          "explicacion": "Es la sobremesa: «Nadie se levantó enseguida»."
         },
         {
           "icono": "😅",
           "situacion": "Llegas a las doce y media y Carmen dice: «¡Qué temprano!».",
           "opciones": [
-            "«Perdón, en Estados Unidos comemos a las doce.»",
-            "«¡Que aproveche!»",
+            "«Perdón, en Estados Unidos almorzamos a las doce.»",
+            "«¡Buen provecho!»",
             "«No tengo hambre.»"
           ],
           "correcta": 0,
@@ -231,24 +231,24 @@
       ],
       "items": [
         {
-          "decir": "Por eso he llegado a las doce y media, con un poco de hambre.",
+          "decir": "Por eso llegué a las doce y media, con un poco de hambre.",
           "correcta": 0,
-          "explicacion": "Llega a las doce y media: todavía no hay comida en la mesa."
+          "explicacion": "Llega a las doce y media: la mesa todavía está casi vacía."
         },
         {
-          "decir": "Hemos hablado, hemos reído y hemos tomado café.",
+          "decir": "Hablamos, reímos y tomamos café.",
           "correcta": 1,
           "explicacion": "Hablar, reír y tomar café después de comer: es la sobremesa."
         },
         {
-          "decir": "He bebido agua y hemos hablado un rato.",
+          "decir": "Tomé agua y hablamos un rato.",
           "correcta": 0,
-          "explicacion": "«He bebido agua»: en la imagen de la llegada tiene un vaso de agua."
+          "explicacion": "«Tomé agua»: en la imagen de la llegada tiene un vaso de agua."
         },
         {
-          "decir": "Después de comer, todos se han quedado en la mesa.",
+          "decir": "Después de comer, todos se quedaron en la mesa.",
           "correcta": 1,
-          "explicacion": "«Todos se han quedado en la mesa»: nadie se levanta enseguida."
+          "explicacion": "«Todos se quedaron en la mesa»: nadie se levanta enseguida."
         }
       ],
       "habilidades": [
@@ -275,7 +275,7 @@
             "temprano"
           ],
           "despues": "a casa de Carmen.",
-          "explicacion": "Llega a las doce y media, y en Madrid se come a las tres: es muy temprano."
+          "explicacion": "Llega a las doce y media, y en Madrid se almuerza a las tres: es muy temprano."
         },
         {
           "antes": "Antes de comer, Carmen dice: «¡Que",
@@ -283,10 +283,10 @@
             "aproveche"
           ],
           "despues": "!».",
-          "explicacion": "«¡Que aproveche!» se dice antes de empezar a comer."
+          "explicacion": "«¡Que aproveche!» se dice en España antes de empezar a comer. En América Latina decimos «¡Buen provecho!»."
         },
         {
-          "antes": "Después de la comida, nadie se levanta",
+          "antes": "Después del almuerzo, nadie se levanta",
           "respuesta": [
             "enseguida"
           ],
@@ -299,7 +299,7 @@
             "café"
           ],
           "despues": ".",
-          "explicacion": "«Hemos hablado, hemos reído y hemos tomado café.»"
+          "explicacion": "«Hablamos, reímos y tomamos café.»"
         },
         {
           "antes": "En",
@@ -315,7 +315,7 @@
             "almuerzo"
           ],
           "despues": "es a la una, más o menos.",
-          "explicacion": "En Guayaquil se dice almuerzo; en Madrid, comida."
+          "explicacion": "En toda la lectura se dice almuerzo; en España también lo llaman la comida."
         }
       ],
       "habilidades": [
@@ -326,15 +326,15 @@
       "id": "y-en-tu-pais",
       "tipo": "reflexion",
       "titulo": "¿Y en tu país?",
-      "pregunta": "¿A qué hora comes y cenas normalmente? Y después de comer, ¿te levantas enseguida o te quedas en la mesa?",
+      "pregunta": "¿A qué hora almuerzas y cenas normalmente? Y después de comer, ¿te levantas enseguida o te quedas en la mesa?",
       "ayuda": [
-        "Normalmente como a la… / a las…",
+        "Normalmente almuerzo a la… / a las…",
         "Ceno a las…",
         "Después de comer, me levanto enseguida / me quedo en la mesa…",
         "Me gusta… / No me gusta…"
       ],
       "minimo_caracteres": 20,
-      "modelo": "En mi país, normalmente como a la una y ceno a las siete. Durante la semana me levanto enseguida, porque trabajo por la tarde. Pero los domingos me quedo en la mesa con mi familia: hablamos y tomamos café. Me gusta mucho la sobremesa del domingo.",
+      "modelo": "En mi país, normalmente almuerzo a la una y ceno a las siete. Durante la semana me levanto enseguida, porque trabajo por la tarde. Pero los domingos me quedo en la mesa con mi familia: hablamos y tomamos café. Me gusta mucho la sobremesa del domingo.",
       "guia": "No hay una respuesta correcta. Compara tus horarios con los de Madrid y Guayaquil, y di qué te gusta. Si quieres, comparte tu respuesta con tu profesor.",
       "habilidades": [
         "Escribir",
@@ -363,7 +363,16 @@
           "respuesta": [
             "Que aproveche"
           ],
-          "explicacion": "Es la fórmula para empezar a comer. Aquí «que» va sin tilde."
+          "explicacion": "Es la fórmula de España para empezar a comer. Aquí «que» va sin tilde."
+        },
+        {
+          "decir": "¡Buen provecho!",
+          "antes": "En América Latina decimos «¡",
+          "despues": "!».",
+          "respuesta": [
+            "Buen provecho"
+          ],
+          "explicacion": "Antes de comer, en América Latina decimos «¡Buen provecho!»: es la misma idea."
         },
         {
           "decir": "sobremesa",
@@ -376,12 +385,12 @@
         },
         {
           "decir": "enseguida",
-          "antes": "Nadie se ha levantado",
+          "antes": "Nadie se levantó",
           "despues": ".",
           "respuesta": [
             "enseguida"
           ],
-          "explicacion": "«Nadie se ha levantado enseguida»: todos se quedan."
+          "explicacion": "«Nadie se levantó enseguida»: todos se quedan."
         }
       ],
       "habilidades": [
@@ -396,15 +405,19 @@
       "titulo": "Dilo tú",
       "consigna": "Escucha el modelo, toca 🎤 y dilo en voz alta.",
       "requiere": "reconocimiento_voz",
-      "idioma": "es-ES",
+      "idioma": "es-US",
       "items": [
         {
           "contexto": "Antes de comer, dices:",
+          "frase": "¡Buen provecho!"
+        },
+        {
+          "contexto": "En Madrid, Carmen dice:",
           "frase": "¡Que aproveche!"
         },
         {
           "contexto": "Llegas a las doce y media. Explicas:",
-          "frase": "He llegado muy temprano."
+          "frase": "Llegué muy temprano."
         },
         {
           "contexto": "Después de comer, en la mesa, dices:",
@@ -428,7 +441,7 @@
       ],
       "items": [
         {
-          "texto": "Se come a las tres.",
+          "texto": "El almuerzo es a las tres.",
           "categoria": "Madrid",
           "explicacion": "Carmen: «Aquí comemos a las tres»."
         },
@@ -440,7 +453,7 @@
         {
           "texto": "Se cena a las seis y media.",
           "categoria": "Estados Unidos",
-          "explicacion": "«En Estados Unidos, normalmente como a las doce y ceno a las seis y media.»"
+          "explicacion": "«En Estados Unidos, normalmente almuerzo a las doce y ceno a las seis y media.»"
         },
         {
           "texto": "La cena es a las nueve o a las diez.",
@@ -448,7 +461,7 @@
           "explicacion": "«En Madrid, la cena es tarde, a las nueve o a las diez.»"
         },
         {
-          "texto": "Se come a las doce.",
+          "texto": "El almuerzo es a las doce.",
           "categoria": "Estados Unidos",
           "explicacion": "Por eso llega a casa de Carmen tan temprano."
         },
@@ -467,7 +480,7 @@
       "id": "momentos",
       "tipo": "relacionar",
       "titulo": "Cada frase, en su momento",
-      "consigna": "Une cada frase o palabra con el momento de la comida.",
+      "consigna": "Une cada frase o palabra con el momento del almuerzo.",
       "pares": [
         {
           "izquierda": "«¡Qué temprano!»",
@@ -477,17 +490,17 @@
         {
           "izquierda": "«¡Que aproveche!»",
           "derecha": "Antes de empezar a comer",
-          "explicacion": "Se dice al principio de la comida, como «Enjoy your meal!»."
+          "explicacion": "En España se dice al principio del almuerzo. En América Latina decimos «¡Buen provecho!»: es la misma idea."
         },
         {
           "izquierda": "Un vaso de agua",
           "derecha": "Mientras espera hasta las tres",
-          "explicacion": "«He bebido agua y hemos hablado un rato. A las tres, por fin, nos hemos sentado a la mesa.»"
+          "explicacion": "«Tomé agua y hablamos un rato. A las tres, por fin, nos sentamos a la mesa.»"
         },
         {
           "izquierda": "La sobremesa",
           "derecha": "Después de comer, en la mesa",
-          "explicacion": "Es el tiempo de hablar, reír y tomar café cuando la comida ya ha terminado."
+          "explicacion": "Es el tiempo de hablar, reír y tomar café cuando el almuerzo ya terminó."
         }
       ],
       "habilidades": [
@@ -509,12 +522,12 @@
         {
           "afirmacion": "Después de comer, todos se levantan enseguida.",
           "correcta": false,
-          "justificacion": "«Nadie se ha levantado enseguida. Después de comer, todos se han quedado en la mesa.»"
+          "justificacion": "«Nadie se levantó enseguida. Después de comer, todos se quedaron en la mesa.»"
         },
         {
-          "afirmacion": "Al invitado le ha gustado la sobremesa.",
+          "afirmacion": "Al invitado le gustó la sobremesa.",
           "correcta": true,
-          "justificacion": "«En España, a esto le llaman sobremesa. A mí me ha gustado mucho.»"
+          "justificacion": "«En España, a esto le llaman sobremesa. A mí me gustó mucho.»"
         },
         {
           "afirmacion": "En Guayaquil, la familia también habla después de comer.",
@@ -537,7 +550,7 @@
         "Carmen se ríe: «¡Qué temprano!».",
         "A las tres, se sientan a la mesa con la familia.",
         "Carmen dice: «¡Que aproveche!».",
-        "Comen ensalada, pollo con arroz y tarta.",
+        "Comen ensalada, pollo con arroz y pastel.",
         "Hablan, ríen y toman café: es la sobremesa."
       ],
       "explicacion": "Primero la llegada (12:30), luego la espera hasta las tres, la fórmula antes de comer, los tres platos y, al final, la sobremesa.",

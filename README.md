@@ -8,6 +8,10 @@ funciona en la raíz de un dominio o en una subruta (p. ej. `usuario.github.io/l
     # http://localhost:8765/?l=lectura01   (una lectura)   ·   http://localhost:8765/  (catálogo)
 No funciona con file:// (el navegador bloquea fetch del JSON).
 
+## Lengua
+Español latino neutro (ver /workspace/lecturas/criterios_lengua.md). Voz del navegador: es-US → es-MX → es-419 → otra es-* de América; nunca es-ES
+(si solo hay es-ES, la página muestra «Ver la frase»). Reconocimiento de voz: es-US.
+
 ## Añadir una lectura
 1. `lecturas/<carpeta>/<carpeta>.json` (mismo formato que lectura01) + imágenes.
 2. `ejercicios.json` y `"ejercicios_archivo": "ejercicios.json"` en el JSON.
