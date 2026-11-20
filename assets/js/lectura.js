@@ -1,6 +1,7 @@
 /* Lecturas culturales — plantilla de lectura (vanilla JS, sin dependencias).
-   Uso: index.html?l=<carpeta>  →  lecturas/<carpeta>/<carpeta>.json
-   Sin parámetro: muestra el catálogo de lecturas/indice.json. */
+   Uso: /<carpeta>/  (página estática) o index.html?l=<carpeta>  →  lecturas/<carpeta>/<carpeta>.json
+   Sin parámetro en la raíz: muestra el catálogo de lecturas/indice.json.
+   Si el catálogo o la lectura ya vienen en el HTML, no se vuelve a pintar el texto. */
 (function () {
   'use strict';
 
@@ -51,29 +52,43 @@
   }
 
   /* ---------- arranque ---------- */
-  var param = new URLSearchParams(location.search).get('l');
+  function esPaginaLectura() {
+    return /\/(lectura[a-z0-9_-]+)\/?(?:index\.html)?$/i.test(location.pathname);
+  }
+  function lecturaId() {
+    var q = new URLSearchParams(location.search).get('l');
+    if (q) return q;
+    var attr = main && main.getAttribute('data-lectura');
+    if (attr) return attr;
+    var m = location.pathname.match(/\/(lectura[a-z0-9_-]+)\/?(?:index\.html)?$/i);
+    return m ? m[1] : null;
+  }
+  var param = lecturaId();
+  var raiz = esPaginaLectura() ? '../' : '';
   if (!param) return catalogo();
   if (!/^[a-z0-9_-]{1,60}$/i.test(param)) return error('El nombre de la lectura no es válido.');
-  var base = 'lecturas/' + param + '/';
+  var base = raiz + 'lecturas/' + param + '/';
+  var estatica = !!(main && main.getAttribute('data-lectura') === param);
   getJSON(base + param + '.json').then(function (L) {
     var ej = Array.isArray(L.ejercicios) ? Promise.resolve({ ejercicios: L.ejercicios })
       : L.ejercicios_archivo ? getJSON(base + L.ejercicios_archivo).catch(function () { return null; })
       : Promise.resolve(null);
-    return ej.then(function (E) { render(L, E); });
+    return ej.then(function (E) { (estatica ? mejorar : render)(L, E); });
   }).catch(function (e) { error('No encontramos esta lectura (' + param + ').'); });
 
   function error(msg) {
     main.innerHTML = '';
-    main.appendChild(el('div', { class: 'bloque' }, [el('h1', { text: 'Ups' }), el('p', { text: msg }), el('p', {}, [el('a', { href: './', text: 'Ver todas las lecturas' })])]));
+    main.appendChild(el('div', { class: 'bloque' }, [el('h1', { text: 'Ups' }), el('p', { text: msg }), el('p', {}, [el('a', { href: raiz || './', text: 'Ver todas las lecturas' })])]));
   }
 
-  // Catálogo: lecturas/indice.json agrupado por nivel (portada, título, nivel, país). Enlaces: ?l=<carpeta>
+  // Catálogo: lecturas/indice.json agrupado por nivel (portada, título, nivel, país). Enlaces: <carpeta>/
   function catalogo() {
-    // (dentro de la función: el arranque hace «return catalogo()» antes de llegar a las variables de más abajo)
+    // Si el HTML ya trae el catálogo (generado por _build_seo), no lo volvemos a pintar.
+    if (main.querySelector('.catalogo li')) return;
     var NIVELES = { A1: 'Acceso', A2: 'Plataforma', B1: 'Umbral', B2: 'Avanzado', C1: 'Dominio', C2: 'Maestría' };
-    getJSON('lecturas/indice.json').then(function (I) {
+    getJSON(raiz + 'lecturas/indice.json').then(function (I) {
       var serie = I.serie || 'Lecturas culturales';
-      document.title = serie;
+      document.title = serie + ' · Edison Spanish';
       main.innerHTML = '';
       var grupos = {}, orden = [];
       (I.lecturas || []).forEach(function (x) {
@@ -100,10 +115,10 @@
             var webp = /\.webp$/i.test(x.miniatura);
             pic = el('picture', {}, [
               webp && x.respaldo ? el('source', { srcset: dir + x.miniatura, type: 'image/webp' }) : null,
-              el('img', { src: dir + (webp && x.respaldo ? x.respaldo : x.miniatura), alt: '', loading: 'lazy', decoding: 'async', width: 1152, height: 768 })
+              el('img', { src: dir + (webp && x.respaldo ? x.respaldo : x.miniatura), alt: x.titulo || '', loading: 'lazy', decoding: 'async', width: 1152, height: 768 })
             ]);
           }
-          ul.appendChild(el('li', { 'data-carpeta': x.carpeta }, [el('a', { href: '?l=' + encodeURIComponent(x.carpeta) }, [
+          ul.appendChild(el('li', { 'data-carpeta': x.carpeta }, [el('a', { href: x.carpeta + '/' }, [
             pic,
             el('div', { class: 'info' }, [
               el('p', { class: 'meta' }, [el('span', { class: 'nivel', text: x.nivel }), x.pais ? el('span', { class: 'pais', text: x.pais }) : null]),
@@ -120,7 +135,7 @@
 
   /* ---------- página de lectura ---------- */
   function render(L, E) {
-    document.title = L.titulo + ' · ' + (L.nivel || '') + ' · Lecturas culturales';
+    document.title = L.titulo + ' · ' + (L.nivel || '') + ' · Lecturas culturales · Edison Spanish';
     main.innerHTML = '';
     var imgs = L.imagenes || [];
     var portada = imgs.filter(function (i) { return i.tipo === 'portada'; })[0];
@@ -134,6 +149,21 @@
       L.entradilla ? el('p', { class: 'entradilla', text: L.entradilla }) : null
     ])]));
 
+    main.appendChild(bloqueAudio(L));
+    main.appendChild(bloqueTexto(L, imgs));
+    if (hayGrafico(L.grafico)) main.appendChild(bloqueGrafico(L.grafico));
+    if (L.glosario && L.glosario.length) main.appendChild(bloqueGlosario(L.glosario));
+    if (E && E.ejercicios && E.ejercicios.length) main.appendChild(bloqueEjercicios(L, E.ejercicios, E.mas_practica_titulo));
+  }
+
+  // Página estática: se conserva portada y cabecera ya presentes en el HTML;
+  // el reproductor, las glosas, el gráfico, el glosario y los ejercicios se añaden aquí.
+  function mejorar(L, E) {
+    document.title = L.titulo + ' · ' + (L.nivel || '') + ' · Lecturas culturales · Edison Spanish';
+    var imgs = L.imagenes || [];
+    var keep = [main.querySelector('.portada'), main.querySelector('.cabecera')].filter(Boolean);
+    main.innerHTML = '';
+    keep.forEach(function (n) { main.appendChild(n); });
     main.appendChild(bloqueAudio(L));
     main.appendChild(bloqueTexto(L, imgs));
     if (hayGrafico(L.grafico)) main.appendChild(bloqueGrafico(L.grafico));

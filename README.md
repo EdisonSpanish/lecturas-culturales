@@ -4,9 +4,12 @@ Sitio estático, sin compilación ni dependencias (HTML + CSS + JS vanilla). Tod
 funciona en la raíz de un dominio o en una subruta (p. ej. `usuario.github.io/lecturas-culturales/`).
 
 ## Abrir en local
-    cd /workspace/lecturas/web && python3 -m http.server 8765
-    # http://localhost:8765/?l=lectura01   (una lectura)   ·   http://localhost:8765/  (catálogo)
+    cd /workspace/lecturas && python3 -m http.server 8765
+    # http://localhost:8765/web/                 (catálogo)
+    # http://localhost:8765/web/lectura01/       (lectura, URL limpia)
+    # http://localhost:8765/web/?l=lectura01     (sigue funcionando)
 No funciona con file:// (el navegador bloquea fetch del JSON).
+En producción las URLs son https://lecturas.edisonspanish.com/ y https://lecturas.edisonspanish.com/lectura01/.
 
 ## Lengua
 Español latino neutro (ver /workspace/lecturas/criterios_lengua.md). Voz del navegador: es-US → es-MX → es-419 → otra es-* de América;
@@ -18,7 +21,9 @@ es-ES solo como último recurso, con nota; sin ninguna voz en español, los ejer
 3. Entrada en `lecturas/indice.json` (`carpeta`, `titulo`, `nivel`, `etiqueta`, `pais`, `miniatura` webp + `respaldo` png).
    El catálogo (index.html sin `?l=`) agrupa las lecturas por nivel A1 → B2.
 4. Audio: sin MP3; la lectura se escucha con la voz del navegador de cada alumno (es-US, es-MX…).
-5. Gráfico (opcional): `"grafico": {archivo, webp, titulo, nota, datos[], columnas{}, alt, ancho, alto, icono}`.
+5. Regenerar las páginas para Google: `python3 /workspace/lecturas/_build_seo/build_seo.py`
+   (actualiza `index.html`, `/<carpeta>/index.html`, `robots.txt` y `sitemap.xml`).
+6. Gráfico (opcional): `"grafico": {archivo, webp, titulo, nota, datos[], columnas{}, alt, ancho, alto, icono}`.
    El bloque solo aparece si hay `archivo` o `datos`; `null`/`{}` lo ocultan. Ícono del título: 📊 por defecto,
    `"icono": "🕒"` lo cambia y `"icono": ""` lo quita.
 
