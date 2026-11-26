@@ -1,0 +1,466 @@
+{
+  "version": 3,
+  "lectura": "a1-tu-o-usted",
+  "mas_practica_titulo": "Más práctica",
+  "ejercicios": [
+    {
+      "id": "comprension",
+      "tipo": "opcion_multiple",
+      "titulo": "¿Tú o usted?",
+      "consigna": "Elige la respuesta.",
+      "items": [
+        {
+          "pregunta": "¿Dónde está el narrador?",
+          "opciones": [
+            "En Quito, en Ecuador.",
+            "En México.",
+            "En Bogotá, en Colombia."
+          ],
+          "correcta": 2,
+          "explicacion": "«Hoy estoy en Bogotá, en Colombia.»"
+        },
+        {
+          "pregunta": "Con la señora de la tienda, ¿qué dice?",
+          "opciones": [
+            "«Usted».",
+            "«Tú».",
+            "Nada."
+          ],
+          "correcta": 0,
+          "explicacion": "«Con ella no digo «tú». Digo «usted».»"
+        },
+        {
+          "pregunta": "¿Con quién habla de tú?",
+          "opciones": [
+            "Con la señora de la tienda.",
+            "Con su amigo Andrés.",
+            "Con un profesor."
+          ],
+          "correcta": 1,
+          "explicacion": "«Le digo: —Hola, ¿cómo estás? Con él hablo de tú.»"
+        },
+        {
+          "pregunta": "«Usted», ¿es una forma de qué?",
+          "opciones": [
+            "De juego.",
+            "De despedida.",
+            "De respeto."
+          ],
+          "correcta": 2,
+          "explicacion": "«Digo «usted». Es una forma de respeto.»"
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ]
+    },
+    {
+      "id": "escuchar",
+      "tipo": "escuchar_elegir",
+      "titulo": "¿Qué oyes?",
+      "consigna": "Escucha y elige.",
+      "items": [
+        {
+          "decir": "Buenos días, ¿cómo está usted?",
+          "pregunta": "¿Qué forma usa?",
+          "opciones": [
+            "Usted.",
+            "Tú."
+          ],
+          "correcta": 0,
+          "explicacion": "Saluda a la señora con usted."
+        },
+        {
+          "decir": "Hola, ¿cómo estás?",
+          "pregunta": "¿Con quién habla así?",
+          "opciones": [
+            "Con la señora.",
+            "Con su amigo Andrés."
+          ],
+          "correcta": 1,
+          "explicacion": "Con Andrés, que es joven como él, habla de tú."
+        },
+        {
+          "decir": "Es una forma de respeto.",
+          "pregunta": "¿Qué es una forma de respeto?",
+          "opciones": [
+            "Decir «usted».",
+            "No saludar."
+          ],
+          "correcta": 0,
+          "explicacion": "«Digo «usted». Es una forma de respeto.»"
+        },
+        {
+          "decir": "El mes que viene voy a hablar otra vez con la señora de la tienda.",
+          "pregunta": "¿Con quién va a hablar?",
+          "opciones": [
+            "Con Andrés.",
+            "Con un niño.",
+            "Con la señora de la tienda."
+          ],
+          "correcta": 2,
+          "explicacion": "Va a hablar otra vez con la señora de la tienda."
+        }
+      ],
+      "habilidades": [
+        "Escuchar"
+      ]
+    },
+    {
+      "id": "personas",
+      "tipo": "arrastrar",
+      "titulo": "¿Tú o usted?",
+      "consigna": "Arrastra cada palabra a su lugar. También puedes tocar la palabra y después el círculo.",
+      "imagen": "portada.webp",
+      "respaldo": "portada.png",
+      "ancho": 1152,
+      "alto": 768,
+      "alt": "En una tienda de Bogotá, un visitante saluda a una señora detrás del mostrador.",
+      "zonas": [
+        {
+          "palabra": "usted",
+          "x": 74,
+          "y": 50,
+          "explicacion": "Con la señora no dice «tú». Dice «usted»."
+        },
+        {
+          "palabra": "tienda",
+          "x": 52,
+          "y": 80,
+          "explicacion": "«Entro en una tienda y saludo a la señora.»"
+        },
+        {
+          "palabra": "señora",
+          "x": 72,
+          "y": 34,
+          "explicacion": "Saluda a la señora de la tienda."
+        }
+      ],
+      "distractores": [
+        {
+          "palabra": "Andrés",
+          "explicacion": "Andrés es el amigo de la calle, no está en la tienda."
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ]
+    },
+    {
+      "id": "que-dices",
+      "tipo": "situaciones",
+      "titulo": "¿Qué dices? ¿Qué haces?",
+      "consigna": "Elige la mejor opción.",
+      "items": [
+        {
+          "icono": "🏪",
+          "situacion": "Entras en una tienda en Bogotá y saludas a la señora. ¿Qué dices?",
+          "opciones": [
+            "«Buenos días, ¿cómo está usted?»",
+            "«Hola, ¿cómo estás?»"
+          ],
+          "correcta": 0,
+          "explicacion": "Con la señora de la tienda dice usted: es una forma de respeto."
+        },
+        {
+          "icono": "👋",
+          "situacion": "Ves a tu amigo Andrés, que es joven como tú. ¿Qué dices?",
+          "opciones": [
+            "«Buenos días, ¿cómo está usted?»",
+            "«Hola, ¿cómo estás?»"
+          ],
+          "correcta": 1,
+          "explicacion": "«Con él hablo de tú.»"
+        },
+        {
+          "icono": "👩‍🏫",
+          "situacion": "Hablas con un profesor que no conoces bien. En Colombia, muchas veces usas:",
+          "opciones": [
+            "usted",
+            "tú"
+          ],
+          "correcta": 0,
+          "explicacion": "«muchas veces uso «usted» con una persona mayor, con un profesor o con una persona que no conozco bien.»"
+        },
+        {
+          "icono": "🧑",
+          "situacion": "Hablas con un hermano. ¿Qué forma encaja con el texto?",
+          "opciones": [
+            "usted",
+            "tú"
+          ],
+          "correcta": 1,
+          "explicacion": "««Tú» es para un amigo, para un hermano o para una persona de mi edad.»"
+        }
+      ],
+      "habilidades": [
+        "Cultura"
+      ]
+    },
+    {
+      "id": "escuchar-escena",
+      "tipo": "escuchar_imagen",
+      "titulo": "¿Dónde está?",
+      "consigna": "Escucha y toca la imagen.",
+      "opciones": [
+        {
+          "imagen": "escena.webp",
+          "respaldo": "escena.png",
+          "texto": "Con Andrés",
+          "alt": "El visitante saluda a su amigo Andrés en la calle."
+        },
+        {
+          "imagen": "portada.webp",
+          "respaldo": "portada.png",
+          "texto": "En la tienda",
+          "alt": "El visitante saluda a la señora en la tienda."
+        }
+      ],
+      "items": [
+        {
+          "decir": "Entro en una tienda y saludo a la señora.",
+          "correcta": 1,
+          "explicacion": "Es la tienda: saluda a la señora."
+        },
+        {
+          "decir": "Le digo: —Hola, ¿cómo estás?",
+          "correcta": 0,
+          "explicacion": "Habla de tú con su amigo Andrés, en la calle."
+        },
+        {
+          "decir": "Buenos días, ¿cómo está usted?",
+          "correcta": 1,
+          "explicacion": "Saluda así a la señora de la tienda."
+        },
+        {
+          "decir": "Con él hablo de tú.",
+          "correcta": 0,
+          "explicacion": "«Él» es Andrés, el amigo."
+        }
+      ],
+      "habilidades": [
+        "Escuchar"
+      ]
+    },
+    {
+      "id": "resumen",
+      "tipo": "completar",
+      "titulo": "Completa con palabras del texto",
+      "consigna": "Escribe la palabra. Puedes usar la caja.",
+      "banco": [
+        "Bogotá",
+        "usted",
+        "tú",
+        "respeto",
+        "tienda"
+      ],
+      "items": [
+        {
+          "antes": "Hoy estoy en",
+          "respuesta": [
+            "Bogotá"
+          ],
+          "despues": ", en Colombia.",
+          "explicacion": "«Hoy estoy en Bogotá, en Colombia.»"
+        },
+        {
+          "antes": "Con la señora digo",
+          "respuesta": [
+            "usted"
+          ],
+          "despues": ".",
+          "explicacion": "«Digo «usted».»"
+        },
+        {
+          "antes": "Con Andrés hablo de",
+          "respuesta": [
+            "tú"
+          ],
+          "despues": ".",
+          "explicacion": "«Con él hablo de tú.»"
+        },
+        {
+          "antes": "«Usted» es una forma de",
+          "respuesta": [
+            "respeto"
+          ],
+          "despues": ".",
+          "explicacion": "«Es una forma de respeto.»"
+        },
+        {
+          "antes": "Voy a hablar otra vez con la señora de la",
+          "respuesta": [
+            "tienda"
+          ],
+          "despues": ".",
+          "explicacion": "«con la señora de la tienda»"
+        }
+      ],
+      "habilidades": [
+        "Escribir"
+      ]
+    },
+    {
+      "id": "y-en-tu-pais",
+      "tipo": "reflexion",
+      "titulo": "¿Y en tu país?",
+      "pregunta": "En tu lengua, ¿hay una forma de respeto parecida a usted? ¿Cuándo la usas?",
+      "ayuda": [
+        "En mi lengua…",
+        "Uso una forma de respeto con…",
+        "Con un amigo digo…",
+        "En mi país…"
+      ],
+      "minimo_caracteres": 20,
+      "modelo": "En mi lengua hay una forma de respeto, pero no es igual a usted. Con un amigo digo una forma más cercana. En mi país, con una persona mayor, hablo con más respeto. Me gusta la costumbre de Andrés y de la señora de la tienda.",
+      "guia": "No hay una respuesta correcta. Compara tu lengua con el tú y el usted del texto. Si quieres, comparte tu respuesta con tu profesor.",
+      "habilidades": [
+        "Escribir",
+        "Cultura"
+      ]
+    },
+    {
+      "id": "dictado",
+      "tipo": "dictado",
+      "titulo": "Mini dictado",
+      "consigna": "Escucha y escribe lo que oyes.",
+      "items": [
+        {
+          "decir": "usted",
+          "antes": "Digo",
+          "despues": ".",
+          "respuesta": [
+            "usted"
+          ],
+          "explicacion": "Con la señora dice usted."
+        },
+        {
+          "decir": "respeto",
+          "antes": "Es una forma de",
+          "despues": ".",
+          "respuesta": [
+            "respeto"
+          ],
+          "explicacion": "«Usted» es una forma de respeto."
+        },
+        {
+          "decir": "tienda",
+          "antes": "Entro en una",
+          "despues": ".",
+          "respuesta": [
+            "tienda"
+          ],
+          "explicacion": "Entra en una tienda en Bogotá."
+        },
+        {
+          "decir": "costumbre",
+          "antes": "Esta",
+          "despues": "me gusta.",
+          "respuesta": [
+            "costumbre"
+          ],
+          "explicacion": "«Esta costumbre me gusta.»"
+        }
+      ],
+      "habilidades": [
+        "Escuchar",
+        "Escribir"
+      ],
+      "seccion": "mas_practica"
+    },
+    {
+      "id": "dilo-tu",
+      "tipo": "hablar",
+      "titulo": "Dilo tú",
+      "consigna": "Escucha el modelo, toca 🎤 y dilo en voz alta.",
+      "requiere": "reconocimiento_voz",
+      "idioma": "es-US",
+      "items": [
+        {
+          "contexto": "Saludas a la señora de la tienda:",
+          "frase": "Buenos días, ¿cómo está usted?"
+        },
+        {
+          "contexto": "Saludas a tu amigo Andrés:",
+          "frase": "Hola, ¿cómo estás?"
+        },
+        {
+          "contexto": "Explicas la idea:",
+          "frase": "Es una forma de respeto."
+        },
+        {
+          "contexto": "Al final dices:",
+          "frase": "Esta costumbre me gusta."
+        }
+      ],
+      "habilidades": [
+        "Hablar"
+      ],
+      "seccion": "mas_practica"
+    },
+    {
+      "id": "verdadero-falso",
+      "tipo": "verdadero_falso",
+      "titulo": "¿Verdadero o falso?",
+      "consigna": "Decide y mira la frase del texto que lo demuestra.",
+      "items": [
+        {
+          "afirmacion": "El narrador está en Bogotá, en Colombia.",
+          "correcta": true,
+          "justificacion": "«Hoy estoy en Bogotá, en Colombia.»"
+        },
+        {
+          "afirmacion": "Con la señora de la tienda habla de tú.",
+          "correcta": false,
+          "justificacion": "«Con ella no digo «tú». Digo «usted».»"
+        },
+        {
+          "afirmacion": "Andrés es joven, como el narrador.",
+          "correcta": true,
+          "justificacion": "«Es joven, como yo.»"
+        },
+        {
+          "afirmacion": "«Tú» es para una persona que no conoce bien.",
+          "correcta": false,
+          "justificacion": "««Tú» es para un amigo, para un hermano o para una persona de mi edad.»"
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ],
+      "seccion": "mas_practica"
+    },
+    {
+      "id": "de-quien",
+      "tipo": "relacionar",
+      "titulo": "¿Tú o usted?",
+      "consigna": "Une cada persona con la forma que encaja en el texto.",
+      "pares": [
+        {
+          "izquierda": "La señora de la tienda",
+          "derecha": "«Usted»: es una forma de respeto.",
+          "explicacion": "«Con ella no digo «tú». Digo «usted». Es una forma de respeto.»"
+        },
+        {
+          "izquierda": "Andrés, el amigo",
+          "derecha": "Habla de tú con él.",
+          "explicacion": "«Le digo: —Hola, ¿cómo estás? Con él hablo de tú.»"
+        },
+        {
+          "izquierda": "Un profesor que no conoce bien",
+          "derecha": "Muchas veces usa «usted».",
+          "explicacion": "«uso «usted» con una persona mayor, con un profesor o con una persona que no conozco bien.»"
+        },
+        {
+          "izquierda": "Un hermano",
+          "derecha": "«Tú» es también para un hermano.",
+          "explicacion": "««Tú» es para un amigo, para un hermano o para una persona de mi edad.»"
+        }
+      ],
+      "habilidades": [
+        "Cultura"
+      ],
+      "seccion": "mas_practica"
+    }
+  ]
+}

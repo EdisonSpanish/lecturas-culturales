@@ -1,0 +1,470 @@
+{
+  "version": 3,
+  "lectura": "a1-dos-apellidos-una-persona",
+  "mas_practica_titulo": "Más práctica",
+  "ejercicios": [
+    {
+      "id": "comprension",
+      "tipo": "opcion_multiple",
+      "titulo": "¿Quién es Ana?",
+      "consigna": "Elige la respuesta.",
+      "items": [
+        {
+          "pregunta": "¿Cómo se llama la amiga?",
+          "opciones": [
+            "Ana López García.",
+            "Ana López.",
+            "Ana García."
+          ],
+          "correcta": 0,
+          "explicacion": "«Mi amiga se llama Ana López García.»"
+        },
+        {
+          "pregunta": "¿De quién es el apellido López?",
+          "opciones": [
+            "De su mamá.",
+            "De la profesora.",
+            "De su papá."
+          ],
+          "correcta": 2,
+          "explicacion": "«López es de su papá.»"
+        },
+        {
+          "pregunta": "¿De quién es el apellido García?",
+          "opciones": [
+            "De su papá.",
+            "De su mamá.",
+            "De su amiga."
+          ],
+          "correcta": 1,
+          "explicacion": "«García es de su mamá.»"
+        },
+        {
+          "pregunta": "García, ¿es un segundo nombre?",
+          "opciones": [
+            "No, es un apellido.",
+            "Sí."
+          ],
+          "correcta": 0,
+          "explicacion": "«No es un segundo nombre. Son apellidos, los dos.»"
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ]
+    },
+    {
+      "id": "escuchar",
+      "tipo": "escuchar_elegir",
+      "titulo": "¿Qué oyes?",
+      "consigna": "Escucha y elige.",
+      "items": [
+        {
+          "decir": "Mi amiga se llama Ana López García.",
+          "pregunta": "¿Cuántos apellidos tiene Ana?",
+          "opciones": [
+            "Uno.",
+            "Dos.",
+            "Tres."
+          ],
+          "correcta": 1,
+          "explicacion": "Ana tiene dos apellidos: López y García."
+        },
+        {
+          "decir": "López es de su papá. García es de su mamá.",
+          "pregunta": "¿De quién es García?",
+          "opciones": [
+            "De la mamá.",
+            "Del papá."
+          ],
+          "correcta": 0,
+          "explicacion": "García es el apellido de la mamá de Ana."
+        },
+        {
+          "decir": "Los dos están en su documento.",
+          "pregunta": "¿Dónde están los dos apellidos?",
+          "opciones": [
+            "En un libro.",
+            "En su documento.",
+            "En la puerta."
+          ],
+          "correcta": 1,
+          "explicacion": "Los dos apellidos están en el documento de Ana."
+        },
+        {
+          "decir": "El apellido de la mamá no se pierde.",
+          "pregunta": "¿Qué apellido no se pierde?",
+          "opciones": [
+            "El del papá.",
+            "El de la profesora.",
+            "El de la mamá."
+          ],
+          "correcta": 2,
+          "explicacion": "Con dos apellidos, el apellido de la mamá también va con Ana."
+        }
+      ],
+      "habilidades": [
+        "Escuchar"
+      ]
+    },
+    {
+      "id": "familia",
+      "tipo": "arrastrar",
+      "titulo": "¿Quién es quién?",
+      "consigna": "Arrastra cada apellido a una persona. También puedes tocar el apellido y después el círculo.",
+      "imagen": "portada.webp",
+      "respaldo": "portada.png",
+      "ancho": 1152,
+      "alto": 768,
+      "alt": "Ana, con trenza y cárdigan ocre, con su papá, de barba y suéter terracota, y su mamá, de pelo corto rizado.",
+      "zonas": [
+        {
+          "palabra": "López",
+          "x": 49,
+          "y": 45,
+          "explicacion": "«López es de su papá.»"
+        },
+        {
+          "palabra": "García",
+          "x": 77,
+          "y": 52,
+          "explicacion": "«García es de su mamá.»"
+        },
+        {
+          "palabra": "López García",
+          "x": 23,
+          "y": 56,
+          "explicacion": "«Soy Ana López García.» Ana lleva los dos apellidos."
+        }
+      ],
+      "distractores": [
+        {
+          "palabra": "profesora",
+          "explicacion": "La profesora está en la clase. En esta imagen está la familia de Ana."
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ]
+    },
+    {
+      "id": "que-dices",
+      "tipo": "situaciones",
+      "titulo": "¿Qué dices? ¿Qué haces?",
+      "consigna": "Elige la mejor opción.",
+      "items": [
+        {
+          "icono": "📋",
+          "situacion": "La profesora lee la lista: «¿Ana López o Ana García?». Ana dice:",
+          "opciones": [
+            "«Soy Ana López García.»",
+            "«Soy Ana García López.»",
+            "«Soy Ana.»"
+          ],
+          "correcta": 0,
+          "explicacion": "Ana dice su nombre completo: primero el apellido del papá y después el de la mamá."
+        },
+        {
+          "icono": "🪪",
+          "situacion": "Tu amigo se llama Carlos Ruiz Torres. Su papá es el señor Ruiz. ¿Cuál es el apellido de su mamá?",
+          "opciones": [
+            "Ruiz.",
+            "Torres.",
+            "Carlos."
+          ],
+          "correcta": 1,
+          "explicacion": "El primer apellido es del papá (Ruiz) y el segundo, de la mamá (Torres)."
+        },
+        {
+          "icono": "📝",
+          "situacion": "Escribes el nombre de Ana en una lista. ¿Qué escribes?",
+          "opciones": [
+            "Ana López García.",
+            "Ana García.",
+            "Ana L. G."
+          ],
+          "correcta": 0,
+          "explicacion": "En muchos países de habla hispana se escriben los dos apellidos: «Los dos están en su documento.»"
+        },
+        {
+          "icono": "🤔",
+          "situacion": "En Estados Unidos: Ana Marie Lopez. En un país hispano: Ana López García. ¿Qué es García?",
+          "opciones": [
+            "Un segundo nombre.",
+            "El apellido de la mamá."
+          ],
+          "correcta": 1,
+          "explicacion": "«No es un segundo nombre. Son apellidos, los dos.»"
+        }
+      ],
+      "habilidades": [
+        "Cultura"
+      ]
+    },
+    {
+      "id": "escuchar-escena",
+      "tipo": "escuchar_imagen",
+      "titulo": "¿Dónde está Ana?",
+      "consigna": "Escucha y toca la imagen.",
+      "opciones": [
+        {
+          "imagen": "escena.webp",
+          "respaldo": "escena.png",
+          "texto": "En la clase",
+          "alt": "Ana, en el aula, escucha a la persona que lee la lista."
+        },
+        {
+          "imagen": "portada.webp",
+          "respaldo": "portada.png",
+          "texto": "Con su familia",
+          "alt": "Ana con su papá y su mamá, en la sala de su casa."
+        }
+      ],
+      "items": [
+        {
+          "decir": "En la clase, la profesora lee la lista y pregunta.",
+          "correcta": 0,
+          "explicacion": "Es la clase: la profesora lee la lista."
+        },
+        {
+          "decir": "López es de su papá. García es de su mamá.",
+          "correcta": 1,
+          "explicacion": "Ana con su papá (López) y su mamá (García)."
+        },
+        {
+          "decir": "Tengo dos apellidos.",
+          "correcta": 0,
+          "explicacion": "Ana lo dice en la clase, cuando la profesora lee la lista."
+        },
+        {
+          "decir": "Una persona lleva el primer apellido del papá y el primer apellido de la mamá.",
+          "correcta": 1,
+          "explicacion": "Los dos apellidos vienen de la familia: del papá y de la mamá."
+        }
+      ],
+      "habilidades": [
+        "Escuchar"
+      ]
+    },
+    {
+      "id": "resumen",
+      "tipo": "completar",
+      "titulo": "Completa con palabras del texto",
+      "consigna": "Escribe la palabra. Puedes usar la caja.",
+      "banco": [
+        "apellidos",
+        "papá",
+        "mamá",
+        "lista",
+        "documento"
+      ],
+      "items": [
+        {
+          "antes": "Ana tiene dos",
+          "respuesta": [
+            "apellidos"
+          ],
+          "despues": ".",
+          "explicacion": "«Tengo dos apellidos.»"
+        },
+        {
+          "antes": "López es el apellido de su",
+          "respuesta": [
+            "papá"
+          ],
+          "despues": ".",
+          "explicacion": "«López es de su papá.»"
+        },
+        {
+          "antes": "García es el apellido de su",
+          "respuesta": [
+            "mamá"
+          ],
+          "despues": ".",
+          "explicacion": "«García es de su mamá.»"
+        },
+        {
+          "antes": "En la clase, la profesora lee la",
+          "respuesta": [
+            "lista"
+          ],
+          "despues": ".",
+          "explicacion": "«En la clase, la profesora lee la lista»"
+        },
+        {
+          "antes": "Los dos apellidos están en su",
+          "respuesta": [
+            "documento"
+          ],
+          "despues": ".",
+          "explicacion": "«Los dos están en su documento.»"
+        }
+      ],
+      "habilidades": [
+        "Escribir"
+      ]
+    },
+    {
+      "id": "y-en-tu-pais",
+      "tipo": "reflexion",
+      "titulo": "¿Y en tu país?",
+      "pregunta": "¿Cuántos apellidos tienes? ¿De quién son?",
+      "ayuda": [
+        "Me llamo…",
+        "Tengo un apellido / dos apellidos.",
+        "Mi apellido es de mi papá / de mi mamá.",
+        "En mi país…"
+      ],
+      "minimo_caracteres": 20,
+      "modelo": "Me llamo Emily Carter. Tengo un apellido: Carter. Es de mi papá. En mi país, muchas personas tienen un apellido. Me gusta la idea de Ana: con dos apellidos, son dos familias.",
+      "guia": "No hay una respuesta correcta. Compara tu nombre con el nombre de Ana. Si quieres, comparte tu respuesta con tu profesor.",
+      "habilidades": [
+        "Escribir",
+        "Cultura"
+      ]
+    },
+    {
+      "id": "dictado",
+      "tipo": "dictado",
+      "titulo": "Mini dictado",
+      "consigna": "Escucha y escribe lo que oyes.",
+      "items": [
+        {
+          "decir": "apellidos",
+          "antes": "Tengo dos",
+          "despues": ".",
+          "respuesta": [
+            "apellidos"
+          ],
+          "explicacion": "Ana tiene dos apellidos."
+        },
+        {
+          "decir": "documento",
+          "antes": "Los dos están en su",
+          "despues": ".",
+          "respuesta": [
+            "documento"
+          ],
+          "explicacion": "Los dos apellidos están en el documento."
+        },
+        {
+          "decir": "costumbre",
+          "antes": "Hay una",
+          "despues": "clara.",
+          "respuesta": [
+            "costumbre"
+          ],
+          "explicacion": "En muchos países de habla hispana es una costumbre."
+        },
+        {
+          "decir": "nombre completo",
+          "antes": "Voy a escribir mi",
+          "despues": ".",
+          "respuesta": [
+            "nombre completo"
+          ],
+          "explicacion": "El nombre completo tiene el nombre y los dos apellidos."
+        }
+      ],
+      "habilidades": [
+        "Escuchar",
+        "Escribir"
+      ],
+      "seccion": "mas_practica"
+    },
+    {
+      "id": "dilo-tu",
+      "tipo": "hablar",
+      "titulo": "Dilo tú",
+      "consigna": "Escucha el modelo, toca 🎤 y dilo en voz alta.",
+      "requiere": "reconocimiento_voz",
+      "idioma": "es-US",
+      "items": [
+        {
+          "contexto": "La profesora lee la lista. Dices:",
+          "frase": "Tengo dos apellidos."
+        },
+        {
+          "contexto": "Explicas el nombre de Ana:",
+          "frase": "López es de su papá."
+        },
+        {
+          "contexto": "Y explicas:",
+          "frase": "García es de su mamá."
+        },
+        {
+          "contexto": "Al final dices:",
+          "frase": "Son apellidos, los dos."
+        }
+      ],
+      "habilidades": [
+        "Hablar"
+      ],
+      "seccion": "mas_practica"
+    },
+    {
+      "id": "verdadero-falso",
+      "tipo": "verdadero_falso",
+      "titulo": "¿Verdadero o falso?",
+      "consigna": "Decide y mira la frase del texto que lo demuestra.",
+      "items": [
+        {
+          "afirmacion": "Ana tiene un apellido.",
+          "correcta": false,
+          "justificacion": "«Tengo dos apellidos.»"
+        },
+        {
+          "afirmacion": "López es el apellido de la mamá.",
+          "correcta": false,
+          "justificacion": "«López es de su papá.»"
+        },
+        {
+          "afirmacion": "Los dos apellidos están en su documento.",
+          "correcta": true,
+          "justificacion": "«Los dos están en su documento.»"
+        },
+        {
+          "afirmacion": "Al narrador le gusta la idea.",
+          "correcta": true,
+          "justificacion": "«A mí me gusta esa idea.»"
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ],
+      "seccion": "mas_practica"
+    },
+    {
+      "id": "de-quien",
+      "tipo": "relacionar",
+      "titulo": "¿Qué es cada parte?",
+      "consigna": "Une cada parte del nombre con su explicación.",
+      "pares": [
+        {
+          "izquierda": "Ana",
+          "derecha": "Es su nombre.",
+          "explicacion": "«Mi amiga se llama Ana López García.»"
+        },
+        {
+          "izquierda": "López",
+          "derecha": "Es el apellido de su papá.",
+          "explicacion": "«López es de su papá.»"
+        },
+        {
+          "izquierda": "García",
+          "derecha": "Es el apellido de su mamá.",
+          "explicacion": "«García es de su mamá.»"
+        },
+        {
+          "izquierda": "López García",
+          "derecha": "Son sus dos apellidos.",
+          "explicacion": "«Son apellidos, los dos.»"
+        }
+      ],
+      "habilidades": [
+        "Cultura"
+      ],
+      "seccion": "mas_practica"
+    }
+  ]
+}

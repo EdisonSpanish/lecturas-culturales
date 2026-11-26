@@ -1,0 +1,537 @@
+{
+  "version": 3,
+  "lectura": "b1-la-quinceanera",
+  "mas_practica_titulo": "Más práctica",
+  "ejercicios": [
+    {
+      "id": "comprension",
+      "tipo": "opcion_multiple",
+      "titulo": "Leer entre líneas",
+      "consigna": "Elige la respuesta. Algunas preguntas piden interpretar lo que el texto no dice directamente.",
+      "items": [
+        {
+          "pregunta": "¿Qué quiere decir la madre de Valeria con «no es solo un cumpleaños»?",
+          "opciones": [
+            "Que la familia marca, en voz alta, un paso de edad.",
+            "Que la fiesta es más cara que un cumpleaños.",
+            "Que Valeria no quería celebrar sus quince."
+          ],
+          "correcta": 0,
+          "explicacion": "«Es el día en que la familia dice, en voz alta, que ya no es una niña»."
+        },
+        {
+          "pregunta": "¿Qué hizo Valeria primero en el salón?",
+          "opciones": [
+            "Ensayó una coreografía sola.",
+            "Abrió los regalos caros.",
+            "Bailó un vals con su padre."
+          ],
+          "correcta": 2,
+          "explicacion": "«Primero bailó un vals con su padre.»"
+        },
+        {
+          "pregunta": "¿Todas las quinceañeras son iguales?",
+          "opciones": [
+            "Sí: siempre hay misa, salón grande y corte.",
+            "No: hay celebraciones grandes y otras más simples, en casa.",
+            "Sí: todas empiezan en casa de una tía."
+          ],
+          "correcta": 1,
+          "explicacion": "Una prima explica: «no todas las quinceañeras son iguales»."
+        },
+        {
+          "pregunta": "«La joven ocupa otro lugar frente a los padres, los abuelos y los amigos.» ¿Qué entendemos?",
+          "opciones": [
+            "Que el rito cambia, de forma visible, su lugar en la familia y entre los amigos.",
+            "Que Valeria se muda de casa esa noche.",
+            "Que ya no puede hablar con su padre."
+          ],
+          "correcta": 0,
+          "explicacion": "Es la idea del rito de paso: no es solo una fiesta, es un cambio de lugar social."
+        },
+        {
+          "pregunta": "¿Qué llevó el narrador y cómo lo recibió Valeria?",
+          "opciones": [
+            "Un regalo caro que le habían pedido.",
+            "Flores, y ella lo abrazó como si eso bastara.",
+            "Nada, porque no hace falta llevar nada."
+          ],
+          "correcta": 1,
+          "explicacion": "«Llevé flores, y Valeria me abrazó como si eso bastara.»"
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ]
+    },
+    {
+      "id": "escuchar",
+      "tipo": "escuchar_elegir",
+      "titulo": "Gestos de la fiesta",
+      "consigna": "Escucha la frase y elige la respuesta. Atención a los detalles.",
+      "items": [
+        {
+          "decir": "Primero bailó un vals con su padre.",
+          "pregunta": "¿Con quién bailó Valeria el vals?",
+          "opciones": [
+            "Con una amiga.",
+            "Con su padre.",
+            "Con el narrador."
+          ],
+          "correcta": 1,
+          "explicacion": "«Primero bailó un vals con su padre.»"
+        },
+        {
+          "decir": "Antes, en algunas familias, hay una misa.",
+          "pregunta": "¿Hay misa en todas las quinceañeras?",
+          "opciones": [
+            "Sí, siempre.",
+            "Solo en la de Valeria.",
+            "En algunas familias, no en todas."
+          ],
+          "correcta": 2,
+          "explicacion": "El texto dice «en algunas familias», no en todas."
+        },
+        {
+          "decir": "En la de Valeria, la celebración empezó en casa de una tía y siguió en el salón.",
+          "pregunta": "¿Dónde empezó la celebración de Valeria?",
+          "opciones": [
+            "En casa de una tía.",
+            "En un hotel.",
+            "En la iglesia."
+          ],
+          "correcta": 0,
+          "explicacion": "Empezó en casa de una tía y siguió en el salón."
+        },
+        {
+          "decir": "Me alegré de que nadie me pidiera un regalo caro.",
+          "pregunta": "¿Le pidieron al narrador un regalo caro?",
+          "opciones": [
+            "Sí, la madre se lo pidió.",
+            "Sí, Valeria lo exigió.",
+            "No."
+          ],
+          "correcta": 2,
+          "explicacion": "Nadie le pidió un regalo caro; él llevó flores."
+        },
+        {
+          "decir": "En mi país, a los dieciséis años a veces hay una fiesta grande, y a veces no hay nada especial.",
+          "pregunta": "Según el narrador, ¿qué pasa a los dieciséis en su país?",
+          "opciones": [
+            "A veces hay una fiesta grande y a veces no: depende de la familia.",
+            "Siempre hay una fiesta grande.",
+            "Nunca hay fiesta."
+          ],
+          "correcta": 0,
+          "explicacion": "«Depende de la familia.»"
+        }
+      ],
+      "habilidades": [
+        "Escuchar"
+      ]
+    },
+    {
+      "id": "salon",
+      "tipo": "arrastrar",
+      "titulo": "En el salón",
+      "consigna": "Arrastra cada palabra a su lugar en la imagen. También puedes tocar una palabra y después el círculo.",
+      "imagen": "escena.webp",
+      "respaldo": "escena.png",
+      "ancho": 1152,
+      "alto": 768,
+      "alt": "En un salón, la quinceañera sonríe en el centro de una pequeña corte; hay un vestido largo, flores y un padre cerca.",
+      "zonas": [
+        {
+          "palabra": "vestido",
+          "x": 42,
+          "y": 58,
+          "explicacion": "«Valeria apareció con un vestido largo»"
+        },
+        {
+          "palabra": "corte",
+          "x": 72,
+          "y": 48,
+          "explicacion": "«Algunas amigas y algunos amigos formaban una pequeña corte a su alrededor»"
+        },
+        {
+          "palabra": "flores",
+          "x": 14,
+          "y": 60,
+          "explicacion": "«Llevé flores, y Valeria me abrazó»"
+        },
+        {
+          "palabra": "padre",
+          "x": 18,
+          "y": 32,
+          "explicacion": "«Primero bailó un vals con su padre.»"
+        }
+      ],
+      "distractores": [
+        {
+          "palabra": "misa",
+          "explicacion": "En la de Valeria la celebración no empezó con una misa: «empezó en casa de una tía y siguió en el salón.»"
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ]
+    },
+    {
+      "id": "que-dices",
+      "tipo": "situaciones",
+      "titulo": "¿Qué dices? ¿Qué haces?",
+      "consigna": "Te invitan a unos quince en México. Elige la reacción más adecuada y lee por qué.",
+      "items": [
+        {
+          "icono": "🎁",
+          "situacion": "No sabes si tienes que llevar un regalo caro.",
+          "opciones": [
+            "Compro lo más caro de la tienda, por si acaso.",
+            "Llevo un detalle simple, como flores, y no asumo que me pidan algo caro.",
+            "Llego con las manos vacías y no saludo a la familia."
+          ],
+          "correcta": 1,
+          "explicacion": "El narrador se alegró de que nadie le pidiera un regalo caro y llevó flores."
+        },
+        {
+          "icono": "🎵",
+          "situacion": "Empieza el vals de la quinceañera con su padre.",
+          "opciones": [
+            "Me quedo de pie, miro con respeto y no trato la escena como un espectáculo.",
+            "Hablo fuerte y saco fotos con flash todo el tiempo.",
+            "Me subo a la pista y bailo en el centro."
+          ],
+          "correcta": 0,
+          "explicacion": "«Yo miraba y pensaba: esto no es una fiesta cualquiera.» Es un momento pensado, no un show."
+        },
+        {
+          "icono": "🏠",
+          "situacion": "Un primo dice que su familia va a celebrar los quince en casa, con pocos invitados.",
+          "opciones": [
+            "«Eso no son unos quince de verdad.»",
+            "«Qué bien: no todas las quinceañeras son iguales.»",
+            "«Entonces no voy, porque no hay salón.»"
+          ],
+          "correcta": 1,
+          "explicacion": "«Hay otras que celebran en casa, con menos invitados y un vestido más simple.»"
+        },
+        {
+          "icono": "🙏",
+          "situacion": "No sabes si en esa familia hay misa antes de la fiesta.",
+          "opciones": [
+            "Pregunto con naturalidad o sigo lo que organice la familia.",
+            "Doy por hecho que siempre hay misa y llego tarde al salón.",
+            "Digo que la misa no importa."
+          ],
+          "correcta": 0,
+          "explicacion": "La misa está «en algunas familias», no en todas; conviene preguntar o seguir a la familia."
+        }
+      ],
+      "habilidades": [
+        "Cultura"
+      ]
+    },
+    {
+      "id": "escuchar-escena",
+      "tipo": "escuchar_imagen",
+      "titulo": "¿En el salón o en la llegada?",
+      "consigna": "Escucha y toca la imagen correcta.",
+      "opciones": [
+        {
+          "imagen": "escena.webp",
+          "respaldo": "escena.png",
+          "texto": "En el salón, con la corte",
+          "alt": "La quinceañera sonríe en el centro de una pequeña corte de amigos."
+        },
+        {
+          "imagen": "portada.webp",
+          "respaldo": "portada.png",
+          "texto": "El vals con el padre",
+          "alt": "La joven con vestido largo baila un vals con su padre; la familia observa."
+        }
+      ],
+      "items": [
+        {
+          "decir": "Algunas amigas y algunos amigos formaban una pequeña corte a su alrededor.",
+          "correcta": 0,
+          "explicacion": "La corte está alrededor de Valeria en el salón."
+        },
+        {
+          "decir": "Primero bailó un vals con su padre.",
+          "correcta": 1,
+          "explicacion": "El vals con el padre es la escena de la portada."
+        },
+        {
+          "decir": "Llevé flores, y Valeria me abrazó como si eso bastara.",
+          "correcta": 0,
+          "explicacion": "Las flores aparecen en la escena del salón, junto a la corte."
+        },
+        {
+          "decir": "La familia la esperaba de pie.",
+          "correcta": 1,
+          "explicacion": "La familia espera de pie mientras ella baila el vals con su padre."
+        }
+      ],
+      "habilidades": [
+        "Escuchar"
+      ]
+    },
+    {
+      "id": "resumen",
+      "tipo": "completar",
+      "titulo": "El resumen con palabras del texto",
+      "consigna": "Completa el resumen. Puedes usar las palabras de la caja.",
+      "banco": [
+        "niña",
+        "vals",
+        "iguales",
+        "paso",
+        "flores",
+        "respeto"
+      ],
+      "items": [
+        {
+          "antes": "La madre dijo que ese día la familia reconoce, en voz alta, que Valeria ya no es una",
+          "respuesta": [
+            "niña"
+          ],
+          "despues": ".",
+          "explicacion": "«que ya no es una niña»."
+        },
+        {
+          "antes": "En el salón, Valeria bailó un",
+          "respuesta": [
+            "vals"
+          ],
+          "despues": "con su padre.",
+          "explicacion": "«Primero bailó un vals con su padre.»"
+        },
+        {
+          "antes": "Una prima explicó que no todas las quinceañeras son",
+          "respuesta": [
+            "iguales"
+          ],
+          "despues": ".",
+          "explicacion": "«no todas las quinceañeras son iguales»."
+        },
+        {
+          "antes": "Lo que se comparte es la idea de un rito de",
+          "respuesta": [
+            "paso"
+          ],
+          "despues": ".",
+          "explicacion": "«la idea de un rito de paso»."
+        },
+        {
+          "antes": "El narrador no llevó un regalo caro: llevó",
+          "respuesta": [
+            "flores"
+          ],
+          "despues": ".",
+          "explicacion": "«Llevé flores»."
+        },
+        {
+          "antes": "Si lo invitan otra vez, va a llegar con un detalle simple y con",
+          "respuesta": [
+            "respeto"
+          ],
+          "despues": ".",
+          "explicacion": "«con un detalle simple y con respeto»."
+        }
+      ],
+      "habilidades": [
+        "Escribir"
+      ]
+    },
+    {
+      "id": "dilo-tu",
+      "tipo": "hablar",
+      "titulo": "Dilo tú",
+      "consigna": "Escucha el modelo, toca 🎤 y dilo en voz alta, como en una conversación real. No hace falta decirlo palabra por palabra.",
+      "requiere": "reconocimiento_voz",
+      "idioma": "es-US",
+      "items": [
+        {
+          "contexto": "Llegas a los quince y saludas a la madre:",
+          "frase": "Gracias por invitarme."
+        },
+        {
+          "contexto": "Le entregas un detalle simple a la quinceañera:",
+          "frase": "Son solo unas flores."
+        },
+        {
+          "contexto": "Alguien pregunta si todas las fiestas son iguales. Dices:",
+          "frase": "No todas las quinceañeras son iguales."
+        },
+        {
+          "contexto": "Explicas la idea del texto:",
+          "frase": "Es un rito de paso, no solo un cumpleaños."
+        }
+      ],
+      "habilidades": [
+        "Hablar"
+      ]
+    },
+    {
+      "id": "y-en-tu-pais",
+      "tipo": "reflexion",
+      "titulo": "¿Y en tu país?",
+      "pregunta": "En tu país, ¿qué celebración marca un paso de edad? ¿Es igual en todas las familias? Compárala con los quince de Valeria.",
+      "ayuda": [
+        "En mi país, un paso de edad se celebra con…",
+        "No todas las familias lo hacen igual: …",
+        "A diferencia de los quince de Valeria, …",
+        "Para mí, ese día significa…"
+      ],
+      "minimo_caracteres": 80,
+      "modelo": "En mi país, a los dieciséis o a los dieciocho a veces hay una fiesta, y a veces solo una cena en casa: depende de la familia, como en el texto. No hay un vals con el padre ni una corte, pero sí hay un momento en el que la familia dice, de otra manera, que ya creciste. Ahora entiendo que no debo tratar esos días como un cumpleaños cualquiera.",
+      "guia": "No hay una respuesta correcta. Compara el rito, no solo la fiesta, y explica qué cambia según la familia. Si quieres, comparte tu respuesta con tu profesor.",
+      "habilidades": [
+        "Escribir",
+        "Cultura"
+      ]
+    },
+    {
+      "id": "cada-gesto",
+      "tipo": "relacionar",
+      "titulo": "Cada gesto, su sentido",
+      "consigna": "Une cada momento con lo que significa.",
+      "pares": [
+        {
+          "izquierda": "El vals con el padre",
+          "derecha": "Un momento pensado, no un espectáculo",
+          "explicacion": "«no era un espectáculo de televisión, pero sí un momento pensado»"
+        },
+        {
+          "izquierda": "La misa",
+          "derecha": "Ocurre en algunas familias, no en todas",
+          "explicacion": "«Antes, en algunas familias, hay una misa»"
+        },
+        {
+          "izquierda": "Celebrar en casa",
+          "derecha": "Otra forma posible de los quince",
+          "explicacion": "«hay otras que celebran en casa, con menos invitados»"
+        },
+        {
+          "izquierda": "El rito de paso",
+          "derecha": "Decir en voz alta que ya no es una niña",
+          "explicacion": "«la familia dice, en voz alta, que ya no es una niña»"
+        }
+      ],
+      "habilidades": [
+        "Cultura"
+      ],
+      "seccion": "mas_practica"
+    },
+    {
+      "id": "la-fiesta-paso-a-paso",
+      "tipo": "ordenar",
+      "titulo": "La fiesta, paso a paso",
+      "consigna": "Ordena lo que pasa. Usa las flechas ↑ ↓.",
+      "pasos": [
+        "La madre invita al narrador a los quince de Valeria.",
+        "La celebración empieza en casa de una tía.",
+        "Valeria aparece en el salón con un vestido largo.",
+        "Baila un vals con su padre.",
+        "El narrador le lleva flores y ella lo abraza.",
+        "El narrador vuelve al hotel y todavía oye el vals."
+      ],
+      "explicacion": "El relato sigue el orden de la invitación, la casa de la tía, el salón, el vals, las flores y el regreso.",
+      "pista": "Empieza por la invitación y termina en el hotel.",
+      "habilidades": [
+        "Leer"
+      ],
+      "seccion": "mas_practica"
+    },
+    {
+      "id": "verdadero-falso",
+      "tipo": "verdadero_falso",
+      "titulo": "¿Verdadero o falso?",
+      "consigna": "Decide y mira la frase del texto que lo demuestra. Ojo: a veces hay que interpretar.",
+      "items": [
+        {
+          "afirmacion": "Todas las quinceañeras incluyen una misa y un salón grande.",
+          "correcta": false,
+          "justificacion": "«no todas las quinceañeras son iguales»; la misa está «en algunas familias»."
+        },
+        {
+          "afirmacion": "Valeria bailó un vals con su padre.",
+          "correcta": true,
+          "justificacion": "«Primero bailó un vals con su padre.»"
+        },
+        {
+          "afirmacion": "El narrador pensaba, mientras miraba, que era una fiesta cualquiera.",
+          "correcta": false,
+          "justificacion": "«Yo miraba y pensaba: esto no es una fiesta cualquiera.»"
+        },
+        {
+          "afirmacion": "Los quince son, para el narrador, un manual que todas las familias deben seguir.",
+          "correcta": false,
+          "justificacion": "«los quince no son un manual ni una obligación»."
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ],
+      "seccion": "mas_practica"
+    },
+    {
+      "id": "dictado",
+      "tipo": "dictado",
+      "titulo": "Mini dictado",
+      "consigna": "Escucha y escribe lo que oyes.",
+      "items": [
+        {
+          "decir": "vals",
+          "antes": "Bailó un",
+          "despues": "con su padre.",
+          "respuesta": [
+            "vals"
+          ],
+          "explicacion": "El vals es el baile con el padre."
+        },
+        {
+          "decir": "corte",
+          "antes": "Los amigos formaban una pequeña",
+          "despues": "a su alrededor.",
+          "respuesta": [
+            "corte"
+          ],
+          "explicacion": "Una corte de amigas y amigos acompaña a la quinceañera."
+        },
+        {
+          "decir": "paso",
+          "antes": "Es la idea de un rito de",
+          "despues": ".",
+          "respuesta": [
+            "paso"
+          ],
+          "explicacion": "Un rito de paso marca un cambio de edad."
+        },
+        {
+          "decir": "flores",
+          "antes": "Llevé",
+          "despues": ", y Valeria me abrazó.",
+          "respuesta": [
+            "flores"
+          ],
+          "explicacion": "Llevó un detalle simple: flores."
+        },
+        {
+          "decir": "respeto",
+          "antes": "Voy a llegar con un detalle simple y con",
+          "despues": ".",
+          "respuesta": [
+            "respeto"
+          ],
+          "explicacion": "El narrador quiere tratar esa noche con respeto."
+        }
+      ],
+      "habilidades": [
+        "Escuchar",
+        "Escribir"
+      ],
+      "seccion": "mas_practica"
+    }
+  ]
+}

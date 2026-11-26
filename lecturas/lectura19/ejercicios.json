@@ -1,0 +1,512 @@
+{
+  "version": 3,
+  "lectura": "a2-regalos-en-nochebuena-o-el-6-de-enero",
+  "mas_practica_titulo": "Más práctica",
+  "ejercicios": [
+    {
+      "id": "comprension",
+      "tipo": "opcion_multiple",
+      "titulo": "¿Cuándo son los regalos?",
+      "consigna": "Elige la respuesta correcta según el texto.",
+      "items": [
+        {
+          "pregunta": "¿A casa de quién fue el narrador el 24 de diciembre?",
+          "opciones": [
+            "A casa de Elena, en México.",
+            "A una panadería en Lima.",
+            "A casa de su primo, en Quito."
+          ],
+          "correcta": 2,
+          "explicacion": "«El 24 de diciembre fui a casa de mi primo, en Quito.»"
+        },
+        {
+          "pregunta": "En esa casa de Quito, ¿cuándo abrieron los regalos?",
+          "opciones": [
+            "El 25, por la mañana.",
+            "A las doce, el 24.",
+            "El 6 de enero."
+          ],
+          "correcta": 1,
+          "explicacion": "«A las doce, abrimos los regalos debajo del árbol.»"
+        },
+        {
+          "pregunta": "En el país del narrador, ¿cuándo abren los regalos muchas personas?",
+          "opciones": [
+            "El 24, a las doce.",
+            "El 6 de enero.",
+            "El 25, por la mañana."
+          ],
+          "correcta": 2,
+          "explicacion": "«En mi país, muchas personas abren los regalos el 25, por la mañana.»"
+        },
+        {
+          "pregunta": "En la familia de Elena, ¿cuándo llegan algunos regalos?",
+          "opciones": [
+            "Solo el 25.",
+            "El 6 de enero, el Día de Reyes.",
+            "En agosto."
+          ],
+          "correcta": 1,
+          "explicacion": "«Pero algunos regalos llegan el 6 de enero, el Día de Reyes.»"
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ]
+    },
+    {
+      "id": "escuchar",
+      "tipo": "escuchar_elegir",
+      "titulo": "¿Qué oyes?",
+      "consigna": "Escucha la frase y elige la respuesta.",
+      "items": [
+        {
+          "decir": "Esa noche es la Nochebuena.",
+          "pregunta": "¿Cómo se llama la noche del 24?",
+          "opciones": [
+            "Día de Reyes.",
+            "Nochebuena.",
+            "Halloween."
+          ],
+          "correcta": 1,
+          "explicacion": "El 24 de diciembre, esa noche es la Nochebuena."
+        },
+        {
+          "decir": "A las doce, abrimos los regalos debajo del árbol.",
+          "pregunta": "¿Dónde están los regalos?",
+          "opciones": [
+            "Debajo del árbol.",
+            "En la cocina.",
+            "En la calle."
+          ],
+          "correcta": 0,
+          "explicacion": "Abren los regalos debajo del árbol, a las doce."
+        },
+        {
+          "decir": "Algunos regalos llegan el 6 de enero, el Día de Reyes.",
+          "pregunta": "¿Qué día es el 6 de enero?",
+          "opciones": [
+            "La Nochebuena.",
+            "El 25.",
+            "El Día de Reyes."
+          ],
+          "correcta": 2,
+          "explicacion": "El 6 de enero es el Día de Reyes."
+        },
+        {
+          "decir": "Mucha gente comparte una rosca de Reyes.",
+          "pregunta": "¿Qué comparte mucha gente el 6 de enero?",
+          "opciones": [
+            "Un ceviche.",
+            "Una rosca de Reyes.",
+            "Un helado."
+          ],
+          "correcta": 1,
+          "explicacion": "En México, y también en Ecuador, mucha gente comparte una rosca de Reyes."
+        }
+      ],
+      "habilidades": [
+        "Escuchar"
+      ]
+    },
+    {
+      "id": "nochebuena",
+      "tipo": "arrastrar",
+      "titulo": "La noche del 24",
+      "consigna": "Arrastra cada palabra a su lugar en la imagen. También puedes tocar una palabra y después el círculo.",
+      "imagen": "portada.webp",
+      "respaldo": "portada.png",
+      "ancho": 1152,
+      "alto": 768,
+      "alt": "Una familia se sienta a la mesa de Nochebuena en Quito; al fondo, un árbol.",
+      "zonas": [
+        {
+          "palabra": "mesa",
+          "x": 52,
+          "y": 82,
+          "explicacion": "«La familia se sentó a la mesa, comimos juntos y hablamos mucho.»"
+        },
+        {
+          "palabra": "árbol",
+          "x": 86,
+          "y": 22,
+          "explicacion": "Los regalos están debajo del árbol."
+        },
+        {
+          "palabra": "familia",
+          "x": 36,
+          "y": 40,
+          "explicacion": "La familia se reúne el 24."
+        },
+        {
+          "palabra": "Quito",
+          "x": 14,
+          "y": 20,
+          "explicacion": "La cena es en casa del primo, en Quito."
+        }
+      ],
+      "distractores": [
+        {
+          "palabra": "playa",
+          "explicacion": "La escena es una Nochebuena en Quito, en una sala, no en la playa."
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ]
+    },
+    {
+      "id": "que-dices",
+      "tipo": "situaciones",
+      "titulo": "¿Qué dices? ¿Qué haces?",
+      "consigna": "Elige la mejor reacción según el texto.",
+      "items": [
+        {
+          "icono": "🎄",
+          "situacion": "Estás en Quito el 24 de diciembre, a las once de la noche. Un amigo de tu país pregunta: «¿Ya abrieron los regalos esta mañana?». ¿Qué dices?",
+          "opciones": [
+            "«Aquí la fiesta grande es esta noche, el 24. Los regalos son a las doce.»",
+            "«Sí, siempre se abren el 25 por la mañana.»"
+          ],
+          "correcta": 0,
+          "explicacion": "«Allí me sorprendió: la fiesta grande es el 24, no el 25.» «A las doce, abrimos los regalos»"
+        },
+        {
+          "icono": "👑",
+          "situacion": "Elena, de México, habla del 6 de enero. ¿Qué día es?",
+          "opciones": [
+            "La Nochebuena.",
+            "El Día de Reyes."
+          ],
+          "correcta": 1,
+          "explicacion": "«algunos regalos llegan el 6 de enero, el Día de Reyes.»"
+        },
+        {
+          "icono": "🍞",
+          "situacion": "Es el 6 de enero, en Ecuador o en México. Según el texto, ¿qué hace mucha gente?",
+          "opciones": [
+            "Comparte una rosca de Reyes.",
+            "Abre todos los regalos principales, como en la Nochebuena de Quito."
+          ],
+          "correcta": 0,
+          "explicacion": "«En México, y también en Ecuador, mucha gente comparte una rosca de Reyes.» En Ecuador, los regalos principales son de Nochebuena."
+        },
+        {
+          "icono": "📅",
+          "situacion": "Un amigo dice: «En todos los países hispanos los regalos son el 25, como en Estados Unidos». ¿Qué dices?",
+          "opciones": [
+            "«Sí, siempre es el 25.»",
+            "«No hay un solo día para los regalos en el mundo hispano.»"
+          ],
+          "correcta": 1,
+          "explicacion": "«Ahora entiendo: no hay un solo día para los regalos en el mundo hispano.»"
+        }
+      ],
+      "habilidades": [
+        "Cultura"
+      ]
+    },
+    {
+      "id": "escuchar-escena",
+      "tipo": "escuchar_imagen",
+      "titulo": "¿Qué momento es?",
+      "consigna": "Escucha y toca la imagen correcta.",
+      "opciones": [
+        {
+          "imagen": "escena.webp",
+          "respaldo": "escena.png",
+          "texto": "A las doce, los regalos",
+          "alt": "A medianoche, abren los regalos debajo del árbol; hay una rosca en la mesa."
+        },
+        {
+          "imagen": "portada.webp",
+          "respaldo": "portada.png",
+          "texto": "La cena de Nochebuena",
+          "alt": "La familia está sentada a la mesa, todavía sin abrir los regalos."
+        }
+      ],
+      "items": [
+        {
+          "decir": "La familia se sentó a la mesa, comimos juntos y hablamos mucho.",
+          "correcta": 1,
+          "explicacion": "Es la cena: la familia está a la mesa."
+        },
+        {
+          "decir": "A las doce, abrimos los regalos debajo del árbol.",
+          "correcta": 0,
+          "explicacion": "Es medianoche: abren los regalos."
+        },
+        {
+          "decir": "El 6 de enero, la rosca junta otra vez a la familia.",
+          "correcta": 0,
+          "explicacion": "En la escena hay una rosca: el 6 de enero cierra la fiesta."
+        },
+        {
+          "decir": "Esa noche es la Nochebuena.",
+          "correcta": 1,
+          "explicacion": "La cena del 24 es la Nochebuena."
+        }
+      ],
+      "habilidades": [
+        "Escuchar"
+      ]
+    },
+    {
+      "id": "resumen",
+      "tipo": "completar",
+      "titulo": "El resumen con palabras del texto",
+      "consigna": "Escribe la palabra que falta. Puedes usar las palabras de la caja.",
+      "banco": [
+        "Quito",
+        "Nochebuena",
+        "doce",
+        "Reyes",
+        "rosca",
+        "familia"
+      ],
+      "items": [
+        {
+          "antes": "El 24 de diciembre fui a casa de mi primo, en",
+          "respuesta": [
+            "Quito"
+          ],
+          "despues": ".",
+          "explicacion": "«fui a casa de mi primo, en Quito.»"
+        },
+        {
+          "antes": "Esa noche es la",
+          "respuesta": [
+            "Nochebuena"
+          ],
+          "despues": ".",
+          "explicacion": "«Esa noche es la Nochebuena.»"
+        },
+        {
+          "antes": "A las",
+          "respuesta": [
+            "doce"
+          ],
+          "despues": ", abrimos los regalos debajo del árbol.",
+          "explicacion": "«A las doce, abrimos los regalos debajo del árbol.»"
+        },
+        {
+          "antes": "Algunos regalos de Elena llegan el 6 de enero, el Día de",
+          "respuesta": [
+            "Reyes"
+          ],
+          "despues": ".",
+          "explicacion": "«el 6 de enero, el Día de Reyes.»"
+        },
+        {
+          "antes": "Mucha gente comparte una",
+          "respuesta": [
+            "rosca"
+          ],
+          "despues": "de Reyes.",
+          "explicacion": "«comparte una rosca de Reyes.»"
+        },
+        {
+          "antes": "No es la misma fecha, pero es la misma idea: estar con la",
+          "respuesta": [
+            "familia"
+          ],
+          "despues": ".",
+          "explicacion": "«es la misma idea: estar con la familia.»"
+        }
+      ],
+      "habilidades": [
+        "Escribir"
+      ]
+    },
+    {
+      "id": "y-en-tu-pais",
+      "tipo": "reflexion",
+      "titulo": "¿Y en tu país?",
+      "pregunta": "¿Cuándo abre los regalos tu familia? ¿Hay una cena especial el 24, el 25 u otro día?",
+      "ayuda": [
+        "En mi familia abrimos los regalos…",
+        "El 24 / el 25 / el 6 de enero…",
+        "Hay una cena…",
+        "Me sorprendió / Me gusta…"
+      ],
+      "minimo_caracteres": 30,
+      "modelo": "En mi familia abrimos los regalos el 25, por la mañana. El 24 hay una cena, pero no es tan larga como la Nochebuena de Quito. No tenemos rosca de Reyes el 6 de enero. Me gustó la idea: no hay un solo día para los regalos, pero la idea es la misma, estar con la familia.",
+      "guia": "No hay una respuesta correcta. Compara tus fechas con el 24, el 25 y el 6 de enero. Si quieres, comparte tu respuesta con tu profesor.",
+      "habilidades": [
+        "Escribir",
+        "Cultura"
+      ]
+    },
+    {
+      "id": "orden",
+      "tipo": "ordenar",
+      "titulo": "La fiesta, paso a paso",
+      "consigna": "Ordena lo que pasa. Usa las flechas ↑ ↓.",
+      "pasos": [
+        "El 24 de diciembre, en Quito, la familia se sienta a la mesa: es la Nochebuena.",
+        "A las doce, abren los regalos debajo del árbol.",
+        "Elena explica que, en su familia, algunos regalos llegan el 6 de enero.",
+        "El 6 de enero, mucha gente comparte una rosca de Reyes.",
+        "El 6 de enero cierra la fiesta."
+      ],
+      "explicacion": "Primero es la Nochebuena, el 24, con la mesa y los regalos a las doce. Después Elena explica el 6 de enero, el Día de Reyes. Ese día mucha gente comparte una rosca, y así se cierra la fiesta.",
+      "pista": "Pista: busca las fechas (el 24 y el 6 de enero) y las palabras «a las doce» y «cierra».",
+      "habilidades": [
+        "Leer"
+      ],
+      "seccion": "mas_practica"
+    },
+    {
+      "id": "fechas",
+      "tipo": "relacionar",
+      "titulo": "¿Qué pasa cada día?",
+      "consigna": "Une cada fecha con lo que dice el texto.",
+      "pares": [
+        {
+          "izquierda": "El 24 de diciembre",
+          "derecha": "Es la Nochebuena: la fiesta grande de la mesa, en Quito.",
+          "explicacion": "«Esa noche es la Nochebuena.» «la fiesta grande es el 24»"
+        },
+        {
+          "izquierda": "A las doce del 24",
+          "derecha": "Abren los regalos debajo del árbol.",
+          "explicacion": "«A las doce, abrimos los regalos debajo del árbol.»"
+        },
+        {
+          "izquierda": "El 25, en el país del narrador",
+          "derecha": "Muchas personas abren los regalos por la mañana.",
+          "explicacion": "«muchas personas abren los regalos el 25, por la mañana.»"
+        },
+        {
+          "izquierda": "El 6 de enero",
+          "derecha": "Es el Día de Reyes; mucha gente comparte una rosca.",
+          "explicacion": "«el 6 de enero, el Día de Reyes.» «comparte una rosca de Reyes.»"
+        }
+      ],
+      "habilidades": [
+        "Cultura"
+      ],
+      "seccion": "mas_practica"
+    },
+    {
+      "id": "dictado",
+      "tipo": "dictado",
+      "titulo": "Mini dictado",
+      "consigna": "Escucha y escribe lo que oyes.",
+      "items": [
+        {
+          "decir": "Nochebuena",
+          "antes": "Esa noche es la",
+          "despues": ".",
+          "respuesta": [
+            "Nochebuena"
+          ],
+          "explicacion": "El 24 de diciembre es la Nochebuena."
+        },
+        {
+          "decir": "regalos",
+          "antes": "A las doce, abrimos los",
+          "despues": "debajo del árbol.",
+          "respuesta": [
+            "regalos"
+          ],
+          "explicacion": "Los regalos se abren a las doce, en Quito."
+        },
+        {
+          "decir": "Reyes",
+          "antes": "El 6 de enero es el Día de",
+          "despues": ".",
+          "respuesta": [
+            "Reyes"
+          ],
+          "explicacion": "El Día de Reyes es el 6 de enero."
+        },
+        {
+          "decir": "rosca",
+          "antes": "Mucha gente comparte una",
+          "despues": "de Reyes.",
+          "respuesta": [
+            "rosca"
+          ],
+          "explicacion": "La rosca de Reyes junta otra vez a la familia."
+        },
+        {
+          "decir": "familia",
+          "antes": "Es la misma idea: estar con la",
+          "despues": ".",
+          "respuesta": [
+            "familia"
+          ],
+          "explicacion": "La idea de la fiesta es estar con la familia."
+        }
+      ],
+      "habilidades": [
+        "Escuchar",
+        "Escribir"
+      ],
+      "seccion": "mas_practica"
+    },
+    {
+      "id": "dilo-tu",
+      "tipo": "hablar",
+      "titulo": "Dilo tú",
+      "consigna": "Escucha el modelo, toca 🎤 y dilo en voz alta.",
+      "requiere": "reconocimiento_voz",
+      "idioma": "es-US",
+      "items": [
+        {
+          "contexto": "Explicas la noche del 24:",
+          "frase": "Esa noche es la Nochebuena."
+        },
+        {
+          "contexto": "Cuentas los regalos en Quito:",
+          "frase": "A las doce, abrimos los regalos."
+        },
+        {
+          "contexto": "Hablas del 6 de enero:",
+          "frase": "Es el Día de Reyes."
+        },
+        {
+          "contexto": "Dices la idea final:",
+          "frase": "Es la misma idea: estar con la familia."
+        }
+      ],
+      "habilidades": [
+        "Hablar"
+      ],
+      "seccion": "mas_practica"
+    },
+    {
+      "id": "verdadero-falso",
+      "tipo": "verdadero_falso",
+      "titulo": "¿Verdadero o falso?",
+      "consigna": "Decide y mira la frase del texto que lo demuestra.",
+      "items": [
+        {
+          "afirmacion": "El narrador pasó la Nochebuena en Quito.",
+          "correcta": true,
+          "justificacion": "«El 24 de diciembre fui a casa de mi primo, en Quito.» «Esa noche es la Nochebuena.»"
+        },
+        {
+          "afirmacion": "En esa casa de Quito abrieron los regalos el 25, por la mañana.",
+          "correcta": false,
+          "justificacion": "«A las doce, abrimos los regalos debajo del árbol.» «la fiesta grande es el 24, no el 25.»"
+        },
+        {
+          "afirmacion": "En la familia de Elena, algunos regalos llegan el 6 de enero.",
+          "correcta": true,
+          "justificacion": "«Pero algunos regalos llegan el 6 de enero, el Día de Reyes.»"
+        },
+        {
+          "afirmacion": "En Ecuador no hay rosca de Reyes.",
+          "correcta": false,
+          "justificacion": "«En México, y también en Ecuador, mucha gente comparte una rosca de Reyes.»"
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ],
+      "seccion": "mas_practica"
+    }
+  ]
+}

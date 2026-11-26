@@ -1,0 +1,157 @@
+{
+  "id": "a1-dos-apellidos-una-persona",
+  "titulo": "Dos apellidos, una persona",
+  "nivel": "A1",
+  "etiqueta": "Los dos apellidos",
+  "entradilla": "En la lista de clase, Ana no elige entre López y García: lleva los dos.",
+  "variedad": "es-419",
+  "uso": "lectura_web_autonoma",
+  "pcic": {
+    "secciones": [
+      "Saberes y comportamientos socioculturales 1.1.1 (fase de aproximación, esquema aplicado al mundo hispano): nombres y apellidos; el sistema de dos apellidos"
+    ],
+    "habilidades_interculturales": [
+      "12. 1.1.2 Percepción de diferencias culturales",
+      "12. 2.1.2 Comparación"
+    ],
+    "generos_discursivos": "Macrofunción narrativa (inventario A1–A2, 3.4): anécdota personal breve; descripción de una costumbre"
+  },
+  "texto_parrafos": [
+    "Mi amiga se llama Ana López García. En la clase, la profesora lee la lista y pregunta: —¿Ana López o Ana García? Ana sonríe. —Soy Ana López García. Tengo dos apellidos.",
+    "En muchos países de habla hispana hay una costumbre clara: una persona lleva el primer apellido del papá y el primer apellido de la mamá. López es de su papá. García es de su mamá. Los dos están en su documento. No es un segundo nombre. Son apellidos, los dos.",
+    "A mí me gusta esa idea. El apellido de la mamá no se pierde. Va con ella a la escuela, al trabajo y a un correo. El mes que viene voy a escribir también mi nombre completo, con calma: es una persona, y son dos familias."
+  ],
+  "traduccion_parrafos": [
+    "My friend is called Ana López García. In class, the teacher reads the list and asks: “Ana López or Ana García?” Ana smiles. “I am Ana López García. I have two last names.”",
+    "In many Spanish-speaking countries there is a clear custom: a person has the father’s first surname and the mother’s first surname. López is from her father. García is from her mother. Both are on her ID. It is not a middle name. They are both last names.",
+    "I like that idea. The mother’s surname does not disappear. It goes with her to school, to work and to an email. Next month I am also going to write my full name, slowly: she is one person, and they are two families."
+  ],
+  "glosario": [
+    {
+      "palabra": "apellido",
+      "traduccion_en": "last name; surname",
+      "formas": [
+        "apellidos"
+      ]
+    },
+    {
+      "palabra": "lista",
+      "traduccion_en": "list"
+    },
+    {
+      "palabra": "profesor / profesora",
+      "traduccion_en": "teacher",
+      "formas": [
+        "profesora",
+        "profesor"
+      ]
+    },
+    {
+      "palabra": "sonreír",
+      "traduccion_en": "to smile",
+      "formas": [
+        "sonríe"
+      ]
+    },
+    {
+      "palabra": "costumbre",
+      "traduccion_en": "custom; habit"
+    },
+    {
+      "palabra": "llevar",
+      "traduccion_en": "to have; to carry (a surname)",
+      "formas": [
+        "lleva"
+      ]
+    },
+    {
+      "palabra": "documento",
+      "traduccion_en": "ID; official document"
+    },
+    {
+      "palabra": "segundo nombre",
+      "traduccion_en": "middle name"
+    },
+    {
+      "palabra": "perderse",
+      "traduccion_en": "to be lost; to disappear",
+      "formas": [
+        "pierde"
+      ]
+    },
+    {
+      "palabra": "correo",
+      "traduccion_en": "email; mailbox"
+    },
+    {
+      "palabra": "nombre completo",
+      "traduccion_en": "full name"
+    },
+    {
+      "palabra": "familia",
+      "traduccion_en": "family",
+      "formas": [
+        "familias"
+      ]
+    }
+  ],
+  "imagenes": [
+    {
+      "archivo": "portada.png",
+      "tipo": "portada",
+      "alt": "Una familia en la sala: Ana, una adolescente con trenza y cárdigan ocre, junto a su papá de barba y suéter terracota y su mamá de pelo corto rizado.",
+      "webp": "portada.webp",
+      "ancho": 1152,
+      "alto": 768
+    },
+    {
+      "archivo": "escena.png",
+      "tipo": "escena",
+      "alt": "En un aula, Ana, con trenza y cárdigan ocre, escucha a una profesora de pelo corto y canoso que lee una hoja en blanco.",
+      "webp": "escena.webp",
+      "ancho": 1152,
+      "alto": 768,
+      "pie": "En la clase, la profesora lee la lista y pregunta por un solo apellido.",
+      "despues_parrafo": 1
+    }
+  ],
+  "grafico": null,
+  "audio": {
+    "estado": "voz_del_navegador",
+    "nota": "El sitio lee el texto con la voz del dispositivo de cada alumno (decisión de Edison, 19-11-2026). Se prefiere una voz de español de América, no de España.",
+    "guion": {
+      "velocidad": "Unas 110 palabras por minuto, clara y natural, sin teatralidad. Voz de español de América, no de España.",
+      "pausas": "Pausa corta al final de cada oración; pausa más larga (unos dos segundos) entre párrafos. Tres segundos de silencio al empezar y al cerrar.",
+      "duracion_aproximada": "unos 1 minuto y medio",
+      "texto": [
+        {
+          "tipo": "titulo",
+          "dice": "Dos apellidos, una persona.",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 1,
+          "dice": "Mi amiga se llama Ana López García. En la clase, la profesora lee la lista y pregunta: —¿Ana López o Ana García? Ana sonríe. —Soy Ana López García. Tengo dos apellidos.",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 2,
+          "dice": "En muchos países de habla hispana hay una costumbre clara: una persona lleva el primer apellido del papá y el primer apellido de la mamá. López es de su papá. García es de su mamá. Los dos están en su documento. No es un segundo nombre. Son apellidos, los dos.",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 3,
+          "dice": "A mí me gusta esa idea. El apellido de la mamá no se pierde. Va con ella a la escuela, al trabajo y a un correo. El mes que viene voy a escribir también mi nombre completo, con calma: es una persona, y son dos familias.",
+          "pausa_despues": "cierre"
+        }
+      ]
+    }
+  },
+  "sugerencia_ejercicios": "Escuchar el audio; unir cada apellido con papá o mamá; una pregunta: ¿Cuántos apellidos tienes tú y de quién son?",
+  "estilo_visual": "Papel y ocre (ver estilo_visual.md). Encuadre de las ilustraciones: 3:2.",
+  "contenido": "original",
+  "ejercicios_archivo": "ejercicios.json"
+}

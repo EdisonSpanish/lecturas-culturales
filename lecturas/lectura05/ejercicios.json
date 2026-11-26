@@ -1,0 +1,506 @@
+{
+  "version": 3,
+  "lectura": "a2-flores-y-pan-para-los-abuelos",
+  "mas_practica_titulo": "Más práctica",
+  "ejercicios": [
+    {
+      "id": "comprension",
+      "tipo": "opcion_multiple",
+      "titulo": "¿Qué pasó en casa de Valeria?",
+      "consigna": "Elige la respuesta correcta según el texto.",
+      "items": [
+        {
+          "pregunta": "¿Qué ve el narrador en la sala de Valeria?",
+          "opciones": [
+            "Una calabaza de Halloween.",
+            "Un pastel de cumpleaños.",
+            "Una ofrenda."
+          ],
+          "correcta": 2,
+          "explicacion": "«Es la ofrenda. Hoy es el Día de Muertos»"
+        },
+        {
+          "pregunta": "¿A quién recuerdan las familias el 1 de noviembre?",
+          "opciones": [
+            "A los adultos.",
+            "A los niños.",
+            "A los vecinos."
+          ],
+          "correcta": 1,
+          "explicacion": "«En México, el 1 de noviembre las familias recuerdan a los niños, y el 2, a los adultos.»"
+        },
+        {
+          "pregunta": "Según el texto, ¿para qué sirven el color y el aroma de las flores?",
+          "opciones": [
+            "Para asustar.",
+            "Para decorar la calle.",
+            "Para ayudar a encontrar el camino a casa."
+          ],
+          "correcta": 2,
+          "explicacion": "«El color y el aroma, dicen, ayudan a encontrar el camino a casa.»"
+        },
+        {
+          "pregunta": "Para Valeria, ¿cómo es el Día de Muertos?",
+          "opciones": [
+            "Una visita a la mesa.",
+            "Una noche de miedo.",
+            "Una fiesta de disfraces."
+          ],
+          "correcta": 0,
+          "explicacion": "«Vienen a la mesa, como antes.»"
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ]
+    },
+    {
+      "id": "escuchar",
+      "tipo": "escuchar_elegir",
+      "titulo": "¿Qué oyes?",
+      "consigna": "Escucha la frase y elige la respuesta.",
+      "items": [
+        {
+          "decir": "El 2 de noviembre fui a casa de mi amiga Valeria, en México.",
+          "pregunta": "¿Qué día fue a casa de Valeria?",
+          "opciones": [
+            "El 31 de octubre.",
+            "El 1 de noviembre.",
+            "El 2 de noviembre."
+          ],
+          "correcta": 2,
+          "explicacion": "Fue el 2 de noviembre, el día de los adultos."
+        },
+        {
+          "decir": "En la sala vi una mesa especial: flores naranjas, velas, un vaso de agua, pan dulce y una foto de sus abuelos.",
+          "pregunta": "¿De quién es la foto?",
+          "opciones": [
+            "De sus abuelos.",
+            "De Valeria.",
+            "De sus papás."
+          ],
+          "correcta": 0,
+          "explicacion": "En la ofrenda está la foto de los abuelos de Valeria."
+        },
+        {
+          "decir": "En Estados Unidos hay Halloween, pero esta fiesta es distinta.",
+          "pregunta": "¿El Día de Muertos es como Halloween?",
+          "opciones": [
+            "Sí, es igual.",
+            "No, es distinta."
+          ],
+          "correcta": 1,
+          "explicacion": "Es otra fiesta: no es una noche de miedo."
+        },
+        {
+          "decir": "Por la tarde fuimos al cementerio.",
+          "pregunta": "¿Adónde fueron por la tarde?",
+          "opciones": [
+            "Al cementerio.",
+            "Al mercado.",
+            "A la escuela."
+          ],
+          "correcta": 0,
+          "explicacion": "Por la tarde, las familias van al cementerio."
+        }
+      ],
+      "habilidades": [
+        "Escuchar"
+      ]
+    },
+    {
+      "id": "ofrenda",
+      "tipo": "arrastrar",
+      "titulo": "¿Qué hay en la ofrenda?",
+      "consigna": "Arrastra cada palabra a su lugar en la imagen. También puedes tocar una palabra y después el círculo.",
+      "imagen": "portada.webp",
+      "respaldo": "portada.png",
+      "ancho": 1152,
+      "alto": 768,
+      "alt": "Valeria mira la ofrenda: velas, un vaso de agua, pan de muerto, flores de cempasúchil y una foto.",
+      "zonas": [
+        {
+          "palabra": "velas",
+          "x": 57,
+          "y": 57,
+          "explicacion": "«flores naranjas, velas, un vaso de agua»"
+        },
+        {
+          "palabra": "agua",
+          "x": 46,
+          "y": 77,
+          "explicacion": "«un vaso de agua»"
+        },
+        {
+          "palabra": "pan de muerto",
+          "x": 61,
+          "y": 81,
+          "explicacion": "«flores de cempasúchil y pan de muerto»"
+        },
+        {
+          "palabra": "cempasúchil",
+          "x": 83,
+          "y": 50,
+          "explicacion": "Son las flores naranjas: «flores de cempasúchil»"
+        },
+        {
+          "palabra": "foto",
+          "x": 91,
+          "y": 79,
+          "explicacion": "«una foto de sus abuelos»"
+        }
+      ],
+      "distractores": [
+        {
+          "palabra": "calabaza",
+          "explicacion": "La calabaza es de Halloween. En la ofrenda no hay calabaza: «No es una noche de miedo.»"
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ]
+    },
+    {
+      "id": "que-dices",
+      "tipo": "situaciones",
+      "titulo": "¿Qué dices? ¿Qué haces?",
+      "consigna": "Es el 2 de noviembre y estás con Valeria. Elige la mejor reacción.",
+      "items": [
+        {
+          "icono": "🕯️",
+          "situacion": "Valeria te muestra la ofrenda con la foto de sus abuelos.",
+          "opciones": [
+            "«¡Qué miedo!»",
+            "«¡Qué bonita! ¿Son tus abuelos?»",
+            "«¿Es para Halloween?»"
+          ],
+          "correcta": 1,
+          "explicacion": "Es una forma de recordar con cariño: «No es una noche de miedo. Es una visita.»"
+        },
+        {
+          "icono": "🍞",
+          "situacion": "En el cementerio, una familia comparte pan de muerto contigo.",
+          "opciones": [
+            "Acepto y digo «gracias».",
+            "Digo que no: es para los muertos.",
+            "Tomo el pan y me voy."
+          ],
+          "correcta": 0,
+          "explicacion": "Compartir es parte de la fiesta: «Conversaron, pusieron flores y compartieron pan.»"
+        },
+        {
+          "icono": "🤫",
+          "situacion": "Valeria habla con sus abuelos en voz baja.",
+          "opciones": [
+            "Le tomo una foto sin preguntar.",
+            "Hablo muy fuerte.",
+            "Espero en silencio."
+          ],
+          "correcta": 2,
+          "explicacion": "Es un momento íntimo: «Valeria habló con sus abuelos en voz baja y después sonrió.»"
+        },
+        {
+          "icono": "🎃",
+          "situacion": "Un amigo dice: «El Día de Muertos es el Halloween de México». ¿Qué dices?",
+          "opciones": [
+            "«No, es distinto: es una visita, no una noche de miedo.»",
+            "«Sí, es igual.»"
+          ],
+          "correcta": 0,
+          "explicacion": "«En Estados Unidos hay Halloween, pero esta fiesta es distinta.»"
+        }
+      ],
+      "habilidades": [
+        "Cultura"
+      ]
+    },
+    {
+      "id": "escuchar-escena",
+      "tipo": "escuchar_imagen",
+      "titulo": "¿En casa o en el cementerio?",
+      "consigna": "Escucha y toca la imagen correcta.",
+      "opciones": [
+        {
+          "imagen": "portada.webp",
+          "respaldo": "portada.png",
+          "texto": "En casa: la ofrenda",
+          "alt": "Valeria mira la ofrenda en la sala de su casa."
+        },
+        {
+          "imagen": "escena.webp",
+          "respaldo": "escena.png",
+          "texto": "En el cementerio",
+          "alt": "Valeria y un señor ponen flores y pan de muerto junto a una tumba."
+        }
+      ],
+      "items": [
+        {
+          "decir": "Por la tarde fuimos al cementerio.",
+          "correcta": 1,
+          "explicacion": "En el cementerio ponen flores junto a la tumba."
+        },
+        {
+          "decir": "En la sala vi una mesa especial.",
+          "correcta": 0,
+          "explicacion": "La mesa especial es la ofrenda, en la sala."
+        },
+        {
+          "decir": "Conversaron, pusieron flores y compartieron pan.",
+          "correcta": 1,
+          "explicacion": "Las familias, en el cementerio, ponen flores y comparten pan."
+        },
+        {
+          "decir": "Es la ofrenda.",
+          "correcta": 0,
+          "explicacion": "La ofrenda está en la sala de Valeria."
+        }
+      ],
+      "habilidades": [
+        "Escuchar"
+      ]
+    },
+    {
+      "id": "resumen",
+      "tipo": "completar",
+      "titulo": "El resumen con palabras del texto",
+      "consigna": "Escribe la palabra que falta. Puedes usar las palabras de la caja.",
+      "banco": [
+        "ofrenda",
+        "velas",
+        "cempasúchil",
+        "abuelos",
+        "cementerio",
+        "adultos"
+      ],
+      "items": [
+        {
+          "antes": "En la sala de Valeria hay una",
+          "respuesta": [
+            "ofrenda"
+          ],
+          "despues": ".",
+          "explicacion": "«Es la ofrenda. Hoy es el Día de Muertos»"
+        },
+        {
+          "antes": "En la ofrenda hay flores naranjas, agua, pan y",
+          "respuesta": [
+            "velas"
+          ],
+          "despues": ".",
+          "explicacion": "«flores naranjas, velas, un vaso de agua»"
+        },
+        {
+          "antes": "Las flores naranjas se llaman flores de",
+          "respuesta": [
+            "cempasúchil"
+          ],
+          "despues": ".",
+          "explicacion": "«flores de cempasúchil y pan de muerto»"
+        },
+        {
+          "antes": "La foto es de sus",
+          "respuesta": [
+            "abuelos"
+          ],
+          "despues": ".",
+          "explicacion": "«una foto de sus abuelos»"
+        },
+        {
+          "antes": "Por la tarde fueron al",
+          "respuesta": [
+            "cementerio"
+          ],
+          "despues": ".",
+          "explicacion": "«Por la tarde fuimos al cementerio.»"
+        },
+        {
+          "antes": "El 2 de noviembre, las familias recuerdan a los",
+          "respuesta": [
+            "adultos"
+          ],
+          "despues": ".",
+          "explicacion": "«el 1 de noviembre las familias recuerdan a los niños, y el 2, a los adultos.»"
+        }
+      ],
+      "habilidades": [
+        "Escribir"
+      ]
+    },
+    {
+      "id": "y-en-tu-pais",
+      "tipo": "reflexion",
+      "titulo": "¿Y en tu país?",
+      "pregunta": "¿Cómo recuerdan en tu familia a las personas que ya no están? ¿Hay un día especial?",
+      "ayuda": [
+        "En mi familia…",
+        "Ponemos fotos / flores / velas…",
+        "Vamos al cementerio…",
+        "Me gusta la idea de…"
+      ],
+      "minimo_caracteres": 30,
+      "modelo": "En mi familia no hay un día especial, pero en el cumpleaños de mi abuela ponemos su foto en la mesa y hablamos de ella. A veces vamos al cementerio con flores. Me gusta la idea de Valeria: dejarle un lugar en la mesa.",
+      "guia": "No hay una respuesta correcta. Compara tu costumbre con el Día de Muertos. Si quieres, comparte tu respuesta con tu profesor.",
+      "habilidades": [
+        "Escribir",
+        "Cultura"
+      ]
+    },
+    {
+      "id": "para-que",
+      "tipo": "relacionar",
+      "titulo": "Cada cosa, su sentido",
+      "consigna": "Une cada parte de la fiesta con su explicación.",
+      "pares": [
+        {
+          "izquierda": "Las flores de cempasúchil",
+          "derecha": "Su color y su aroma ayudan a encontrar el camino",
+          "explicacion": "«El color y el aroma, dicen, ayudan a encontrar el camino a casa.»"
+        },
+        {
+          "izquierda": "El pan de muerto",
+          "derecha": "Se pone en la ofrenda y se comparte",
+          "explicacion": "«compartieron pan.»"
+        },
+        {
+          "izquierda": "La foto",
+          "derecha": "Recuerda a la persona",
+          "explicacion": "«una foto de sus abuelos»"
+        },
+        {
+          "izquierda": "El 1 de noviembre",
+          "derecha": "Se recuerda a los niños",
+          "explicacion": "«el 1 de noviembre las familias recuerdan a los niños»"
+        },
+        {
+          "izquierda": "El 2 de noviembre",
+          "derecha": "Se recuerda a los adultos",
+          "explicacion": "«y el 2, a los adultos.»"
+        }
+      ],
+      "habilidades": [
+        "Cultura"
+      ],
+      "seccion": "mas_practica"
+    },
+    {
+      "id": "dictado",
+      "tipo": "dictado",
+      "titulo": "Mini dictado",
+      "consigna": "Escucha y escribe lo que oyes.",
+      "items": [
+        {
+          "decir": "ofrenda",
+          "antes": "Es la",
+          "despues": ".",
+          "respuesta": [
+            "ofrenda"
+          ],
+          "explicacion": "La ofrenda: la mesa especial para los muertos."
+        },
+        {
+          "decir": "velas",
+          "antes": "Hay flores, agua y",
+          "despues": ".",
+          "respuesta": [
+            "velas"
+          ],
+          "explicacion": "En la ofrenda hay velas."
+        },
+        {
+          "decir": "cempasúchil",
+          "antes": "Son flores de",
+          "despues": ".",
+          "respuesta": [
+            "cempasúchil"
+          ],
+          "explicacion": "El cempasúchil es la flor naranja del Día de Muertos."
+        },
+        {
+          "decir": "cementerio",
+          "antes": "Por la tarde fuimos al",
+          "despues": ".",
+          "respuesta": [
+            "cementerio"
+          ],
+          "explicacion": "Por la tarde van al cementerio."
+        },
+        {
+          "decir": "abuelos",
+          "antes": "Es una foto de sus",
+          "despues": ".",
+          "respuesta": [
+            "abuelos"
+          ],
+          "explicacion": "La foto de los abuelos de Valeria."
+        }
+      ],
+      "habilidades": [
+        "Escuchar",
+        "Escribir"
+      ],
+      "seccion": "mas_practica"
+    },
+    {
+      "id": "dilo-tu",
+      "tipo": "hablar",
+      "titulo": "Dilo tú",
+      "consigna": "Escucha el modelo, toca 🎤 y dilo en voz alta.",
+      "requiere": "reconocimiento_voz",
+      "idioma": "es-US",
+      "items": [
+        {
+          "contexto": "Ves la ofrenda. Dices:",
+          "frase": "¡Qué bonita ofrenda!"
+        },
+        {
+          "contexto": "Explicas la fiesta:",
+          "frase": "Hoy es el Día de Muertos."
+        },
+        {
+          "contexto": "Explicas la diferencia con Halloween:",
+          "frase": "No es una noche de miedo."
+        },
+        {
+          "contexto": "Hablas de las flores:",
+          "frase": "Son flores de cempasúchil."
+        }
+      ],
+      "habilidades": [
+        "Hablar"
+      ],
+      "seccion": "mas_practica"
+    },
+    {
+      "id": "verdadero-falso",
+      "tipo": "verdadero_falso",
+      "titulo": "¿Verdadero o falso?",
+      "consigna": "Decide y mira la frase del texto que lo demuestra.",
+      "items": [
+        {
+          "afirmacion": "El Día de Muertos es una noche de miedo.",
+          "correcta": false,
+          "justificacion": "«No es una noche de miedo. Es una visita.»"
+        },
+        {
+          "afirmacion": "En la ofrenda hay una foto de los abuelos de Valeria.",
+          "correcta": true,
+          "justificacion": "«una foto de sus abuelos»"
+        },
+        {
+          "afirmacion": "Por la tarde fueron a una fiesta de disfraces.",
+          "correcta": false,
+          "justificacion": "«Por la tarde fuimos al cementerio.»"
+        },
+        {
+          "afirmacion": "El mes que viene, el narrador va a estar en México.",
+          "correcta": false,
+          "justificacion": "«El mes que viene no voy a estar en México»"
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ],
+      "seccion": "mas_practica"
+    }
+  ]
+}

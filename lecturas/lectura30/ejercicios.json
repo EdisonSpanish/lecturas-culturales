@@ -1,0 +1,561 @@
+{
+  "version": 3,
+  "lectura": "b2-ahorita-no-es-ahora",
+  "mas_practica_titulo": "Más práctica",
+  "ejercicios": [
+    {
+      "id": "comprension",
+      "tipo": "opcion_multiple",
+      "titulo": "Leer el no que no se dice",
+      "consigna": "Elige la respuesta. Casi todas las preguntas piden interpretar el texto, no solo encontrar un dato.",
+      "items": [
+        {
+          "pregunta": "¿Por qué se equivoca, al principio, el narrador?",
+          "opciones": [
+            "Porque tradujo «ahorita» con su reloj: creyó que el archivo llegaría en cinco minutos.",
+            "Porque le tomaron el pelo a propósito, según concluye el texto.",
+            "Porque en México nadie envía documentos."
+          ],
+          "correcta": 0,
+          "explicacion": "El problema no era la mala fe: era el reloj con el que había traducido la palabra."
+        },
+        {
+          "pregunta": "Según el texto, «ahorita»…",
+          "opciones": [
+            "Significa siempre «en este instante», en todos los países.",
+            "Es una palabra que solo existe en España.",
+            "Puede ser ahora, en un rato, más tarde o un modo de no cerrar la puerta con un no seco."
+          ],
+          "correcta": 2,
+          "explicacion": "El tono, la situación y la relación importan tanto como el diccionario."
+        },
+        {
+          "pregunta": "¿Por qué el narrador rechaza el tópico de «el carácter latino»?",
+          "opciones": [
+            "Porque en Hispanoamérica nunca se suaviza un no.",
+            "Porque no toda la región habla igual: el no puede ser directo o menos directo según el contexto.",
+            "Porque el tópico es cierto siempre."
+          ],
+          "correcta": 1,
+          "explicacion": "No toda una región habla igual ni deja de decir que no; depende de edad, rango y situación."
+        },
+        {
+          "pregunta": "¿En qué consiste mediar, según el texto?",
+          "opciones": [
+            "En aceptar cualquier espera, sin preguntar.",
+            "En traducir todo a un sí o un no de manual, en voz alta.",
+            "En comprobar el sentido, ofrecer una hora concreta y dejar una salida digna."
+          ],
+          "correcta": 2,
+          "explicacion": "«Consiste en comprobar el sentido, ofrecer una hora concreta y dejar a la otra persona una salida digna.»"
+        },
+        {
+          "pregunta": "¿En qué se distingue esta lectura de la de la puntualidad?",
+          "opciones": [
+            "No se distinguen: tratan exactamente lo mismo.",
+            "Allí se discute cuándo llegar; aquí, cómo se dice que algo no va a ocurrir ahora, o no va a ocurrir.",
+            "Esta lectura niega que exista la cortesía."
+          ],
+          "correcta": 1,
+          "explicacion": "«Allí se discutía cuándo llegar; aquí, cómo se dice que algo no va a ocurrir ahora, o no va a ocurrir.»"
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ]
+    },
+    {
+      "id": "escuchar",
+      "tipo": "escuchar_elegir",
+      "titulo": "Fórmulas y matices",
+      "consigna": "Escucha cada fragmento y elige la respuesta. Presta atención a los matices.",
+      "items": [
+        {
+          "decir": "Te lo mando ahorita.",
+          "pregunta": "En el relato, ¿qué ocurre después de esa frase?",
+          "opciones": [
+            "Pasa una hora y no llega.",
+            "El archivo llega en cinco minutos.",
+            "El narrador se va a Bogotá."
+          ],
+          "correcta": 0,
+          "explicacion": "Pasó una hora. No llegó."
+        },
+        {
+          "decir": "Puede ser ahora, en un rato, más tarde o, a veces, un modo de no cerrar la puerta con un no seco.",
+          "pregunta": "¿«Ahorita» tiene un solo significado?",
+          "opciones": [
+            "Sí: solo «ahora».",
+            "No: el significado depende del tono, la situación y la relación.",
+            "Sí: solo «nunca»."
+          ],
+          "correcta": 1,
+          "explicacion": "No siempre significa «en este instante»."
+        },
+        {
+          "decir": "En una reunión de trabajo, sobre todo entre personas de la misma edad y del mismo rango, el no puede ser tan directo como en mi oficina de Estados Unidos.",
+          "pregunta": "¿Cuándo puede ser el no tan directo, según el texto?",
+          "opciones": [
+            "En una reunión de trabajo, sobre todo entre pares.",
+            "Siempre, en cualquier casa.",
+            "Nunca, en ningún país hispano."
+          ],
+          "correcta": 0,
+          "explicacion": "Entre personas de la misma edad y del mismo rango, en el trabajo."
+        },
+        {
+          "decir": "¿Lo envías en unos minutos o mejor lo espero mañana?",
+          "pregunta": "¿Qué hace el narrador para mediar?",
+          "opciones": [
+            "Acusa a la otra persona de mentir.",
+            "Espera en silencio tres días, sin decir nada.",
+            "Pregunta sin tono de acusación y ofrece una hora concreta."
+          ],
+          "correcta": 2,
+          "explicacion": "Aprendió a preguntar sin acusar y a ofrecer una alternativa clara."
+        },
+        {
+          "decir": "El no que no se dice también es una respuesta, si uno sabe leerla.",
+          "pregunta": "¿Qué concluye el narrador?",
+          "opciones": [
+            "Que un no indirecto no es una respuesta.",
+            "Que, si se sabe leer, el no no dicho también responde.",
+            "Que hay que burlarse de la palabra «ahorita»."
+          ],
+          "correcta": 1,
+          "explicacion": "«el no que no se dice también es una respuesta, si uno sabe leerla»."
+        }
+      ],
+      "habilidades": [
+        "Escuchar"
+      ]
+    },
+    {
+      "id": "oficina",
+      "tipo": "arrastrar",
+      "titulo": "La pregunta que media",
+      "consigna": "Arrastra cada palabra a su lugar en la ilustración. También puedes tocar una palabra y después el círculo.",
+      "imagen": "escena.webp",
+      "respaldo": "escena.png",
+      "ancho": 1152,
+      "alto": 768,
+      "alt": "En una oficina, el visitante pregunta con calma; la colega mira el reloj de reojo.",
+      "zonas": [
+        {
+          "palabra": "pregunta",
+          "x": 44,
+          "y": 66,
+          "explicacion": "Aprendió a preguntar sin tono de acusación."
+        },
+        {
+          "palabra": "reloj",
+          "x": 86,
+          "y": 12,
+          "explicacion": "El malentendido nació de un reloj demasiado literal."
+        },
+        {
+          "palabra": "sonrisa",
+          "x": 76,
+          "y": 38,
+          "explicacion": "La frase inicial venía «con una sonrisa amable»."
+        },
+        {
+          "palabra": "pausa",
+          "x": 52,
+          "y": 86,
+          "explicacion": "También aprendió a escuchar la pausa."
+        }
+      ],
+      "distractores": [
+        {
+          "palabra": "metro",
+          "explicacion": "El metro no aparece en esta lectura; el malentendido es de oficina y de lenguaje."
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ]
+    },
+    {
+      "id": "que-dices",
+      "tipo": "situaciones",
+      "titulo": "¿Qué dices? ¿Qué haces?",
+      "consigna": "Oyes «ahorita» o un no suavizado. Elige la reacción que mejor media, según el texto.",
+      "items": [
+        {
+          "icono": "📧",
+          "situacion": "Te dicen: «Te lo mando ahorita». Tú lo necesitas hoy.",
+          "opciones": [
+            "Pregunto, sin acusar: «¿Lo envías en unos minutos o mejor lo espero mañana?»",
+            "Espero cinco minutos, me enojo y acuso a la persona de tomarme el pelo.",
+            "Digo que en Hispanoamérica nadie cumple lo que promete."
+          ],
+          "correcta": 0,
+          "explicacion": "Mediar es comprobar el sentido y ofrecer una hora concreta."
+        },
+        {
+          "icono": "🧓",
+          "situacion": "Un anfitrión mayor te dice «vamos a ver» cuando le pides un favor difícil.",
+          "opciones": [
+            "Exijo un no seco, en el acto, porque «así se habla en mi país».",
+            "Me voy sin despedirme.",
+            "Escucho la pausa y no lo trato como una promesa firme ni como una ofensa."
+          ],
+          "correcta": 2,
+          "explicacion": "Frente a un mayor o un anfitrión es frecuente suavizar; la cortesía no es disfraz."
+        },
+        {
+          "icono": "💼",
+          "situacion": "En una reunión entre colegas del mismo rango, alguien dice «no» con claridad.",
+          "opciones": [
+            "Me sorprendo y pienso que «eso no es latino».",
+            "Lo acepto: el texto dice que, entre pares, el no puede ser tan directo como en Estados Unidos.",
+            "Le pido que lo cambie por «ahorita», para que suene más amable."
+          ],
+          "correcta": 1,
+          "explicacion": "No toda la región habla igual; el tópico no autoriza una sola regla."
+        },
+        {
+          "icono": "🙂",
+          "situacion": "Un compañero se burla: «ahorita nunca es ahora».",
+          "opciones": [
+            "Me río y generalizo: es el carácter de todo un continente.",
+            "Prohíbo la palabra.",
+            "Explico que no hace falta burlarse: hace falta un oído más fino y, si conviene, una pregunta clara."
+          ],
+          "correcta": 2,
+          "explicacion": "«Aunque “ahorita” no sea ahora, no hace falta burlarse de la palabra.»"
+        }
+      ],
+      "habilidades": [
+        "Cultura"
+      ]
+    },
+    {
+      "id": "escuchar-escena",
+      "tipo": "escuchar_imagen",
+      "titulo": "¿Qué imagen corresponde?",
+      "consigna": "Escucha el fragmento y toca la imagen que mejor le corresponde.",
+      "opciones": [
+        {
+          "imagen": "portada.webp",
+          "respaldo": "portada.png",
+          "texto": "La espera del correo",
+          "alt": "Un visitante espera delante de una pantalla; una colega le habla con una sonrisa."
+        },
+        {
+          "imagen": "escena.webp",
+          "respaldo": "escena.png",
+          "texto": "La pregunta que precisa la hora",
+          "alt": "El visitante pregunta con calma, con las palmas abiertas; la colega mira el reloj."
+        }
+      ],
+      "items": [
+        {
+          "decir": "Te lo mando ahorita, me dijeron, con una sonrisa amable.",
+          "correcta": 0,
+          "explicacion": "La sonrisa y la frase inicial son la portada."
+        },
+        {
+          "decir": "Yo me quedé cerca del correo, seguro de que el archivo iba a llegar en cinco minutos.",
+          "correcta": 0,
+          "explicacion": "La espera del correo es la primera escena."
+        },
+        {
+          "decir": "Aprendí a preguntar sin tono de acusación.",
+          "correcta": 1,
+          "explicacion": "La pregunta calmada es la segunda imagen."
+        },
+        {
+          "decir": "Si alguien dice «ahorita» y mira hacia otro lado, quizá no sea el momento de insistir.",
+          "correcta": 1,
+          "explicacion": "Escuchar la pausa y no insistir corresponde a la escena de la pregunta."
+        }
+      ],
+      "habilidades": [
+        "Escuchar"
+      ]
+    },
+    {
+      "id": "dilo-tu",
+      "tipo": "hablar",
+      "titulo": "Dilo tú",
+      "consigna": "Escucha el modelo, toca 🎤 y dilo en voz alta, como en una conversación real. No hace falta decirlo palabra por palabra.",
+      "requiere": "reconocimiento_voz",
+      "idioma": "es-US",
+      "items": [
+        {
+          "contexto": "Pides una hora concreta, sin acusar:",
+          "frase": "¿Lo envío en unos minutos o lo espero mañana?"
+        },
+        {
+          "contexto": "Explicas el matiz de la palabra:",
+          "frase": "Ahorita no siempre es en este instante."
+        },
+        {
+          "contexto": "Rechazas el tópico fácil:",
+          "frase": "No toda la región habla de la misma manera."
+        },
+        {
+          "libre": true,
+          "pregunta": "¿Qué haces si te dicen «ahorita» y tú necesitas el documento hoy? Contesta en una o dos oraciones.",
+          "modelo": "Pregunto sin acusar si lo enviarán en unos minutos o si es mejor esperarlo mañana, para que haya una hora concreta y una salida digna.",
+          "minimo_palabras": 3
+        }
+      ],
+      "habilidades": [
+        "Hablar"
+      ]
+    },
+    {
+      "id": "un-oido-mas-fino",
+      "tipo": "reflexion",
+      "titulo": "Un oído más fino",
+      "consigna": "Escribe un párrafo argumentativo (unas cinco o seis oraciones).",
+      "pregunta": "El narrador dice que mediar no es aceptar cualquier espera ni traducir todo a un sí o un no de manual. Explica, con ejemplos del texto, cómo se puede interpretar «ahorita» sin caer en la mala fe ni en el tópico del «carácter latino».",
+      "ayuda": [
+        "Al principio, el narrador creyó que…",
+        "Sin embargo, «ahorita» puede…",
+        "Eso no significa que… (el tópico)",
+        "Una buena mediación consiste en…",
+        "Por eso…"
+      ],
+      "minimo_caracteres": 150,
+      "modelo": "Al principio, el narrador creyó que «ahorita» era una promesa de cinco minutos y sintió que le habían tomado el pelo. Sin embargo, la palabra puede ser ahora, un rato después o un no suavizado: el tono y la relación importan tanto como el diccionario. Eso no significa que exista un «carácter latino» único, ni que nadie diga que no: entre pares, el no puede ser directo. Una buena mediación consiste en preguntar sin acusar, ofrecer una hora concreta y dejar una salida digna. Por eso no hace falta burlarse de la palabra: hace falta un oído más fino.",
+      "guia": "Una buena respuesta distingue mala fe y malentendido, y rechaza el tópico. Fíjate en los conectores: al principio, sin embargo, eso no significa, por eso.",
+      "habilidades": [
+        "Escribir",
+        "Cultura"
+      ]
+    },
+    {
+      "id": "y-en-tu-pais",
+      "tipo": "reflexion",
+      "titulo": "¿Y en tu país?",
+      "pregunta": "En tu lengua o en tu país, ¿cómo se suaviza una negativa o un aplazamiento? ¿Qué malentendidos puede provocar eso en alguien que espera un «sí» o un «no» literal? Compáralo con «ahorita».",
+      "ayuda": [
+        "En mi lengua, en lugar de un no seco, a veces se dice…",
+        "Un visitante puede entender…",
+        "Se parece a «ahorita» en que…",
+        "Yo, para mediar, …",
+        "Al final, …"
+      ],
+      "minimo_caracteres": 150,
+      "modelo": "En inglés, a veces se dice «I'll see» o «maybe later» para no cortar de frente, y un visitante puede entender una promesa. Se parece a «ahorita» en que el tono importa más que el diccionario. En mi trabajo, en cambio, un no claro no suele ofender. Yo, para mediar, pregunto una hora concreta, como el narrador, y no asumo mala fe. Al final, el no que no se dice también es una respuesta si uno sabe leerla, pero la claridad no tiene que ser una descortesía.",
+      "guia": "No hay una respuesta correcta. Compara fórmulas reales y propone una manera de mediar. Si quieres, comparte tu respuesta con tu profesor.",
+      "habilidades": [
+        "Escribir",
+        "Cultura"
+      ]
+    },
+    {
+      "id": "mas-directo",
+      "tipo": "clasificar",
+      "titulo": "¿Más directo o más suavizado?",
+      "consigna": "Clasifica cada situación según el texto.",
+      "categorias": [
+        "Más directo (un no claro es posible)",
+        "Más suavizado (se evita el corte brusco)"
+      ],
+      "items": [
+        {
+          "texto": "Una reunión de trabajo entre personas de la misma edad y del mismo rango.",
+          "categoria": "Más directo (un no claro es posible)",
+          "explicacion": "«el no puede ser tan directo como en mi oficina de Estados Unidos»."
+        },
+        {
+          "texto": "Hablar con un anfitrión.",
+          "categoria": "Más suavizado (se evita el corte brusco)",
+          "explicacion": "«frente a un mayor, un cliente o un anfitrión… se evite el corte brusco»."
+        },
+        {
+          "texto": "Hablar con un cliente.",
+          "categoria": "Más suavizado (se evita el corte brusco)",
+          "explicacion": "Se cita junto al mayor y al anfitrión."
+        },
+        {
+          "texto": "Hablar con una persona mayor.",
+          "categoria": "Más suavizado (se evita el corte brusco)",
+          "explicacion": "«frente a un mayor… para no lastimar la relación»."
+        },
+        {
+          "texto": "Una oficina de Estados Unidos, en el ejemplo del narrador.",
+          "categoria": "Más directo (un no claro es posible)",
+          "explicacion": "Sirve de comparación: allí el no puede ser directo; no es el único modelo, pero sí un polo más literal."
+        },
+        {
+          "texto": "Decir «vamos a ver» o «está difícil».",
+          "categoria": "Más suavizado (se evita el corte brusco)",
+          "explicacion": "Son fórmulas que suavizan un aplazamiento o una negativa."
+        }
+      ],
+      "habilidades": [
+        "Cultura"
+      ],
+      "seccion": "mas_practica"
+    },
+    {
+      "id": "resumen",
+      "tipo": "completar",
+      "titulo": "Palabras del texto",
+      "consigna": "Completa con la palabra del texto. Puedes usar la caja.",
+      "banco": [
+        "ahorita",
+        "reloj",
+        "tópico",
+        "pausa",
+        "concreta",
+        "puntualidad"
+      ],
+      "items": [
+        {
+          "antes": "«Te lo mando",
+          "respuesta": [
+            "ahorita"
+          ],
+          "despues": "» no siempre es en cinco minutos.",
+          "explicacion": "La palabra no siempre significa «en este instante»."
+        },
+        {
+          "antes": "El problema no era la mala fe: era el",
+          "respuesta": [
+            "reloj"
+          ],
+          "despues": "con el que había traducido.",
+          "explicacion": "«era el reloj con el que yo había traducido la palabra»."
+        },
+        {
+          "antes": "Eso no autoriza el",
+          "respuesta": [
+            "tópico"
+          ],
+          "despues": "de «el carácter latino».",
+          "explicacion": "«Eso no autoriza el tópico de “el carácter latino”»."
+        },
+        {
+          "antes": "También aprendí a escuchar la",
+          "respuesta": [
+            "pausa"
+          ],
+          "despues": ".",
+          "explicacion": "«También aprendí a escuchar la pausa»."
+        },
+        {
+          "antes": "Mediar es ofrecer una hora",
+          "respuesta": [
+            "concreta"
+          ],
+          "despues": "y una salida digna.",
+          "explicacion": "«ofrecer una hora concreta y dejar a la otra persona una salida digna»."
+        },
+        {
+          "antes": "Esta lectura no es la misma que la de la",
+          "respuesta": [
+            "puntualidad"
+          ],
+          "despues": ".",
+          "explicacion": "«Esta lectura no es la misma que la de la puntualidad»."
+        }
+      ],
+      "habilidades": [
+        "Escribir"
+      ],
+      "seccion": "mas_practica"
+    },
+    {
+      "id": "verdadero-falso",
+      "tipo": "verdadero_falso",
+      "titulo": "¿Verdadero o falso?",
+      "consigna": "Decide y mira la frase del texto que lo demuestra. Varias afirmaciones exigen interpretar.",
+      "items": [
+        {
+          "afirmacion": "El narrador concluye que le tomaron el pelo a propósito.",
+          "correcta": false,
+          "justificacion": "«el problema no era la mala fe: era el reloj con el que yo había traducido la palabra»."
+        },
+        {
+          "afirmacion": "«Ahorita» puede ser ahora, un rato después o un modo de no decir un no seco.",
+          "correcta": true,
+          "justificacion": "«Puede ser ahora, en un rato, más tarde o, a veces, un modo de no cerrar la puerta con un no seco.»"
+        },
+        {
+          "afirmacion": "El texto afirma que en toda Hispanoamérica nadie dice nunca que no.",
+          "correcta": false,
+          "justificacion": "Rechaza el tópico; entre pares, el no puede ser directo."
+        },
+        {
+          "afirmacion": "Mediar consiste, entre otras cosas, en ofrecer una hora concreta y una salida digna.",
+          "correcta": true,
+          "justificacion": "«Consiste en comprobar el sentido, ofrecer una hora concreta y dejar a la otra persona una salida digna.»"
+        },
+        {
+          "afirmacion": "Esta lectura trata exactamente el mismo problema que la de la puntualidad.",
+          "correcta": false,
+          "justificacion": "«Esta lectura no es la misma que la de la puntualidad.»"
+        }
+      ],
+      "habilidades": [
+        "Leer"
+      ],
+      "seccion": "mas_practica"
+    },
+    {
+      "id": "dictado",
+      "tipo": "dictado",
+      "titulo": "Mini dictado",
+      "consigna": "Escucha y escribe lo que oyes.",
+      "items": [
+        {
+          "decir": "ahorita",
+          "antes": "Te lo mando",
+          "despues": ".",
+          "respuesta": [
+            "ahorita"
+          ],
+          "explicacion": "La palabra no siempre es «ahora»."
+        },
+        {
+          "decir": "pelo",
+          "antes": "Sentí que me habían tomado el",
+          "despues": ".",
+          "respuesta": [
+            "pelo"
+          ],
+          "explicacion": "Tomar el pelo: burlarse o engañar en broma."
+        },
+        {
+          "decir": "tópico",
+          "antes": "Eso no autoriza el",
+          "despues": "de «el carácter latino».",
+          "respuesta": [
+            "tópico"
+          ],
+          "explicacion": "Se rechaza el estereotipo fácil."
+        },
+        {
+          "decir": "pausa",
+          "antes": "Aprendí a escuchar la",
+          "despues": ".",
+          "respuesta": [
+            "pausa"
+          ],
+          "explicacion": "La pausa también comunica."
+        },
+        {
+          "decir": "digna",
+          "antes": "Hay que dejar una salida",
+          "despues": ".",
+          "respuesta": [
+            "digna"
+          ],
+          "explicacion": "Una salida digna evita la vergüenza."
+        }
+      ],
+      "habilidades": [
+        "Escuchar",
+        "Escribir"
+      ],
+      "seccion": "mas_practica"
+    }
+  ]
+}

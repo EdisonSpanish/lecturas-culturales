@@ -1,0 +1,325 @@
+{
+ "serie": "Lecturas culturales",
+ "lecturas": [
+  {
+   "carpeta": "lectura01",
+   "titulo": "Después de comer, se habla",
+   "nivel": "A2",
+   "etiqueta": "Costumbres en la mesa",
+   "miniatura": "portada.webp",
+   "pais": "España",
+   "respaldo": "portada.png",
+   "protegida": true
+  },
+  {
+   "carpeta": "lectura02",
+   "titulo": "Dos apellidos, una persona",
+   "nivel": "A1",
+   "etiqueta": "Los dos apellidos",
+   "miniatura": "portada.webp",
+   "pais": "Varios países",
+   "respaldo": "portada.png",
+   "protegida": false
+  },
+  {
+   "carpeta": "lectura03",
+   "titulo": "Quito, una capital en las nubes",
+   "nivel": "A1",
+   "etiqueta": "Una capital",
+   "miniatura": "portada.webp",
+   "pais": "Ecuador",
+   "respaldo": "portada.png",
+   "protegida": true
+  },
+  {
+   "carpeta": "lectura04",
+   "titulo": "Un día de Fallas en Valencia",
+   "nivel": "A2",
+   "etiqueta": "Fiestas populares",
+   "miniatura": "portada.webp",
+   "pais": "España",
+   "respaldo": "portada.png",
+   "protegida": true
+  },
+  {
+   "carpeta": "lectura05",
+   "titulo": "Flores y pan para los abuelos",
+   "nivel": "A2",
+   "etiqueta": "El Día de Muertos",
+   "miniatura": "portada.webp",
+   "pais": "México",
+   "respaldo": "portada.png",
+   "protegida": false
+  },
+  {
+   "carpeta": "lectura06",
+   "titulo": "Una vuelta por el Malecón",
+   "nivel": "A2",
+   "etiqueta": "Un lugar de la ciudad",
+   "miniatura": "portada.webp",
+   "pais": "Cuba",
+   "respaldo": "portada.png",
+   "protegida": true
+  },
+  {
+   "carpeta": "lectura07",
+   "titulo": "¿Qué llevo a tu casa?",
+   "nivel": "B1",
+   "etiqueta": "Visitas e invitaciones",
+   "miniatura": "portada.webp",
+   "pais": "Colombia",
+   "respaldo": "portada.png",
+   "protegida": true
+  },
+  {
+   "carpeta": "lectura08",
+   "titulo": "El sol vuelve a Otavalo",
+   "nivel": "B1",
+   "etiqueta": "La fiesta del Sol",
+   "miniatura": "portada.webp",
+   "pais": "Ecuador",
+   "respaldo": "portada.png",
+   "protegida": true
+  },
+  {
+   "carpeta": "lectura09",
+   "titulo": "El mate se comparte",
+   "nivel": "B1",
+   "etiqueta": "El mate",
+   "miniatura": "portada.webp",
+   "pais": "Uruguay y Argentina",
+   "respaldo": "portada.png",
+   "protegida": true
+  },
+  {
+   "carpeta": "lectura10",
+   "titulo": "La siesta, más leyenda que costumbre",
+   "nivel": "B2",
+   "etiqueta": "Un tópico",
+   "miniatura": "portada.webp",
+   "pais": "España",
+   "respaldo": "portada.png",
+   "protegida": true
+  },
+  {
+   "carpeta": "lectura11",
+   "titulo": "El cóndor y el quetzal",
+   "nivel": "B2",
+   "etiqueta": "Animales y símbolos",
+   "miniatura": "portada.webp",
+   "pais": "Ecuador, Andes y Guatemala",
+   "respaldo": "portada.png",
+   "protegida": true
+  },
+  {
+   "carpeta": "lectura12",
+   "titulo": "Hoy se mueve la casa",
+   "nivel": "B2",
+   "etiqueta": "La minga",
+   "miniatura": "portada.webp",
+   "pais": "Chile",
+   "respaldo": "portada.png",
+   "protegida": true
+  },
+  {
+   "carpeta": "lectura13",
+   "titulo": "¿Tú o usted?",
+   "nivel": "A1",
+   "etiqueta": "Tú y usted",
+   "miniatura": "portada.webp",
+   "pais": "Colombia",
+   "respaldo": "portada.png",
+   "protegida": false
+  },
+  {
+   "carpeta": "lectura14",
+   "titulo": "Un beso en la mejilla",
+   "nivel": "A1",
+   "etiqueta": "El saludo",
+   "miniatura": "portada.webp",
+   "pais": "Ecuador",
+   "respaldo": "portada.png",
+   "protegida": true
+  },
+  {
+   "carpeta": "lectura15",
+   "titulo": "La Mitad del Mundo",
+   "nivel": "A1",
+   "etiqueta": "La línea ecuatorial",
+   "miniatura": "portada.webp",
+   "pais": "Ecuador",
+   "respaldo": "portada.png",
+   "protegida": true
+  },
+  {
+   "carpeta": "lectura16",
+   "titulo": "En Ecuador pagamos en dólares",
+   "nivel": "A1",
+   "etiqueta": "La moneda",
+   "miniatura": "portada.webp",
+   "pais": "Ecuador",
+   "respaldo": "portada.png",
+   "protegida": true
+  },
+  {
+   "carpeta": "lectura17",
+   "titulo": "Domingo en el Zócalo",
+   "nivel": "A1",
+   "etiqueta": "Una plaza",
+   "miniatura": "portada.webp",
+   "pais": "México",
+   "respaldo": "portada.png",
+   "protegida": true
+  },
+  {
+   "carpeta": "lectura18",
+   "titulo": "Islas lejos, en el Pacífico",
+   "nivel": "A1",
+   "etiqueta": "Las Galápagos",
+   "miniatura": "portada.webp",
+   "pais": "Ecuador",
+   "respaldo": "portada.png",
+   "protegida": true
+  },
+  {
+   "carpeta": "lectura19",
+   "titulo": "Regalos en Nochebuena, o el 6 de enero",
+   "nivel": "A2",
+   "etiqueta": "La Navidad",
+   "miniatura": "portada.webp",
+   "pais": "Varios (escena en Ecuador, contraste con México y con EE. UU.)",
+   "respaldo": "portada.png",
+   "protegida": false
+  },
+  {
+   "carpeta": "lectura20",
+   "titulo": "Un día en Cuzco",
+   "nivel": "A2",
+   "etiqueta": "Una ciudad andina",
+   "miniatura": "portada.webp",
+   "pais": "Perú",
+   "respaldo": "portada.png",
+   "protegida": true
+  },
+  {
+   "carpeta": "lectura21",
+   "titulo": "El ceviche es patrimonio",
+   "nivel": "A2",
+   "etiqueta": "Un plato del Pacífico",
+   "miniatura": "portada.webp",
+   "pais": "Perú (con eco en la costa de Ecuador)",
+   "respaldo": "portada.png",
+   "protegida": true
+  },
+  {
+   "carpeta": "lectura22",
+   "titulo": "Medellín se llena de flores",
+   "nivel": "A2",
+   "etiqueta": "Una fiesta de la ciudad",
+   "miniatura": "portada.webp",
+   "pais": "Colombia",
+   "respaldo": "portada.png",
+   "protegida": true
+  },
+  {
+   "carpeta": "lectura23",
+   "titulo": "Los quince de Valeria",
+   "nivel": "B1",
+   "etiqueta": "Una fiesta de paso",
+   "miniatura": "portada.webp",
+   "pais": "México",
+   "respaldo": "portada.png",
+   "protegida": false
+  },
+  {
+   "carpeta": "lectura24",
+   "titulo": "«Llego a las cinco»",
+   "nivel": "B1",
+   "etiqueta": "La puntualidad",
+   "miniatura": "portada.webp",
+   "pais": "Varios (escena en Bogotá, contraste con EE. UU.)",
+   "respaldo": "portada.png",
+   "protegida": true
+  },
+  {
+   "carpeta": "lectura25",
+   "titulo": "Cinco cuadras de historia",
+   "nivel": "B1",
+   "etiqueta": "Un centro histórico",
+   "miniatura": "portada.webp",
+   "pais": "Ecuador",
+   "respaldo": "portada.png",
+   "protegida": true
+  },
+  {
+   "carpeta": "lectura26",
+   "titulo": "La marimba se oye en la costa",
+   "nivel": "B1",
+   "etiqueta": "Una música del Pacífico",
+   "miniatura": "portada.webp",
+   "pais": "Ecuador (Esmeraldas) y eco en el Pacífico colombiano",
+   "respaldo": "portada.png",
+   "protegida": true
+  },
+  {
+   "carpeta": "lectura27",
+   "titulo": "En Paraguay también se habla guaraní",
+   "nivel": "B1",
+   "etiqueta": "Dos lenguas oficiales",
+   "miniatura": "portada.webp",
+   "pais": "Paraguay",
+   "respaldo": "portada.png",
+   "protegida": true
+  },
+  {
+   "carpeta": "lectura28",
+   "titulo": "Manuela no se queda en la nota a pie",
+   "nivel": "B2",
+   "etiqueta": "Una protagonista",
+   "miniatura": "portada.webp",
+   "pais": "Ecuador (con el escenario de la independencia hispanoamericana)",
+   "respaldo": "portada.png",
+   "protegida": true
+  },
+  {
+   "carpeta": "lectura29",
+   "titulo": "Una cola que no es solo fe",
+   "nivel": "B2",
+   "etiqueta": "Un santuario",
+   "miniatura": "portada.webp",
+   "pais": "México",
+   "respaldo": "portada.png",
+   "protegida": true
+  },
+  {
+   "carpeta": "lectura30",
+   "titulo": "Cuando «ahorita» no es ahora",
+   "nivel": "B2",
+   "etiqueta": "El tiempo en la conversación",
+   "miniatura": "portada.webp",
+   "pais": "Varios (escena en Ciudad de México)",
+   "respaldo": "portada.png",
+   "protegida": false
+  },
+  {
+   "carpeta": "lectura31",
+   "titulo": "El Yasuní no cabe en una postal",
+   "nivel": "B2",
+   "etiqueta": "Selva y decisiones",
+   "miniatura": "portada.webp",
+   "pais": "Ecuador",
+   "respaldo": "portada.png",
+   "protegida": true
+  },
+  {
+   "carpeta": "lectura32",
+   "titulo": "El pueblo que parece inventado",
+   "nivel": "B2",
+   "etiqueta": "Un escritor y un pueblo",
+   "miniatura": "portada.webp",
+   "pais": "Colombia",
+   "respaldo": "portada.png",
+   "protegida": true
+  }
+ ]
+}

@@ -1,0 +1,157 @@
+{
+  "id": "a1-tu-o-usted",
+  "titulo": "¿Tú o usted?",
+  "nivel": "A1",
+  "etiqueta": "Tú y usted",
+  "entradilla": "En Bogotá, a la señora de la tienda le hablo de usted; a mi amigo, de tú.",
+  "variedad": "es-419",
+  "uso": "lectura_web_autonoma",
+  "pcic": {
+    "secciones": [
+      "Saberes y comportamientos socioculturales 2.1 y 2.3 (fase de aproximación): tratamientos de tú y usted en el ámbito personal, público y educativo"
+    ],
+    "habilidades_interculturales": [
+      "12. 1.1.2 Percepción de diferencias culturales",
+      "12. 2.1.2 Comparación"
+    ],
+    "generos_discursivos": "Macrofunción narrativa (inventario A1–A2, 3.4): anécdota personal breve; descripción de una costumbre"
+  },
+  "texto_parrafos": [
+    "Hoy estoy en Bogotá, en Colombia. Entro en una tienda y saludo a la señora. Digo: —Buenos días, ¿cómo está usted? Ella sonríe y me ayuda. Con ella no digo «tú». Digo «usted». Es una forma de respeto.",
+    "Después veo a mi amigo Andrés. Es joven, como yo. Le digo: —Hola, ¿cómo estás? Con él hablo de tú. En Colombia, muchas veces uso «usted» con una persona mayor, con un profesor o con una persona que no conozco bien. «Tú» es para un amigo, para un hermano o para una persona de mi edad.",
+    "Esta costumbre me gusta. No es difícil, pero es importante. El mes que viene voy a hablar otra vez con la señora de la tienda. Voy a decir «usted», con calma. Así ella sabe: yo respeto a las personas."
+  ],
+  "traduccion_parrafos": [
+    "Today I am in Bogotá, in Colombia. I go into a shop and greet the woman. I say: “Good morning, how are you?” (using usted). She smiles and helps me. With her I do not say tú. I say usted. It is a way of showing respect.",
+    "Later I see my friend Andrés. He is young, like me. I say to him: “Hi, how are you?” With him I use tú. In Colombia, I often use usted with an older person, with a teacher, or with someone I do not know well. Tú is for a friend, for a brother, or for someone my age.",
+    "I like this custom. It is not difficult, but it is important. Next month I am going to talk with the woman in the shop again. I am going to say usted, calmly. That way she knows: I respect people."
+  ],
+  "glosario": [
+    {
+      "palabra": "usted",
+      "traduccion_en": "formal you (singular)"
+    },
+    {
+      "palabra": "tú",
+      "traduccion_en": "informal you (singular)"
+    },
+    {
+      "palabra": "respeto",
+      "traduccion_en": "respect",
+      "formas": [
+        "respeto",
+        "respeto a"
+      ]
+    },
+    {
+      "palabra": "señora",
+      "traduccion_en": "ma’am; woman (polite)"
+    },
+    {
+      "palabra": "tienda",
+      "traduccion_en": "shop; store"
+    },
+    {
+      "palabra": "saludar",
+      "traduccion_en": "to greet",
+      "formas": [
+        "saludo"
+      ]
+    },
+    {
+      "palabra": "sonreír",
+      "traduccion_en": "to smile",
+      "formas": [
+        "sonríe"
+      ]
+    },
+    {
+      "palabra": "amigo / amiga",
+      "traduccion_en": "friend",
+      "formas": [
+        "amigo"
+      ]
+    },
+    {
+      "palabra": "profesor / profesora",
+      "traduccion_en": "teacher",
+      "formas": [
+        "profesor"
+      ]
+    },
+    {
+      "palabra": "mayor",
+      "traduccion_en": "older (person)"
+    },
+    {
+      "palabra": "costumbre",
+      "traduccion_en": "custom; habit"
+    },
+    {
+      "palabra": "calma",
+      "traduccion_en": "calm; without rushing",
+      "formas": [
+        "con calma"
+      ]
+    }
+  ],
+  "imagenes": [
+    {
+      "archivo": "portada.png",
+      "tipo": "portada",
+      "alt": "En una tienda de Bogotá, un visitante joven de chaqueta verde musgo saluda a una señora mayor detrás de un mostrador de madera; ella sonríe, a la luz de la tarde.",
+      "webp": "portada.webp",
+      "ancho": 1152,
+      "alto": 768
+    },
+    {
+      "archivo": "escena.png",
+      "tipo": "escena",
+      "alt": "En una calle de Bogotá, el mismo visitante saluda con un gesto cercano a su amigo Andrés, joven, de suéter ocre.",
+      "webp": "escena.webp",
+      "ancho": 1152,
+      "alto": 768,
+      "pie": "Con Andrés, que es joven como él, habla de tú.",
+      "despues_parrafo": 1
+    }
+  ],
+  "grafico": null,
+  "audio": {
+    "estado": "voz_del_navegador",
+    "nota": "El sitio lee el texto con la voz del dispositivo de cada alumno (decisión de Edison, 19-11-2026). Se prefiere una voz de español de América, no de España.",
+    "guion": {
+      "velocidad": "Unas 110 palabras por minuto, clara y natural, sin teatralidad. Voz de español de América, no de España.",
+      "pausas": "Pausa corta al final de cada oración; pausa más larga (unos dos segundos) entre párrafos. Tres segundos de silencio al empezar y al cerrar.",
+      "duracion_aproximada": "unos 1 minuto y medio",
+      "texto": [
+        {
+          "tipo": "titulo",
+          "dice": "¿Tú o usted?",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 1,
+          "dice": "Hoy estoy en Bogotá, en Colombia. Entro en una tienda y saludo a la señora. Digo: —Buenos días, ¿cómo está usted? Ella sonríe y me ayuda. Con ella no digo «tú». Digo «usted». Es una forma de respeto.",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 2,
+          "dice": "Después veo a mi amigo Andrés. Es joven, como yo. Le digo: —Hola, ¿cómo estás? Con él hablo de tú. En Colombia, muchas veces uso «usted» con una persona mayor, con un profesor o con una persona que no conozco bien. «Tú» es para un amigo, para un hermano o para una persona de mi edad.",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 3,
+          "dice": "Esta costumbre me gusta. No es difícil, pero es importante. El mes que viene voy a hablar otra vez con la señora de la tienda. Voy a decir «usted», con calma. Así ella sabe: yo respeto a las personas.",
+          "pausa_despues": "cierre"
+        }
+      ]
+    }
+  },
+  "sugerencia_ejercicios": "Escuchar el audio; unir tú y usted con la persona adecuada; una pregunta: ¿En tu lengua hay una forma de respeto parecida a usted?",
+  "estilo_visual": "Papel y ocre (ver estilo_visual.md). Encuadre de las ilustraciones: 3:2.",
+  "contenido": "original",
+  "ejercicios_archivo": "ejercicios.json"
+}

@@ -1,0 +1,165 @@
+{
+  "id": "b1-la-quinceanera",
+  "titulo": "Los quince de Valeria",
+  "nivel": "B1",
+  "etiqueta": "Una fiesta de paso",
+  "entradilla": "En Ciudad de México, los quince de Valeria no son un cumpleaños cualquiera: la familia marca un paso de edad.",
+  "variedad": "es-419",
+  "uso": "lectura_web_autonoma",
+  "pcic": {
+    "secciones": [
+      "Saberes y comportamientos socioculturales 3.5 (fase de profundización): una celebración que marca un paso de edad (la quinceañera) en México, con eco en otros países hispanos"
+    ],
+    "habilidades_interculturales": [
+      "12. 1.1.2 Percepción de diferencias culturales",
+      "12. 2.1.2 Comparación",
+      "12. 2.2.1 Interpretación de comportamientos culturales",
+      "12. 3.1 Actitud de respeto ante la diversidad cultural"
+    ],
+    "generos_discursivos": "Macrofunción narrativa (inventario B1, 3.4): relato personal de un rito de paso, con contraste y reflexión"
+  },
+  "texto_parrafos": [
+    "El sábado fui a los quince de Valeria, en Ciudad de México. Su madre me invitó con una frase que no olvidé: «No es solo un cumpleaños. Es el día en que la familia dice, en voz alta, que ya no es una niña». Yo no sabía muy bien qué esperar.",
+    "En el salón, Valeria apareció con un vestido largo, y la familia la esperaba de pie. Primero bailó un vals con su padre. Algunas amigas y algunos amigos formaban una pequeña corte a su alrededor: no era un espectáculo de televisión, pero sí un momento pensado, con música y fotos. Antes, en algunas familias, hay una misa; en la de Valeria, la celebración empezó en casa de una tía y siguió en el salón. Yo miraba y pensaba: esto no es una fiesta cualquiera.",
+    "Después me explicó una prima: no todas las quinceañeras son iguales. Hay familias que alquilan un salón grande y ensayan una coreografía; hay otras que celebran en casa, con menos invitados y un vestido más simple. Lo que se comparte, cuando se puede, es la idea de un rito de paso: la joven ocupa otro lugar frente a los padres, los abuelos y los amigos. Me alegré de que nadie me pidiera un regalo caro. Llevé flores, y Valeria me abrazó como si eso bastara.",
+    "En mi país, a los dieciséis años a veces hay una fiesta grande, y a veces no hay nada especial: depende de la familia. Esa noche entendí que los quince no son un manual ni una obligación. Son una manera —muy visible, y a la vez íntima— de decir «ya creciste», delante de la gente que te quiere. Cuando volví al hotel, todavía oía el vals. Y pensé que, si algún día me invitan otra vez, voy a llegar con tiempo, con un detalle simple y con respeto: no voy a tratar esa noche como una simple fiesta de cumpleaños."
+  ],
+  "traduccion_parrafos": [
+    "On Saturday I went to Valeria’s quinceañera, in Mexico City. Her mother invited me with a sentence I did not forget: “It is not just a birthday. It is the day when the family says, out loud, that she is no longer a little girl.” I was not quite sure what to expect.",
+    "In the hall, Valeria appeared in a long dress, and the family was waiting for her on their feet. First she danced a waltz with her father. Some friends, girls and boys, formed a small court around her: it was not a television show, but it was a planned moment, with music and photos. In some families, there is a Mass beforehand; in Valeria’s, the celebration started at an aunt’s house and continued in the hall. I watched and thought: this is not just any party.",
+    "Afterwards a cousin explained to me: not all quinceañeras are the same. Some families rent a large hall and rehearse a choreography; others celebrate at home, with fewer guests and a simpler dress. What is shared, when it is possible, is the idea of a rite of passage: the young woman takes on a different place in front of her parents, her grandparents and her friends. I was glad that no one asked me for an expensive gift. I brought flowers, and Valeria hugged me as if that were enough.",
+    "In my country, at sixteen there is sometimes a big party, and sometimes nothing special: it depends on the family. That night I understood that a quinceañera is not a manual or an obligation. It is a way —very visible, and at the same time intimate— of saying “you have grown up,” in front of the people who love you. When I went back to the hotel, I could still hear the waltz. And I thought that, if they invite me again someday, I am going to arrive in good time, with a simple gesture and with respect: I am not going to treat that night as just a birthday party."
+  ],
+  "glosario": [
+    {
+      "palabra": "quinceaños / quinceañera",
+      "traduccion_en": "fifteenth-birthday celebration; the girl who turns fifteen",
+      "formas": [
+        "quince",
+        "quinceañeras"
+      ]
+    },
+    {
+      "palabra": "rito de paso",
+      "traduccion_en": "rite of passage"
+    },
+    {
+      "palabra": "vals",
+      "traduccion_en": "waltz"
+    },
+    {
+      "palabra": "vestido",
+      "traduccion_en": "dress"
+    },
+    {
+      "palabra": "salón",
+      "traduccion_en": "reception hall; event hall"
+    },
+    {
+      "palabra": "corte",
+      "traduccion_en": "court of honor (friends who accompany the quinceañera)"
+    },
+    {
+      "palabra": "misa",
+      "traduccion_en": "Mass (Catholic church service)"
+    },
+    {
+      "palabra": "coreografía",
+      "traduccion_en": "choreography; planned dance"
+    },
+    {
+      "palabra": "alquilar",
+      "traduccion_en": "to rent",
+      "formas": [
+        "alquilan"
+      ]
+    },
+    {
+      "palabra": "íntimo",
+      "traduccion_en": "intimate; private",
+      "formas": [
+        "íntima"
+      ]
+    },
+    {
+      "palabra": "obligación",
+      "traduccion_en": "obligation; duty"
+    },
+    {
+      "palabra": "respeto",
+      "traduccion_en": "respect"
+    },
+    {
+      "palabra": "abrazar",
+      "traduccion_en": "to hug; to embrace",
+      "formas": [
+        "me abrazó"
+      ]
+    }
+  ],
+  "imagenes": [
+    {
+      "archivo": "portada.png",
+      "tipo": "portada",
+      "alt": "En un salón, una joven con vestido largo baila un vals con su padre; la familia observa de pie, sin letreros ni texto en la ropa o las paredes.",
+      "webp": "portada.webp",
+      "ancho": 1152,
+      "alto": 768
+    },
+    {
+      "archivo": "escena.png",
+      "tipo": "escena",
+      "alt": "En el mismo salón, la quinceañera sonríe en el centro de una pequeña corte de amigas y amigos; hay flores y luz cálida, sin letras ni números.",
+      "webp": "escena.webp",
+      "ancho": 1152,
+      "alto": 768,
+      "pie": "No todas las quinceañeras son iguales; en la de Valeria, el vals y la familia marcan el paso de edad.",
+      "despues_parrafo": 2
+    }
+  ],
+  "grafico": null,
+  "audio": {
+    "estado": "voz_del_navegador",
+    "nota": "El sitio lee el texto con la voz del dispositivo de cada alumno (decisión de Edison, 19-11-2026). Se prefiere una voz de español de América, no de España.",
+    "guion": {
+      "velocidad": "Unas 110 palabras por minuto, clara y natural, sin teatralidad. Voz de español de América, no de España.",
+      "pausas": "Pausa corta al final de cada oración; pausa más larga (unos dos segundos) entre párrafos. Tres segundos de silencio al empezar y al cerrar.",
+      "duracion_aproximada": "unos 3 minutos",
+      "texto": [
+        {
+          "tipo": "titulo",
+          "dice": "Los quince de Valeria.",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 1,
+          "dice": "El sábado fui a los quince de Valeria, en Ciudad de México. Su madre me invitó con una frase que no olvidé: «No es solo un cumpleaños. Es el día en que la familia dice, en voz alta, que ya no es una niña». Yo no sabía muy bien qué esperar.",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 2,
+          "dice": "En el salón, Valeria apareció con un vestido largo, y la familia la esperaba de pie. Primero bailó un vals con su padre. Algunas amigas y algunos amigos formaban una pequeña corte a su alrededor: no era un espectáculo de televisión, pero sí un momento pensado, con música y fotos. Antes, en algunas familias, hay una misa; en la de Valeria, la celebración empezó en casa de una tía y siguió en el salón. Yo miraba y pensaba: esto no es una fiesta cualquiera.",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 3,
+          "dice": "Después me explicó una prima: no todas las quinceañeras son iguales. Hay familias que alquilan un salón grande y ensayan una coreografía; hay otras que celebran en casa, con menos invitados y un vestido más simple. Lo que se comparte, cuando se puede, es la idea de un rito de paso: la joven ocupa otro lugar frente a los padres, los abuelos y los amigos. Me alegré de que nadie me pidiera un regalo caro. Llevé flores, y Valeria me abrazó como si eso bastara.",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 4,
+          "dice": "En mi país, a los dieciséis años a veces hay una fiesta grande, y a veces no hay nada especial: depende de la familia. Esa noche entendí que los quince no son un manual ni una obligación. Son una manera —muy visible, y a la vez íntima— de decir «ya creciste», delante de la gente que te quiere. Cuando volví al hotel, todavía oía el vals. Y pensé que, si algún día me invitan otra vez, voy a llegar con tiempo, con un detalle simple y con respeto: no voy a tratar esa noche como una simple fiesta de cumpleaños.",
+          "pausa_despues": "cierre"
+        }
+      ]
+    }
+  },
+  "sugerencia_ejercicios": "Escuchar el audio; distinguir lo que es común (el paso de edad) de lo que cambia según la familia; una pregunta: ¿Qué rito marca, en tu país, el paso de la niñez a otra edad?",
+  "estilo_visual": "Papel y ocre (ver estilo_visual.md). Encuadre de las ilustraciones: 3:2.",
+  "contenido": "original",
+  "ejercicios_archivo": "ejercicios.json"
+}

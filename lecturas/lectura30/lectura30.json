@@ -1,0 +1,167 @@
+{
+  "id": "b2-ahorita-no-es-ahora",
+  "titulo": "Cuando «ahorita» no es ahora",
+  "nivel": "B2",
+  "etiqueta": "El tiempo en la conversación",
+  "entradilla": "«Te lo mando ahorita» no siempre cabe en un reloj: a veces suaviza un aplazamiento, o un no que no se quiere decir de frente.",
+  "variedad": "es-419",
+  "uso": "lectura_web_autonoma",
+  "pcic": {
+    "secciones": [
+      "Habilidades y actitudes interculturales 3 y 4 (interacción cultural y mediación): comunicación menos directa, cortesía pragmática y malentendidos ante fórmulas como «ahorita» o «vamos a ver»"
+    ],
+    "habilidades_interculturales": [
+      "12. 1.1.2 Percepción de diferencias culturales",
+      "12. 2.1.2 Comparación",
+      "12. 2.2.2 Adaptación de la conducta a contextos distintos",
+      "12. 2.3.1 Relativización de la propia perspectiva",
+      "12. 4 Mediación ante un malentendido pragmático"
+    ],
+    "generos_discursivos": "Macrofunción argumentativa y narrativa (inventario B2): anécdota de un malentendido lingüístico, con matiz y propuesta de mediación"
+  },
+  "texto_parrafos": [
+    "En una oficina de Ciudad de México pedí un documento que, según mi calendario, necesitaba «ahora». «Te lo mando ahorita», me dijeron, con una sonrisa amable. Yo me quedé cerca del correo, seguro de que el archivo iba a llegar en cinco minutos. Pasó una hora. No llegó. Sentí, primero, que me habían tomado el pelo. Después entendí que el problema no era la mala fe: era el reloj con el que yo había traducido la palabra.",
+    "«Ahorita», en muchos países de Hispanoamérica —y de un modo muy vivo en México—, no siempre significa «en este instante». Puede ser ahora, en un rato, más tarde o, a veces, un modo de no cerrar la puerta con un no seco. El tono, la situación y la relación importan tanto como el diccionario. Lo mismo ocurre con fórmulas como «vamos a ver», «luego te llamo» o «está difícil». Quien llega de fuera puede oír una promesa; quien habla así, a menudo, está suavizando un aplazamiento o una negativa.",
+    "Eso no autoriza el tópico de «el carácter latino», como si toda una región hablara igual y nunca dijera que no. En una reunión de trabajo, sobre todo entre personas de la misma edad y del mismo rango, el no puede ser tan directo como en mi oficina de Estados Unidos. En cambio, frente a un mayor, un cliente o un anfitrión, es frecuente que se evite el corte brusco para no lastimar la relación. La cortesía, aquí, no es disfraz: es una gramática social. El malentendido aparece cuando una de las dos partes exige que la otra hable como ella.",
+    "Aprendí a preguntar sin tono de acusación: «¿Lo envías en unos minutos o mejor lo espero mañana?». También aprendí a escuchar la pausa. Si alguien dice «ahorita» y mira hacia otro lado, quizá no sea el momento de insistir. Mediar no consiste en aceptar cualquier espera, ni en traducir todo a un sí o un no de manual. Consiste en comprobar el sentido, ofrecer una hora concreta y dejar a la otra persona una salida digna. Así se evita que la amabilidad se confunda con un engaño, y que la claridad se confunda con una descortesía.",
+    "Esta lectura no es la misma que la de la puntualidad. Allí se discutía cuándo llegar; aquí, cómo se dice que algo no va a ocurrir ahora, o no va a ocurrir. Aunque «ahorita» no sea ahora, no hace falta burlarse de la palabra. Hace falta un oído más fino. Yo, que venía con un reloj demasiado literal, hoy pregunto, confirmo y, a veces, sonrío: el no que no se dice también es una respuesta, si uno sabe leerla."
+  ],
+  "traduccion_parrafos": [
+    "In an office in Mexico City I asked for a document that, according to my calendar, I needed “now.” “I’ll send it to you ahorita,” they told me, with a kind smile. I stayed near my email, sure the file would arrive in five minutes. An hour went by. It did not arrive. At first I felt I had been taken for a ride. Then I understood that the problem was not bad faith: it was the clock I had used to translate the word.",
+    "Ahorita, in many countries in Spanish America —and in a very living way in Mexico— does not always mean “this instant.” It can be now, in a little while, later, or sometimes a way of not shutting the door with a blunt no. Tone, situation and the relationship matter as much as the dictionary. The same is true of phrases like “we’ll see,” “I’ll call you later” or “it’s difficult.” A newcomer may hear a promise; the person speaking that way is often softening a delay or a refusal.",
+    "That does not authorize the stereotype of “the Latin character,” as if a whole region spoke the same way and never said no. In a work meeting, especially among people of the same age and rank, a no can be as direct as in my office in the United States. In contrast, in front of an older person, a client or a host, it is common to avoid a sharp cut so as not to hurt the relationship. Courtesy, here, is not a disguise: it is a social grammar. The misunderstanding appears when one of the two sides demands that the other speak as they do.",
+    "I learned to ask without an accusing tone: “Will you send it in a few minutes, or should I wait until tomorrow?” I also learned to listen to the pause. If someone says ahorita and looks away, it may not be the moment to insist. Mediating does not mean accepting any wait, or translating everything into a textbook yes or no. It means checking the meaning, offering a concrete time, and leaving the other person a dignified way out. That way kindness is not mistaken for deceit, and clarity is not mistaken for rudeness.",
+    "This reading is not the same as the one about punctuality. There the question was when to arrive; here, it is how people say that something is not going to happen now, or is not going to happen. Even if ahorita is not now, there is no need to make fun of the word. What is needed is a finer ear. I, who arrived with a clock that was too literal, now ask, confirm and, sometimes, smile: the no that is not spoken is also an answer, if you know how to read it."
+  ],
+  "glosario": [
+    {
+      "palabra": "ahorita",
+      "traduccion_en": "right now / in a little while (the exact meaning depends on tone and context)"
+    },
+    {
+      "palabra": "aplazamiento",
+      "traduccion_en": "postponement; delay"
+    },
+    {
+      "palabra": "negativa",
+      "traduccion_en": "refusal; a no"
+    },
+    {
+      "palabra": "tomar el pelo",
+      "traduccion_en": "to tease; to pull someone’s leg",
+      "formas": [
+        "tomado el pelo"
+      ]
+    },
+    {
+      "palabra": "mala fe",
+      "traduccion_en": "bad faith"
+    },
+    {
+      "palabra": "suavizar",
+      "traduccion_en": "to soften (a refusal or a delay)",
+      "formas": [
+        "suavizando"
+      ]
+    },
+    {
+      "palabra": "cortesía",
+      "traduccion_en": "courtesy; politeness"
+    },
+    {
+      "palabra": "pragmática",
+      "traduccion_en": "pragmatics (how language works in real conversation)"
+    },
+    {
+      "palabra": "malentendido",
+      "traduccion_en": "misunderstanding"
+    },
+    {
+      "palabra": "mediar",
+      "traduccion_en": "to mediate; to help two sides understand each other"
+    },
+    {
+      "palabra": "descortesía",
+      "traduccion_en": "rudeness; lack of courtesy"
+    },
+    {
+      "palabra": "rango",
+      "traduccion_en": "rank; position in a hierarchy"
+    },
+    {
+      "palabra": "salida digna",
+      "traduccion_en": "a dignified way out (a polite option that avoids embarrassment)"
+    }
+  ],
+  "imagenes": [
+    {
+      "archivo": "portada.png",
+      "tipo": "portada",
+      "alt": "En una oficina de Ciudad de México, un visitante espera delante de una pantalla mientras una colega le habla con una sonrisa; no hay texto ni logotipos legibles en la pantalla ni en los papeles.",
+      "webp": "portada.webp",
+      "ancho": 1152,
+      "alto": 768
+    },
+    {
+      "archivo": "escena.png",
+      "tipo": "escena",
+      "alt": "Más tarde, en la misma oficina, el visitante pregunta con calma, mostrando las palmas, mientras la colega mira el reloj de reojo; no hay números ni letras visibles en el reloj ni en documentos.",
+      "webp": "escena.webp",
+      "ancho": 1152,
+      "alto": 768,
+      "pie": "Mediar no es aceptar cualquier espera: es preguntar, con respeto, si «ahorita» es en unos minutos o mañana.",
+      "despues_parrafo": 4
+    }
+  ],
+  "grafico": null,
+  "audio": {
+    "estado": "voz_del_navegador",
+    "nota": "El sitio lee el texto con la voz del dispositivo de cada alumno (decisión de Edison, 19-11-2026). Se prefiere una voz de español de América, no de España.",
+    "guion": {
+      "velocidad": "Unas 110 palabras por minuto, clara y natural, sin teatralidad. Voz de español de América, no de España.",
+      "pausas": "Pausa corta al final de cada oración; pausa más larga (unos dos segundos) entre párrafos. Tres segundos de silencio al empezar y al cerrar.",
+      "duracion_aproximada": "unos 4 minutos",
+      "texto": [
+        {
+          "tipo": "titulo",
+          "dice": "Cuando «ahorita» no es ahora.",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 1,
+          "dice": "En una oficina de Ciudad de México pedí un documento que, según mi calendario, necesitaba «ahora». «Te lo mando ahorita», me dijeron, con una sonrisa amable. Yo me quedé cerca del correo, seguro de que el archivo iba a llegar en cinco minutos. Pasó una hora. No llegó. Sentí, primero, que me habían tomado el pelo. Después entendí que el problema no era la mala fe: era el reloj con el que yo había traducido la palabra.",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 2,
+          "dice": "«Ahorita», en muchos países de Hispanoamérica —y de un modo muy vivo en México—, no siempre significa «en este instante». Puede ser ahora, en un rato, más tarde o, a veces, un modo de no cerrar la puerta con un no seco. El tono, la situación y la relación importan tanto como el diccionario. Lo mismo ocurre con fórmulas como «vamos a ver», «luego te llamo» o «está difícil». Quien llega de fuera puede oír una promesa; quien habla así, a menudo, está suavizando un aplazamiento o una negativa.",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 3,
+          "dice": "Eso no autoriza el tópico de «el carácter latino», como si toda una región hablara igual y nunca dijera que no. En una reunión de trabajo, sobre todo entre personas de la misma edad y del mismo rango, el no puede ser tan directo como en mi oficina de Estados Unidos. En cambio, frente a un mayor, un cliente o un anfitrión, es frecuente que se evite el corte brusco para no lastimar la relación. La cortesía, aquí, no es disfraz: es una gramática social. El malentendido aparece cuando una de las dos partes exige que la otra hable como ella.",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 4,
+          "dice": "Aprendí a preguntar sin tono de acusación: «¿Lo envías en unos minutos o mejor lo espero mañana?». También aprendí a escuchar la pausa. Si alguien dice «ahorita» y mira hacia otro lado, quizá no sea el momento de insistir. Mediar no consiste en aceptar cualquier espera, ni en traducir todo a un sí o un no de manual. Consiste en comprobar el sentido, ofrecer una hora concreta y dejar a la otra persona una salida digna. Así se evita que la amabilidad se confunda con un engaño, y que la claridad se confunda con una descortesía.",
+          "pausa_despues": "larga"
+        },
+        {
+          "tipo": "parrafo",
+          "n": 5,
+          "dice": "Esta lectura no es la misma que la de la puntualidad. Allí se discutía cuándo llegar; aquí, cómo se dice que algo no va a ocurrir ahora, o no va a ocurrir. Aunque «ahorita» no sea ahora, no hace falta burlarse de la palabra. Hace falta un oído más fino. Yo, que venía con un reloj demasiado literal, hoy pregunto, confirmo y, a veces, sonrío: el no que no se dice también es una respuesta, si uno sabe leerla.",
+          "pausa_despues": "cierre"
+        }
+      ]
+    }
+  },
+  "sugerencia_ejercicios": "Escuchar el audio; interpretar «ahorita», «vamos a ver» y el no que no se dice; una pregunta: En tu lengua, ¿cómo se suaviza una negativa sin mentir?",
+  "estilo_visual": "Papel y ocre (ver estilo_visual.md). Encuadre de las ilustraciones: 3:2.",
+  "contenido": "original",
+  "ejercicios_archivo": "ejercicios.json"
+}
