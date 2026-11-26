@@ -129,8 +129,9 @@
   ],
   "grafico": null,
   "audio": {
-    "estado": "voz_del_navegador",
-    "nota": "El sitio lee el texto con la voz del dispositivo de cada alumno (decisión de Edison, 19-11-2026). Se prefiere una voz de español de América, no de España.",
+    "estado": "listo",
+    "archivo": "lectura19.mp3",
+    "nota": "La lectura se escucha con un audio grabado (español de América). Si el archivo no carga, se usa la voz del dispositivo (se prefiere una voz de América, no de España).",
     "guion": {
       "velocidad": "Unas 110 palabras por minuto, clara y natural, sin teatralidad. Voz de español de América, no de España.",
       "pausas": "Pausa corta al final de cada oración; pausa más larga (unos dos segundos) entre párrafos. Tres segundos de silencio al empezar y al cerrar.",

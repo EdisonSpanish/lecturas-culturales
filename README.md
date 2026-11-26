@@ -20,7 +20,7 @@ es-ES solo como último recurso, con nota; sin ninguna voz en español, los ejer
 2. `ejercicios.json` y `"ejercicios_archivo": "ejercicios.json"` en el JSON.
 3. Entrada en `lecturas/indice.json` (`carpeta`, `titulo`, `nivel`, `etiqueta`, `pais`, `miniatura` webp + `respaldo` png).
    El catálogo (index.html sin `?l=`) agrupa las lecturas por nivel A1 → B2.
-4. Audio: sin MP3; la lectura se escucha con la voz del navegador de cada alumno (es-US, es-MX…).
+4. Audio: `audio.estado` es `"listo"` y `audio.archivo` es `lecturaNN.mp3` (en la misma carpeta que el JSON). El reproductor usa el MP3 (sin botón de descarga) y cae a la voz del navegador si el archivo no carga.
 5. Regenerar las páginas para Google: `python3 /workspace/lecturas/_build_seo/build_seo.py`
    (actualiza `index.html`, `/<carpeta>/index.html`, `robots.txt` y `sitemap.xml`).
 6. Gráfico (opcional): `"grafico": {archivo, webp, titulo, nota, datos[], columnas{}, alt, ancho, alto, icono}`.

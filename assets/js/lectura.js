@@ -248,26 +248,44 @@
     if (ini < t.length) out.push(t.slice(ini).trim());
     return out.filter(Boolean);
   }
+  function archivoAudio(L) {
+    /* estado "listo" (también mp3/grabado/disponible): reproduce lecturaNN.mp3.
+       voz_del_navegador / pendiente: solo TTS. Si el MP3 no carga, se usa la voz del navegador. */
+    var a = L.audio || {};
+    var est = String(a.estado || '');
+    if (est === 'voz_del_navegador' || est === 'pendiente') return null;
+    var listo = !est || est === 'listo' || est === 'mp3' || est === 'grabado' || est === 'disponible';
+    var archivo = a.archivo || a.mp3 || (listo ? param + '.mp3' : null);
+    return archivo || null;
+  }
   function bloqueAudio(L) {
     var caja = el('div', { class: 'audio' });
     var sec = el('section', { class: 'bloque', 'aria-labelledby': 'h-audio' }, [el('h2', { id: 'h-audio' }, [el('span', { class: 'ico', 'aria-hidden': 'true', text: '🎧' }), 'Escucha la lectura']), caja]);
-    // Solo voz del navegador (sin MP3): se lee párrafo por párrafo.
-    // Frase por frase (Chrome corta los enunciados largos); pausa más larga entre párrafos.
+    // Frase por frase (Chrome corta los enunciados largos); pausa más larga entre párrafos. Fallback si no hay MP3.
     var partes = [];
     [L.titulo].concat(L.texto_parrafos || []).filter(Boolean).forEach(function (p) {
       var fr = frases(String(p).replace(/\s+/g, ' ').trim());
       fr.map(function (f) { return f.trim(); }).filter(Boolean).forEach(function (f, k, a) { partes.push({ t: f, pausa: k === a.length - 1 ? 700 : 150 }); });
     });
-    var bPlay = el('button', { type: 'button', class: 'btn', text: '▶ Escuchar la lectura' });
-    var bLento = el('button', { type: 'button', class: 'btn sec', text: '🐢 Más despacio' });
-    var bPausa = el('button', { type: 'button', class: 'btn sec', hidden: true, text: '⏸ Pausa' });
-    var bStop = el('button', { type: 'button', class: 'btn sec', hidden: true, text: '⏹ Detener' });
+    var mp3 = archivoAudio(L), audioEl = null;
+    if (mp3) {
+      audioEl = el('audio', { class: 'd-audio', controls: true, controlslist: 'nodownload noplaybackrate', preload: 'metadata', src: base + mp3, oncontextmenu: function (ev) { ev.preventDefault(); } });
+      caja.appendChild(audioEl);
+      caja.classList.add('con-mp3');
+    }
+    var bPlay = el('button', { type: 'button', class: 'btn d-play', text: '▶ Escuchar la lectura' });
+    var bLento = el('button', { type: 'button', class: 'btn sec d-lento', text: '🐢 Más despacio' });
+    var bPausa = el('button', { type: 'button', class: 'btn sec d-pausa', hidden: true, text: '⏸ Pausa' });
+    var bStop = el('button', { type: 'button', class: 'btn sec d-stop', hidden: true, text: '⏹ Detener' });
     var estado = el('p', { class: 'pronto' });
     [bPlay, bLento, bPausa, bStop, estado].forEach(function (n) { caja.appendChild(n); });
     var turno = 0, pausado = false;
     function reiniciar() { bPausa.hidden = true; bStop.hidden = true; bPausa.textContent = '⏸ Pausa'; pausado = false; }
+    function pararMp3() { if (audioEl && !audioEl.paused) try { audioEl.pause(); } catch (e) {} }
+    function pararTts() { turno++; try { window.speechSynthesis.cancel(); } catch (e) {} reiniciar(); }
     function leer(rate) {
       if (!Voz.soporte || !Voz.voz) { estado.textContent = 'Tu navegador no tiene una voz en español. Puedes leer el texto y usar la traducción.'; return; }
+      pararMp3();
       window.speechSynthesis.cancel();
       var mio = ++turno, i = 0;
       bPausa.hidden = false; bStop.hidden = false; pausado = false; bPausa.textContent = '⏸ Pausa';
@@ -283,6 +301,14 @@
       }
       sig();
     }
+    if (audioEl) {
+      audioEl.addEventListener('play', pararTts);
+      audioEl.addEventListener('error', function () {
+        audioEl.hidden = true;
+        caja.classList.remove('con-mp3');
+        caja.classList.add('sin-mp3');
+      });
+    }
     bPlay.addEventListener('click', function () { leer(0.9); });
     bLento.addEventListener('click', function () { leer(0.7); });
     bPausa.addEventListener('click', function () {
@@ -290,8 +316,9 @@
       else { window.speechSynthesis.resume(); pausado = false; bPausa.textContent = '⏸ Pausa'; }
     });
     bStop.addEventListener('click', function () { turno++; window.speechSynthesis.cancel(); reiniciar(); });
-    window.addEventListener('pagehide', function () { try { window.speechSynthesis.cancel(); } catch (e) {} });
+    window.addEventListener('pagehide', function () { try { window.speechSynthesis.cancel(); } catch (e) {} pararMp3(); });
     Voz.cargar().then(function (v) {
+      if (caja.classList.contains('con-mp3')) return; // el MP3 es el reproductor principal
       if (!Voz.soporte || !v) { bPlay.disabled = true; bLento.disabled = true; estado.textContent = 'Tu navegador no tiene una voz en español. Puedes leer el texto y usar la traducción.'; return; }
       var l = String(v.lang || '').replace('_', '-').toLowerCase();
       estado.textContent = (l === 'es-es' || l === 'es') ? 'Tu dispositivo solo tiene una voz de España; la pronunciación puede variar un poco.' : 'Voz de tu dispositivo.';
@@ -464,7 +491,7 @@
   }
   function animar(n, cls) { if (!n) return; n.classList.remove(cls); void n.offsetWidth; n.classList.add(cls); }
 
-  /* --- voz: speechSynthesis (hasta que haya MP3) --- */
+  /* --- voz: speechSynthesis (fallback si el MP3 no carga; también ejercicios) --- */
   var Voz = {
     soporte: 'speechSynthesis' in window && typeof window.SpeechSynthesisUtterance === 'function',
     voz: null, promesa: null,

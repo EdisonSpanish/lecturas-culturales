@@ -1,0 +1,987 @@
+{
+  "fuente": "lecturas",
+  "motor": "kokoro-onnx 0.6.1 + Kokoro-82M v1.0",
+  "licencia": "Apache 2.0 (apto para uso comercial)",
+  "voces": {
+    "femenina": "ef_dora",
+    "masculina": "em_alex"
+  },
+  "formato": "MP3 192 kb/s, mono, 44.1 kHz, loudnorm −16 LUFS",
+  "pausas_s": {
+    "entre_hablantes": 0.4,
+    "inicio_fin": 0.25,
+    "tras_titulo_lecturas": 0.6,
+    "entre_parrafos_lecturas": 0.5
+  },
+  "velocidad": {
+    "A1": 0.95,
+    "A2": 0.95,
+    "B1": 1.0,
+    "B2": 1.0
+  },
+  "n": 32,
+  "duracion_total_s": 2768.718,
+  "tiempo_generacion_s": 351.0,
+  "items": [
+    {
+      "id": "lectura01",
+      "slug": "lectura01",
+      "nivel": "A2",
+      "titulo": "Después de comer, se habla",
+      "archivo": "lectura01.mp3",
+      "ruta": "lectura01.mp3",
+      "voz": "ef_dora",
+      "voces": {
+        "N": "ef_dora"
+      },
+      "duracion_s": 72.176,
+      "tamano_bytes": 1732901,
+      "velocidad": 0.95,
+      "hablantes": {
+        "N": {
+          "nombre": "Narradora",
+          "rol": "narración",
+          "voice_json": "femenina",
+          "voz": "ef_dora"
+        }
+      },
+      "lineas": 4,
+      "source": "lecturas",
+      "id_web": "a2-despues-de-comer-se-habla",
+      "genero_marcado": null,
+      "guion": "guion",
+      "n_parrafos": 3,
+      "fuente_json": "/workspace/lecturas/web/lecturas/lectura01/lectura01.json"
+    },
+    {
+      "id": "lectura02",
+      "slug": "lectura02",
+      "nivel": "A1",
+      "titulo": "Dos apellidos, una persona",
+      "archivo": "lectura02.mp3",
+      "ruta": "lectura02.mp3",
+      "voz": "ef_dora",
+      "voces": {
+        "N": "ef_dora"
+      },
+      "duracion_s": 43.807,
+      "tamano_bytes": 1052046,
+      "velocidad": 0.95,
+      "hablantes": {
+        "N": {
+          "nombre": "Narradora",
+          "rol": "narración",
+          "voice_json": "femenina",
+          "voz": "ef_dora"
+        }
+      },
+      "lineas": 4,
+      "source": "lecturas",
+      "id_web": "a1-dos-apellidos-una-persona",
+      "genero_marcado": null,
+      "guion": "guion",
+      "n_parrafos": 3,
+      "fuente_json": "/workspace/lecturas/web/lecturas/lectura02/lectura02.json"
+    },
+    {
+      "id": "lectura03",
+      "slug": "lectura03",
+      "nivel": "A1",
+      "titulo": "Quito, una capital en las nubes",
+      "archivo": "lectura03.mp3",
+      "ruta": "lectura03.mp3",
+      "voz": "em_alex",
+      "voces": {
+        "N": "em_alex"
+      },
+      "duracion_s": 45.662,
+      "tamano_bytes": 1096559,
+      "velocidad": 0.95,
+      "hablantes": {
+        "N": {
+          "nombre": "Narrador",
+          "rol": "narración",
+          "voice_json": "masculina",
+          "voz": "em_alex"
+        }
+      },
+      "lineas": 4,
+      "source": "lecturas",
+      "id_web": "a1-quito-una-capital-en-las-nubes",
+      "genero_marcado": null,
+      "guion": "guion",
+      "n_parrafos": 3,
+      "fuente_json": "/workspace/lecturas/web/lecturas/lectura03/lectura03.json"
+    },
+    {
+      "id": "lectura04",
+      "slug": "lectura04",
+      "nivel": "A2",
+      "titulo": "Un día de Fallas en Valencia",
+      "archivo": "lectura04.mp3",
+      "ruta": "lectura04.mp3",
+      "voz": "em_alex",
+      "voces": {
+        "N": "em_alex"
+      },
+      "duracion_s": 65.123,
+      "tamano_bytes": 1563628,
+      "velocidad": 0.95,
+      "hablantes": {
+        "N": {
+          "nombre": "Narrador",
+          "rol": "narración",
+          "voice_json": "masculina",
+          "voz": "em_alex"
+        }
+      },
+      "lineas": 4,
+      "source": "lecturas",
+      "id_web": "a2-un-dia-de-fallas-en-valencia",
+      "genero_marcado": null,
+      "guion": "guion",
+      "n_parrafos": 3,
+      "fuente_json": "/workspace/lecturas/web/lecturas/lectura04/lectura04.json"
+    },
+    {
+      "id": "lectura05",
+      "slug": "lectura05",
+      "nivel": "A2",
+      "titulo": "Flores y pan para los abuelos",
+      "archivo": "lectura05.mp3",
+      "ruta": "lectura05.mp3",
+      "voz": "ef_dora",
+      "voces": {
+        "N": "ef_dora"
+      },
+      "duracion_s": 60.839,
+      "tamano_bytes": 1460810,
+      "velocidad": 0.95,
+      "hablantes": {
+        "N": {
+          "nombre": "Narradora",
+          "rol": "narración",
+          "voice_json": "femenina",
+          "voz": "ef_dora"
+        }
+      },
+      "lineas": 4,
+      "source": "lecturas",
+      "id_web": "a2-flores-y-pan-para-los-abuelos",
+      "genero_marcado": null,
+      "guion": "guion",
+      "n_parrafos": 3,
+      "fuente_json": "/workspace/lecturas/web/lecturas/lectura05/lectura05.json"
+    },
+    {
+      "id": "lectura06",
+      "slug": "lectura06",
+      "nivel": "A2",
+      "titulo": "Una vuelta por el Malecón",
+      "archivo": "lectura06.mp3",
+      "ruta": "lectura06.mp3",
+      "voz": "em_alex",
+      "voces": {
+        "N": "em_alex"
+      },
+      "duracion_s": 59.455,
+      "tamano_bytes": 1427582,
+      "velocidad": 0.95,
+      "hablantes": {
+        "N": {
+          "nombre": "Narrador",
+          "rol": "narración",
+          "voice_json": "masculina",
+          "voz": "em_alex"
+        }
+      },
+      "lineas": 4,
+      "source": "lecturas",
+      "id_web": "a2-una-vuelta-por-el-malecon",
+      "genero_marcado": null,
+      "guion": "guion",
+      "n_parrafos": 3,
+      "fuente_json": "/workspace/lecturas/web/lecturas/lectura06/lectura06.json"
+    },
+    {
+      "id": "lectura07",
+      "slug": "lectura07",
+      "nivel": "B1",
+      "titulo": "¿Qué llevo a tu casa?",
+      "archivo": "lectura07.mp3",
+      "ruta": "lectura07.mp3",
+      "voz": "ef_dora",
+      "voces": {
+        "N": "ef_dora"
+      },
+      "duracion_s": 90.854,
+      "tamano_bytes": 2181163,
+      "velocidad": 1.0,
+      "hablantes": {
+        "N": {
+          "nombre": "Narradora",
+          "rol": "narración",
+          "voice_json": "femenina",
+          "voz": "ef_dora"
+        }
+      },
+      "lineas": 5,
+      "source": "lecturas",
+      "id_web": "b1-que-llevo-a-tu-casa",
+      "genero_marcado": null,
+      "guion": "guion",
+      "n_parrafos": 4,
+      "fuente_json": "/workspace/lecturas/web/lecturas/lectura07/lectura07.json"
+    },
+    {
+      "id": "lectura08",
+      "slug": "lectura08",
+      "nivel": "B1",
+      "titulo": "El sol vuelve a Otavalo",
+      "archivo": "lectura08.mp3",
+      "ruta": "lectura08.mp3",
+      "voz": "em_alex",
+      "voces": {
+        "N": "em_alex"
+      },
+      "duracion_s": 97.411,
+      "tamano_bytes": 2338524,
+      "velocidad": 1.0,
+      "hablantes": {
+        "N": {
+          "nombre": "Narrador",
+          "rol": "narración",
+          "voice_json": "masculina",
+          "voz": "em_alex"
+        }
+      },
+      "lineas": 5,
+      "source": "lecturas",
+      "id_web": "b1-el-sol-vuelve-a-otavalo",
+      "genero_marcado": "masculina",
+      "guion": "guion",
+      "n_parrafos": 4,
+      "fuente_json": "/workspace/lecturas/web/lecturas/lectura08/lectura08.json"
+    },
+    {
+      "id": "lectura09",
+      "slug": "lectura09",
+      "nivel": "B1",
+      "titulo": "El mate se comparte",
+      "archivo": "lectura09.mp3",
+      "ruta": "lectura09.mp3",
+      "voz": "ef_dora",
+      "voces": {
+        "N": "ef_dora"
+      },
+      "duracion_s": 87.719,
+      "tamano_bytes": 2105930,
+      "velocidad": 1.0,
+      "hablantes": {
+        "N": {
+          "nombre": "Narradora",
+          "rol": "narración",
+          "voice_json": "femenina",
+          "voz": "ef_dora"
+        }
+      },
+      "lineas": 5,
+      "source": "lecturas",
+      "id_web": "b1-el-mate-se-comparte",
+      "genero_marcado": null,
+      "guion": "guion",
+      "n_parrafos": 4,
+      "fuente_json": "/workspace/lecturas/web/lecturas/lectura09/lectura09.json"
+    },
+    {
+      "id": "lectura10",
+      "slug": "lectura10",
+      "nivel": "B2",
+      "titulo": "La siesta, más leyenda que costumbre",
+      "archivo": "lectura10.mp3",
+      "ruta": "lectura10.mp3",
+      "voz": "em_alex",
+      "voces": {
+        "N": "em_alex"
+      },
+      "duracion_s": 127.53,
+      "tamano_bytes": 3061385,
+      "velocidad": 1.0,
+      "hablantes": {
+        "N": {
+          "nombre": "Narrador",
+          "rol": "narración",
+          "voice_json": "masculina",
+          "voz": "em_alex"
+        }
+      },
+      "lineas": 6,
+      "source": "lecturas",
+      "id_web": "b2-la-siesta-mas-leyenda-que-costumbre",
+      "genero_marcado": "masculina",
+      "guion": "guion",
+      "n_parrafos": 5,
+      "fuente_json": "/workspace/lecturas/web/lecturas/lectura10/lectura10.json"
+    },
+    {
+      "id": "lectura11",
+      "slug": "lectura11",
+      "nivel": "B2",
+      "titulo": "El cóndor y el quetzal",
+      "archivo": "lectura11.mp3",
+      "ruta": "lectura11.mp3",
+      "voz": "ef_dora",
+      "voces": {
+        "N": "ef_dora"
+      },
+      "duracion_s": 124.944,
+      "tamano_bytes": 2999318,
+      "velocidad": 1.0,
+      "hablantes": {
+        "N": {
+          "nombre": "Narradora",
+          "rol": "narración",
+          "voice_json": "femenina",
+          "voz": "ef_dora"
+        }
+      },
+      "lineas": 5,
+      "source": "lecturas",
+      "id_web": "b2-el-condor-y-el-quetzal",
+      "genero_marcado": null,
+      "guion": "guion",
+      "n_parrafos": 4,
+      "fuente_json": "/workspace/lecturas/web/lecturas/lectura11/lectura11.json"
+    },
+    {
+      "id": "lectura12",
+      "slug": "lectura12",
+      "nivel": "B2",
+      "titulo": "Hoy se mueve la casa",
+      "archivo": "lectura12.mp3",
+      "ruta": "lectura12.mp3",
+      "voz": "em_alex",
+      "voces": {
+        "N": "em_alex"
+      },
+      "duracion_s": 164.441,
+      "tamano_bytes": 3947249,
+      "velocidad": 1.0,
+      "hablantes": {
+        "N": {
+          "nombre": "Narrador",
+          "rol": "narración",
+          "voice_json": "masculina",
+          "voz": "em_alex"
+        }
+      },
+      "lineas": 6,
+      "source": "lecturas",
+      "id_web": "b2-hoy-se-mueve-la-casa",
+      "genero_marcado": null,
+      "guion": "guion",
+      "n_parrafos": 5,
+      "fuente_json": "/workspace/lecturas/web/lecturas/lectura12/lectura12.json"
+    },
+    {
+      "id": "lectura13",
+      "slug": "lectura13",
+      "nivel": "A1",
+      "titulo": "¿Tú o usted?",
+      "archivo": "lectura13.mp3",
+      "ruta": "lectura13.mp3",
+      "voz": "ef_dora",
+      "voces": {
+        "N": "ef_dora"
+      },
+      "duracion_s": 44.173,
+      "tamano_bytes": 1060823,
+      "velocidad": 0.95,
+      "hablantes": {
+        "N": {
+          "nombre": "Narradora",
+          "rol": "narración",
+          "voice_json": "femenina",
+          "voz": "ef_dora"
+        }
+      },
+      "lineas": 4,
+      "source": "lecturas",
+      "id_web": "a1-tu-o-usted",
+      "genero_marcado": null,
+      "guion": "guion",
+      "n_parrafos": 3,
+      "fuente_json": "/workspace/lecturas/web/lecturas/lectura13/lectura13.json"
+    },
+    {
+      "id": "lectura14",
+      "slug": "lectura14",
+      "nivel": "A1",
+      "titulo": "Un beso en la mejilla",
+      "archivo": "lectura14.mp3",
+      "ruta": "lectura14.mp3",
+      "voz": "em_alex",
+      "voces": {
+        "N": "em_alex"
+      },
+      "duracion_s": 42.58,
+      "tamano_bytes": 1022580,
+      "velocidad": 0.95,
+      "hablantes": {
+        "N": {
+          "nombre": "Narrador",
+          "rol": "narración",
+          "voice_json": "masculina",
+          "voz": "em_alex"
+        }
+      },
+      "lineas": 4,
+      "source": "lecturas",
+      "id_web": "a1-un-beso-en-la-mejilla",
+      "genero_marcado": null,
+      "guion": "guion",
+      "n_parrafos": 3,
+      "fuente_json": "/workspace/lecturas/web/lecturas/lectura14/lectura14.json"
+    },
+    {
+      "id": "lectura15",
+      "slug": "lectura15",
+      "nivel": "A1",
+      "titulo": "La Mitad del Mundo",
+      "archivo": "lectura15.mp3",
+      "ruta": "lectura15.mp3",
+      "voz": "ef_dora",
+      "voces": {
+        "N": "ef_dora"
+      },
+      "duracion_s": 42.083,
+      "tamano_bytes": 1010668,
+      "velocidad": 0.95,
+      "hablantes": {
+        "N": {
+          "nombre": "Narradora",
+          "rol": "narración",
+          "voice_json": "femenina",
+          "voz": "ef_dora"
+        }
+      },
+      "lineas": 4,
+      "source": "lecturas",
+      "id_web": "a1-la-mitad-del-mundo",
+      "genero_marcado": null,
+      "guion": "guion",
+      "n_parrafos": 3,
+      "fuente_json": "/workspace/lecturas/web/lecturas/lectura15/lectura15.json"
+    },
+    {
+      "id": "lectura16",
+      "slug": "lectura16",
+      "nivel": "A1",
+      "titulo": "En Ecuador pagamos en dólares",
+      "archivo": "lectura16.mp3",
+      "ruta": "lectura16.mp3",
+      "voz": "em_alex",
+      "voces": {
+        "N": "em_alex"
+      },
+      "duracion_s": 41.744,
+      "tamano_bytes": 1002518,
+      "velocidad": 0.95,
+      "hablantes": {
+        "N": {
+          "nombre": "Narrador",
+          "rol": "narración",
+          "voice_json": "masculina",
+          "voz": "em_alex"
+        }
+      },
+      "lineas": 4,
+      "source": "lecturas",
+      "id_web": "a1-en-ecuador-pagamos-en-dolares",
+      "genero_marcado": null,
+      "guion": "guion",
+      "n_parrafos": 3,
+      "fuente_json": "/workspace/lecturas/web/lecturas/lectura16/lectura16.json"
+    },
+    {
+      "id": "lectura17",
+      "slug": "lectura17",
+      "nivel": "A1",
+      "titulo": "Domingo en el Zócalo",
+      "archivo": "lectura17.mp3",
+      "ruta": "lectura17.mp3",
+      "voz": "ef_dora",
+      "voces": {
+        "N": "ef_dora"
+      },
+      "duracion_s": 46.655,
+      "tamano_bytes": 1120382,
+      "velocidad": 0.95,
+      "hablantes": {
+        "N": {
+          "nombre": "Narradora",
+          "rol": "narración",
+          "voice_json": "femenina",
+          "voz": "ef_dora"
+        }
+      },
+      "lineas": 4,
+      "source": "lecturas",
+      "id_web": "a1-domingo-en-el-zocalo",
+      "genero_marcado": null,
+      "guion": "guion",
+      "n_parrafos": 3,
+      "fuente_json": "/workspace/lecturas/web/lecturas/lectura17/lectura17.json"
+    },
+    {
+      "id": "lectura18",
+      "slug": "lectura18",
+      "nivel": "A1",
+      "titulo": "Islas lejos, en el Pacífico",
+      "archivo": "lectura18.mp3",
+      "ruta": "lectura18.mp3",
+      "voz": "em_alex",
+      "voces": {
+        "N": "em_alex"
+      },
+      "duracion_s": 45.218,
+      "tamano_bytes": 1085901,
+      "velocidad": 0.95,
+      "hablantes": {
+        "N": {
+          "nombre": "Narrador",
+          "rol": "narración",
+          "voice_json": "masculina",
+          "voz": "em_alex"
+        }
+      },
+      "lineas": 4,
+      "source": "lecturas",
+      "id_web": "a1-islas-lejos-en-el-pacifico",
+      "genero_marcado": null,
+      "guion": "guion",
+      "n_parrafos": 3,
+      "fuente_json": "/workspace/lecturas/web/lecturas/lectura18/lectura18.json"
+    },
+    {
+      "id": "lectura19",
+      "slug": "lectura19",
+      "nivel": "A2",
+      "titulo": "Regalos en Nochebuena, o el 6 de enero",
+      "archivo": "lectura19.mp3",
+      "ruta": "lectura19.mp3",
+      "voz": "ef_dora",
+      "voces": {
+        "N": "ef_dora"
+      },
+      "duracion_s": 70.478,
+      "tamano_bytes": 1692150,
+      "velocidad": 0.95,
+      "hablantes": {
+        "N": {
+          "nombre": "Narradora",
+          "rol": "narración",
+          "voice_json": "femenina",
+          "voz": "ef_dora"
+        }
+      },
+      "lineas": 4,
+      "source": "lecturas",
+      "id_web": "a2-regalos-en-nochebuena-o-el-6-de-enero",
+      "genero_marcado": null,
+      "guion": "guion",
+      "n_parrafos": 3,
+      "fuente_json": "/workspace/lecturas/web/lecturas/lectura19/lectura19.json"
+    },
+    {
+      "id": "lectura20",
+      "slug": "lectura20",
+      "nivel": "A2",
+      "titulo": "Un día en Cuzco",
+      "archivo": "lectura20.mp3",
+      "ruta": "lectura20.mp3",
+      "voz": "em_alex",
+      "voces": {
+        "N": "em_alex"
+      },
+      "duracion_s": 63.216,
+      "tamano_bytes": 1517861,
+      "velocidad": 0.95,
+      "hablantes": {
+        "N": {
+          "nombre": "Narrador",
+          "rol": "narración",
+          "voice_json": "masculina",
+          "voz": "em_alex"
+        }
+      },
+      "lineas": 4,
+      "source": "lecturas",
+      "id_web": "a2-un-dia-en-cuzco",
+      "genero_marcado": null,
+      "guion": "guion",
+      "n_parrafos": 3,
+      "fuente_json": "/workspace/lecturas/web/lecturas/lectura20/lectura20.json"
+    },
+    {
+      "id": "lectura21",
+      "slug": "lectura21",
+      "nivel": "A2",
+      "titulo": "El ceviche es patrimonio",
+      "archivo": "lectura21.mp3",
+      "ruta": "lectura21.mp3",
+      "voz": "ef_dora",
+      "voces": {
+        "N": "ef_dora"
+      },
+      "duracion_s": 65.593,
+      "tamano_bytes": 1574913,
+      "velocidad": 0.95,
+      "hablantes": {
+        "N": {
+          "nombre": "Narradora",
+          "rol": "narración",
+          "voice_json": "femenina",
+          "voz": "ef_dora"
+        }
+      },
+      "lineas": 4,
+      "source": "lecturas",
+      "id_web": "a2-el-ceviche-es-patrimonio",
+      "genero_marcado": null,
+      "guion": "guion",
+      "n_parrafos": 3,
+      "fuente_json": "/workspace/lecturas/web/lecturas/lectura21/lectura21.json"
+    },
+    {
+      "id": "lectura22",
+      "slug": "lectura22",
+      "nivel": "A2",
+      "titulo": "Medellín se llena de flores",
+      "archivo": "lectura22.mp3",
+      "ruta": "lectura22.mp3",
+      "voz": "em_alex",
+      "voces": {
+        "N": "em_alex"
+      },
+      "duracion_s": 65.332,
+      "tamano_bytes": 1568643,
+      "velocidad": 0.95,
+      "hablantes": {
+        "N": {
+          "nombre": "Narrador",
+          "rol": "narración",
+          "voice_json": "masculina",
+          "voz": "em_alex"
+        }
+      },
+      "lineas": 4,
+      "source": "lecturas",
+      "id_web": "a2-medellin-se-llena-de-flores",
+      "genero_marcado": null,
+      "guion": "guion",
+      "n_parrafos": 3,
+      "fuente_json": "/workspace/lecturas/web/lecturas/lectura22/lectura22.json"
+    },
+    {
+      "id": "lectura23",
+      "slug": "lectura23",
+      "nivel": "B1",
+      "titulo": "Los quince de Valeria",
+      "archivo": "lectura23.mp3",
+      "ruta": "lectura23.mp3",
+      "voz": "em_alex",
+      "voces": {
+        "N": "em_alex"
+      },
+      "duracion_s": 100.232,
+      "tamano_bytes": 2406234,
+      "velocidad": 1.0,
+      "hablantes": {
+        "N": {
+          "nombre": "Narrador",
+          "rol": "narración",
+          "voice_json": "masculina",
+          "voz": "em_alex"
+        }
+      },
+      "lineas": 5,
+      "source": "lecturas",
+      "id_web": "b1-la-quinceanera",
+      "genero_marcado": null,
+      "guion": "guion",
+      "n_parrafos": 4,
+      "fuente_json": "/workspace/lecturas/web/lecturas/lectura23/lectura23.json"
+    },
+    {
+      "id": "lectura24",
+      "slug": "lectura24",
+      "nivel": "B1",
+      "titulo": "«Llego a las cinco»",
+      "archivo": "lectura24.mp3",
+      "ruta": "lectura24.mp3",
+      "voz": "ef_dora",
+      "voces": {
+        "N": "ef_dora"
+      },
+      "duracion_s": 93.675,
+      "tamano_bytes": 2248872,
+      "velocidad": 1.0,
+      "hablantes": {
+        "N": {
+          "nombre": "Narradora",
+          "rol": "narración",
+          "voice_json": "femenina",
+          "voz": "ef_dora"
+        }
+      },
+      "lineas": 5,
+      "source": "lecturas",
+      "id_web": "b1-llego-a-las-cinco",
+      "genero_marcado": null,
+      "guion": "guion",
+      "n_parrafos": 4,
+      "fuente_json": "/workspace/lecturas/web/lecturas/lectura24/lectura24.json"
+    },
+    {
+      "id": "lectura25",
+      "slug": "lectura25",
+      "nivel": "B1",
+      "titulo": "Cinco cuadras de historia",
+      "archivo": "lectura25.mp3",
+      "ruta": "lectura25.mp3",
+      "voz": "em_alex",
+      "voces": {
+        "N": "em_alex"
+      },
+      "duracion_s": 99.762,
+      "tamano_bytes": 2394949,
+      "velocidad": 1.0,
+      "hablantes": {
+        "N": {
+          "nombre": "Narrador",
+          "rol": "narración",
+          "voice_json": "masculina",
+          "voz": "em_alex"
+        }
+      },
+      "lineas": 5,
+      "source": "lecturas",
+      "id_web": "b1-el-centro-historico-de-quito",
+      "genero_marcado": "masculina",
+      "guion": "guion",
+      "n_parrafos": 4,
+      "fuente_json": "/workspace/lecturas/web/lecturas/lectura25/lectura25.json"
+    },
+    {
+      "id": "lectura26",
+      "slug": "lectura26",
+      "nivel": "B1",
+      "titulo": "La marimba se oye en la costa",
+      "archivo": "lectura26.mp3",
+      "ruta": "lectura26.mp3",
+      "voz": "em_alex",
+      "voces": {
+        "N": "em_alex"
+      },
+      "duracion_s": 90.018,
+      "tamano_bytes": 2161101,
+      "velocidad": 1.0,
+      "hablantes": {
+        "N": {
+          "nombre": "Narrador",
+          "rol": "narración",
+          "voice_json": "masculina",
+          "voz": "em_alex"
+        }
+      },
+      "lineas": 5,
+      "source": "lecturas",
+      "id_web": "b1-la-marimba-del-pacifico",
+      "genero_marcado": "masculina",
+      "guion": "guion",
+      "n_parrafos": 4,
+      "fuente_json": "/workspace/lecturas/web/lecturas/lectura26/lectura26.json"
+    },
+    {
+      "id": "lectura27",
+      "slug": "lectura27",
+      "nivel": "B1",
+      "titulo": "En Paraguay también se habla guaraní",
+      "archivo": "lectura27.mp3",
+      "ruta": "lectura27.mp3",
+      "voz": "ef_dora",
+      "voces": {
+        "N": "ef_dora"
+      },
+      "duracion_s": 104.229,
+      "tamano_bytes": 2502155,
+      "velocidad": 1.0,
+      "hablantes": {
+        "N": {
+          "nombre": "Narradora",
+          "rol": "narración",
+          "voice_json": "femenina",
+          "voz": "ef_dora"
+        }
+      },
+      "lineas": 5,
+      "source": "lecturas",
+      "id_web": "b1-en-paraguay-tambien-el-guarani",
+      "genero_marcado": null,
+      "guion": "guion",
+      "n_parrafos": 4,
+      "fuente_json": "/workspace/lecturas/web/lecturas/lectura27/lectura27.json"
+    },
+    {
+      "id": "lectura28",
+      "slug": "lectura28",
+      "nivel": "B2",
+      "titulo": "Manuela no se queda en la nota a pie",
+      "archivo": "lectura28.mp3",
+      "ruta": "lectura28.mp3",
+      "voz": "ef_dora",
+      "voces": {
+        "N": "ef_dora"
+      },
+      "duracion_s": 134.74,
+      "tamano_bytes": 3234420,
+      "velocidad": 1.0,
+      "hablantes": {
+        "N": {
+          "nombre": "Narradora",
+          "rol": "narración",
+          "voice_json": "femenina",
+          "voz": "ef_dora"
+        }
+      },
+      "lineas": 6,
+      "source": "lecturas",
+      "id_web": "b2-manuela-saenz",
+      "genero_marcado": null,
+      "guion": "guion",
+      "n_parrafos": 5,
+      "fuente_json": "/workspace/lecturas/web/lecturas/lectura28/lectura28.json"
+    },
+    {
+      "id": "lectura29",
+      "slug": "lectura29",
+      "nivel": "B2",
+      "titulo": "Una cola que no es solo fe",
+      "archivo": "lectura29.mp3",
+      "ruta": "lectura29.mp3",
+      "voz": "ef_dora",
+      "voces": {
+        "N": "ef_dora"
+      },
+      "duracion_s": 139.572,
+      "tamano_bytes": 3350403,
+      "velocidad": 1.0,
+      "hablantes": {
+        "N": {
+          "nombre": "Narradora",
+          "rol": "narración",
+          "voice_json": "femenina",
+          "voz": "ef_dora"
+        }
+      },
+      "lineas": 6,
+      "source": "lecturas",
+      "id_web": "b2-la-virgen-de-guadalupe",
+      "genero_marcado": null,
+      "guion": "guion",
+      "n_parrafos": 5,
+      "fuente_json": "/workspace/lecturas/web/lecturas/lectura29/lectura29.json"
+    },
+    {
+      "id": "lectura30",
+      "slug": "lectura30",
+      "nivel": "B2",
+      "titulo": "Cuando «ahorita» no es ahora",
+      "archivo": "lectura30.mp3",
+      "ruta": "lectura30.mp3",
+      "voz": "em_alex",
+      "voces": {
+        "N": "em_alex"
+      },
+      "duracion_s": 138.919,
+      "tamano_bytes": 3334730,
+      "velocidad": 1.0,
+      "hablantes": {
+        "N": {
+          "nombre": "Narrador",
+          "rol": "narración",
+          "voice_json": "masculina",
+          "voz": "em_alex"
+        }
+      },
+      "lineas": 6,
+      "source": "lecturas",
+      "id_web": "b2-ahorita-no-es-ahora",
+      "genero_marcado": "masculina",
+      "guion": "guion",
+      "n_parrafos": 5,
+      "fuente_json": "/workspace/lecturas/web/lecturas/lectura30/lectura30.json"
+    },
+    {
+      "id": "lectura31",
+      "slug": "lectura31",
+      "nivel": "B2",
+      "titulo": "El Yasuní no cabe en una postal",
+      "archivo": "lectura31.mp3",
+      "ruta": "lectura31.mp3",
+      "voz": "ef_dora",
+      "voces": {
+        "N": "ef_dora"
+      },
+      "duracion_s": 154.54,
+      "tamano_bytes": 3709639,
+      "velocidad": 1.0,
+      "hablantes": {
+        "N": {
+          "nombre": "Narradora",
+          "rol": "narración",
+          "voice_json": "femenina",
+          "voz": "ef_dora"
+        }
+      },
+      "lineas": 6,
+      "source": "lecturas",
+      "id_web": "b2-yasuni",
+      "genero_marcado": null,
+      "guion": "guion",
+      "n_parrafos": 5,
+      "fuente_json": "/workspace/lecturas/web/lecturas/lectura31/lectura31.json"
+    },
+    {
+      "id": "lectura32",
+      "slug": "lectura32",
+      "nivel": "B2",
+      "titulo": "El pueblo que parece inventado",
+      "archivo": "lectura32.mp3",
+      "ruta": "lectura32.mp3",
+      "voz": "em_alex",
+      "voces": {
+        "N": "em_alex"
+      },
+      "duracion_s": 145.998,
+      "tamano_bytes": 3504630,
+      "velocidad": 1.0,
+      "hablantes": {
+        "N": {
+          "nombre": "Narrador",
+          "rol": "narración",
+          "voice_json": "masculina",
+          "voz": "em_alex"
+        }
+      },
+      "lineas": 6,
+      "source": "lecturas",
+      "id_web": "b2-el-pueblo-que-parece-inventado",
+      "genero_marcado": null,
+      "guion": "guion",
+      "n_parrafos": 5,
+      "fuente_json": "/workspace/lecturas/web/lecturas/lectura32/lectura32.json"
+    }
+  ]
+}
